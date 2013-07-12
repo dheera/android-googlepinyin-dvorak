@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey id="@id/softkey_enter" layout="@layout/softkey_icon">
+            <action type="PRESS" keycode="ENTER" />
+            <icon location="@id/icon" value="@drawable/ic_key_enter" />
+        </softkey>
+        <softkey id="@id/softkey_enter_plain_text" layout="@layout/softkey_icon">
+            <action type="PRESS" keycode="PLAIN_TEXT" data="\n" intention="COMMIT" />
+            <icon location="@id/icon" value="@drawable/ic_key_enter" />
+        </softkey>
+        <softkey id="@id/softkey_switch_to_smiley" layout="@layout/softkey_icon">
+            <action type="PRESS" keycode="SWITCH_KEYBOARD" data="smiley" />
+            <icon location="@id/icon" value="@drawable/ic_smiley" />
+        </softkey>
+        <softkey id="@id/softkey_action_go" layout="@layout/softkey_ime_action_label">
+            <action type="PRESS" keycode="IME_ACTION" data="go" />
+            <label location="@id/label" value="@string/label_go_key" />
+        </softkey>
+        <softkey id="@id/softkey_action_search" layout="@layout/softkey_ime_action_icon">
+            <action type="PRESS" keycode="IME_ACTION" data="search" />
+            <icon location="@id/icon" value="@drawable/ic_key_search" />
+        </softkey>
+        <softkey id="@id/softkey_action_send" layout="@layout/softkey_ime_action_label">
+            <action type="PRESS" keycode="IME_ACTION" data="send" />
+            <label location="@id/label" value="@string/label_send_key" />
+        </softkey>
+        <softkey id="@id/softkey_action_next" layout="@layout/softkey_ime_action_label">
+            <action type="PRESS" keycode="IME_ACTION" data="next" />
+            <label location="@id/label" value="@string/label_next_key" />
+        </softkey>
+        <softkey id="@id/softkey_action_done" layout="@layout/softkey_ime_action_label">
+            <action type="PRESS" keycode="IME_ACTION" data="done" />
+            <label location="@id/label" value="@string/label_done_key" />
+        </softkey>
+    </softkeys>
+</framework>

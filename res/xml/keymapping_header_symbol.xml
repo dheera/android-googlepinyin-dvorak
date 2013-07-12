@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/keymapping_header_non_prime" />
+    <key_mapping>
+        <mapping view_id="@id/key_pos_header_non_prime_1" key_id="@id/softkey_non_prime_tab_symbol_active" />
+    </key_mapping>
+</framework>

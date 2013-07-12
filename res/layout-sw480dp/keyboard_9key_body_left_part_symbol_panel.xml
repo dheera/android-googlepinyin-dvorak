@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:tag="input_area" android:weightSum="@integer/keyboard_9key_left_part_central_panel_weight" style="@style/Linear.Horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_weight="@integer/keyboard_9key_symbol_panel_weight" style="@style/Linear.WidthWeighted.Vertical">
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.widget.PageableSoftKeyListHolderView android:orientation="vertical" android:id="@id/pageable_view" android:tag="default_pageable" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="750.0" page_layout="@layout/keyboard_9key_symbol_page" page_down_key="@id/key_pos_page_down" page_up_key="@id/key_pos_page_up" />
+        <LinearLayout android:weightSum="@integer/keyboard_9key_symbol_panel_weight" android:layout_weight="250.0" style="@style/Linear.HeightWeighted.Horizontal">
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_switch_to_next_language" style="@style/SoftKey.Dark.9KeySymbol" />
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_switch_to_smiley" style="@style/SoftKey.Dark.9KeySymbol" />
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_9key_symbol_panel_line4_3" style="@style/SoftKey.Dark.9KeySymbol" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="@integer/keyboard_9key_reading_text_candidates_view_weight" />
+</LinearLayout>

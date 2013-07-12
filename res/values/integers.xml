@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="keyboard_handwriting_middle_panel_weight">851</integer>
+    <integer name="keyboard_handwriting_right_column_weight">149</integer>
+    <integer name="max_candidates_per_row">6</integer>
+    <integer name="keyboard_non_prime_web_row_count">3</integer>
+    <integer name="keyboard_non_prime_web_column_count">5</integer>
+    <integer name="keyboard_non_prime_smiley_row_count">3</integer>
+    <integer name="keyboard_non_prime_smiley_column_count">5</integer>
+    <integer name="keyboard_non_prime_symbol_row_count">3</integer>
+    <integer name="keyboard_non_prime_symbol_column_count">10</integer>
+    <integer name="candidate_page_view_row_count">4</integer>
+    <integer name="softkey_qwerty_upper_label_weight">680</integer>
+    <integer name="softkey_qwerty_bottom_label_weight">320</integer>
+    <integer name="weight_sum">1000</integer>
+    <integer name="keyboard_input_area_weight">750</integer>
+    <integer name="keyboard_row_weight">250</integer>
+    <integer name="keyboard_bottom_weight">250</integer>
+    <integer name="prime_header_tab_weight">210</integer>
+    <integer name="prime_header_small_tab_weight">120</integer>
+    <integer name="prime_header_icon_weight">142</integer>
+    <integer name="non_prime_header_tab_weight">250</integer>
+    <integer name="keyboard_9key_left_panel_weight">149</integer>
+    <integer name="keyboard_9key_left_panel_weight_remaining">851</integer>
+    <integer name="keyboard_9key_right_panel_weight">149</integer>
+    <integer name="keyboard_9key_right_panel_weight_remaining">851</integer>
+    <integer name="keyboard_9key_middle_column_weight">234</integer>
+    <integer name="keyboard_9key_middle_column_weight_sum">702</integer>
+    <integer name="more_candidates_right_column_weight">142</integer>
+    <integer name="more_candidates_candidates_area_weight">858</integer>
+    <integer name="more_candidates_reading_text_candidates_weight_ratio">10</integer>
+    <integer name="more_candidates_pageable_candidates_weight_ratio">51</integer>
+    <integer name="first_run_version">2</integer>
+    <integer name="ga_sampleRate">100</integer>
+    <integer name="ga_dispatchPeriod">3600</integer>
+</resources>

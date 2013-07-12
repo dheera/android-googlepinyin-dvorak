@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="keyboard_height">420.0dip</dimen>
+    <dimen name="keyboard_header_height">60.0dip</dimen>
+    <dimen name="keyboard_body_height">360.0dip</dimen>
+    <dimen name="softkey_bg_inset_top">0.0dip</dimen>
+    <dimen name="softkey_bg_inset_bottom">13.0dip</dimen>
+    <dimen name="softkey_bg_inset_left">6.5dip</dimen>
+    <dimen name="softkey_bg_inset_right">6.5dip</dimen>
+    <dimen name="softkey_show_more_candidates_min_width">106.0dip</dimen>
+    <dimen name="text_size_qwerty_label">30.0dip</dimen>
+    <dimen name="text_size_qwerty_footer">17.0dip</dimen>
+    <dimen name="first_run_page_footer_height">360.0dip</dimen>
+    <dimen name="qwerty_more_candidates_padding_bottom">6.5dip</dimen>
+    <dimen name="t9_more_candidates_padding_bottom">13.0dip</dimen>
+    <dimen name="t9_more_candidates_holder_view_padding_right">6.5dip</dimen>
+</resources>

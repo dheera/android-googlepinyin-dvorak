@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.inputmethod.libs.framework.core.SingleViewHolder android:id="@id/header_view_holder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.google.android.apps.inputmethod.libs.framework.core.SingleViewHolder android:id="@id/body_view_holder" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

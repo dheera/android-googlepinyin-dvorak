@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/ime_zh_cn_pinyin_qwerty" />
+    <include href="@xml/ime_zh_cn_pinyin_9key" />
+    <include href="@xml/ime_zh_cn_stroke" />
+    <include href="@xml/ime_zh_cn_handwriting" />
+    <include href="@xml/ime_en_qwerty" />
+    <include href="@xml/ime_en_9key" />
+    <include href="@xml/ime_number" />
+    <include href="@xml/ime_phone_number" />
+    <include href="@xml/ime_date_time" />
+    <include href="@xml/ime_password" />
+    <include href="@xml/ime_voice" />
+    <include href="@xml/ime_dashboard" />
+    <include href="@xml/ime_en_hard_qwerty" />
+    <include href="@xml/ime_en_hard_12keys" />
+    <include href="@xml/ime_zh_cn_pinyin_hard_qwerty" />
+    <include href="@xml/ime_zh_cn_pinyin_hard_12keys" />
+    <include href="@xml/ime_password_hard_qwerty" />
+    <include href="@xml/ime_password_hard_12keys" />
+    <include href="@xml/ime_phone_number_hard_qwerty" />
+    <include href="@xml/ime_phone_number_hard_12keys" />
+    <include href="@xml/ime_number_hard_qwerty" />
+    <include href="@xml/ime_number_hard_12keys" />
+    <include href="@xml/ime_voice_hard_qwerty" />
+    <include href="@xml/ime_voice_hard_12keys" />
+</framework>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/Bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_back_to_prime" android:layout_weight="150.0" style="@style/SoftKey.Dark" />
+    <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_lock" android:layout_weight="114.0" style="@style/SoftKey.Dark" />
+    <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_bottom_symbol_1" android:layout_weight="114.0" style="@style/SoftKey.Dark" />
+    <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_space" android:layout_weight="372.0" style="@style/SoftKey.Row4" />
+    <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_bottom_symbol_2" android:layout_weight="100.0" style="@style/SoftKey.Dark" />
+    <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_del" android:layout_weight="150.0" style="@style/SoftKey.Dark" />
+</LinearLayout>

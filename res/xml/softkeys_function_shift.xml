@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey id="@id/softkey_unshifted" layout="@layout/softkey_icon" multi_touch="true">
+            <action type="PRESS" keycode="SHIFT_LEFT" />
+            <icon location="@id/icon" value="@drawable/ic_key_shift_narrow_off" />
+        </softkey>
+        <softkey id="@id/softkey_shift_disabled" layout="@layout/softkey_icon" multi_touch="true">
+            <action type="PRESS" keycode="SHIFT_LEFT" />
+            <icon location="@id/icon" value="@drawable/ic_key_shift_disabled" />
+        </softkey>
+        <softkey id="@id/softkey_shifted" layout="@layout/softkey_icon_center_icon_bottom" multi_touch="true">
+            <action type="PRESS" keycode="LOCK_SHIFT" />
+            <icon location="@id/icon" value="@drawable/ic_key_shift_narrow_on" />
+            <icon location="@id/icon_bottom" value="@drawable/ic_bar_unlock" />
+        </softkey>
+        <softkey id="@id/softkey_shift_locked" layout="@layout/softkey_icon_center_icon_bottom" multi_touch="true">
+            <action type="PRESS" keycode="UNLOCK_SHIFT" />
+            <icon location="@id/icon" value="@drawable/ic_key_shift_narrow_on" />
+            <icon location="@id/icon_bottom" value="@drawable/ic_bar_green" />
+        </softkey>
+    </softkeys>
+</framework>

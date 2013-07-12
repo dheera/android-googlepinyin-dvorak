@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/keymapping_bottom_qwerty_function_tablet_10" />
+    <include href="@xml/keymapping_en_qwerty_space" />
+    <include href="@xml/keymapping_bottom_en_symbol" />
+    <include href="@xml/keymapping_bottom_prime_qwerty_symbol_optional" />
+    <key_mapping>
+        <mapping view_id="@id/key_pos_bottom_symbol_3" key_id="@id/softkey_bottom_quotation" />
+    </key_mapping>
+</framework>

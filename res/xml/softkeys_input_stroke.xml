@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template id="@+id/softkey_template_stroke_image" layout="@layout/softkey_icon_center_label_sup_grey" slide_sensitivity="NORMAL" popup_timing="ON_GESTURE" multi_touch="true">
+            <action type="PRESS" data="$press_data$" keycode="PLAIN_TEXT" intention="DECODE" />
+            <action type="LONG_PRESS" data="$long_press_data$" keycode="$keycode_long_press$" intention="COMMIT" popup_label="$long_press_data$" popup_layout="@layout/popup_square_bubble" />
+            <icon location="@id/icon" value="$key_image$" />
+            <label location="@id/label_sup" value="$long_press_data$" />
+        </softkey_template>
+        <softkey_list template_id="@id/softkey_template_stroke_image">
+            <softkey id="@id/softkey_stroke_heng" press_data="h" long_press_data="1" keycode_long_press="KEYCODE_1" key_image="@drawable/ic_key_stroke_heng" />
+            <softkey id="@id/softkey_stroke_shu" press_data="s" long_press_data="2" keycode_long_press="KEYCODE_2" key_image="@drawable/ic_key_stroke_shu" />
+            <softkey id="@id/softkey_stroke_pie" press_data="p" long_press_data="3" keycode_long_press="KEYCODE_3" key_image="@drawable/ic_key_stroke_pie" />
+            <softkey id="@id/softkey_stroke_dot" press_data="n" long_press_data="4" keycode_long_press="KEYCODE_4" key_image="@drawable/ic_key_stroke_dian" />
+            <softkey id="@id/softkey_stroke_zhe" press_data="z" long_press_data="5" keycode_long_press="KEYCODE_5" key_image="@drawable/ic_key_stroke_zhe" />
+            <softkey id="@id/softkey_stroke_matched" press_data="*" long_press_data="6" keycode_long_press="KEYCODE_6" key_image="@drawable/ic_key_stroke_wildcard" />
+        </softkey_list>
+        <softkey_template id="@+id/softkey_template_stroke_text" layout="@layout/softkey_9key" slide_sensitivity="NORMAL" popup_timing="ON_GESTURE" multi_touch="true">
+            <action type="PRESS" data="$press_data$" keycode="PLAIN_TEXT" intention="COMMIT" />
+            <action type="LONG_PRESS" data="$long_press_data$" keycode="$keycode_long_press$" intention="COMMIT" popup_label="$long_press_data$" popup_layout="@layout/popup_square_bubble" />
+            <label location="@id/label" value="$press_data$" />
+            <label location="@id/label_sup" value="$long_press_data$" />
+        </softkey_template>
+        <softkey_list template_id="@id/softkey_template_stroke_text">
+            <softkey id="@id/softkey_stroke_exclamation" press_data="！" long_press_data="7" keycode_long_press="KEYCODE_7" />
+            <softkey id="@id/softkey_stroke_questionmark" press_data="？" long_press_data="8" keycode_long_press="KEYCODE_8" />
+            <softkey id="@id/softkey_stroke_colon" press_data="：" long_press_data="9" keycode_long_press="KEYCODE_9" />
+        </softkey_list>
+    </softkeys>
+    <include href="@xml/softkeys_input_digit" />
+    <include href="@xml/softkeys_punctuation_zh_cn_9key" />
+</framework>
