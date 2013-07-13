@@ -28,6 +28,7 @@
         <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_qwerty_t" style="@style/SoftKey.Row2.Qwerty" />
         <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_qwerty_n" style="@style/SoftKey.Row2.Qwerty" />
         <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_qwerty_s" style="@style/SoftKey.Row2.Qwerty" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_qwerty_dash" style="@style/SoftKey.Row2.Qwerty" android:layout_weight="60" />
     </LinearLayout>
     <LinearLayout style="@style/KeyboardRow">
         <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_shift" android:layout_weight="151.0" style="@style/SoftKey.Dark" />
@@ -40,11 +41,6 @@
         <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_qwerty_w" style="@style/SoftKey.Row3.Qwerty" />
         <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_qwerty_v" style="@style/SoftKey.Row3.Qwerty" />
         <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_qwerty_z" style="@style/SoftKey.Row3.Qwerty" />
-<!--        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_qwerty_z" android:layout_weight="@integer/softkey_right_side_weight" style="@style/SoftKey" >
-            <LinearLayout style="@style/SoftKeyQwertyRow3RightSide">
-                <FrameLayout android:tag="host" style="@style/SoftKey.Row3.Qwerty" />
-            </LinearLayout>
-        </com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView> -->
         <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_ime_action" android:layout_weight="99.0" style="@style/SoftKey.Dark" />
     </LinearLayout>
 </LinearLayout>

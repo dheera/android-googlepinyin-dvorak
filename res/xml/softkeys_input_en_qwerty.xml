@@ -47,25 +47,26 @@
             <softkey id="@id/softkey_en_qwerty_up_n" press_data="N" slideup_data="n" slidedown_data="8" keycode_normal="N" long_press_data="~ n" keycode_slidedown="KEYCODE_8" />
             <softkey id="@id/softkey_en_qwerty_s" press_data="s" slideup_data="S" slidedown_data="9" keycode_normal="S" long_press_data="* S" keycode_slidedown="KEYCODE_9" />
             <softkey id="@id/softkey_en_qwerty_up_s" press_data="S" slideup_data="s" slidedown_data="9" keycode_normal="S" long_press_data="* s" keycode_slidedown="KEYCODE_9" />
+            <softkey id="@id/softkey_en_qwerty_dash" press_data="-" slidedown_data="_" keycode_normal="PLAIN_TEXT" long_press_data="- _" keycode_slidedown="PLAIN_TEXT" />
 
-            <softkey id="@id/softkey_en_qwerty_q" press_data="q" slideup_data="Q" slidedown_data="" keycode_normal="Q" long_press_data="1 Q" keycode_slidedown="KEYCODE_1" />
-            <softkey id="@id/softkey_en_qwerty_up_q" press_data="Q" slideup_data="q" slidedown_data="1" keycode_normal="Q" long_press_data="1 q" keycode_slidedown="KEYCODE_1" />
-            <softkey id="@id/softkey_en_qwerty_j" press_data="j" slideup_data="J" slidedown_data="" keycode_normal="J" long_press_data="\# J" keycode_slidedown="POUND" />
-            <softkey id="@id/softkey_en_qwerty_up_j" press_data="J" slideup_data="j" slidedown_data="\#" keycode_normal="J" long_press_data="\# j" keycode_slidedown="POUND" />
-            <softkey id="@id/softkey_en_qwerty_k" press_data="k" slideup_data="K" slidedown_data="" keycode_normal="K" long_press_data="( K" keycode_slidedown="PLAIN_TEXT" />
-            <softkey id="@id/softkey_en_qwerty_up_k" press_data="K" slideup_data="k" slidedown_data="(" keycode_normal="K" long_press_data="( k" keycode_slidedown="PLAIN_TEXT" />
-            <softkey id="@id/softkey_en_qwerty_x" press_data="x" slideup_data="X" slidedown_data="" keycode_normal="X" long_press_data=": X" keycode_slidedown="PLAIN_TEXT" />
-            <softkey id="@id/softkey_en_qwerty_up_x" press_data="X" slideup_data="x" slidedown_data=":" keycode_normal="X" long_press_data=": x" keycode_slidedown="PLAIN_TEXT" />
-            <softkey id="@id/softkey_en_qwerty_b" press_data="b" slideup_data="B" slidedown_data="" keycode_normal="B" long_press_data="! B" keycode_slidedown="PLAIN_TEXT" />
+            <softkey id="@id/softkey_en_qwerty_q" press_data="q" slideup_data="Q" slidedown_data=":" keycode_normal="Q" long_press_data="1 Q" keycode_slidedown="PLAIN_TEXT" />
+            <softkey id="@id/softkey_en_qwerty_up_q" press_data="Q" slideup_data="q" slidedown_data=":" keycode_normal="Q" long_press_data="1 q" keycode_slidedown="PLAIN_TEXT" />
+            <softkey id="@id/softkey_en_qwerty_j" press_data="j" slideup_data="J" slidedown_data=";" keycode_normal="J" long_press_data="\# J" keycode_slidedown="PLAIN_TEXT" />
+            <softkey id="@id/softkey_en_qwerty_up_j" press_data="J" slideup_data="j" slidedown_data=";" keycode_normal="J" long_press_data="\# j" keycode_slidedown="PLAIN_TEXT" />
+            <softkey id="@id/softkey_en_qwerty_k" press_data="k" slideup_data="K" slidedown_data="~" keycode_normal="K" long_press_data="( K" keycode_slidedown="PLAIN_TEXT" />
+            <softkey id="@id/softkey_en_qwerty_up_k" press_data="K" slideup_data="k" slidedown_data="~" keycode_normal="K" long_press_data="( k" keycode_slidedown="PLAIN_TEXT" />
+            <softkey id="@id/softkey_en_qwerty_x" press_data="x" slideup_data="X" slidedown_data="\?" keycode_normal="X" long_press_data=": X" keycode_slidedown="PLAIN_TEXT" />
+            <softkey id="@id/softkey_en_qwerty_up_x" press_data="X" slideup_data="x" slidedown_data="\?" keycode_normal="X" long_press_data=": x" keycode_slidedown="PLAIN_TEXT" />
+            <softkey id="@id/softkey_en_qwerty_b" press_data="b" slideup_data="B" slidedown_data="!" keycode_normal="B" long_press_data="! B" keycode_slidedown="PLAIN_TEXT" />
             <softkey id="@id/softkey_en_qwerty_up_b" press_data="B" slideup_data="b" slidedown_data="!" keycode_normal="B" long_press_data="! b" keycode_slidedown="PLAIN_TEXT" />
-            <softkey id="@id/softkey_en_qwerty_m" press_data="m" slideup_data="M" slidedown_data="" keycode_normal="M" long_press_data="… M" keycode_slidedown="PLAIN_TEXT" />
-            <softkey id="@id/softkey_en_qwerty_up_m" press_data="M" slideup_data="m" slidedown_data="…" keycode_normal="M" long_press_data="… m" keycode_slidedown="PLAIN_TEXT" layout="@layout/softkey_qwerty_label_character_label_footer_black" />
-            <softkey id="@id/softkey_en_qwerty_w" press_data="w" slideup_data="W" slidedown_data="" keycode_normal="W" long_press_data="2 W" keycode_slidedown="KEYCODE_2" />
-            <softkey id="@id/softkey_en_qwerty_up_w" press_data="W" slideup_data="w" slidedown_data="2" keycode_normal="W" long_press_data="2 w" keycode_slidedown="KEYCODE_2" />
-            <softkey id="@id/softkey_en_qwerty_v" press_data="v" slideup_data="V" slidedown_data="" keycode_normal="V" long_press_data="\? V" keycode_slidedown="PLAIN_TEXT" layout="@layout/softkey_qwerty_label_character_label_footer_black" />
-            <softkey id="@id/softkey_en_qwerty_up_v" press_data="V" slideup_data="v" slidedown_data="\?" keycode_normal="V" long_press_data="\? v" keycode_slidedown="PLAIN_TEXT" layout="@layout/softkey_qwerty_label_character_label_footer_black" />
-            <softkey id="@id/softkey_en_qwerty_z" press_data="z" slideup_data="Z" slidedown_data="" keycode_normal="Z" long_press_data="' Z" keycode_slidedown="PLAIN_TEXT" layout="@layout/softkey_qwerty_label_character_label_footer_black" />
-            <softkey id="@id/softkey_en_qwerty_up_z" press_data="Z" slideup_data="z" slidedown_data="'" keycode_normal="Z" long_press_data="' z" keycode_slidedown="PLAIN_TEXT" layout="@layout/softkey_qwerty_label_character_label_footer_black" />
+            <softkey id="@id/softkey_en_qwerty_m" press_data="m" slideup_data="M" slidedown_data="\\" keycode_normal="M" long_press_data="… M" keycode_slidedown="PLAIN_TEXT" />
+            <softkey id="@id/softkey_en_qwerty_up_m" press_data="M" slideup_data="m" slidedown_data="\\" keycode_normal="M" long_press_data="… m" keycode_slidedown="PLAIN_TEXT" layout="@layout/softkey_qwerty_label_character_label_footer_black" />
+            <softkey id="@id/softkey_en_qwerty_w" press_data="w" slideup_data="W" slidedown_data="/" keycode_normal="W" long_press_data="2 W" keycode_slidedown="KEYCODE_2" />
+            <softkey id="@id/softkey_en_qwerty_up_w" press_data="W" slideup_data="w" slidedown_data="/" keycode_normal="W" long_press_data="2 w" keycode_slidedown="KEYCODE_2" />
+            <softkey id="@id/softkey_en_qwerty_v" press_data="v" slideup_data="V" slidedown_data="(" keycode_normal="V" long_press_data="\? V" keycode_slidedown="PLAIN_TEXT" />
+            <softkey id="@id/softkey_en_qwerty_up_v" press_data="V" slideup_data="v" slidedown_data="(" keycode_normal="V" long_press_data="\? v" keycode_slidedown="PLAIN_TEXT" />
+            <softkey id="@id/softkey_en_qwerty_z" press_data="z" slideup_data="Z" slidedown_data=")" keycode_normal="Z" long_press_data="' Z" keycode_slidedown="PLAIN_TEXT" />
+            <softkey id="@id/softkey_en_qwerty_up_z" press_data="Z" slideup_data="z" slidedown_data=")" keycode_normal="Z" long_press_data="' z" keycode_slidedown="PLAIN_TEXT" />
 
 
             <softkey id="@id/softkey_en_qwerty_m_underline" press_data="m" slideup_data="M" slidedown_data="_" keycode_normal="M" long_press_data="_ M" keycode_slidedown="PLAIN_TEXT" layout="@layout/softkey_qwerty_label_character_label_footer_black" />

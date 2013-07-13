@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <framework>
     <softkeys>
-        <softkey_template id="@+id/softkey_template_punctuation_qwerty_tablet_10" layout="@layout/softkey_label_medium_bold" slide_sensitivity="NORMAL" multi_touch="true">
-            <action type="PRESS" data="$press_data$" keycode="PLAIN_TEXT" intention="COMMIT" />
-            <label location="@id/label" value="$press_data$" />
-        </softkey_template>
-        <softkey_list template_id="@id/softkey_template_punctuation_qwerty_tablet_10">
-            <softkey id="@id/softkey_question" press_data="\?" />
-            <softkey id="@id/softkey_exclamation" press_data="!" />
-            <softkey id="@id/softkey_colon" press_data=":" />
+        <softkey_list splitter=" ">
+            <softkey_template id="@+id/softkey_template_en_qwerty" layout="$layout=@layout/softkey_qwerty_label_character_label_footer$" popup_timing="@string/qwerty_popup_timing" slide_sensitivity="NORMAL" multi_touch="true">
+                <action type="PRESS" data="$press_data$" keycode="$keycode_normal$" intention="DECODE" popup_label="$press_data$" />
+                <action type="SLIDE_UP" data="$slideup_data$" keycode="$keycode_normal$" intention="DECODE" popup_label="$slideup_data$" />
+                <action type="SLIDE_DOWN" data="$slidedown_data$" keycode="$keycode_slidedown$" intention="$slide_down_intention=COMMIT$" popup_label="$slidedown_data$" />
+                <action type="LONG_PRESS" data="$long_press_data$" keycode="PLAIN_TEXT" intention="$long_press_intention=C D D$" popup_label="$long_press_data$" popup_layout="@layout/popup_bubble_rectangular" />
+                <label location="@id/label" value="$press_data$" />
+                <label location="@id/label_footer" value="$slidedown_data$" />
+            </softkey_template>
+        </softkey_list>
+
+        <softkey_list template_id="@id/softkey_template_en_qwerty" splitter=" ">
+            <softkey id="@id/softkey_question" press_data="'" slidedown_data="&quot;" keycode_slidedown="PLAIN_TEXT" keycode_normal="PLAIN_TEXT" />
+            <softkey id="@id/softkey_exclamation" press_data="," slidedown_data="&lt;" keycode_slidedown="PLAIN_TEXT" keycode_normal="PLAIN_TEXT" />
+            <softkey id="@id/softkey_colon" press_data="." long_press_data="\? !" slidedown_data="&gt;" keycode_slidedown="PLAIN_TEXT" keycode_normal="PLAIN_TEXT" />
         </softkey_list>
     </softkeys>
 </framework>

@@ -32,6 +32,7 @@
     <item type="id" name="key_pos_qwerty_b" />
     <item type="id" name="key_pos_qwerty_n" />
     <item type="id" name="key_pos_qwerty_m" />
+    <item type="id" name="key_pos_qwerty_dash" />
     <item type="id" name="key_pos_9key_left_panel" />
     <item type="id" name="key_pos_9key_1" />
     <item type="id" name="key_pos_9key_2" />
@@ -256,6 +257,7 @@
     <item type="id" name="softkey_en_qwerty_b" />
     <item type="id" name="softkey_en_qwerty_n" />
     <item type="id" name="softkey_en_qwerty_m" />
+    <item type="id" name="softkey_en_qwerty_dash" />
     <item type="id" name="softkey_en_qwerty_m_underline" />
     <item type="id" name="softkey_en_qwerty_up_q" />
     <item type="id" name="softkey_en_qwerty_up_w" />
@@ -494,6 +496,7 @@
     <item type="id" name="softkey_zh_cn_pinyin_qwerty_b" />
     <item type="id" name="softkey_zh_cn_pinyin_qwerty_n" />
     <item type="id" name="softkey_zh_cn_pinyin_qwerty_m" />
+    <item type="id" name="softkey_zh_cn_pinyin_qwerty_dash" />
     <item type="id" name="softkey_zh_cn_pinyin_qwerty_m_underline" />
     <item type="id" name="softkey_zh_cn_pinyin_qwerty_up_q" />
     <item type="id" name="softkey_zh_cn_pinyin_qwerty_up_w" />

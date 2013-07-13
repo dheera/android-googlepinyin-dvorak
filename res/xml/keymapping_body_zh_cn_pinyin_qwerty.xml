@@ -28,6 +28,7 @@
         <mapping view_id="@id/key_pos_qwerty_b" key_id="@id/softkey_zh_cn_pinyin_qwerty_b" />
         <mapping view_id="@id/key_pos_qwerty_n" key_id="@id/softkey_zh_cn_pinyin_qwerty_n" />
         <mapping view_id="@id/key_pos_qwerty_m" key_id="@id/softkey_zh_cn_pinyin_qwerty_m" />
+        <mapping view_id="@id/key_pos_qwerty_dash" key_id="@id/softkey_zh_cn_pinyin_qwerty_dash" />
         <mapping view_id="@id/key_pos_del" key_id="@id/softkey_del" />
     </key_mapping>
     <key_mapping state="INPUT_TYPE_URI">
