@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ime_name">Uingizaji wa Google wa Pinyin</string>
+    <string name="label_subtype_pinyin">Pinyin ya Kichina</string>
+    <string name="setting_title">Mipangilio ya Google ya Uingizaji wa Pinyin</string>
+</resources>

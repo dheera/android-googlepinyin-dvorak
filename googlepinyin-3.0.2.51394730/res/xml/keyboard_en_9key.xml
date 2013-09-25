@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard id="@id/keyboard_en_9key" candidate_text_size_ratio="0.8" popup="@layout/popup_bubble_9key" class=".keyboard.T9Keyboard">
+        <header_view layout="@layout/keyboard_prime_header">
+            <softkeys href="@xml/softkeys_header_prime" />
+            <softkeys href="@xml/softkeys_header_candidates" />
+            <softkeys href="@xml/softkeys_function" />
+            <include href="@xml/keymapping_header_candidates" />
+            <include href="@xml/keymapping_header_en_9key" />
+        </header_view>
+        <body_view layout="@layout/keyboard_9key_body">
+            <softkeys href="@xml/softkeys_input_en_9key" />
+            <softkeys href="@xml/softkeys_punctuation_bottom" />
+            <softkeys href="@xml/softkeys_function" />
+            <softkeys href="@xml/softkeys_function_switch_to_native" />
+            <softkeys href="@xml/softkeys_body_candidates" />
+            <include href="@xml/keymapping_body_en_9key" />
+            <include href="@xml/keymapping_body_candidates_with_reading_text_candidates" />
+            <include href="@xml/keymapping_bottom_en_9key" />
+        </body_view>
+    </keyboard>
+</framework>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/keymapping_function_shift" />
+    <key_mapping>
+        <mapping view_id="@id/key_pos_qwerty_q" key_id="@id/softkey_en_qwerty_q" />
+        <mapping view_id="@id/key_pos_qwerty_w" key_id="@id/softkey_en_qwerty_w" />
+        <mapping view_id="@id/key_pos_qwerty_e" key_id="@id/softkey_en_qwerty_e" />
+        <mapping view_id="@id/key_pos_qwerty_r" key_id="@id/softkey_en_qwerty_r" />
+        <mapping view_id="@id/key_pos_qwerty_t" key_id="@id/softkey_en_qwerty_t" />
+        <mapping view_id="@id/key_pos_qwerty_y" key_id="@id/softkey_en_qwerty_y" />
+        <mapping view_id="@id/key_pos_qwerty_u" key_id="@id/softkey_en_qwerty_u" />
+        <mapping view_id="@id/key_pos_qwerty_i" key_id="@id/softkey_en_qwerty_i" />
+        <mapping view_id="@id/key_pos_qwerty_o" key_id="@id/softkey_en_qwerty_o" />
+        <mapping view_id="@id/key_pos_qwerty_p" key_id="@id/softkey_en_qwerty_p" />
+        <mapping view_id="@id/key_pos_qwerty_a" key_id="@id/softkey_en_qwerty_a" />
+        <mapping view_id="@id/key_pos_qwerty_s" key_id="@id/softkey_en_qwerty_s" />
+        <mapping view_id="@id/key_pos_qwerty_d" key_id="@id/softkey_en_qwerty_d" />
+        <mapping view_id="@id/key_pos_qwerty_f" key_id="@id/softkey_en_qwerty_f" />
+        <mapping view_id="@id/key_pos_qwerty_g" key_id="@id/softkey_en_qwerty_g" />
+        <mapping view_id="@id/key_pos_qwerty_h" key_id="@id/softkey_en_qwerty_h" />
+        <mapping view_id="@id/key_pos_qwerty_j" key_id="@id/softkey_en_qwerty_j" />
+        <mapping view_id="@id/key_pos_qwerty_k" key_id="@id/softkey_en_qwerty_k" />
+        <mapping view_id="@id/key_pos_qwerty_l" key_id="@id/softkey_en_qwerty_l" />
+        <mapping view_id="@id/key_pos_qwerty_z" key_id="@id/softkey_en_qwerty_z" />
+        <mapping view_id="@id/key_pos_qwerty_x" key_id="@id/softkey_en_qwerty_x" />
+        <mapping view_id="@id/key_pos_qwerty_c" key_id="@id/softkey_en_qwerty_c" />
+        <mapping view_id="@id/key_pos_qwerty_v" key_id="@id/softkey_en_qwerty_v" />
+        <mapping view_id="@id/key_pos_qwerty_b" key_id="@id/softkey_en_qwerty_b" />
+        <mapping view_id="@id/key_pos_qwerty_n" key_id="@id/softkey_en_qwerty_n" />
+        <mapping view_id="@id/key_pos_qwerty_m" key_id="@id/softkey_en_qwerty_m" />
+        <mapping view_id="@id/key_pos_del" key_id="@id/softkey_del" />
+    </key_mapping>
+    <key_mapping state="COMPOSING">
+        <mapping view_id="@id/key_pos_del" key_id="@id/softkey_del_composing" />
+    </key_mapping>
+    <key_mapping state="INPUT_TYPE_URI">
+        <mapping view_id="@id/key_pos_qwerty_z" key_id="@id/softkey_en_qwerty_z_comma" />
+        <mapping view_id="@id/key_pos_qwerty_m" key_id="@id/softkey_en_qwerty_m_underline" />
+    </key_mapping>
+    <key_mapping state="INPUT_TYPE_EMAIL_ADDRESS">
+        <mapping view_id="@id/key_pos_qwerty_z" key_id="@id/softkey_en_qwerty_z_comma" />
+        <mapping view_id="@id/key_pos_qwerty_m" key_id="@id/softkey_en_qwerty_m_underline" />
+    </key_mapping>
+    <key_mapping state="SHIFT">
+        <mapping view_id="@id/key_pos_qwerty_q" key_id="@id/softkey_en_qwerty_up_q" />
+        <mapping view_id="@id/key_pos_qwerty_w" key_id="@id/softkey_en_qwerty_up_w" />
+        <mapping view_id="@id/key_pos_qwerty_e" key_id="@id/softkey_en_qwerty_up_e" />
+        <mapping view_id="@id/key_pos_qwerty_r" key_id="@id/softkey_en_qwerty_up_r" />
+        <mapping view_id="@id/key_pos_qwerty_t" key_id="@id/softkey_en_qwerty_up_t" />
+        <mapping view_id="@id/key_pos_qwerty_y" key_id="@id/softkey_en_qwerty_up_y" />
+        <mapping view_id="@id/key_pos_qwerty_u" key_id="@id/softkey_en_qwerty_up_u" />
+        <mapping view_id="@id/key_pos_qwerty_i" key_id="@id/softkey_en_qwerty_up_i" />
+        <mapping view_id="@id/key_pos_qwerty_o" key_id="@id/softkey_en_qwerty_up_o" />
+        <mapping view_id="@id/key_pos_qwerty_p" key_id="@id/softkey_en_qwerty_up_p" />
+        <mapping view_id="@id/key_pos_qwerty_a" key_id="@id/softkey_en_qwerty_up_a" />
+        <mapping view_id="@id/key_pos_qwerty_s" key_id="@id/softkey_en_qwerty_up_s" />
+        <mapping view_id="@id/key_pos_qwerty_d" key_id="@id/softkey_en_qwerty_up_d" />
+        <mapping view_id="@id/key_pos_qwerty_f" key_id="@id/softkey_en_qwerty_up_f" />
+        <mapping view_id="@id/key_pos_qwerty_g" key_id="@id/softkey_en_qwerty_up_g" />
+        <mapping view_id="@id/key_pos_qwerty_h" key_id="@id/softkey_en_qwerty_up_h" />
+        <mapping view_id="@id/key_pos_qwerty_j" key_id="@id/softkey_en_qwerty_up_j" />
+        <mapping view_id="@id/key_pos_qwerty_k" key_id="@id/softkey_en_qwerty_up_k" />
+        <mapping view_id="@id/key_pos_qwerty_l" key_id="@id/softkey_en_qwerty_up_l" />
+        <mapping view_id="@id/key_pos_qwerty_z" key_id="@id/softkey_en_qwerty_up_z" />
+        <mapping view_id="@id/key_pos_qwerty_x" key_id="@id/softkey_en_qwerty_up_x" />
+        <mapping view_id="@id/key_pos_qwerty_c" key_id="@id/softkey_en_qwerty_up_c" />
+        <mapping view_id="@id/key_pos_qwerty_v" key_id="@id/softkey_en_qwerty_up_v" />
+        <mapping view_id="@id/key_pos_qwerty_b" key_id="@id/softkey_en_qwerty_up_b" />
+        <mapping view_id="@id/key_pos_qwerty_n" key_id="@id/softkey_en_qwerty_up_n" />
+        <mapping view_id="@id/key_pos_qwerty_m" key_id="@id/softkey_en_qwerty_up_m" />
+    </key_mapping>
+    <key_mapping state="INPUT_TYPE_URI+SHIFT">
+        <mapping view_id="@id/key_pos_qwerty_z" key_id="@id/softkey_en_qwerty_up_z_comma" />
+        <mapping view_id="@id/key_pos_qwerty_m" key_id="@id/softkey_en_qwerty_up_m_underline" />
+    </key_mapping>
+    <key_mapping state="INPUT_TYPE_EMAIL_ADDRESS+SHIFT">
+        <mapping view_id="@id/key_pos_qwerty_z" key_id="@id/softkey_en_qwerty_up_z_comma" />
+        <mapping view_id="@id/key_pos_qwerty_m" key_id="@id/softkey_en_qwerty_up_m_underline" />
+    </key_mapping>
+</framework>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ime_name">Google pinyin idazketa</string>
+    <string name="label_subtype_pinyin">Pinyin txinatarra</string>
+    <string name="setting_title">Google pinyin idazketaren ezarpenak</string>
+</resources>

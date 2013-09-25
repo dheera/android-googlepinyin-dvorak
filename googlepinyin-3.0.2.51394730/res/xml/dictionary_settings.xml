@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/setting_advanced"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:persistent="true" android:title="@string/setting_import_user_contacts_title" android:key="@string/pref_key_import_user_contacts" android:summary="@string/setting_import_user_contacts_summary" />
+    <PreferenceCategory android:title="@string/setting_update_category_title">
+        <CheckBoxPreference android:persistent="true" android:title="@string/setting_update_enabled_title" android:key="@string/pref_key_enable_dictionary_update" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/setting_update_notify_enabled_title" android:key="@string/pref_key_enable_notify_dictionary_update" android:dependency="@string/pref_key_enable_dictionary_update" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/setting_sync_category_title" android:key="@string/setting_sync_category_key">
+        <CheckBoxPreference android:persistent="true" android:title="@string/setting_sync_enabled_title" android:key="@string/pref_key_enable_sync_user_dictionary" />
+        <Preference android:persistent="false" android:title="@string/setting_sync_now_title" android:key="@string/setting_sync_now_key" android:dependency="@string/pref_key_enable_sync_user_dictionary" />
+        <Preference android:persistent="false" android:title="@string/setting_sync_clear_title" android:key="@string/setting_sync_clear_key" android:dependency="@string/pref_key_enable_sync_user_dictionary" />
+    </PreferenceCategory>
+</PreferenceScreen>

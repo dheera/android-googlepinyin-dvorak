@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="@dimen/content_top_insets">
+        <shape android:shape="rectangle">
+            <solid android:color="#ff282828" />
+        </shape>
+    </item>
+    <item android:top="@dimen/keyboard_non_prime_header_down_area_top_padding">
+        <shape android:shape="rectangle">
+            <gradient android:startColor="#ff282828" android:endColor="#ff1a1a1a" android:angle="270.0" />
+        </shape>
+    </item>
+</layer-list>

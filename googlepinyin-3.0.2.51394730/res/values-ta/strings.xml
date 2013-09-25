@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ime_name">Google பின்யின் உள்ளீடு</string>
+    <string name="label_subtype_pinyin">சீன பின்யின்</string>
+    <string name="setting_title">Google பின்யின் உள்ளீட்டு அமைப்புகள்</string>
+</resources>

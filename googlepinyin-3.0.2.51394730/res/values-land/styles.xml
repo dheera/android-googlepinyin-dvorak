@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SoftKey.Row1" parent="@style/SoftKey">
+        <item name="android:background">@drawable/bg_key_row1_grey_inset</item>
+    </style>
+    <style name="SoftKey.Row2" parent="@style/SoftKey">
+        <item name="android:background">@drawable/bg_key_row2_grey_inset</item>
+    </style>
+    <style name="SoftKey.Row3" parent="@style/SoftKey">
+        <item name="android:background">@drawable/bg_key_row3_grey_inset</item>
+    </style>
+    <style name="SoftKey.Row4" parent="@style/SoftKey">
+        <item name="android:background">@drawable/bg_key_row4_grey_inset</item>
+    </style>
+    <style name="SoftKey.Dark" parent="@style/SoftKey">
+        <item name="android:background">@drawable/bg_key_black_inset</item>
+    </style>
+    <style name="SoftKey.SmallDark" parent="@style/SoftKey">
+        <item name="android:background">@drawable/bg_key_black_small_inset</item>
+    </style>
+    <style name="SoftKey.Grey" parent="@style/SoftKey">
+        <item name="android:background">@drawable/bg_key_grey_inset</item>
+    </style>
+    <style name="SoftKey.QwertyRow3LeftSide" parent="@style/SoftKey">
+        <item name="android:background">@drawable/bg_key_qwerty_row3_left_side_black_inset</item>
+        <item name="android:layout_weight">150.0</item>
+    </style>
+    <style name="SoftKey.QwertyRow3RightSide" parent="@style/SoftKey">
+        <item name="android:background">@drawable/bg_key_qwerty_row3_right_side_black_inset</item>
+        <item name="android:layout_weight">150.0</item>
+    </style>
+    <style name="SoftKey.Row1.9Key" parent="@style/SoftKey.Row1">
+        <item name="android:background">@drawable/bg_key_row1_grey_small_inset</item>
+        <item name="android:layout_weight">234.0</item>
+    </style>
+    <style name="SoftKey.Row2.9Key" parent="@style/SoftKey.Row2">
+        <item name="android:background">@drawable/bg_key_row2_grey_small_inset</item>
+        <item name="android:layout_weight">234.0</item>
+    </style>
+    <style name="SoftKey.Row3.9Key" parent="@style/SoftKey.Row3">
+        <item name="android:background">@drawable/bg_key_row3_grey_small_inset</item>
+        <item name="android:layout_weight">234.0</item>
+    </style>
+    <style name="SoftKey.Dark.9KeyRightSide" parent="@style/SoftKey.Dark">
+        <item name="android:background">@drawable/bg_key_black_small_inset</item>
+        <item name="android:layout_weight">149.0</item>
+    </style>
+    <style name="SoftKey.Row1.Number.SmallInset" parent="@style/SoftKey.Row1.Number">
+        <item name="android:background">@drawable/bg_key_row1_grey_small_inset</item>
+    </style>
+    <style name="SoftKey.Row2.Number.SmallInset" parent="@style/SoftKey.Row2.Number">
+        <item name="android:background">@drawable/bg_key_row2_grey_small_inset</item>
+    </style>
+    <style name="SoftKey.Row3.Number.SmallInset" parent="@style/SoftKey.Row3.Number">
+        <item name="android:background">@drawable/bg_key_row3_grey_small_inset</item>
+    </style>
+    <style name="SoftKey.Row4.Number.SmallInset" parent="@style/SoftKey.Row4.Number">
+        <item name="android:background">@drawable/bg_key_row4_grey_small_inset</item>
+    </style>
+    <style name="SoftKey.Dark.Number.SmallInset" parent="@style/SoftKey.Dark.Number">
+        <item name="android:background">@drawable/bg_key_black_small_inset</item>
+    </style>
+    <style name="SoftKey.Row1.Digit" parent="@style/SoftKey.Row1">
+        <item name="android:background">@drawable/bg_key_row1_grey_small_inset</item>
+        <item name="android:layout_weight">237.0</item>
+    </style>
+    <style name="SoftKey.Row2.Digit" parent="@style/SoftKey.Row2">
+        <item name="android:background">@drawable/bg_key_row1_grey_small_inset</item>
+        <item name="android:layout_weight">237.0</item>
+    </style>
+    <style name="SoftKey.Row3.Digit" parent="@style/SoftKey.Row3">
+        <item name="android:background">@drawable/bg_key_row1_grey_small_inset</item>
+        <item name="android:layout_weight">237.0</item>
+    </style>
+    <style name="SoftKey.Dark.Digit.SmallInset" parent="@style/SoftKey.Dark.Digit">
+        <item name="android:background">@drawable/bg_key_black_small_inset</item>
+    </style>
+    <style name="SoftKey.Dark.InColumn.SmallInset" parent="@style/SoftKey.Dark.InColumn">
+        <item name="android:background">@drawable/bg_key_black_small_inset</item>
+    </style>
+    <style name="SoftKeyCandidateBarShowMoreCandidate">
+        <item name="android:layout_gravity">right</item>
+        <item name="android:tag">show_more_candidates_button</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:minWidth">@dimen/softkey_show_more_candidates_min_width</item>
+    </style>
+    <style name="SoftKeyOnCandidatesView">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/bg_key_more_candidates_grey_selector</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:layout_weight">250.0</item>
+    </style>
+</resources>

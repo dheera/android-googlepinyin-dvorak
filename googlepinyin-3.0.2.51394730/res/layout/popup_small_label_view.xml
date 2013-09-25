@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:id="@id/popup_label" style="@style/SmallPopupLabel"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

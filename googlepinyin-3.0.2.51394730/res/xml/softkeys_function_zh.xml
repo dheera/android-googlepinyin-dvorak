@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/softkeys_function_space_zh" />
+    <include href="@xml/softkeys_function_9key_zh_shift" />
+    <softkeys>
+        <softkey id="@id/softkey_ci" layout="@layout/softkey_icon" multi_touch="true">
+            <action type="PRESS" keycode="APOSTROPHE" data="'" intention="DECODE" />
+            <icon location="@id/icon" value="@drawable/ic_key_ci" />
+        </softkey>
+    </softkeys>
+</framework>

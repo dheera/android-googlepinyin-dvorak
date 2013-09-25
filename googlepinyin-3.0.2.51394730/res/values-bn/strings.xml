@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ime_name">Google পিনইন ইনপুট</string>
+    <string name="label_subtype_pinyin">চিনা পিনইন</string>
+    <string name="setting_title">Google পিনইন ইনপুট সেটিংস</string>
+</resources>

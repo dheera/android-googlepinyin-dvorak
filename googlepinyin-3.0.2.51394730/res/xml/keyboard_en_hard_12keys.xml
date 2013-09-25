@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard id="@id/keyboard_en_hard_12keys" always_show_header_view="true" candidate_text_size_ratio="0.8" class=".keyboard.Hard12KeysKeyboard">
+        <header_view layout="@layout/keyboard_hard_header">
+            <softkeys href="@xml/softkeys_header_prime" />
+            <softkeys href="@xml/softkeys_header_candidates" />
+            <softkeys href="@xml/softkeys_function" />
+            <include href="@xml/keymapping_header_candidates" />
+            <include href="@xml/keymapping_header_hard_en" />
+        </header_view>
+        <body_view layout="@layout/keyboard_hard_12keys_body">
+            <softkeys href="@xml/softkeys_body_candidates" />
+            <include href="@xml/keymapping_body_candidates" />
+        </body_view>
+    </keyboard>
+</framework>

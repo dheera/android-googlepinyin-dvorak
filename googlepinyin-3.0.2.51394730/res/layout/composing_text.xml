@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/text_size_composing" android:textColor="#ff000000" android:gravity="center" android:id="@id/composing_text" android:background="@drawable/bg_composing_area" android:paddingLeft="@dimen/composing_text_padding_left" android:paddingRight="@dimen/composing_text_padding_right" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

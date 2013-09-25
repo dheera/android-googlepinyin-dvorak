@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyboardView style="@style/PairingBodyArea"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/keyboard_zh_cn_pairing_input_area" />
+    <include layout="@layout/keyboard_zh_cn_pairing_more_predictions" />
+</com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyboardView>

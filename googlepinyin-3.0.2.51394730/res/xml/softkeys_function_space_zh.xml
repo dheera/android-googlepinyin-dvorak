@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey id="@id/softkey_space_zh" layout="@layout/softkey_space_with_text">
+            <action type="PRESS" keycode="SPACE" data=" " />
+            <label location="@id/label" value="@string/label_space_zh" />
+            <icon location="@id/icon" value="" />
+        </softkey>
+        <softkey id="@id/softkey_9key_space_zh" layout="@layout/softkey_space_with_text_and_sup" popup_timing="ON_GESTURE" multi_touch="true">
+            <action type="PRESS" keycode="SPACE" data=" " />
+            <action type="LONG_PRESS" keycode="KEYCODE_0" data="0" intention="COMMIT" popup_label="0" popup_layout="@layout/popup_square_bubble" />
+            <label location="@id/label" value="@string/label_space_zh" />
+            <label location="@id/label_sup" value="0" />
+            <icon location="@id/icon" value="" />
+        </softkey>
+        <softkey id="@id/softkey_9key_space_zh_shifted" layout="@layout/softkey_label_small_grey_label_sup_white" popup_timing="ON_GESTURE" multi_touch="true">
+            <action type="PRESS" keycode="KEYCODE_0" data="0" intention="COMMIT" />
+            <label location="@id/label" value="@string/label_space_number" />
+            <label location="@id/label_sup" value="0" />
+        </softkey>
+    </softkeys>
+</framework>

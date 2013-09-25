@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard id="@id/keyboard_non_prime_symbol_zh" always_show_header_view="true" class=".libs.framework.keyboard.SymbolsKeyboard" locked="false">
+        <header_view layout="@layout/keyboard_non_prime_header">
+            <softkeys href="@xml/softkeys_header_non_prime" />
+            <include href="@xml/keymapping_header_symbol" />
+        </header_view>
+        <body_view layout="@layout/keyboard_non_prime_symbol_body">
+            <softkeys id="@id/softkeys_input_symbol_zh" href="@xml/softkeys_input_symbol_zh" />
+            <softkeys href="@xml/softkeys_function" />
+            <softkeys href="@xml/softkeys_function_zh" />
+            <softkeys href="@xml/softkeys_punctuation_bottom" />
+            <keygroup_mapping group_view_id="@id/pageable_view">
+                <keys softkeys_id="@id/softkeys_input_symbol_zh" />
+            </keygroup_mapping>
+            <include href="@xml/keymapping_bottom_symbol" />
+        </body_view>
+    </keyboard>
+</framework>

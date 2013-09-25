@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey id="@id/softkey_show_more_candidates" layout="@layout/softkey_icon">
+            <action type="PRESS" keycode="TOGGLE_SHOW_MORE_CANDIDATES" />
+            <icon location="@id/icon" value="@drawable/ic_key_show_more_candidates_selector" />
+        </softkey>
+    </softkeys>
+</framework>

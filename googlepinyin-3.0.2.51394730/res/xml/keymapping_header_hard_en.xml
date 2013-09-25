@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/keymapping_header_en_prime" />
+    <key_mapping>
+        <mapping view_id="@id/key_pos_switch_to_symbol" key_id="@id/softkey_switch_to_symbols" />
+    </key_mapping>
+</framework>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ime_name">Input Pinyin Google</string>
+    <string name="label_subtype_pinyin">Pinyin Cina</string>
+    <string name="setting_title">Tetapan Input Pinyin Google</string>
+</resources>

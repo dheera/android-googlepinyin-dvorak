@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/InputArea"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/keyboard_non_prime_input_area_left_side" />
+    <com.google.android.apps.inputmethod.libs.framework.keyboard.widget.PageableSoftKeyListHolderView android:orientation="vertical" android:id="@id/pageable_view" android:tag="default_pageable" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="830.0" page_down_key="@id/key_pos_page_down" page_up_key="@id/key_pos_page_up" page_layout="@layout/keyboard_non_prime_page_smiley" />
+    <include layout="@layout/keyboard_non_prime_input_area_right_side" />
+</LinearLayout>

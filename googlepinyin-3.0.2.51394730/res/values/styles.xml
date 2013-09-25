@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="gf_PageHeader">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/gf_header_background</item>
+        <item name="android:padding">@dimen/gf_padding</item>
+    </style>
+    <style name="gf_SectionHeader">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@*android:drawable/dark_header</item>
+        <item name="android:paddingLeft">@dimen/gf_padding</item>
+    </style>
+    <style name="gf_Separator">
+        <item name="android:src">@*android:drawable/divider_horizontal_dark</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="gf_ListItem">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/gf_list_item_padding</item>
+        <item name="android:paddingTop">3.0dip</item>
+        <item name="android:paddingRight">@dimen/gf_list_item_padding</item>
+        <item name="android:paddingBottom">3.0dip</item>
+        <item name="android:minHeight">@dimen/gf_list_item_height</item>
+    </style>
+    <style name="FirstRunViewPager">
+        <item name="android:background">#ffe5e5e5</item>
+        <item name="android:paddingBottom">@dimen/first_run_page_footer_height</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="FirstRunPageFooter">
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">#ffe5e5e5</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/first_run_page_footer_height</item>
+    </style>
+    <style name="FirstRunPageIndicator">
+        <item name="android:gravity">bottom|center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/first_run_page_indicator_height</item>
+    </style>
+    <style name="FirstRunPageIndicatorDivider">
+        <item name="android:paddingLeft">12.0dip</item>
+        <item name="android:paddingRight">12.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/first_run_page_indicator_divider_height</item>
+        <item name="android:src">@drawable/bg_tutorial_page_indicator_divider</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+    <style name="FirstRunNavigation">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/first_run_page_navigation</item>
+    </style>
+    <style name="FirstRunNavigationText">
+        <item name="android:textSize">@dimen/first_run_page_navigation_text_size</item>
+        <item name="android:textColor">#ff34b4e5</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">@dimen/first_run_page_navigation_text_padding</item>
+        <item name="android:paddingRight">@dimen/first_run_page_navigation_text_padding</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="FirstRunNavigationText.Left" parent="@style/FirstRunNavigationText">
+        <item name="android:layout_gravity">left</item>
+    </style>
+    <style name="FirstRunNavigationText.Right" parent="@style/FirstRunNavigationText">
+        <item name="android:layout_gravity">right</item>
+    </style>
+    <style name="FirstRunNavigationText.Center" parent="@style/FirstRunNavigationText">
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="Icon">
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Icon.Center" parent="@style/Icon">
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="Icon.Bottom" parent="@style/Icon">
+        <item name="android:layout_gravity">bottom|center</item>
+        <item name="android:layout_marginBottom">@dimen/icon_bottom_margin_bottom</item>
+    </style>
+    <style name="Icon.Center.ImeAction" parent="@style/Icon.Center">
+        <item name="android:background">@drawable/bg_key_blue_selector</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="Icon.Center.ImeActionOnCandidatesView" parent="@style/Icon.Center">
+        <item name="android:background">@drawable/bg_key_more_candidates_blue_selector</item>
+    </style>
+    <style name="Keyboard">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Body">
+        <item name="android:background">@drawable/bg_keyboard_body</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/keyboard_body_height</item>
+    </style>
+    <style name="BodyInner">
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingTop">@dimen/keyboard_body_padding_top</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:baselineAligned">false</item>
+        <item name="android:weightSum">@integer/weight_sum</item>
+    </style>
+    <style name="BodyInner.Candidates" parent="@style/BodyInner">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:tag">more_candidates_area</item>
+        <item name="android:background">@drawable/bg_more_candidates_holder</item>
+        <item name="android:paddingTop">0.0dip</item>
+    </style>
+    <style name="InputArea">
+        <item name="android:tag">input_area</item>
+        <item name="android:paddingTop">@dimen/input_area_padding_top</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:baselineAligned">false</item>
+        <item name="android:layout_weight">@integer/keyboard_input_area_weight</item>
+    </style>
+    <style name="InputArea.Qwerty" parent="@style/InputArea">
+        <item name="android:orientation">vertical</item>
+        <item name="android:weightSum">@integer/keyboard_input_area_weight</item>
+    </style>
+    <style name="InputArea.9Key" parent="@style/InputArea">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:weightSum">@integer/weight_sum</item>
+    </style>
+    <style name="Bottom">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:weightSum">@integer/weight_sum</item>
+        <item name="android:layout_weight">@integer/keyboard_bottom_weight</item>
+    </style>
+    <style name="CandidateBar">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:tag">heading_candidates_bar</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="ReadingTextCandidateView">
+        <item name="android:tag">scroll_view_in_more_candidate</item>
+        <item name="android:background">@drawable/bg_reading_text_candidates</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:fadeScrollbars">false</item>
+    </style>
+    <style name="MoreCandidatesHolderView">
+        <item name="android:orientation">vertical</item>
+        <item name="android:tag">pageable_candidates_view</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="Header">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/keyboard_header_height</item>
+    </style>
+    <style name="HeaderInner">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:tag">header_area</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="HeaderInner.Prime" parent="@style/HeaderInner">
+        <item name="android:background">@drawable/bg_header_prime_grey</item>
+    </style>
+    <style name="HeaderInner.NonPrime" parent="@style/HeaderInner">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/bg_header_non_prime_black</item>
+        <item name="android:weightSum">@integer/weight_sum</item>
+    </style>
+    <style name="HeaderInner.Candidates" parent="@style/HeaderInner">
+        <item name="android:tag">heading_candidates_area</item>
+        <item name="android:background">@drawable/bg_header_candidate_grey</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+    <style name="HeaderInner.Number" parent="@style/HeaderInner">
+        <item name="android:gravity">right</item>
+        <item name="android:background">@drawable/bg_header_prime_grey</item>
+        <item name="android:weightSum">@integer/weight_sum</item>
+    </style>
+    <style name="PrimeHeaderInnerLinear">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:weightSum">@integer/weight_sum</item>
+    </style>
+    <style name="HeaderTab">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="HeaderTab.Prime" parent="@style/HeaderTab">
+        <item name="android:layout_weight">@integer/prime_header_tab_weight</item>
+    </style>
+    <style name="HeaderTab.SmallPrime" parent="@style/HeaderTab">
+        <item name="android:layout_weight">@integer/prime_header_small_tab_weight</item>
+    </style>
+    <style name="HeaderTab.NonPrime" parent="@style/HeaderTab">
+        <item name="android:background">@drawable/bg_key_non_prime_header</item>
+        <item name="android:layout_weight">@integer/non_prime_header_tab_weight</item>
+    </style>
+    <style name="HeaderTab.PrimeIcon" parent="@style/HeaderTab">
+        <item name="android:layout_weight">@integer/prime_header_icon_weight</item>
+    </style>
+    <style name="HeaderSeparator">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="HeaderSeparator.Grey" parent="@style/HeaderSeparator">
+        <item name="android:src">@drawable/ic_candidate_separator_grey</item>
+    </style>
+    <style name="HeaderSeparator.Dark" parent="@style/HeaderSeparator">
+        <item name="android:src">@drawable/ic_header_separator_black</item>
+    </style>
+    <style name="Label" parent="@*android:style/TextAppearance.Medium">
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">none</item>
+        <item name="android:gravity">center</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">#ff222222</item>
+        <item name="android:shadowDx">0.4</item>
+        <item name="android:shadowDy">0.6</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="Label.Tiny" parent="@style/Label">
+        <item name="android:textSize">@dimen/text_size_tiny</item>
+    </style>
+    <style name="Label.Small" parent="@style/Label">
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+    <style name="Label.Medium" parent="@style/Label">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+    <style name="Label.Big" parent="@style/Label">
+        <item name="android:textSize">@dimen/text_size_big</item>
+    </style>
+    <style name="Label.Tiny.Bold" parent="@style/Label.Tiny">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Label.Small.Bold" parent="@style/Label.Small">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Label.Medium.Bold" parent="@style/Label.Medium">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Label.9Key" parent="@style/Label.Medium.Bold" />
+    <style name="Label.Medium.Bottom" parent="@style/Label.Medium">
+        <item name="android:layout_gravity">bottom|center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/label_bottom_margin_bottom</item>
+    </style>
+    <style name="Label.Medium.Bold.Bottom" parent="@style/Label.Medium.Bold">
+        <item name="android:layout_gravity">bottom|center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/label_bottom_margin_bottom</item>
+    </style>
+    <style name="Label.Big.Bold" parent="@style/Label.Big">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="LabelSecondary">
+        <item name="android:textSize">@dimen/text_size_tiny</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="LabelSecondary.Sub" parent="@style/LabelSecondary">
+        <item name="android:textColor">#ffbbbbbb</item>
+        <item name="android:layout_gravity">bottom|right|center</item>
+        <item name="android:paddingRight">@dimen/label_sub_right_padding</item>
+    </style>
+    <style name="LabelSecondary.Sub.Candidate" parent="@style/LabelSecondary.Sub">
+        <item name="android:textColor">#ff888888</item>
+    </style>
+    <style name="LabelSecondary.Sup" parent="@style/LabelSecondary">
+        <item name="android:layout_gravity">top|right|center</item>
+        <item name="android:paddingRight">@dimen/label_sub_right_padding</item>
+    </style>
+    <style name="LabelSecondary.Sup.White" parent="@style/LabelSecondary.Sup">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="LabelSecondary.Sup.Grey" parent="@style/LabelSecondary.Sup">
+        <item name="android:textColor">#ff111111</item>
+    </style>
+    <style name="Label.Small.Grey" parent="@style/Label.Small">
+        <item name="android:textColor">#ff717171</item>
+    </style>
+    <style name="LabelSecondary.Qwerty" parent="@style/LabelSecondary">
+        <item name="android:textSize">@dimen/text_size_qwerty_footer</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff111111</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:layout_weight">@integer/softkey_qwerty_bottom_label_weight</item>
+    </style>
+    <style name="LabelSecondary.Qwerty.Black" parent="@style/LabelSecondary.Qwerty">
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="LabelSecondary.Qwerty.Bottom" parent="@style/LabelSecondary.Qwerty">
+        <item name="android:layout_marginTop">@dimen/softkey_qwerty_bottom_label_margin_top</item>
+    </style>
+    <style name="LabelSecondary.Qwerty.Bottom.Black" parent="@style/LabelSecondary.Qwerty.Bottom">
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="Label.Qwerty" parent="@style/Label">
+        <item name="android:textSize">@dimen/text_size_qwerty_label</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:layout_weight">@integer/softkey_qwerty_upper_label_weight</item>
+    </style>
+    <style name="Label.Qwerty.Top" parent="@style/Label.Qwerty">
+        <item name="android:layout_marginBottom">@dimen/softkey_qwerty_bottom_label_margin_top</item>
+    </style>
+    <style name="Label.Qwerty.Bottom" parent="@style/Label.Qwerty">
+        <item name="android:layout_marginTop">@dimen/softkey_qwerty_bottom_label_margin_top</item>
+    </style>
+    <style name="Label.Small.ImeAction" parent="@style/Label.Small">
+        <item name="android:background">@drawable/bg_key_blue_selector</item>
+    </style>
+    <style name="Label.Small.ImeActionOnCandidatesView" parent="@style/Label.Small">
+        <item name="android:background">@drawable/bg_key_more_candidates_blue_selector</item>
+    </style>
+    <style name="Label.Big.Bold.PhoneNumber" parent="@style/Label.Big.Bold">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">right|center</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">333.0</item>
+    </style>
+    <style name="Label.PhoneText" parent="@style/Label">
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">667.0</item>
+    </style>
+    <style name="Label.PhoneText.Character" parent="@style/Label.PhoneText">
+        <item name="android:textSize">@dimen/text_size_tiny</item>
+        <item name="android:textColor">#ffc4c4c4</item>
+    </style>
+    <style name="Label.PhoneText.Plus" parent="@style/Label.PhoneText">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Label.9KeyLeftPanel" parent="@style/Label">
+        <item name="android:tag">default_label</item>
+        <item name="android:background">@drawable/bg_key_reading_text_selector</item>
+    </style>
+    <style name="Label.Small.ReadingTextCandidate" parent="@style/Label.Small">
+        <item name="android:tag">default_label</item>
+        <item name="android:background">@drawable/bg_key_reading_text_selector</item>
+        <item name="android:paddingLeft">@dimen/reading_text_candidate_text_padding</item>
+        <item name="android:paddingRight">@dimen/reading_text_candidate_text_padding</item>
+    </style>
+    <style name="Label.Candidate" parent="@style/Label">
+        <item name="android:textSize">@dimen/text_size_candidate</item>
+        <item name="android:textColor">@drawable/color_candidate_text</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingLeft">@dimen/softkey_candidate_padding_left</item>
+        <item name="android:paddingRight">@dimen/softkey_candidate_padding_right</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <style name="Label.Big.PasswordHeader" parent="@style/Label.Big">
+        <item name="android:background">@drawable/bg_key_password_selector</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="Label.Medium.Bold.PasswordHeader" parent="@style/Label.Medium.Bold">
+        <item name="android:background">@drawable/bg_key_password_selector</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="Label.Candidate.WithOrdinal" parent="@style/Label.Candidate">
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingRight">12.0dip</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    <style name="Linear">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:baselineAligned">false</item>
+        <item name="android:weightSum">@integer/weight_sum</item>
+    </style>
+    <style name="Linear.WidthWeighted" parent="@style/Linear">
+        <item name="android:layout_width">0.0dip</item>
+    </style>
+    <style name="Linear.HeightWeighted" parent="@style/Linear">
+        <item name="android:layout_height">0.0dip</item>
+    </style>
+    <style name="Linear.Vertical" parent="@style/Linear">
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="Linear.Horizontal" parent="@style/Linear">
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="Linear.WidthWeighted.Vertical" parent="@style/Linear.WidthWeighted">
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="Linear.HeightWeighted.Vertical" parent="@style/Linear.HeightWeighted">
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="Linear.WidthWeighted.Horizontal" parent="@style/Linear.WidthWeighted">
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="Linear.HeightWeighted.Horizontal" parent="@style/Linear.HeightWeighted">
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="KeyboardRow" parent="@style/Linear.HeightWeighted.Horizontal">
+        <item name="android:layout_weight">@integer/keyboard_row_weight</item>
+    </style>
+    <style name="HintBoxText">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">@drawable/bg_hint_box</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="HintBoxArrow">
+        <item name="android:background">@drawable/bg_hint_box_arrow</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="BasicPopupView">
+        <item name="android:gravity">top|center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:id">@id/popup_bubble</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">@dimen/popup_bubble_width</item>
+        <item name="android:minHeight">@dimen/popup_bubble_height</item>
+    </style>
+    <style name="PopupView9Key" parent="@style/BasicPopupView">
+        <item name="android:minHeight">@dimen/popup_bubble_height_9key</item>
+    </style>
+    <style name="PopupImage">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/bg_popup_top_blue</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/popup_content_height</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:minWidth">@dimen/popup_bubble_width</item>
+    </style>
+    <style name="PopupLabel" parent="@style/Label">
+        <item name="android:textSize">@dimen/text_size_huge</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/bg_popup_top_blue</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/popup_content_height</item>
+        <item name="android:minWidth">@dimen/popup_bubble_width</item>
+        <item name="android:lines">1</item>
+    </style>
+    <style name="SquarePopupLabel" parent="@style/PopupLabel">
+        <item name="android:background">@drawable/bg_popup_square_blue_selector</item>
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingRight">8.0dip</item>
+        <item name="android:paddingBottom">@dimen/square_popup_padding_bottom</item>
+        <item name="android:layout_height">@dimen/square_popup_content_height</item>
+    </style>
+    <style name="SmallSquarePopupLabel" parent="@style/PopupLabel">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:background">@drawable/bg_popup_square_blue_selector</item>
+        <item name="android:paddingLeft">15.0dip</item>
+        <item name="android:paddingRight">15.0dip</item>
+        <item name="android:paddingBottom">@dimen/square_popup_padding_bottom</item>
+        <item name="android:layout_height">@dimen/square_popup_content_height</item>
+    </style>
+    <style name="SquarePopupImage" parent="@style/PopupImage">
+        <item name="android:background">@drawable/bg_popup_square_blue_selector</item>
+        <item name="android:paddingBottom">@dimen/square_popup_padding_bottom</item>
+        <item name="android:layout_height">@dimen/square_popup_content_height</item>
+    </style>
+    <style name="BigPopupLabel" parent="@style/PopupLabel">
+        <item name="android:textSize">@dimen/text_size_big</item>
+        <item name="android:background">@drawable/bg_popup_label_blue_selector</item>
+        <item name="android:layout_height">@dimen/popup_label_height</item>
+        <item name="android:minWidth">@dimen/popup_label_width</item>
+    </style>
+    <style name="SmallPopupLabel" parent="@style/PopupLabel">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:background">@drawable/bg_popup_label_blue_selector</item>
+        <item name="android:layout_height">@dimen/popup_label_height</item>
+        <item name="android:minWidth">@dimen/popup_label_width</item>
+    </style>
+    <style name="DeleteCandidatePopupView">
+        <item name="android:gravity">top|center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:id">@id/popup_bubble</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="DeleteCandidatePopupLabel" parent="@style/Label">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/bg_popup_label_blue_selector</item>
+        <item name="android:paddingLeft">@dimen/popup_delete_candidate_label_left_right_padding</item>
+        <item name="android:paddingTop">@dimen/popup_delete_candidate_label_top_bottom_padding</item>
+        <item name="android:paddingRight">@dimen/popup_delete_candidate_label_left_right_padding</item>
+        <item name="android:paddingBottom">@dimen/popup_delete_candidate_label_top_bottom_padding</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lines">1</item>
+    </style>
+    <style name="SoftKey">
+        <item name="android:gravity">center</item>
+        <item name="android:visibility">invisible</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="SoftKey.Row1" parent="@style/SoftKey">
+        <item name="android:background">@drawable/bg_key_row1_grey_inset</item>
+    </style>
+    <style name="SoftKey.Row2" parent="@style/SoftKey">
+        <item name="android:background">@drawable/bg_key_row2_grey_inset</item>
+    </style>
+    <style name="SoftKey.Row3" parent="@style/SoftKey">
+        <item name="android:background">@drawable/bg_key_row3_grey_inset</item>
+    </style>
+    <style name="SoftKey.Row4" parent="@style/SoftKey">
+        <item name="android:background">@drawable/bg_key_row4_grey_inset</item>
+    </style>
+    <style name="SoftKey.Dark" parent="@style/SoftKey">
+        <item name="android:background">@drawable/bg_key_black_inset</item>
+    </style>
+    <style name="SoftKey.SmallDark" parent="@style/SoftKey">
+        <item name="android:background">@drawable/bg_key_black_small_inset</item>
+    </style>
+    <style name="SoftKey.Grey" parent="@style/SoftKey">
+        <item name="android:background">@drawable/bg_key_grey_inset</item>
+    </style>
+    <style name="SoftKey.Row1.Qwerty" parent="@style/SoftKey.Row1">
+        <item name="android:layout_weight">100.0</item>
+    </style>
+    <style name="SoftKey.Row2.Qwerty" parent="@style/SoftKey.Row2">
+        <item name="android:layout_weight">100.0</item>
+    </style>
+    <style name="SoftKey.Row3.Qwerty" parent="@style/SoftKey.Row3">
+        <item name="android:layout_weight">100.0</item>
+    </style>
+    <style name="SoftKey.QwertyRow2Side" parent="@style/SoftKey">
+        <item name="android:layout_weight">150.0</item>
+    </style>
+    <style name="SoftKeyQwertyRow2SideInner">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:weightSum">150.0</item>
+    </style>
+    <style name="SoftKeyQwertyRow2SideInner.Left" parent="@style/SoftKeyQwertyRow2SideInner">
+        <item name="android:gravity">right|center</item>
+    </style>
+    <style name="SoftKeyQwertyRow2SideInner.Right" parent="@style/SoftKeyQwertyRow2SideInner">
+        <item name="android:gravity">left|center</item>
+    </style>
+    <style name="SoftKey.QwertyRow3LeftSide" parent="@style/SoftKey">
+        <item name="android:background">@drawable/bg_key_qwerty_row3_left_side_black_inset</item>
+        <item name="android:layout_weight">150.0</item>
+    </style>
+    <style name="SoftKey.QwertyRow3RightSide" parent="@style/SoftKey">
+        <item name="android:background">@drawable/bg_key_qwerty_row3_right_side_black_inset</item>
+        <item name="android:layout_weight">150.0</item>
+    </style>
+    <style name="SoftKey.Row1.9Key" parent="@style/SoftKey.Row1">
+        <item name="android:background">@drawable/bg_key_row1_grey_small_inset</item>
+        <item name="android:layout_weight">234.0</item>
+    </style>
+    <style name="SoftKey.Row2.9Key" parent="@style/SoftKey.Row2">
+        <item name="android:background">@drawable/bg_key_row2_grey_small_inset</item>
+        <item name="android:layout_weight">234.0</item>
+    </style>
+    <style name="SoftKey.Row3.9Key" parent="@style/SoftKey.Row3">
+        <item name="android:background">@drawable/bg_key_row3_grey_small_inset</item>
+        <item name="android:layout_weight">234.0</item>
+    </style>
+    <style name="SoftKey.Dark.9KeyRightSide" parent="@style/SoftKey.Dark">
+        <item name="android:background">@drawable/bg_key_black_small_inset</item>
+        <item name="android:layout_weight">149.0</item>
+    </style>
+    <style name="SoftKey.Row1.Number" parent="@style/SoftKey.Row1">
+        <item name="android:layout_weight">250.0</item>
+    </style>
+    <style name="SoftKey.Row1.Number.SmallInset" parent="@style/SoftKey.Row1.Number">
+        <item name="android:background">@drawable/bg_key_row1_grey_small_inset</item>
+    </style>
+    <style name="SoftKey.Row2.Number" parent="@style/SoftKey.Row2">
+        <item name="android:layout_weight">250.0</item>
+    </style>
+    <style name="SoftKey.Row2.Number.SmallInset" parent="@style/SoftKey.Row2.Number">
+        <item name="android:background">@drawable/bg_key_row2_grey_small_inset</item>
+    </style>
+    <style name="SoftKey.Row3.Number" parent="@style/SoftKey.Row3">
+        <item name="android:layout_weight">250.0</item>
+    </style>
+    <style name="SoftKey.Row3.Number.SmallInset" parent="@style/SoftKey.Row3.Number">
+        <item name="android:background">@drawable/bg_key_row3_grey_small_inset</item>
+    </style>
+    <style name="SoftKey.Row4.Number" parent="@style/SoftKey.Row4">
+        <item name="android:layout_weight">250.0</item>
+    </style>
+    <style name="SoftKey.Row4.Number.SmallInset" parent="@style/SoftKey.Row4.Number">
+        <item name="android:background">@drawable/bg_key_row4_grey_small_inset</item>
+    </style>
+    <style name="SoftKey.Dark.Number" parent="@style/SoftKey.Dark">
+        <item name="android:layout_weight">250.0</item>
+    </style>
+    <style name="SoftKey.Dark.Number.SmallInset" parent="@style/SoftKey.Dark.Number">
+        <item name="android:background">@drawable/bg_key_black_small_inset</item>
+    </style>
+    <style name="SoftKey.Row1.Digit" parent="@style/SoftKey.Row1">
+        <item name="android:background">@drawable/bg_key_row1_grey_small_inset</item>
+        <item name="android:layout_weight">237.0</item>
+    </style>
+    <style name="SoftKey.Row2.Digit" parent="@style/SoftKey.Row2">
+        <item name="android:background">@drawable/bg_key_row1_grey_small_inset</item>
+        <item name="android:layout_weight">237.0</item>
+    </style>
+    <style name="SoftKey.Row3.Digit" parent="@style/SoftKey.Row3">
+        <item name="android:background">@drawable/bg_key_row1_grey_small_inset</item>
+        <item name="android:layout_weight">237.0</item>
+    </style>
+    <style name="SoftKey.Row4.Digit" parent="@style/SoftKey.Row4">
+        <item name="android:layout_weight">237.0</item>
+    </style>
+    <style name="SoftKey.Dark.Digit" parent="@style/SoftKey.Dark">
+        <item name="android:layout_weight">144.5</item>
+    </style>
+    <style name="SoftKey.Dark.Digit.SmallInset" parent="@style/SoftKey.Dark.Digit">
+        <item name="android:background">@drawable/bg_key_black_small_inset</item>
+    </style>
+    <style name="SoftKey.Dark.DigitSmall" parent="@style/SoftKey.Dark">
+        <item name="android:layout_weight">118.5</item>
+    </style>
+    <style name="SoftKey.Dark.InColumn" parent="@style/SoftKey.Dark">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:layout_weight">250.0</item>
+    </style>
+    <style name="SoftKey.Dark.InColumn.SmallInset" parent="@style/SoftKey.Dark.InColumn">
+        <item name="android:background">@drawable/bg_key_black_small_inset</item>
+    </style>
+    <style name="SoftKeyDashboard">
+        <item name="android:tag">default_icon</item>
+        <item name="android:background">@drawable/bg_key_snapshot_blue_selector</item>
+        <item name="android:padding">2.0dip</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+    <style name="SoftKeyDashboardMask">
+        <item name="android:background">@drawable/bg_key_snapshot_light_blue_selector</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="SoftKeyDashboard.Previous" parent="@style/SoftKeyDashboard">
+        <item name="android:background">#ff33b5e5</item>
+    </style>
+    <style name="SoftKeyCandidateBarShowMoreCandidate">
+        <item name="android:layout_gravity">right</item>
+        <item name="android:tag">show_more_candidates_button</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:minWidth">@dimen/softkey_show_more_candidates_min_width</item>
+    </style>
+    <style name="SoftKeyOnCandidatesView">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/bg_key_more_candidates_grey_selector</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:layout_weight">250.0</item>
+    </style>
+    <style name="SoftKey.PasswordHeader" parent="@style/SoftKey">
+        <item name="android:layout_weight">100.0</item>
+    </style>
+    <style name="Keyboard.Voice" parent="@style/Keyboard">
+        <item name="android:background">@drawable/bg_keyboard_voice</item>
+        <item name="android:paddingBottom">5.0dip</item>
+        <item name="android:layout_height">@dimen/keyboard_height</item>
+    </style>
+    <style name="InputView">
+        <item name="android:layout_gravity">top</item>
+        <item name="android:background">@drawable/bg_handwriting_overlay_view</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginLeft">@dimen/handwriting_bg_margin_left</item>
+        <item name="android:layout_marginTop">@dimen/handwriting_bg_margin_top</item>
+        <item name="android:layout_marginRight">@dimen/softkey_bg_small_inset_right</item>
+        <item name="android:layout_marginBottom">@dimen/handwriting_bg_margin_bottom</item>
+    </style>
+    <style name="Label.9Key.Grey" parent="@style/Label.9Key">
+        <item name="android:textColor">#ffbdbdbd</item>
+    </style>
+    <style name="TutorialPage">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:weightSum">1000.0</item>
+    </style>
+    <style name="TutorialHeader">
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">#ffffffff</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:layout_weight">250.0</item>
+    </style>
+    <style name="TutorialContent">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:layout_weight">750.0</item>
+    </style>
+    <style name="TutorialContent.Portrait" parent="@style/TutorialContent">
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">@dimen/tutorial_page_padding</item>
+        <item name="android:paddingRight">@dimen/tutorial_page_padding</item>
+    </style>
+    <style name="TutorialContent.Landscape" parent="@style/TutorialContent">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingLeft">@dimen/tutorial_page_half_padding</item>
+        <item name="android:paddingRight">@dimen/tutorial_page_half_padding</item>
+        <item name="android:weightSum">1000.0</item>
+    </style>
+    <style name="TutorialLandscapeSubContent">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">@dimen/tutorial_page_half_padding</item>
+        <item name="android:paddingRight">@dimen/tutorial_page_half_padding</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:weightSum">1000.0</item>
+        <item name="android:layout_weight">500.0</item>
+    </style>
+    <style name="TutorialTitle">
+        <item name="android:textSize">@dimen/tutorial_title_font_size</item>
+        <item name="android:textColor">#ff595959</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/tutorial_header_margin</item>
+        <item name="android:layout_marginBottom">@dimen/tutorial_header_margin</item>
+    </style>
+    <style name="TutorialTitle.Gesture" parent="@style/TutorialTitle">
+        <item name="android:layout_marginBottom">@dimen/tutorial_header_gesture_margin_bottom</item>
+    </style>
+    <style name="TutorialTitle.SubTitle" parent="@style/TutorialTitle">
+        <item name="android:textSize">@dimen/tutorial_subt_title_font_size</item>
+        <item name="android:textColor">#ff5a5a5a</item>
+        <item name="android:layout_marginTop">0.0dip</item>
+        <item name="android:layout_marginBottom">@dimen/tutorial_subtitle_margin_bottom</item>
+        <item name="android:singleLine">false</item>
+    </style>
+    <style name="TutorialPageImage">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingTop">5.0dip</item>
+        <item name="android:paddingBottom">5.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:layout_weight">1000.0</item>
+    </style>
+    <style name="TutorialItemNum">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">bottom|center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/bg_tutorial_page_item_number_selector</item>
+        <item name="android:layout_width">26.0dip</item>
+        <item name="android:layout_height">26.0dip</item>
+    </style>
+    <style name="TutorialActivationStep">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textColor">#ff595959</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingLeft">7.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/tutorial_activation_step_margin</item>
+        <item name="android:layout_marginBottom">@dimen/tutorial_activation_step_margin</item>
+    </style>
+    <style name="TutorialButton">
+        <item name="android:textSize">@dimen/tutorial_subt_title_font_size</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">@drawable/bg_tutorial_activation_button_selector</item>
+        <item name="android:layout_marginBottom">@dimen/tutorial_activation_step_margin</item>
+        <item name="android:minHeight">48.0dip</item>
+    </style>
+    <style name="TutorialHint">
+        <item name="android:textSize">@dimen/tutorial_subt_title_font_size</item>
+        <item name="android:textColor">#ff595959</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/tutorial_user_metrics_content_margin</item>
+    </style>
+    <style name="TutorialCheckBox">
+        <item name="android:textSize">@dimen/tutorial_subt_title_font_size</item>
+        <item name="android:textColor">#ff595959</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/tutorial_check_box_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/tutorial_user_metrics_content_margin</item>
+        <item name="android:button">@drawable/ic_tutorial_page_checkbox_selector</item>
+    </style>
+    <style name="PairingHeader">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/header_pairing_height</item>
+    </style>
+    <style name="PairingHeaderArea">
+        <item name="android:orientation">vertical</item>
+        <item name="android:tag">heading_candidates_area</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="PairingCandidateHolder">
+        <item name="android:background">@drawable/bg_pairing_normal_candidates_holder</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+    </style>
+    <style name="PairingPredictionsHolderParent">
+        <item name="android:background">@drawable/bg_pairing_predictions_holder</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+    </style>
+    <style name="PairingTopPredictionHolder">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="PairingBodyArea">
+        <item name="android:background">#ff000000</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/keyboard_pairing_height</item>
+    </style>
+    <style name="PairingFunctionKeyArea">
+        <item name="android:orientation">vertical</item>
+        <item name="android:tag">input_area</item>
+        <item name="android:paddingTop">@dimen/keyboard_body_padding_top</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="PairingMorePredictionsArea">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:tag">more_candidates_area</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="PairingFunctionKeyRow">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="PairingPageKeyHolder">
+        <item name="android:layout_gravity">right</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">@dimen/softkey_pairing_width</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+</resources>

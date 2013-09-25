@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingTop="@dimen/input_area_padding_top" android:layout_weight="@integer/keyboard_number_left_part_weight" style="@style/Linear.WidthWeighted.Vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:weightSum="@integer/keyboard_number_left_part_weight" style="@style/KeyboardRow">
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_number_line1_1" style="@style/SoftKey.Row1.9KeySymbol" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_number_line1_2" style="@style/SoftKey.Row1.9KeySymbol" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_number_line1_3" style="@style/SoftKey.Row1.9KeySymbol" />
+    </LinearLayout>
+    <LinearLayout android:weightSum="@integer/keyboard_number_left_part_weight" style="@style/KeyboardRow">
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_number_line2_1" style="@style/SoftKey.Row2.9KeySymbol" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_number_line2_2" style="@style/SoftKey.Row2.9KeySymbol" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_number_line2_3" style="@style/SoftKey.Row2.9KeySymbol" />
+    </LinearLayout>
+    <LinearLayout android:weightSum="@integer/keyboard_number_left_part_weight" style="@style/KeyboardRow">
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_number_line3_1" style="@style/SoftKey.Row3.9KeySymbol" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_number_line3_2" style="@style/SoftKey.Row3.9KeySymbol" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_number_line3_3" style="@style/SoftKey.Row3.9KeySymbol" />
+    </LinearLayout>
+    <LinearLayout android:weightSum="@integer/keyboard_number_left_part_weight" style="@style/KeyboardRow">
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_space" android:layout_weight="@integer/keyboard_9key_symbol_panel_weight" style="@style/SoftKey.Row4.9KeySymbol" />
+    </LinearLayout>
+</LinearLayout>
