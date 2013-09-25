@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<framework>
-    <softkeys>
-        <softkey id="@id/softkey_bottom_quotation" layout="@layout/softkey_label_medium">
-            <action type="PRESS" keycode="PLAIN_TEXT" intention="COMMIT" data="’" />
-            <label location="@id/label" value="’" />
-        </softkey>
-    </softkeys>
-</framework>

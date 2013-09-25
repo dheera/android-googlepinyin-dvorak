@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="@integer/keyboard_handwriting_middle_panel_weight"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <View style="@style/InputView" />
-    <com.google.android.apps.inputmethod.libs.handwriting.keyboard.HandwritingOverlayView android:tag="handwriting_overlay_view" android:layout_width="fill_parent" android:layout_height="fill_parent" max_stroke_width="@dimen/handwriting_stroke_width_max" min_stroke_width="@dimen/handwriting_stroke_width_min" />
-</FrameLayout>

@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<inset android:drawable="@drawable/bg_popup_dark_blue" android:insetBottom="@dimen/popup_bubble_padding_bottom"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

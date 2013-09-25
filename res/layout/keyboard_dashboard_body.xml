@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyboardView style="@style/Body"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.google.android.apps.inputmethod.libs.framework.keyboard.widget.PageableSoftKeyListHolderView android:id="@id/keyboard_dashboard" android:tag="default_pageable" style="@style/BodyInner" page_layout="@layout/dashboard_page" />
-</com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyboardView>
