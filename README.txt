@@ -1,6 +1,3 @@
-android-googlepinyin-dvorak
-===========================
-
 谷歌拼音輸入法，Dvorak佈局改版
 
 現成APK下載鏈接：
@@ -12,4 +9,4 @@ Nexus 4, Nexus 10已測試過
 
 Web:   http://dheera.net/
 Weibo: http://weibo.com/dheera
-Email: dheera [at] dheera [dot] net<br>
+Email: dheera [at] dheera [dot] net
