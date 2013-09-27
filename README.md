@@ -8,6 +8,7 @@ android-googlepinyin-dvorak
 （需要在Android安全選項中開啓「不明來源」）
 
 Nexus 4, Nexus 10已測試過
-反饋意見和建議請聯絡 dheera [at] dheera [.] net
 
-Dheera Venkatraman  |  http://dheera.net/  |  http://weibo.com/dheera
+Web:   http://dheera.net/
+Weibo: http://weibo.com/dheera
+Email: dheera [at] dheera [dot] net
