@@ -11,4 +11,4 @@ Nexus 4, Nexus 10已測試過
 
 Web:   http://dheera.net/
 Weibo: http://weibo.com/dheera
-Email: dheera [at] dheera [dot] net
+Email: dheera [at] dheera [dot] net<br>
