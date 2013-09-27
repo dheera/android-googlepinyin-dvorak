@@ -11,5 +11,7 @@ Nexus 4, Nexus 10已測試過
 反饋意見和建議請聯絡 dheera [at] dheera [.] net
 
 Dheera Venkatraman
+
 http://dheera.net/
+
 http://weibo.com/dheera
