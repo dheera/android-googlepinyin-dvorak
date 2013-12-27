@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard id="@id/keyboard_zh_cn_pinyin_9key" always_show_header_view="true" class=".keyboard.TabletT9Keyboard" popup="@layout/popup_bubble_9key_underline_on_decode" session_states="SHIFT_LOCK">
+        <header_view layout="@layout/keyboard_9key_header">
+            <softkeys href="@xml/softkeys_header_prime" />
+            <softkeys href="@xml/softkeys_function" />
+            <include href="@xml/keymapping_header_zh_cn_pinyin_9key" />
+        </header_view>
+        <body_view layout="@layout/keyboard_9key_chinese_body">
+            <softkeys id="@id/softkeys_input_symbol" href="@xml/softkeys_9key_symbol_zh_cn_pinyin_tablet" />
+            <softkeys href="@xml/softkeys_input_zh_cn_pinyin_9key" />
+            <softkeys href="@xml/softkeys_punctuation_bottom" />
+            <softkeys href="@xml/softkeys_punctuation_bottom_zh" />
+            <softkeys href="@xml/softkeys_function" />
+            <softkeys href="@xml/softkeys_function_tablet_7" />
+            <softkeys href="@xml/softkeys_function_zh" />
+            <softkeys href="@xml/softkeys_function_zh_tablet_7" />
+            <include href="@xml/keymapping_body_zh_cn_pinyin_9key_tablet" />
+            <keygroup_mapping group_view_id="@id/pageable_view">
+                <keys softkeys_id="@id/softkeys_input_symbol" />
+            </keygroup_mapping>
+        </body_view>
+    </keyboard>
+</framework>

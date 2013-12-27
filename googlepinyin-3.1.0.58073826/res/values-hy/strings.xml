@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ime_name">Google փինյին ներածում</string>
+    <string name="label_subtype_pinyin">Չինարեն փինյին</string>
+    <string name="setting_title">Google փինյին ներածման կարգավորումներ</string>
+</resources>

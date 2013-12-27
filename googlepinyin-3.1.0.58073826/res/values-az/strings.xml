@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ime_name">Google Pinyin Daxiletməsi</string>
+    <string name="label_subtype_pinyin">Çin Pinyin</string>
+    <string name="setting_title">Google Pinyin Daxiletmə ayarları</string>
+</resources>

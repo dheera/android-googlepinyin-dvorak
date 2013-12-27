@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/HeaderInner.Candidates"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.inputmethod.libs.framework.keyboard.widget.FixedSizeCandidatesHolderView android:id="@id/softkey_holder_fixed_candidates" style="@style/CandidateBar" max_candidates_count="@integer/max_candidates_per_row" />
+    <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_show_more_candidates" style="@style/SoftKeyCandidateBarShowMoreCandidate" />
+</FrameLayout>

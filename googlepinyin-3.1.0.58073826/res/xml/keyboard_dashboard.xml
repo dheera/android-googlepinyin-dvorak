@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard id="@id/keyboard_dashboard" always_show_header_view="true" class=".pinyin.keyboard.PinyinDashboard">
+        <header_view layout="@layout/keyboard_dashboard_header">
+            <softkeys href="@xml/softkeys_header_prime" />
+            <softkeys href="@xml/softkeys_function" />
+            <include href="@xml/keymapping_header_dashboard" />
+        </header_view>
+        <body_view layout="@layout/keyboard_dashboard_body" />
+    </keyboard>
+</framework>

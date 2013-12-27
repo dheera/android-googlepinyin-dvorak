@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/softkeys_punctuation_number" />
+    <softkeys>
+        <softkey_template id="@+id/softkey_template_number_and_label" layout="@layout/softkey_phone_number" slide_sensitivity="NORMAL" multi_touch="true">
+            <action type="PRESS" data="$press_data$" keycode="$keycode_press$" intention="COMMIT" />
+            <label location="@id/number" value="$press_data$" />
+            <label location="@id/label" value="$label_data$" />
+        </softkey_template>
+        <softkey_list template_id="@id/softkey_template_number_and_label">
+            <softkey id="@id/softkey_phone_numbers_1" press_data="1" keycode_press="KEYCODE_1" label_data=" " />
+            <softkey id="@id/softkey_phone_numbers_2" press_data="2" keycode_press="KEYCODE_2" label_data="ABC" />
+            <softkey id="@id/softkey_phone_numbers_3" press_data="3" keycode_press="KEYCODE_3" label_data="DEF" />
+            <softkey id="@id/softkey_phone_numbers_4" press_data="4" keycode_press="KEYCODE_4" label_data="GHI" />
+            <softkey id="@id/softkey_phone_numbers_5" press_data="5" keycode_press="KEYCODE_5" label_data="JKL" />
+            <softkey id="@id/softkey_phone_numbers_6" press_data="6" keycode_press="KEYCODE_6" label_data="MNO" />
+            <softkey id="@id/softkey_phone_numbers_7" press_data="7" keycode_press="KEYCODE_7" label_data="PRQS" />
+            <softkey id="@id/softkey_phone_numbers_8" press_data="8" keycode_press="KEYCODE_8" label_data="TUV" />
+            <softkey id="@id/softkey_phone_numbers_9" press_data="9" keycode_press="KEYCODE_9" label_data="WXYZ" />
+        </softkey_list>
+        <softkey id="@id/softkey_phone_numbers_0" layout="@layout/softkey_phone_number_zero_key" slide_sensitivity="NORMAL" popup_timing="ON_GESTURE" multi_touch="true">
+            <action type="PRESS" data="0" keycode="KEYCODE_0" intention="COMMIT" />
+            <action type="LONG_PRESS" data="+" keycode="PLUS" intention="COMMIT" action_on_down="true" />
+            <label location="@id/number" value="0" />
+            <label location="@id/label" value="+" />
+        </softkey>
+        <softkey_template id="@+id/softkey_template_light_label" layout="@layout/softkey_label_medium" slide_sensitivity="NORMAL" multi_touch="true">
+            <action type="PRESS" data="$press_data$" keycode="$keycode$" />
+            <label location="@id/label" value="$press_data$" />
+        </softkey_template>
+        <softkey_list template_id="@id/softkey_template_light_label">
+            <softkey id="@id/softkey_phone_numbers_left_bracket" press_data="(" keycode="PLAIN_TEXT" />
+            <softkey id="@id/softkey_phone_numbers_slash" press_data="/" keycode="SLASH" />
+            <softkey id="@id/softkey_phone_numbers_right_bracket" press_data=")" keycode="PLAIN_TEXT" />
+            <softkey id="@id/softkey_phone_numbers_n" press_data="N" keycode="PLAIN_TEXT" />
+            <softkey id="@id/softkey_phone_numbers_asterisk" press_data="*" keycode="STAR" />
+            <softkey id="@id/softkey_phone_numbers_pound" press_data="\#" keycode="POUND" />
+            <softkey id="@id/softkey_phone_numbers_minus" press_data="-" keycode="MINUS" />
+            <softkey id="@id/softkey_phone_numbers_add" press_data="+" keycode="PLUS" />
+        </softkey_list>
+        <softkey id="@id/softkey_phone_numbers_pause" layout="@layout/softkey_label_medium" slide_sensitivity="NORMAL" multi_touch="true">
+            <action type="PRESS" data="," keycode="COMMA" popup_label="," />
+            <label location="@id/label" value="@string/label_pause_key" />
+        </softkey>
+        <softkey id="@id/softkey_phone_numbers_wait" layout="@layout/softkey_label_medium" slide_sensitivity="NORMAL" multi_touch="true">
+            <action type="PRESS" data=";" keycode="SEMICOLON" popup_label=";" />
+            <label location="@id/label" value="@string/label_wait_key" />
+        </softkey>
+        <softkey id="@id/softkey_phone_numbers_symbols" layout="@layout/softkey_label_medium" content_description="@string/symbol_keyboard_key_content_desc">
+            <action type="PRESS" keycode="LOCK_SHIFT" />
+            <label location="@id/label" value="* #" />
+        </softkey>
+        <softkey id="@id/softkey_phone_numbers_123" layout="@layout/softkey_label_medium" content_description="@string/phone_keyboard_key_content_desc">
+            <action type="PRESS" keycode="UNLOCK_SHIFT" />
+            <label location="@id/label" value="123" />
+        </softkey>
+    </softkeys>
+</framework>

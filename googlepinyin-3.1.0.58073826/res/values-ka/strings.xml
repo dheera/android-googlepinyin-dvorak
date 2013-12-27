@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ime_name">Google პინ-ინი შეყვანა</string>
+    <string name="label_subtype_pinyin">ჩინური პინ-ინი</string>
+    <string name="setting_title">Google პინ-ინი შეყვანის პარამეტრები</string>
+</resources>

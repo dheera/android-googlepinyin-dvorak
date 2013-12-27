@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template id="@+id/softkey_template_symbol" layout="@layout/softkey_label_darkkey_medium" slide_sensitivity="NORMAL" multi_touch="true" content_description="$desc$">
+            <action type="PRESS" keycode="$param_keycode$" data="$param_data$" />
+            <label location="@id/label" value="$param_data$" />
+        </softkey_template>
+        <softkey_list template_id="@id/softkey_template_symbol">
+            <softkey id="@id/softkey_colon" param_keycode="PLAIN_TEXT" param_data=":" />
+            <softkey id="@id/softkey_slash" param_keycode="SLASH" param_data="/" />
+            <softkey id="@id/softkey_plus" param_keycode="PLUS" param_data="+" />
+            <softkey id="@id/softkey_comma" param_keycode="COMMA" param_data="," />
+            <softkey id="@id/softkey_minus" param_keycode="MINUS" param_data="-" desc="@string/minus_key_content_desc" />
+            <softkey id="@id/softkey_period" param_keycode="PERIOD" param_data="." />
+            <softkey id="@id/softkey_star" param_keycode="STAR" param_data="*" />
+            <softkey id="@id/softkey_pound" param_keycode="POUND" param_data="\#" />
+        </softkey_list>
+    </softkeys>
+</framework>

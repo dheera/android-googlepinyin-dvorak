@@ -1,0 +1,13 @@
+version: 1.5.2
+apkFileName: googlepinyin-3.1.0.58073826.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '10'
+  targetSdkVersion: '17'
+packageInfo:
+  cur_package: com.google.android.apps.inputmethod.pinyin
+  orig_package: com.google.android.inputmethod.pinyin
+compressionType: false

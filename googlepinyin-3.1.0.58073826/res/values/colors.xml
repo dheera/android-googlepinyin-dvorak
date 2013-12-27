@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gf_header_background">#ff828282</color>
+    <color name="gf_shadow">#cc222222</color>
+    <color name="gf_foreground_content">#ffffffff</color>
+    <color name="ColorLabelDarkTheme">#ffffffff</color>
+    <color name="ColorLabelLightTheme">#ff333333</color>
+    <color name="ColorLabelSecondaryDarkTheme">#ff111111</color>
+    <color name="ColorLabelSecondaryLightTheme">#ff777777</color>
+    <color name="ColorLabelQwertySecondaryRow3DarkTheme">#ff000000</color>
+    <color name="ColorLabelQwertySecondaryRow3LightTheme">#ff777777</color>
+    <color name="ColorLabelNonPrimeHeaderActiveDarkTheme">#ffffffff</color>
+    <color name="ColorLabelNonPrimeHeaderDeactiveDarkTheme">#ff808080</color>
+    <color name="ColorLabelNonPrimeHeaderActiveLightTheme">#ff333333</color>
+    <color name="ColorLabelNonPrimeHeaderDeactiveLightTheme">#ffaaaaaa</color>
+    <color name="ColorLabelComposingTextDarkTheme">#ff000000</color>
+    <color name="ColorLabelComposingTextLightTheme">#ffffffff</color>
+    <color name="Color9KeyLeftPanelTopLineDarkTheme">#ff434343</color>
+    <color name="Color9KeyLeftPanelTopLineLightTheme">#ffaaaaaa</color>
+    <color name="ColorLabelSupDarkDarkTheme">#ff111111</color>
+    <color name="ColorLabelSupDarkLightTheme">#ff777777</color>
+    <color name="ColorLabelSupLightDarkTheme">#ffffffff</color>
+    <color name="ColorLabelSupLightLightTheme">#ff777777</color>
+    <color name="inline_composing_text_determined_syllable">#8833b5e5</color>
+    <color name="inline_composing_text_undecoded">#77ff4444</color>
+    <color name="inline_composing_text_correction">#ff777777</color>
+    <color name="ColorHandwritingStrokeDarkTheme">#ffffffff</color>
+    <color name="ColorHandwritingStrokeLightTheme">#ff222222</color>
+    <color name="ColorHandwrtingBackgroundRectLineDarkTheme">#ff606060</color>
+    <color name="ColorHandwrtingBackgroundRectLineLightTheme">#ffdddddd</color>
+    <color name="ColorGestureTrackDarkTheme">#ff33b5e5</color>
+    <color name="ColorGestureTrackLightTheme">#ff33b5e5</color>
+    <color name="candidate_highlighted">#ff46d6fc</color>
+</resources>

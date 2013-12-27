@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime string_id="en_hard_qwerty" class="com.google.android.apps.inputmethod.libs.framework.ime.legacy.latin.LatinQwertyIme" language="en" auto_capital="true" show_candidates_ordinal="true" label="@string/english_hard_qwerty_ime_label">
+        <keyboard_group prime_keyboard_type="HARD_QWERTY">
+            <keyboard type="prime" def="@xml/keyboard_en_hard_qwerty" />
+            <keyboard type="digit" def="@xml/keyboard_non_prime_digit" />
+            <keyboard type="symbol" def="@xml/keyboard_non_prime_symbol" />
+            <keyboard type="smiley" def="@xml/keyboard_non_prime_smiley" />
+            <keyboard type="web" def="@xml/keyboard_non_prime_web" />
+        </keyboard_group>
+    </ime>
+</framework>

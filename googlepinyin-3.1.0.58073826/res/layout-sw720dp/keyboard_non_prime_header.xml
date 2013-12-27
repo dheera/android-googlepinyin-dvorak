@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyboardView style="@style/Header"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" style="@style/HeaderInner.NonPrime"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_header_non_prime_1" style="@style/HeaderTab.NonPrime" />
+        <ImageView style="@style/HeaderSeparator" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_header_non_prime_3" style="@style/HeaderTab.NonPrime" />
+        <ImageView style="@style/HeaderSeparator" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_header_non_prime_4" style="@style/HeaderTab.NonPrime" />
+        <ImageView style="@style/HeaderSeparator" />
+    </LinearLayout>
+</com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyboardView>

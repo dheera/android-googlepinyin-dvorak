@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/setting_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/setting_input">
+        <intent android:action="com.google.android.inputmethod.pinyin.LAUNCH_SETTINGS">
+            <extra android:name="PREFERENCE_FRAGMENT" android:value="setting_input_legacy" />
+        </intent>
+    </Preference>
+    <Preference android:title="@string/setting_keyboard">
+        <intent android:action="com.google.android.inputmethod.pinyin.LAUNCH_SETTINGS">
+            <extra android:name="PREFERENCE_FRAGMENT" android:value="setting_keyboard" />
+        </intent>
+    </Preference>
+    <Preference android:title="@string/setting_handwriting_input">
+        <intent android:action="com.google.android.inputmethod.pinyin.LAUNCH_SETTINGS">
+            <extra android:name="PREFERENCE_FRAGMENT" android:value="setting_handwriting_input" />
+        </intent>
+    </Preference>
+    <Preference android:title="@string/setting_dictionary">
+        <intent android:action="com.google.android.inputmethod.pinyin.DICTIONARY_SETTINGS" />
+    </Preference>
+    <Preference android:title="@string/setting_other_category_title">
+        <intent android:action="com.google.android.inputmethod.pinyin.LAUNCH_SETTINGS">
+            <extra android:name="PREFERENCE_FRAGMENT" android:value="setting_other" />
+        </intent>
+    </Preference>
+    <Preference android:title="@string/setting_send_feedback_title">
+        <intent android:action="com.google.android.inputmethod.pinyin.USER_FEEDBACK" />
+    </Preference>
+    <Preference android:title="@string/setting_tutorial_title">
+        <intent android:action="com.google.android.inputmethod.pinyin.FIRST_RUN" />
+    </Preference>
+    <Preference android:title="@string/setting_about_title">
+        <intent android:action="com.google.android.inputmethod.pinyin.LAUNCH_SETTINGS">
+            <extra android:name="PREFERENCE_FRAGMENT" android:value="setting_about" />
+        </intent>
+    </Preference>
+</PreferenceScreen>

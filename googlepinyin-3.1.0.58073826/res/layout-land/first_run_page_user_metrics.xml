@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/TutorialPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/TutorialHeader">
+        <include layout="@layout/first_run_page_header" />
+    </LinearLayout>
+    <LinearLayout style="@style/TutorialContent.Landscape">
+        <LinearLayout style="@style/TutorialLandscapeSubContent">
+            <TextView android:text="@string/tutorial_congratulations" style="@style/TutorialTitle" />
+        </LinearLayout>
+        <LinearLayout style="@style/TutorialLandscapeSubContent">
+            <TextView android:text="@string/user_metrics_hint" style="@style/TutorialHint" />
+            <com.google.android.apps.inputmethod.libs.framework.firstrun.PreferenceCheckBox android:id="@id/user_metrics_check_box" android:text="@string/user_metrics_accept" style="@style/TutorialCheckBox" pref_key="@string/pref_key_enable_user_metrics" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

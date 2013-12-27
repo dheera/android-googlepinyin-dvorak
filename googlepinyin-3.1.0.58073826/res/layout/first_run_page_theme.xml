@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.framework.firstrun.FirstRunThemePage style="@style/TutorialPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/TutorialHeader">
+        <include layout="@layout/first_run_page_header" />
+    </LinearLayout>
+    <LinearLayout style="@style/TutorialContent.Portrait">
+        <TextView android:text="@string/tutorial_theme_title" style="@style/TutorialTitle" />
+        <ImageView android:id="@id/tutorial_dark_theme_image_view" android:src="@drawable/tutorial_page_dark_theme" style="@style/TutorialPageImage.Theme" />
+        <ImageView android:id="@id/tutorial_light_theme_image_view" android:src="@drawable/tutorial_page_light_theme" style="@style/TutorialPageImage.Theme" />
+    </LinearLayout>
+</com.google.android.apps.inputmethod.libs.framework.firstrun.FirstRunThemePage>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/keymapping_bottom_zh_cn_pinyin_qwerty" />
+    <key_mapping state="MORE_CANDIDATES_SHOWN">
+        <mapping view_id="@id/key_pos_switch_to_symbol" key_id="@id/softkey_turn_on_single_character_candidate" />
+    </key_mapping>
+    <key_mapping state="MORE_CANDIDATES_SHOWN+SINGLE_CHARACTER_CANDIDATE">
+        <mapping view_id="@id/key_pos_switch_to_symbol" key_id="@id/softkey_turn_off_single_character_candidate" />
+    </key_mapping>
+</framework>

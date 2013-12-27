@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey id="@id/softkey_enable_simplified_input" layout="@layout/softkey_label_darkkey_small_center_icon_bottom" multi_touch="false" content_description="@string/simplified_chinese_input_key_content_desc">
+            <action type="PRESS" keycode="KEYBOARD_STATE_ON" data="ENABLE_SC_TC_CONVERSION" />
+            <label location="@id/label" value="@string/label_smplified_input" />
+            <icon location="@id/icon_bottom" value="@attr/IconBarUnlock" />
+        </softkey>
+        <softkey id="@id/softkey_disable_simplified_input" layout="@layout/softkey_label_darkkey_small_center_icon_bottom" multi_touch="false" content_description="@string/traditional_chinese_input_key_content_desc">
+            <action type="PRESS" keycode="KEYBOARD_STATE_OFF" data="ENABLE_SC_TC_CONVERSION" />
+            <label location="@id/label" value="@string/label_smplified_input" />
+            <icon location="@id/icon_bottom" value="@attr/IconBarGreen" />
+        </softkey>
+        <softkey id="@id/softkey_9key_space_zh_shifted" layout="@layout/softkey_label_small_grey_label_sup_light" popup_timing="ON_GESTURE" multi_touch="true" content_description="0">
+            <action type="PRESS" keycode="KEYCODE_0" data="0" intention="COMMIT" />
+            <label location="@id/label" value="@string/label_space_number" />
+            <label location="@id/label_sup" value="0" />
+        </softkey>
+    </softkeys>
+</framework>

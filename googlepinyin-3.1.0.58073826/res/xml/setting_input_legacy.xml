@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/setting_input"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/setting_chinese_input">
+        <CheckBoxPreference android:persistent="true" android:title="@string/setting_tradition_title" android:key="@string/pref_key_enable_sc_tc_conversion" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/setting_chinese_english_mixed_input_title" android:key="@string/pref_key_chinese_english_mixed_input" android:summary="@string/setting_chinese_english_mixed_input_summary" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/setting_chinese_intelligent_correction_title" android:key="@string/pref_key_enable_spatial_model" android:summary="@string/setting_chinese_intelligent_correction_summary" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/setting_gesture_input_title" android:key="@string/pref_key_enable_gesture_input" android:summary="@string/setting_gesture_input_summary" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/setting_gesture_input_preview_title" android:key="@string/pref_key_enable_incremental_gesture_input" android:summary="@string/setting_gesture_input_preview_summary" android:dependency="@string/pref_key_enable_gesture_input" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/setting_gesture_auto_commit_title" android:key="@string/pref_key_enable_gesture_auto_commit" android:summary="@string/setting_gesture_auto_commit_summary" android:dependency="@string/pref_key_enable_gesture_input" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/setting_prediction_chinese_title" android:key="@string/pref_key_chinese_prediction" android:summary="@string/setting_prediction_chinese_summary" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/setting_fuzzy_pinyin_title" android:key="@string/pref_key_fuzzy_pinyin" />
+        <Preference android:title="@string/setting_fuzzy_pinyin_detail_title" android:dependency="@string/pref_key_fuzzy_pinyin">
+            <intent android:action="com.google.android.inputmethod.pinyin.LAUNCH_SETTINGS">
+                <extra android:name="PREFERENCE_FRAGMENT" android:value="setting_fuzzy_pinyin" />
+            </intent>
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/setting_english_input">
+        <CheckBoxPreference android:persistent="true" android:title="@string/setting_auto_completion_english_title" android:key="@string/pref_key_english_prediction" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/setting_spell_correction_title" android:key="@string/pref_key_spell_correction" android:summary="@string/setting_spell_correction_summary" android:dependency="@string/pref_key_english_prediction" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/setting_auto_capitalization_title" android:key="@string/pref_key_auto_capitalization" android:summary="@string/setting_auto_capitalization_summary" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/setting_auto_space_smart_punctuation_title" android:key="@string/pref_key_auto_space_smart_punctuation" android:summary="@string/setting_auto_space_smart_punctuation_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

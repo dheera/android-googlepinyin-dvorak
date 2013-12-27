@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_weight="@integer/keyboard_handwriting_right_column_weight" style="@style/Linear.WidthWeighted.Vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_del" style="@style/SoftKey.Dark.InColumn" />
+    <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_ime_action" style="@style/SoftKey.Dark.InColumn" />
+    <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_space" style="@style/SoftKey.Dark.InColumn" />
+    <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_switch_to_smiley" style="@style/SoftKey.Dark.InColumn" />
+</LinearLayout>

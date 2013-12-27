@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/setting_other_category_title" android:key="@string/settings_other_category_key"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:persistent="true" android:title="@string/setting_user_metrics_title" android:key="@string/pref_key_enable_user_metrics" />
+    <CheckBoxPreference android:persistent="true" android:title="@string/setting_handwriting_feedback_title" android:key="@string/pref_key_enable_handwriting_feedback" />
+    <CheckBoxPreference android:persistent="true" android:title="@string/setting_show_launcher_icon_title" android:key="@string/pref_key_show_launcher_icon" android:summary="@string/setting_show_launcher_icon_summary" />
+</PreferenceScreen>

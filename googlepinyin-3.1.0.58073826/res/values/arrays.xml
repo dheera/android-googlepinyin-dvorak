@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_key_long_press_delay">
+        <item>100ms</item>
+        <item>200ms</item>
+        <item>300ms</item>
+        <item>400ms</item>
+        <item>500ms</item>
+        <item>600ms</item>
+        <item>700ms</item>
+    </string-array>
+    <string-array name="entryvalues_vibration_duration_on_keypress">
+        <item>5</item>
+        <item>16</item>
+        <item>24</item>
+        <item>36</item>
+        <item>54</item>
+    </string-array>
+    <string-array name="pref_def_value_per_device_vibration_duration_on_keypress">
+        <item>herring,5</item>
+        <item>tuna,5</item>
+        <item>mako,5</item>
+        <item>manta,16</item>
+    </string-array>
+    <string-array name="entryvalues_keyboard_slide_sensitivity_ratio">
+        <item>3.0</item>
+        <item>1.5</item>
+        <item>1.0</item>
+        <item>0.8</item>
+        <item>0.5</item>
+    </string-array>
+    <string-array name="entryvalues_keyboard_height_ratio">
+        <item>0.9</item>
+        <item>0.95</item>
+        <item>1.0</item>
+        <item>1.05</item>
+        <item>1.1</item>
+    </string-array>
+    <string-array name="entryvalues_key_long_press_delay">
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+        <item>600</item>
+        <item>700</item>
+    </string-array>
+    <string-array name="entryvalues_keyboard_theme">
+        <item>@string/pref_entry_keyboard_dark_theme</item>
+        <item>@string/pref_entry_keyboard_light_theme</item>
+    </string-array>
+    <array name="preferences_default_values">
+        <item>@string/pref_key_english_prediction</item>
+        <item>@bool/pref_def_value_english_prediction</item>
+        <item>@string/pref_key_spell_correction</item>
+        <item>@bool/pref_def_value_spell_correction</item>
+        <item>@string/pref_key_auto_capitalization</item>
+        <item>@bool/pref_def_value_auto_capitalization</item>
+        <item>@string/pref_key_auto_space_smart_punctuation</item>
+        <item>@bool/pref_def_value_auto_space_smart_punctuation</item>
+        <item>@string/pref_key_enable_user_metrics</item>
+        <item>@bool/pref_def_value_enable_user_metrics</item>
+        <item>@string/pref_key_enable_sound_on_keypress</item>
+        <item>@bool/pref_def_value_enable_sound_on_keypress</item>
+        <item>@string/pref_key_sound_volume_on_keypress</item>
+        <item>@fraction/pref_def_value_sound_volume_on_keypress</item>
+        <item>@string/pref_key_enable_vibrate_on_keypress</item>
+        <item>@bool/pref_def_value_enable_vibrate_on_keypress</item>
+        <item>@string/pref_key_enable_popup_on_keypress</item>
+        <item>@bool/pref_def_value_enable_popup_on_keypress</item>
+        <item>@string/pref_key_vibration_duration_on_keypress</item>
+        <item>@array/pref_def_value_per_device_vibration_duration_on_keypress</item>
+        <item>@string/pref_key_vibration_duration_on_keypress</item>
+        <item>@string/pref_def_value_vibration_duration_on_keypress</item>
+        <item>@string/pref_key_enable_voice_input</item>
+        <item>@bool/pref_def_value_enable_voice_input</item>
+        <item>@string/pref_key_keyboard_slide_sensitivity_ratio</item>
+        <item>@string/pref_def_value_keyboard_slide_sensitivity_ratio</item>
+        <item>@string/pref_key_keyboard_height_ratio</item>
+        <item>@string/pref_def_value_keyboard_height_ratio</item>
+        <item>@string/pref_key_enable_spatial_model</item>
+        <item>@bool/pref_def_value_enable_spatial_model</item>
+        <item>@string/pref_key_import_user_contacts</item>
+        <item>@bool/pref_def_value_import_user_contacts</item>
+        <item>@string/pref_key_enable_sync_user_dictionary</item>
+        <item>@bool/pref_def_value_enable_sync_user_dictionary</item>
+        <item>@string/pref_key_sync_user_dictionary_credentials_valid</item>
+        <item>@bool/pref_def_value_sync_user_dictionary_credentials_valid</item>
+        <item>@string/pref_key_show_language_switch_key</item>
+        <item>@bool/pref_def_value_show_language_switch_key</item>
+        <item>@string/pref_key_switch_to_other_imes</item>
+        <item>@bool/pref_def_value_switch_to_other_imes</item>
+        <item>@string/pref_key_key_long_press_delay</item>
+        <item>@string/pref_def_value_key_long_press_delay</item>
+        <item>@string/pref_key_keyboard_theme</item>
+        <item>@string/pref_def_value_keyboard_theme</item>
+        <item>@string/pref_key_non_prime_keyboard_states</item>
+        <item>@integer/pref_def_value_non_prime_keyboard_states</item>
+    </array>
+    <string-array name="entries_vibration_strength_on_keypress">
+        <item>@string/vibration_weak</item>
+        <item>@string/vibration_midweak</item>
+        <item>@string/vibration_normal</item>
+        <item>@string/vibration_midstrong</item>
+        <item>@string/vibration_strong</item>
+    </string-array>
+    <string-array name="entries_keyboard_slide_sensitivity_ratio">
+        <item>@string/kb_slide_low</item>
+        <item>@string/kb_slide_midlow</item>
+        <item>@string/kb_slide_normal</item>
+        <item>@string/kb_slide_midhigh</item>
+        <item>@string/kb_slide_high</item>
+    </string-array>
+    <string-array name="entries_keyboard_height_ratio">
+        <item>@string/kb_height_short</item>
+        <item>@string/kb_height_midshort</item>
+        <item>@string/kb_height_normal</item>
+        <item>@string/kb_height_midtall</item>
+        <item>@string/kb_height_tall</item>
+    </string-array>
+    <string-array name="entries_keyboard_theme">
+        <item>@string/kb_theme_dark</item>
+        <item>@string/kb_theme_light</item>
+    </string-array>
+    <string-array name="dark_theme">
+        <item>@style/DarkTheme</item>
+    </string-array>
+    <string-array name="light_theme">
+        <item>@style/LightTheme</item>
+    </string-array>
+    <array name="pref_framework_theme">
+        <item>@string/pref_entry_keyboard_dark_theme</item>
+        <item>@array/dark_theme</item>
+        <item>@string/pref_entry_keyboard_light_theme</item>
+        <item>@array/light_theme</item>
+    </array>
+    <string-array name="entryvalues_handwriting_timeout_ms">
+        <item>1300</item>
+        <item>800</item>
+        <item>500</item>
+        <item>300</item>
+        <item>200</item>
+    </string-array>
+    <string-array name="entryvalues_handwriting_stroke_width_scale">
+        <item>0.6</item>
+        <item>0.8</item>
+        <item>1.0</item>
+        <item>1.2</item>
+        <item>1.5</item>
+    </string-array>
+    <string-array name="preferences_handwriting_default_values">
+        <item>@string/pref_key_handwriting_timeout_ms</item>
+        <item>@string/pref_def_value_handwriting_timeout_ms</item>
+        <item>@string/pref_key_handwriting_stroke_width_scale</item>
+        <item>@string/pref_def_value_handwriting_stroke_width_scale</item>
+        <item>@string/pref_key_enable_handwriting_feedback</item>
+        <item>@bool/pref_def_value_enable_handwriting_feedback</item>
+    </string-array>
+    <string-array name="entries_handwriting_timeout_ms">
+        <item>@string/handwriting_speed_slow</item>
+        <item>@string/handwriting_speed_midslow</item>
+        <item>@string/handwriting_speed_normal</item>
+        <item>@string/handwriting_speed_midfast</item>
+        <item>@string/handwriting_speed_fast</item>
+    </string-array>
+    <string-array name="entries_handwriting_stroke_width_scale">
+        <item>@string/handwriting_stroke_thin</item>
+        <item>@string/handwriting_stroke_midthin</item>
+        <item>@string/handwriting_stroke_normal</item>
+        <item>@string/handwriting_stroke_midthick</item>
+        <item>@string/handwriting_stroke_thick</item>
+    </string-array>
+    <array name="preferences_gesture_default_values">
+        <item>@string/pref_key_enable_incremental_gesture_input</item>
+        <item>@bool/pref_def_value_enable_incremental_gesture_input</item>
+        <item>@string/pref_key_enable_gesture_input</item>
+        <item>@bool/pref_def_value_enable_gesture_input</item>
+        <item>@string/pref_key_enable_gesture_auto_commit</item>
+        <item>@bool/pref_def_value_enable_gesture_auto_commit</item>
+    </array>
+    <array name="preferences_chinese_default_values">
+        <item>@string/pref_key_chinese_prediction</item>
+        <item>@bool/pref_def_value_chinese_prediction</item>
+        <item>@string/pref_key_show_canonical_romanization</item>
+        <item>@bool/pref_def_value_show_canonical_romanization</item>
+        <item>@string/pref_key_enable_sc_tc_conversion</item>
+        <item>@bool/pref_def_value_enable_sc_tc_conversion</item>
+    </array>
+    <array name="preferences_pinyin_default_values">
+        <item>@string/pref_key_chinese_english_mixed_input</item>
+        <item>@bool/pref_def_value_chinese_english_mixed_input</item>
+        <item>@string/pref_key_enable_dictionary_update</item>
+        <item>@bool/pref_def_value_enable_dictionary_update</item>
+        <item>@string/pref_key_enable_notify_dictionary_update</item>
+        <item>@bool/pref_def_value_enable_notify_dictionary_update</item>
+        <item>@string/pref_key_fuzzy_pinyin</item>
+        <item>@bool/pref_def_value_fuzzy_pinyin</item>
+        <item>@string/pref_key_fuzzy_pinyin_z_zh</item>
+        <item>@bool/pref_def_value_fuzzy_pinyin_z_zh</item>
+        <item>@string/pref_key_fuzzy_pinyin_c_ch</item>
+        <item>@bool/pref_def_value_fuzzy_pinyin_c_ch</item>
+        <item>@string/pref_key_fuzzy_pinyin_s_sh</item>
+        <item>@bool/pref_def_value_fuzzy_pinyin_s_sh</item>
+        <item>@string/pref_key_fuzzy_pinyin_an_ang</item>
+        <item>@bool/pref_def_value_fuzzy_pinyin_an_ang</item>
+        <item>@string/pref_key_fuzzy_pinyin_en_eng</item>
+        <item>@bool/pref_def_value_fuzzy_pinyin_en_eng</item>
+        <item>@string/pref_key_fuzzy_pinyin_in_ing</item>
+        <item>@bool/pref_def_value_fuzzy_pinyin_in_ing</item>
+        <item>@string/pref_key_fuzzy_pinyin_l_n</item>
+        <item>@bool/pref_def_value_fuzzy_pinyin_l_n</item>
+        <item>@string/pref_key_fuzzy_pinyin_f_h</item>
+        <item>@bool/pref_def_value_fuzzy_pinyin_f_h</item>
+        <item>@string/pref_key_fuzzy_pinyin_r_l</item>
+        <item>@bool/pref_def_value_fuzzy_pinyin_r_l</item>
+        <item>@string/pref_key_fuzzy_pinyin_k_g</item>
+        <item>@bool/pref_def_value_fuzzy_pinyin_k_g</item>
+        <item>@string/pref_key_fuzzy_pinyin_ian_iang</item>
+        <item>@bool/pref_def_value_fuzzy_pinyin_ian_iang</item>
+        <item>@string/pref_key_fuzzy_pinyin_uan_uang</item>
+        <item>@bool/pref_def_value_fuzzy_pinyin_uan_uang</item>
+    </array>
+    <array name="pinyin_dark_theme">
+        <item>@style/HandwritingDarkTheme</item>
+        <item>@style/GestureDarkTheme</item>
+        <item>@style/StrokeDarkTheme</item>
+        <item>@style/PinyinDarkTheme</item>
+    </array>
+    <array name="pinyin_light_theme">
+        <item>@style/HandwritingLightTheme</item>
+        <item>@style/GestureLightTheme</item>
+        <item>@style/StrokeLightTheme</item>
+        <item>@style/PinyinLightTheme</item>
+    </array>
+    <array name="pref_pinyin_theme">
+        <item>@string/pref_entry_keyboard_dark_theme</item>
+        <item>@array/pinyin_dark_theme</item>
+        <item>@string/pref_entry_keyboard_light_theme</item>
+        <item>@array/pinyin_light_theme</item>
+    </array>
+    <array name="tutorial_pages">
+        <item>@layout/first_run_page_theme</item>
+        <item>@layout/first_run_page_gesture</item>
+        <item>@layout/first_run_page_activation</item>
+        <item>@layout/first_run_page_user_metrics</item>
+    </array>
+    <string-array name="activation_page">
+        <item>@layout/first_run_page_activation</item>
+    </string-array>
+</resources>

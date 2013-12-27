@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ime_name">ເຄື່ອງມືປ້ອນພາສາພິນອິນຂອງ Google</string>
+    <string name="label_subtype_pinyin">ພາສາຈີນພິນອິນ</string>
+    <string name="setting_title">ຕັ້ງຄ່າການປ້ອນພາສາພິນອິນຂອງ Google</string>
+</resources>
