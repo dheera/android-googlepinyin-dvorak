@@ -1,7 +1,7 @@
 谷歌拼音輸入法，Dvorak佈局改版
 
 現成APK下載鏈接：
-http://dheera.net/pub/android-googlepinyin-dvorak/googlepinyin-3.0.2.51394730.dvorak.apk
+http://dheera.net/pub/android-googlepinyin-dvorak/googlepinyin-3.1.0.58073826.dvorak.apk
 
 （需要在Android安全選項中開啓「不明來源」）
 
