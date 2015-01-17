@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime string_id="date_time_floating_hard_qwerty" class="com.google.android.apps.inputmethod.libs.framework.core.DummyIme" language="und-Latn-x-date-time" label="@string/physical_keyboard_ime_label" status_icon="@drawable/ic_number_status_icon" prime_keyboard_type="HARD_QWERTY">
+        <keyboard_group>
+            <keyboard type="prime" def="@xml/keyboard_dummy" />
+        </keyboard_group>
+    </ime>
+</framework>

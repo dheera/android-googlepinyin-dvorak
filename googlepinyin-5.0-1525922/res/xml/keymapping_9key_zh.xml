@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/keymapping_9key" />
+    <key_mapping state="SHUANGPIN_MS_ZIGUANG">
+        <mapping view_id="@id/key_pos_9key_1" key_id="@id/softkey_9key_semicolon_in_shuangpin" />
+    </key_mapping>
+    <key_mapping state="SHIFT">
+        <mapping view_id="@id/key_pos_9key_1" key_id="@id/softkey_9key_up_1" />
+    </key_mapping>
+</framework>

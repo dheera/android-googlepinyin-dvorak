@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#00000000" />
+        </shape>
+    </item>
+    <item android:top="@dimen/keyboard_body_padding_top" android:bottom="@dimen/more_candidates_left_panel_padding_bottom">
+        <shape android:shape="rectangle">
+            <solid android:color="#1a37474f" />
+        </shape>
+    </item>
+    <item android:right="1.0dip">
+        <shape android:shape="rectangle">
+            <solid android:color="#ffe4e7e9" />
+        </shape>
+    </item>
+</layer-list>

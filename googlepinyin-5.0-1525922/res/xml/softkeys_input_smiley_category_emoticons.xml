@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkey_list template_id="@id/softkey_template_light_emoticon">
+        <softkey param_data=":)" />
+        <softkey param_data=";-)" />
+        <softkey param_data=":-D" />
+        <softkey param_data=":P" />
+        <softkey param_data=":-(" />
+        <softkey param_data=":'(" />
+        <softkey param_data=":-)" />
+        <softkey param_data=":-*" />
+        <softkey param_data=":-$" />
+        <softkey param_data=":-\\" />
+        <softkey param_data=":-[" />
+        <softkey param_data=":-!" />
+        <softkey param_data=":S" />
+        <softkey param_data=":O" />
+        <softkey param_data=":-O" />
+        <softkey param_data="B-)" />
+        <softkey param_data="o_O" />
+        <softkey param_data="O_o" />
+        <softkey param_data="^O^" />
+        <softkey param_data="-.-" />
+        <softkey param_data="^_^" />
+        <softkey param_data="^﹏^" />
+        <softkey param_data="^m^" />
+        <softkey param_data="^/^" />
+        <softkey param_data="~_~" />
+        <softkey param_data="-_-" />
+        <softkey param_data="-_-||" />
+        <softkey param_data=">_&lt;" />
+        <softkey param_data=">&lt;" />
+        <softkey param_data=">﹏&lt;" />
+        <softkey param_data="\#_#" />
+        <softkey param_data="*-*" />
+        <softkey param_data="(^^)" />
+        <softkey param_data="(^_^)" />
+        <softkey param_data="(^.^)" />
+        <softkey param_data="(';')" />
+        <softkey param_data="(^!^)" />
+        <softkey param_data="(^J^)" />
+        <softkey param_data="(^m^)" />
+        <softkey param_data="(^'^)" />
+        <softkey param_data="(^_-)" />
+        <softkey param_data="(^O^)" />
+        <softkey param_data="(^o^)" />
+        <softkey param_data="(^q^)" />
+        <softkey param_data="(^○^)" />
+        <softkey param_data="(^O^;)" />
+        <softkey param_data="(^m^;)" />
+        <softkey param_data="(^Q^)" />
+        <softkey param_data="('∀')" />
+        <softkey param_data="!(^^)!" />
+        <softkey param_data="T_T" />
+        <softkey param_data="(ToT)" />
+        <softkey param_data="(T_T)" />
+        <softkey param_data="\@_@" />
+        <softkey param_data="=.=" />
+        <softkey param_data="=.=!" />
+        <softkey param_data="=_=" />
+        <softkey param_data="╰_╯" />
+        <softkey param_data="-_-z" />
+        <softkey param_data="^_-" />
+        <softkey param_data="囧rz" />
+        <softkey param_data="Orz" />
+        <softkey param_data="→_→" />
+        <softkey param_data="←_←" />
+        <softkey param_data="≧◇≦" />
+        <softkey param_data="(x_x)" />
+        <softkey param_data="('o')" />
+        <softkey param_data="('ェ')" />
+        <softkey param_data="(?_?)" />
+        <softkey param_data="('θ')" />
+        <softkey param_data="(*_*)" />
+        <softkey param_data="(@@)" />
+        <softkey param_data="⊙▽⊙" span="@dimen/smiley_wide_span" />
+        <softkey param_data="⊙△⊙" span="@dimen/smiley_wide_span" />
+        <softkey param_data="⊙_⊙" span="@dimen/smiley_wide_span" />
+        <softkey param_data="⊙﹏⊙" span="@dimen/smiley_wide_span" />
+        <softkey param_data="◑﹏◐" span="@dimen/smiley_wide_span" />
+        <softkey param_data="◑︿◐" span="@dimen/smiley_wide_span" />
+        <softkey param_data="◑__◐" span="@dimen/smiley_wide_span" />
+        <softkey param_data="∩__∩" span="@dimen/smiley_wide_span" />
+        <softkey param_data="∩﹏∩" span="@dimen/smiley_wide_span" />
+        <softkey param_data="（ˇˍˇ）" span="@dimen/smiley_wide_span" />
+        <softkey param_data="('▽'〃)" span="@dimen/smiley_wide_span" />
+        <softkey param_data="('0ノ'*)" span="@dimen/smiley_wide_span" />
+        <softkey param_data="(^_^;)" span="@dimen/smiley_wide_span" />
+        <softkey param_data="(@_@)" span="@dimen/smiley_wide_span" />
+        <softkey param_data="(*^^*)" span="@dimen/smiley_wide_span" />
+        <softkey param_data="('・ω・')" span="@dimen/smiley_wider_span" />
+        <softkey param_data="(=θωθ=)" span="@dimen/smiley_wider_span" />
+        <softkey param_data="（°ο°）" span="@dimen/smiley_wider_span" />
+        <softkey param_data="^(oo)^" span="@dimen/smiley_wider_span" />
+        <softkey param_data="(#^.^#)" span="@dimen/smiley_wider_span" />
+        <softkey param_data="（*^_^*）" span="@dimen/smiley_wider_span" />
+        <softkey param_data="(¯(●●)¯)" span="@dimen/smiley_wider_span" />
+        <softkey param_data=">&quot;&lt;|||" span="@dimen/smiley_wider_span" />
+        <softkey param_data="('～'；)" span="@dimen/smiley_wider_span" />
+        <softkey param_data="(='?'=)" span="@dimen/smiley_wider_span" />
+        <softkey param_data="(○'ω'○)" span="@dimen/smiley_wider_span" />
+        <softkey param_data="(*^0^*)" span="@dimen/smiley_wider_span" />
+        <softkey param_data="└(^o^)┘" span="@dimen/smiley_wider_span" />
+        <softkey param_data="(︶^︶)" span="@dimen/smiley_wider_span" />
+        <softkey param_data="(*>.&lt;*)" span="@dimen/smiley_wider_span" />
+        <softkey param_data="(⊙ｏ⊙)" span="@dimen/smiley_wider_span" />
+        <softkey param_data="(⊙﹏⊙)" span="@dimen/smiley_wider_span" />
+        <softkey param_data="=^_^=" span="@dimen/smiley_wider_span" />
+        <softkey param_data="::>_&lt;::" span="@dimen/smiley_wider_span" />
+        <softkey param_data="~w_w~" span="@dimen/smiley_wider_span" />
+        <softkey param_data="\\^o^/" span="@dimen/smiley_wider_span" />
+        <softkey param_data="(*@?@*)" span="@dimen/smiley_wider_span" />
+        <softkey param_data="o(≧o≦)o" span="@dimen/smiley_widest_span" />
+        <softkey param_data="↖(^ω^)↗" span="@dimen/smiley_widest_span" />
+        <softkey param_data="︽⊙＿⊙︽" span="@dimen/smiley_widest_span" />
+        <softkey param_data="（●＾o＾●）" span="@dimen/smiley_widest_span" />
+        <softkey param_data="((^ω^))" span="@dimen/smiley_widest_span" />
+        <softkey param_data="(=^・・^=)" span="@dimen/smiley_widest_span" />
+        <softkey param_data="(￣(工)￣)" span="@dimen/smiley_widest_span" />
+        <softkey param_data="↖(￣▽￣&quot;)" span="@dimen/smiley_widest_span" />
+        <softkey param_data="ㄟ(￣▽￣ㄟ)" span="@dimen/smiley_widest_span" />
+        <softkey param_data="o(︶︿︶)o" span="@dimen/smiley_widest_span" />
+        <softkey param_data="//(ㄒoㄒ)//" span="@dimen/smiley_widest_span" />
+    </softkey_list>
+</framework>

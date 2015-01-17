@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime string_id="zh_cn_pinyin_hard_12keys" class="com.google.android.apps.inputmethod.pinyin.ime.hmm.HmmPinyinT9Ime" language="zh-CN" inline_composing="false" label="@string/pinyin_hard_12key_ime_label" announce_auto_selected_candidate="true" status_icon="@drawable/ic_pinyin_status_icon" prime_keyboard_type="HARD_12KEYS">
+        <keyboard_group>
+            <keyboard type="prime" def="@xml/keyboard_zh_cn_pinyin_hard_12keys" />
+            <keyboard type="digit" def="@xml/keyboard_non_prime_digit" />
+            <keyboard type="symbol" def="@xml/keyboard_non_prime_symbol_zh" />
+            <keyboard type="smiley" def="@xml/keyboard_non_prime_smiley" />
+            <keyboard type="recent" def="@xml/keyboard_non_prime_recent" />
+        </keyboard_group>
+    </ime>
+</framework>

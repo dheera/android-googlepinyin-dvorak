@@ -1,0 +1,21 @@
+version: 2.0.0-ce2088-SNAPSHOT
+apkFileName: com.google.android.inputmethod.pinyin.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '14'
+  targetSdkVersion: '21'
+packageInfo:
+  rename-manifest-package: com.google.android.apps.inputmethod.pinyin
+  forced-package-id: '127'
+versionInfo:
+  versionCode: '355'
+  versionName: 4.0.0.79226780-armeabi-v7a
+compressionType: false
+unknownFiles:
+  javax/inject/Inject.gwt.xml: '0'
+  jsr305_annotations/Jsr305_annotations.gwt.xml: '0'
+  jsr330_inject/Jsr330_inject.gwt.xml: '0'
+  third_party/java_src/jsr330_inject/Jsr330_inject.gwt.xml: '0'

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.framework.core.InputView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/keyboard_area" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.google.android.apps.inputmethod.libs.framework.core.KeyboardViewHolder android:id="@id/header_view_holder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.google.android.apps.inputmethod.libs.framework.core.KeyboardViewHolder android:id="@id/body_view_holder" android:background="?BgKeyboardBody" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="center|right|top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dogfood_badge" />
+    </FrameLayout>
+</com.google.android.apps.inputmethod.libs.framework.core.InputView>

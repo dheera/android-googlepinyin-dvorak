@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey id="@+id/softkey_non_prime_main_category_digit_active" layout="@layout/softkey_non_prime_main_category_icon_active" content_description="@string/digit_keyboard_key_content_desc" alpha="@attr/IconCategoryActive">
+            <action type="PRESS" keycode="UNKNOWN" />
+            <icon location="@id/icon" value="@attr/IconMainCategoryNumber" />
+        </softkey>
+        <softkey id="@+id/softkey_non_prime_main_category_symbol_active" layout="@layout/softkey_non_prime_main_category_icon_active" content_description="@string/symbol_keyboard_key_content_desc" alpha="@attr/IconCategoryActive">
+            <action type="PRESS" keycode="UNKNOWN" />
+            <icon location="@id/icon" value="@attr/IconMainCategorySymbol" />
+        </softkey>
+        <softkey id="@id/softkey_non_prime_main_category_recent_active" layout="@layout/softkey_non_prime_main_category_icon_active" content_description="@string/recent_keyboard_key_content_desc" alpha="@attr/IconCategoryActive">
+            <action type="PRESS" keycode="UNKNOWN" />
+            <icon location="@id/icon" value="@attr/IconRecent" />
+        </softkey>
+        <softkey id="@id/softkey_non_prime_main_category_smiley_active" layout="@layout/softkey_non_prime_main_category_icon_active_animation" content_description="@string/smiley_keyboard_key_content_desc" alpha="@attr/IconCategoryActive">
+            <action type="PRESS" keycode="UNKNOWN" />
+            <icon location="@id/icon" value="@attr/IconMainCategorySmileyActive" />
+        </softkey>
+        <softkey id="@+id/softkey_non_prime_main_category_digit_deactive" layout="@layout/softkey_non_prime_main_category_icon_deactive" content_description="@string/digit_keyboard_key_content_desc" alpha="@attr/IconCategoryInactive">
+            <action type="PRESS" keycode="SWITCH_KEYBOARD" data="digit" />
+            <icon location="@id/icon" value="@attr/IconMainCategoryNumber" />
+        </softkey>
+        <softkey id="@+id/softkey_non_prime_main_category_symbol_deactive" layout="@layout/softkey_non_prime_main_category_icon_deactive" content_description="@string/symbol_keyboard_key_content_desc" alpha="@attr/IconCategoryInactive">
+            <action type="PRESS" keycode="SWITCH_KEYBOARD" data="symbol" />
+            <icon location="@id/icon" value="@attr/IconMainCategorySymbol" />
+        </softkey>
+        <softkey id="@id/softkey_non_prime_main_category_recent_deactive" layout="@layout/softkey_non_prime_main_category_icon_deactive" content_description="@string/recent_keyboard_key_content_desc" alpha="@attr/IconCategoryInactive">
+            <action type="PRESS" keycode="SWITCH_KEYBOARD" data="recent" />
+            <icon location="@id/icon" value="@attr/IconRecent" />
+        </softkey>
+        <softkey id="@id/softkey_non_prime_main_category_smiley_deactive" layout="@layout/softkey_non_prime_main_category_icon_deactive" content_description="@string/smiley_keyboard_key_content_desc" alpha="@attr/IconCategoryInactive">
+            <action type="PRESS" keycode="SWITCH_KEYBOARD" data="smiley" />
+            <icon location="@id/icon" value="@attr/IconMainCategorySmiley" />
+        </softkey>
+        <include href="@xml/softkeys_non_prime_category_localized" />
+    </softkeys>
+</framework>

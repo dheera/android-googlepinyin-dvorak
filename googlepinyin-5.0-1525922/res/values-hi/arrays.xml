@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_key_long_press_delay">
+        <item>100मि.से.</item>
+        <item>200मि.से.</item>
+        <item>300मि.से.</item>
+        <item>400मि.से.</item>
+        <item>500मि.से.</item>
+        <item>600मि.से.</item>
+        <item>700मि.से.</item>
+    </string-array>
+</resources>

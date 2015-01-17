@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MaterialPopupContent" parent="@style/MaterialPopupView">
+        <item name="android:background">?BgPopupBackground</item>
+        <item name="android:layout_margin">@dimen/material_popup_bubble_margin</item>
+        <item name="android:elevation">@dimen/material_popup_bubble_elevation</item>
+    </style>
+    <style name="MaterialRectangularPopupHandle">
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:background">?BgPopupBackground</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">@dimen/material_popup_bubble_width</item>
+        <item name="android:elevation">@dimen/material_popup_bubble_elevation</item>
+    </style>
+    <style name="MaterialRectangularPopupContent">
+        <item name="android:layout_gravity">top</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">?BgPopupRectangularInset</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/material_popup_bubble_margin</item>
+        <item name="android:elevation">@dimen/material_popup_bubble_elevation</item>
+    </style>
+    <style name="SettingsDialogLabel">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
+    <style name="SettingsDialogEdit">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
+    <style name="AppThemeSelector" parent="@android:style/Theme.Material.Light" />
+    <style name="BaseTheme" parent="@android:style/Theme.Material.InputMethod" />
+</resources>

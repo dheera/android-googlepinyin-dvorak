@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="material_popup_bubble_width">41.0dip</dimen>
+    <dimen name="material_popup_bubble_height">48.0dip</dimen>
+    <dimen name="material_popup_bubble_padding_bottom">22.0dip</dimen>
+    <dimen name="material_popup_corner_radius">4.0dip</dimen>
+</resources>

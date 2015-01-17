@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/setting_about_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:persistent="false" android:title="@string/setting_tos_title">
+        <intent android:action="android.intent.action.VIEW" android:data="@string/tos_url" />
+    </Preference>
+    <Preference android:persistent="false" android:title="@string/setting_privacy_title">
+        <intent android:action="android.intent.action.VIEW" android:data="@string/privacy_url" />
+    </Preference>
+    <Preference android:persistent="false" android:title="@string/setting_license_title" android:summary="@string/setting_license_summary">
+        <intent android:action="com.google.android.inputmethod.pinyin.OPENSOURCE_LICENSE" />
+    </Preference>
+    <Preference android:persistent="false" android:title="@string/setting_about_version_title" android:key="@string/setting_about_key" style="?android:preferenceInformationStyle" />
+</PreferenceScreen>

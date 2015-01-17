@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard id="@id/keyboard_non_prime_symbol_zh" class=".libs.framework.keyboard.PageableNonPrimeSubCategoryKeyboard" initial_states="LOCK_KEYBOARD+SUB_CATEGORY_1" remember_recent_key="true">
+        <view layout="@layout/keyboard_non_prime_header_sub_category" type="header">
+            <softkeys href="@xml/softkeys_function" />
+            <softkeys href="@xml/softkeys_non_prime_symbol_sub_category" />
+            <include href="@xml/keymapping_header_symbol" />
+        </view>
+        <view layout="@layout/keyboard_non_prime_symbol_body" type="body">
+            <softkeys id="@id/softkeys_input_symbol_zh" href="@xml/softkeys_input_symbol_sub_categories_zh" />
+            <softkeys href="@xml/softkeys_function" />
+            <softkeys href="@xml/softkeys_non_prime_category" />
+            <softkeys href="@xml/softkeys_non_prime_symbol_sub_category" />
+            <include href="@xml/keymapping_body_symbol_zh" />
+            <include href="@xml/keymapping_bottom_symbol" />
+            <include href="@xml/keymapping_non_prime_body_right_side" />
+        </view>
+    </keyboard>
+</framework>

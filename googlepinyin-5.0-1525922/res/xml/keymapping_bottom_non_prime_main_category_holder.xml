@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping view_id="@id/key_pos_back_to_prime" key_id="@id/softkey_back_light_key" />
+        <mapping view_id="@id/key_pos_non_prime_category_1" key_id="@id/softkey_non_prime_main_category_digit_deactive" />
+        <mapping view_id="@id/key_pos_non_prime_category_2" key_id="@id/softkey_non_prime_main_category_recent_deactive" />
+        <mapping view_id="@id/key_pos_non_prime_category_3" key_id="@id/softkey_non_prime_main_category_symbol_deactive" />
+        <mapping view_id="@id/key_pos_non_prime_category_4" key_id="@id/softkey_non_prime_main_category_smiley_deactive" />
+    </key_mapping>
+</framework>

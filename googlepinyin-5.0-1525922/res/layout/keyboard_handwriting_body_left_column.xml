@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/FunctionKeyColumns.Left"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/input_area_padding_top" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="750.0">
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_toggle_fullscreen" style="@style/SoftKey.Handwriting.Halfscreen" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_punctuation_1" style="@style/SoftKey.Handwriting.Halfscreen" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_punctuation_2" style="@style/SoftKey.Handwriting.Halfscreen" />
+    </LinearLayout>
+    <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_switch_to_symbol" style="@style/SoftKey.Handwriting.Halfscreen" />
+</LinearLayout>

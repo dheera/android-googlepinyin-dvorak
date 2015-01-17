@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="300.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/Linear.Vertical">
+        <LinearLayout android:weightSum="300.0" style="@style/DigitKeyboardRow">
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_digit_1" style="@style/SoftKey.Row1.Qwerty" />
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_digit_2" style="@style/SoftKey.Row1.Qwerty" />
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_digit_3" style="@style/SoftKey.Row1.Qwerty" />
+        </LinearLayout>
+        <LinearLayout android:weightSum="300.0" style="@style/DigitKeyboardRow">
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_digit_4" style="@style/SoftKey.Row1.Qwerty" />
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_digit_5" style="@style/SoftKey.Row1.Qwerty" />
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_digit_6" style="@style/SoftKey.Row1.Qwerty" />
+        </LinearLayout>
+        <LinearLayout android:weightSum="300.0" style="@style/DigitKeyboardRow">
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_digit_7" style="@style/SoftKey.Row1.Qwerty" />
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_digit_8" style="@style/SoftKey.Row1.Qwerty" />
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_digit_9" style="@style/SoftKey.Row1.Qwerty" />
+        </LinearLayout>
+        <LinearLayout android:weightSum="300.0" style="@style/DigitKeyboardRow">
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_digit_symbol_1" style="@style/SoftKey.Row1.Qwerty" />
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_digit_0" style="@style/SoftKey.Row1.Qwerty" />
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_digit_symbol_2" style="@style/SoftKey.Row1.Qwerty" />
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/non_prime_inputarea_bottom_separator" />
+</FrameLayout>

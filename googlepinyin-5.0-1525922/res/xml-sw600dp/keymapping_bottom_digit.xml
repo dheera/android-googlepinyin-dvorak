@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/keymapping_bottom_non_prime_main_category_holder" />
+    <key_mapping>
+        <mapping view_id="@id/key_pos_non_prime_category_1" key_id="@id/softkey_non_prime_main_category_digit_active" />
+    </key_mapping>
+    <key_mapping>
+        <mapping view_id="@id/key_pos_back_to_prime2" key_id="@id/softkey_back_light_key" />
+    </key_mapping>
+</framework>

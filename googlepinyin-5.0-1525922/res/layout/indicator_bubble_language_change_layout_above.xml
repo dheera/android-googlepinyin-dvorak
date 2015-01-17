@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.framework.core.LanguageSwitchIndicatorView android:id="@id/indicator_bubble" android:background="@drawable/bg_language_switch_indicator_above" android:layout_width="wrap_content" android:layout_height="wrap_content" popup_animation="@style/IndicatorAnimation"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/indicator_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.google.android.apps.inputmethod.libs.framework.core.LanguageSwitchIndicatorView>

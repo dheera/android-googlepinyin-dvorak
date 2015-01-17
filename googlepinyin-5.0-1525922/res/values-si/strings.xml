@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setting_title">Google පිනියන් ආදාන සැකසීම්</string>
+    <string name="ime_name">Google පිනියන් ආදානය</string>
+    <string name="label_subtype_pinyin">චීන පිනියන්</string>
+</resources>
