@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template id="@id/softkey_template_light_emoticon" layout="@layout/softkey_label_medium_auto_text_size" popup_timing="ON_TOUCH" span="$span$">
+            <action type="PRESS" keycode="SHORT_TEXT" data="$param_data$" intention="COMMIT" />
+            <label location="@id/label" value="$param_data$" />
+        </softkey_template>
+        <softkey_template id="@id/softkey_template_light_emoji" layout="@layout/softkey_label_emoji" popup_timing="ON_TOUCH" span="$span$">
+            <action type="PRESS" keycode="SHORT_TEXT" data="$param_data$" intention="COMMIT" />
+            <label location="@id/label" value="$param_data$" />
+        </softkey_template>
+    </softkeys>
+</framework>

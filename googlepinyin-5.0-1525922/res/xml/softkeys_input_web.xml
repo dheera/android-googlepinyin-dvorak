@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template id="@+id/softkey_template_web" layout="@layout/softkey_web_label" content_description="$desc$">
+            <action type="PRESS" keycode="SHORT_TEXT" data="$param_data$" intention="COMMIT" />
+            <label location="@id/label" value="$param_data$" />
+        </softkey_template>
+        <softkey_list template_id="@id/softkey_template_web">
+            <softkey param_data=".com" desc="@string/dot_com_key_content_desc" />
+            <softkey param_data=".cn" desc="@string/dot_cn_key_content_desc" />
+            <softkey param_data=".net" desc="@string/dot_net_key_content_desc" />
+            <softkey param_data=".org" desc="@string/dot_org_key_content_desc" />
+            <softkey param_data=".gov" desc="@string/dot_gov_key_content_desc" />
+            <softkey param_data="google" />
+            <softkey param_data="gmail" />
+            <softkey param_data="sina" />
+            <softkey param_data="baidu" />
+            <softkey param_data="qq" />
+            <softkey param_data="http://" />
+            <softkey param_data="www." desc="@string/www_dot_key_content_desc" />
+            <softkey param_data="news." desc="@string/news_dot_key_content_desc" />
+            <softkey param_data="/" />
+            <softkey param_data=".中国" desc="@string/dot_china_key_content_desc" />
+        </softkey_list>
+    </softkeys>
+</framework>

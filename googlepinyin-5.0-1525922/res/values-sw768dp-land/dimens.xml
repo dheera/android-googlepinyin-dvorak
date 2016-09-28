@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="keyboard_height">395.0dip</dimen>
+    <dimen name="keyboard_header_height">50.0dip</dimen>
+    <dimen name="keyboard_body_height">345.0dip</dimen>
+    <dimen name="keyboard_bottom_height">86.25dip</dimen>
+    <dimen name="more_candidates_left_panel_padding_bottom">20.0dip</dimen>
+    <dimen name="softkey_bg_inset_top">0.0dip</dimen>
+    <dimen name="softkey_bg_inset_bottom">13.0dip</dimen>
+    <dimen name="softkey_bg_inset_left">6.5dip</dimen>
+    <dimen name="softkey_bg_inset_right">6.5dip</dimen>
+    <dimen name="softkey_bg_small_inset_top">0.0dip</dimen>
+    <dimen name="softkey_bg_small_inset_bottom">5.0dip</dimen>
+    <dimen name="softkey_bg_small_inset_left">2.5dip</dimen>
+    <dimen name="softkey_bg_small_inset_right">2.5dip</dimen>
+    <dimen name="softkey_bg_normal_small_inset_top_difference">0.0dip</dimen>
+    <dimen name="softkey_bg_normal_small_inset_bottom_difference">8.0dip</dimen>
+    <dimen name="softkey_show_more_candidates_min_width">106.0dip</dimen>
+    <dimen name="text_size_qwerty_label">30.0dip</dimen>
+    <dimen name="text_size_qwerty_footer">17.0dip</dimen>
+    <dimen name="text_size_web_key">24.0dip</dimen>
+    <dimen name="first_run_page_footer_height">320.0dip</dimen>
+    <item type="dimen" name="smiley_wide_span">1.4</item>
+    <item type="dimen" name="smiley_wider_span">1.5</item>
+    <item type="dimen" name="smiley_widest_span">1.8</item>
+    <dimen name="fullscreen_body_height">172.5dip</dimen>
+    <dimen name="fullscreen_body_padding_top">0.0dip</dimen>
+    <dimen name="qwerty_more_candidates_padding_bottom">6.5dip</dimen>
+    <dimen name="t9_more_candidates_padding_bottom">13.0dip</dimen>
+    <dimen name="t9_more_candidates_holder_view_padding_right">6.5dip</dimen>
+</resources>

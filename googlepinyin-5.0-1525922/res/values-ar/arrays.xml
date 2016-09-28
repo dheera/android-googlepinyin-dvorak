@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_key_long_press_delay">
+        <item>100 مللي ثانية</item>
+        <item>200 مللي ثانية</item>
+        <item>300 مللي ثانية</item>
+        <item>400 مللي ثانية</item>
+        <item>500 مللي ثانية</item>
+        <item>600 مللي ثانية</item>
+        <item>700 مللي ثانية</item>
+    </string-array>
+</resources>

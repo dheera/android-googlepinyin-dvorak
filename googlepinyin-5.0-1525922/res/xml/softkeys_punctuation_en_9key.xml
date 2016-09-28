@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template id="@+id/softkey_template_9key_left_panel" layout="@layout/softkey_9key_left_panel" popup_timing="ON_TOUCH">
+            <action type="PRESS" keycode="PLAIN_TEXT" data="$param_data$" intention="COMMIT" />
+            <label location="@id/label" value="$param_data$" />
+        </softkey_template>
+        <softkey_list template_id="@id/softkey_template_9key_left_panel">
+            <softkey id="@id/softkey_question" param_data="\?" />
+            <softkey id="@id/softkey_exclamation" param_data="!" />
+            <softkey id="@id/softkey_ellipsis" param_data="…" />
+            <softkey id="@id/softkey_wave" param_data="~" />
+            <softkey id="@id/softkey_at" param_data="\@" />
+            <softkey id="@id/softkey_quote" param_data="&quot;" />
+            <softkey id="@id/softkey_percent" param_data="%" />
+            <softkey id="@id/softkey_colon" param_data=":" />
+            <softkey id="@id/softkey_slash" param_data="/" />
+            <softkey id="@id/softkey_semicolon" param_data=";" />
+        </softkey_list>
+    </softkeys>
+</framework>

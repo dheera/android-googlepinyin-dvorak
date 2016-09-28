@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="keyboard_height">304.0dip</dimen>
+    <dimen name="keyboard_header_height">50.0dip</dimen>
+    <dimen name="keyboard_body_height">254.0dip</dimen>
+    <dimen name="keyboard_bottom_height">63.5dip</dimen>
+    <dimen name="input_area_padding_top">4.0dip</dimen>
+    <dimen name="softkey_bg_inset_top">0.0dip</dimen>
+    <dimen name="softkey_bg_inset_bottom">9.0dip</dimen>
+    <dimen name="softkey_bg_inset_left">5.0dip</dimen>
+    <dimen name="softkey_bg_inset_right">5.0dip</dimen>
+    <dimen name="softkey_bg_small_inset_top">0.0dip</dimen>
+    <dimen name="softkey_bg_small_inset_bottom">5.0dip</dimen>
+    <dimen name="softkey_bg_small_inset_left">2.5dip</dimen>
+    <dimen name="softkey_bg_small_inset_right">2.5dip</dimen>
+    <dimen name="softkey_space_bg_inset_top">13.0dip</dimen>
+    <dimen name="softkey_space_bg_inset_bottom">13.0dip</dimen>
+    <dimen name="softkey_bg_normal_small_inset_top_difference">0.0dip</dimen>
+    <dimen name="softkey_bg_normal_small_inset_bottom_difference">4.0dip</dimen>
+    <dimen name="softkey_qwerty_bottom_label_margin_top">-3.0dip</dimen>
+    <dimen name="label_bottom_margin_bottom_material_theme">13.0dip</dimen>
+    <dimen name="icon_top_margin_top">10.0dip</dimen>
+    <dimen name="icon_ime_action_margin_bottom_material_theme">0.0dip</dimen>
+    <dimen name="icon_ime_action_margin_bottom_holo_theme">0.0dip</dimen>
+    <dimen name="page_indicator_bottom_margin">2.0dip</dimen>
+    <dimen name="text_size_qwerty_footer">14.0dip</dimen>
+    <dimen name="text_size_web_key">22.0dip</dimen>
+    <dimen name="first_run_page_footer_height">120.0dip</dimen>
+    <item type="dimen" name="smiley_wide_span">1.2</item>
+    <item type="dimen" name="smiley_wider_span">1.33</item>
+    <item type="dimen" name="smiley_widest_span">1.6</item>
+    <dimen name="fullscreen_body_height">127.0dip</dimen>
+    <dimen name="fullscreen_body_padding_top">0.0dip</dimen>
+    <dimen name="qwerty_more_candidates_padding_bottom">4.5dip</dimen>
+    <dimen name="t9_more_candidates_padding_bottom">9.0dip</dimen>
+    <dimen name="t9_more_candidates_holder_view_padding_right">5.0dip</dimen>
+    <dimen name="label_bottom_margin_bottom">6.0dip</dimen>
+    <dimen name="icon_bottom_margin_bottom">8.0dip</dimen>
+</resources>

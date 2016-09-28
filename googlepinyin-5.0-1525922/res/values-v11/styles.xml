@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SettingsDialogLabel">
+        <item name="android:textAppearance">?android:textAppearanceMediumInverse</item>
+    </style>
+    <style name="SettingsDialogEdit">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+        <item name="android:background">@android:drawable/editbox_background</item>
+    </style>
+    <style name="AppThemeSelector" parent="@android:style/Theme.Holo.Light" />
+    <style name="BaseTheme" parent="@android:style/Theme.Holo.InputMethod" />
+</resources>

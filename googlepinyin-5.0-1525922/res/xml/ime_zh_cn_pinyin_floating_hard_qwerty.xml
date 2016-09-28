@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime string_id="zh_cn_pinyin_floating_hard_qwerty" class="com.google.android.apps.inputmethod.pinyin.ime.hmm.FloatingHmmPinyinQwertyIme" language="zh-CN" inline_composing="true" candidate_selection_keys="1,2,3,4,5,6,7,8,9,0" label="@string/pinyin_hard_qwerty_ime_label" announce_auto_selected_candidate="true" prime_keyboard_type="HARD_QWERTY" status_icon="@drawable/ic_pinyin_status_icon" indicator_icon="@drawable/ic_pinyin_indicator_icon">
+        <keyboard_group>
+            <keyboard type="prime" def="@xml/keyboard_zh_cn_pinyin_floating_hard_qwerty" />
+        </keyboard_group>
+    </ime>
+</framework>

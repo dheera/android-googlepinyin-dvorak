@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.framework.keyboard.widget.MaterialPopupView android:id="@id/popup_bubble" android:layout_width="wrap_content" android:layout_height="wrap_content" covers_soft_key="true" show_animation="@animator/show_popup_material" hide_animation="@animator/hide_popup_material"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.inputmethod.libs.framework.keyboard.widget.BasicPopupView android:id="@id/popup_content" style="@style/MaterialPopupContent">
+        <FrameLayout android:id="@id/popup_layout" style="@style/MaterialPopupLayout">
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.widget.AutoCenteredLabelView android:id="@id/popup_label" android:visibility="gone" style="@style/MaterialPopupLabel" />
+            <ImageView android:id="@id/popup_icon" android:visibility="gone" style="@style/MaterialPopupImage" />
+            <TextView android:textColor="?ColorLabelPopupFooter" android:layout_gravity="bottom|center|right" android:id="@id/popup_footer" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/material_popup_footer_margin" android:text="…" style="@style/Label.Small" />
+        </FrameLayout>
+    </com.google.android.apps.inputmethod.libs.framework.keyboard.widget.BasicPopupView>
+</com.google.android.apps.inputmethod.libs.framework.keyboard.widget.MaterialPopupView>

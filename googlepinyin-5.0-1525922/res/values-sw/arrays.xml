@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_key_long_press_delay">
+        <item>Milisekunde 100</item>
+        <item>Milisekunde 200</item>
+        <item>Milisekunde 300</item>
+        <item>Milisekunde 400</item>
+        <item>Milisekunde 500</item>
+        <item>Milisekunde 600</item>
+        <item>Milisekunde 700</item>
+    </string-array>
+</resources>

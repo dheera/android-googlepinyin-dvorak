@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/Bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_back_to_prime" android:layout_weight="150.0" style="@style/SoftKey.FunctionKeyOnMainCategoryHolder" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="700.0">
+        <ImageView style="@style/HeaderSeparator.Bottom" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_non_prime_category_1" style="@style/SoftKey.MainCategory" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_non_prime_category_2" style="@style/SoftKey.MainCategory" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_non_prime_category_3" style="@style/SoftKey.MainCategory" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_non_prime_category_4" style="@style/SoftKey.MainCategory" />
+        <ImageView style="@style/HeaderSeparator.Bottom" />
+    </LinearLayout>
+    <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_ime_action" android:layout_weight="150.0" style="@style/SoftKey.ImeActionKeyOnMainCategoryHolder" />
+</LinearLayout>

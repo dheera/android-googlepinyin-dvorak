@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="keyboard_digit_input_area_weight">920</integer>
+</resources>

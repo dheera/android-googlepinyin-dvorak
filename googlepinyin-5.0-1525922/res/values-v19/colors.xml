@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tutorial_press_color">#4caaaaaa</color>
+    <color name="first_run_navigation_text">#ff333333</color>
+    <color name="ColorGestureTrackDarkTheme">#ffeeeeee</color>
+    <color name="ColorGestureTrackLightTheme">#ff222222</color>
+</resources>

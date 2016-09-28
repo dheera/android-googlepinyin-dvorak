@@ -1,0 +1,2245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.IAPTheme" parent="@android:style/Theme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="WalletFragmentDefaultDetailsTextAppearance">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/wallet_secondary_text_holo_dark</item>
+        <item name="android:textColorHighlight">@color/wallet_highlighted_text_holo_dark</item>
+        <item name="android:textColorHint">@color/wallet_hint_foreground_holo_dark</item>
+        <item name="android:textColorLink">@color/wallet_holo_blue_light</item>
+    </style>
+    <style name="WalletFragmentDefaultDetailsHeaderTextAppearance" parent="@style/WalletFragmentDefaultDetailsTextAppearance">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="WalletFragmentDefaultButtonTextAppearance">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/wallet_primary_text_holo_light</item>
+        <item name="android:textColorHighlight">@color/wallet_highlighted_text_holo_light</item>
+        <item name="android:textColorHint">@color/wallet_hint_foreground_holo_light</item>
+        <item name="android:textColorLink">@color/wallet_link_text_light</item>
+    </style>
+    <style name="WalletFragmentDefaultStyle">
+        <item name="buyButtonHeight">48.0dip</item>
+        <item name="buyButtonWidth">match_parent</item>
+        <item name="buyButtonText">buy_with_google</item>
+        <item name="buyButtonAppearance">classic</item>
+        <item name="maskedWalletDetailsTextAppearance">@style/WalletFragmentDefaultDetailsTextAppearance</item>
+        <item name="maskedWalletDetailsHeaderTextAppearance">@style/WalletFragmentDefaultDetailsHeaderTextAppearance</item>
+        <item name="maskedWalletDetailsBackground">@color/wallet_bright_foreground_holo_light</item>
+        <item name="maskedWalletDetailsButtonTextAppearance">@style/WalletFragmentDefaultButtonTextAppearance</item>
+        <item name="maskedWalletDetailsButtonBackground">@android:drawable/btn_default</item>
+        <item name="maskedWalletDetailsLogoTextColor">@color/wallet_bright_foreground_holo_dark</item>
+        <item name="maskedWalletDetailsLogoImageType">classic</item>
+    </style>
+    <style name="gf_PageHeader">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/gf_header_background</item>
+        <item name="android:padding">@dimen/gf_padding</item>
+    </style>
+    <style name="gf_SectionHeader">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@android:drawable/dark_header</item>
+        <item name="android:paddingLeft">@dimen/gf_padding</item>
+    </style>
+    <style name="gf_Separator">
+        <item name="android:src">@android:drawable/divider_horizontal_dark</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="gf_ListItem">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/gf_list_item_padding</item>
+        <item name="android:paddingTop">3.0dip</item>
+        <item name="android:paddingRight">@dimen/gf_list_item_padding</item>
+        <item name="android:paddingBottom">3.0dip</item>
+        <item name="android:minHeight">@dimen/gf_list_item_height</item>
+    </style>
+    <style name="FirstRunViewPager">
+        <item name="android:background">#ffe5e5e5</item>
+        <item name="android:paddingBottom">@dimen/first_run_page_footer_height</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="FirstRunPageFooter">
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">#ffe5e5e5</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/first_run_page_footer_height</item>
+    </style>
+    <style name="FirstRunPageIndicator">
+        <item name="android:gravity">bottom|center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/first_run_page_indicator_height</item>
+    </style>
+    <style name="FirstRunPageIndicatorDivider">
+        <item name="android:paddingLeft">12.0dip</item>
+        <item name="android:paddingRight">12.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/first_run_page_indicator_divider_height</item>
+        <item name="android:src">@drawable/bg_tutorial_page_indicator_divider</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+    <style name="FirstRunNavigation">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/first_run_page_navigation</item>
+    </style>
+    <style name="FirstRunNavigationText">
+        <item name="android:textSize">@dimen/first_run_page_navigation_text_size</item>
+        <item name="android:textColor">@color/first_run_navigation_text</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/bg_tutorial_view_pressed_selector</item>
+        <item name="android:paddingLeft">@dimen/first_run_page_navigation_text_padding</item>
+        <item name="android:paddingRight">@dimen/first_run_page_navigation_text_padding</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="FirstRunNavigationText.Left" parent="@style/FirstRunNavigationText">
+        <item name="android:layout_gravity">left</item>
+    </style>
+    <style name="FirstRunNavigationText.Right" parent="@style/FirstRunNavigationText">
+        <item name="android:layout_gravity">right</item>
+    </style>
+    <style name="FirstRunNavigationText.Center" parent="@style/FirstRunNavigationText">
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="Icon">
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Icon.Center" parent="@style/Icon">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    <style name="Icon.Center.Padding" parent="@style/Icon.Center">
+        <item name="android:padding">2.0dip</item>
+    </style>
+    <style name="Icon.Bottom" parent="@style/Icon">
+        <item name="android:layout_gravity">bottom|center</item>
+        <item name="android:layout_marginBottom">?IconBottomMarginBottom</item>
+    </style>
+    <style name="SpaceIconBackground">
+        <item name="android:background">?BgSpaceLabel</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="IconBackground">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="Icon.Bottom.Deep" parent="@style/Icon.Bottom">
+        <item name="android:layout_marginBottom">@dimen/icon_bottom_margin_bottom_deep</item>
+    </style>
+    <style name="Icon.Top" parent="@style/Icon">
+        <item name="android:layout_gravity">center|top</item>
+        <item name="android:layout_marginTop">@dimen/icon_top_margin_top</item>
+    </style>
+    <style name="Icon.Center.ImeAction" parent="@style/Icon.Center">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginBottom">?IconImeActionMarginBottom</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="Icon.Center.Padding.ImeActionBack" parent="@style/Icon.Center.Padding">
+        <item name="android:gravity">center</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:layout_marginBottom">?IconImeActionMarginBottom</item>
+        <item name="android:src">?IconImeActionBack</item>
+    </style>
+    <style name="Icon.Center.ImeActionOnCandidatesView" parent="@style/Icon.Center">
+        <item name="android:background">?BgKeyImeActionOnCandidatesView</item>
+    </style>
+    <style name="Icon.Center.NonPrimeHeaderActive" parent="@style/Icon.Center">
+        <item name="android:background">?BgKeyNonPrimeHeaderActive</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="Icon.Center.NonPrimeHeaderDeactive" parent="@style/Icon.Center">
+        <item name="android:background">?BgKeyNonPrimeHeaderDeactive</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="Icon.Center.MainCategory" parent="@style/Icon.Center">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="Icon.Center.MainCategory.Active" parent="@style/Icon.Center.MainCategory">
+        <item name="android:background">?BgKeyMainCategoryActive</item>
+    </style>
+    <style name="Icon.Center.MainCategory.Deactive" parent="@style/Icon.Center.MainCategory">
+        <item name="android:background">?BgKeyMainCategoryDeactive</item>
+    </style>
+    <style name="Icon.Center.SubCategory" parent="@style/Icon.Center">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="Icon.Center.SubCategory.Active" parent="@style/Icon.Center.SubCategory">
+        <item name="android:background">?BgKeySubCategoryActive</item>
+    </style>
+    <style name="Icon.Center.SubCategory.Deactive" parent="@style/Icon.Center.SubCategory">
+        <item name="android:background">?BgKeySubCategoryDeactive</item>
+    </style>
+    <style name="Icon.Separator" parent="@style/Icon">
+        <item name="android:background">?BgSeparator</item>
+    </style>
+    <style name="Icon.9KeyLeftPanel" parent="@style/Icon.Center">
+        <item name="android:background">?BgKeyRectPressedSelector</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="IndicatorAnimation">
+        <item name="android:windowEnterAnimation">@animator/show_language_indicator</item>
+        <item name="android:windowExitAnimation">@animator/hide_language_indicator</item>
+    </style>
+    <style name="Keyboard">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="NonPrimeKeyboard" parent="@style/Keyboard">
+        <item name="android:background">?BgKeyboardBody</item>
+        <item name="android:layout_height">@dimen/keyboard_height</item>
+    </style>
+    <style name="Body">
+        <item name="android:background">?BgKeyboardBody</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/keyboard_body_height</item>
+    </style>
+    <style name="BodyInner">
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingTop">@dimen/keyboard_body_padding_top</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:baselineAligned">false</item>
+        <item name="android:weightSum">@integer/weight_sum</item>
+    </style>
+    <style name="BodyInner.Dashboard" parent="@style/BodyInner">
+        <item name="android:padding">@dimen/keyboard_dashboard_item_padding</item>
+    </style>
+    <style name="BodyInner.Candidates" parent="@style/BodyInner">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:tag">more_candidates_area</item>
+        <item name="android:background">?BgMoreCandidatesHolder</item>
+        <item name="android:paddingTop">?KeyboardCandidateBodyPaddingTop</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:weightSum">@integer/weight_sum</item>
+    </style>
+    <style name="BodyInner.FloatingCandidates" parent="@style/BodyInner">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:tag">more_candidates_area</item>
+        <item name="android:background">@drawable/bg_keyboard_body_material_light_theme</item>
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:weightSum">@integer/weight_sum</item>
+    </style>
+    <style name="BodyInner.Number" parent="@style/BodyInner">
+        <item name="android:weightSum">@integer/weight_sum</item>
+    </style>
+    <style name="InputArea">
+        <item name="android:tag">input_area</item>
+        <item name="android:paddingTop">@dimen/input_area_padding_top</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:baselineAligned">false</item>
+        <item name="android:layout_weight">@integer/keyboard_input_area_weight</item>
+    </style>
+    <style name="InputArea.Digit" parent="@style/InputArea">
+        <item name="android:layout_weight">@integer/keyboard_digit_input_area_weight</item>
+    </style>
+    <style name="InputArea.Qwerty" parent="@style/InputArea">
+        <item name="android:orientation">vertical</item>
+        <item name="android:weightSum">@integer/keyboard_input_area_weight</item>
+    </style>
+    <style name="InputArea.9Key" parent="@style/InputArea">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:weightSum">@integer/weight_sum</item>
+    </style>
+    <style name="Bottom">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:weightSum">@integer/weight_sum</item>
+        <item name="android:layout_weight">@integer/keyboard_bottom_weight</item>
+    </style>
+    <style name="CandidateBar">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:tag">heading_candidates_bar</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="ScrollViewInMoreCandidate">
+        <item name="android:scrollbarThumbVertical">@drawable/bg_reading_text_candidate_scroller_thumb</item>
+        <item name="android:scrollbarStyle">insideInset</item>
+        <item name="android:tag">scroll_view_in_more_candidate</item>
+        <item name="android:fadeScrollbars">false</item>
+    </style>
+    <style name="ReadingTextCandidateView" parent="@style/ScrollViewInMoreCandidate">
+        <item name="android:background">?BgReadingTextCandidates</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="MoreCandidatesHolderView">
+        <item name="android:orientation">vertical</item>
+        <item name="android:tag">pageable_candidates_view</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="T9KeyboardLeftPanel" parent="@style/Linear.WidthWeighted.Vertical">
+        <item name="android:background">?Bg9KeyKeyboardLeftPanel</item>
+        <item name="android:layout_weight">@integer/keyboard_9key_left_panel_weight</item>
+    </style>
+    <style name="T9KeyboardRightPanel" parent="@style/Linear.WidthWeighted.Vertical">
+        <item name="android:background">?Bg9KeyKeyboardRightPanel</item>
+        <item name="android:weightSum">3.0</item>
+        <item name="android:layout_weight">@integer/keyboard_9key_right_panel_weight</item>
+    </style>
+    <style name="DigitKeyboard" parent="@style/Linear.Horizontal" />
+    <style name="DigitKeyboardLeftPanel" parent="@style/Linear.WidthWeighted.Vertical">
+        <item name="android:background">?BgDigitKeyboardLeftPanel</item>
+        <item name="android:weightSum">4.0</item>
+        <item name="android:layout_weight">@integer/keyboard_9key_left_panel_weight</item>
+    </style>
+    <style name="DigitKeyboardRightPanel" parent="@style/Linear.WidthWeighted.Vertical">
+        <item name="android:background">?BgDigitKeyboardRightPanel</item>
+        <item name="android:weightSum">4.0</item>
+        <item name="android:layout_weight">@integer/keyboard_9key_right_panel_weight</item>
+    </style>
+    <style name="DigitKeyboardMiddlePanel" parent="@style/Linear.WidthWeighted.Vertical">
+        <item name="android:weightSum">@integer/weight_sum</item>
+        <item name="android:layout_weight">@integer/keyboard_9key_middle_column_weight_sum</item>
+    </style>
+    <style name="MoreCandidatesRightPanel" parent="@style/Linear.WidthWeighted.Vertical">
+        <item name="android:background">?BgMoreCandidatesRightPanel</item>
+        <item name="android:layout_weight">@integer/more_candidates_right_column_weight</item>
+    </style>
+    <style name="NonPrimeBodyInner">
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingTop">@dimen/keyboard_body_padding_top</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:baselineAligned">false</item>
+    </style>
+    <style name="Header">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/keyboard_header_height</item>
+    </style>
+    <style name="Header.NonPrime" parent="@style/Header">
+        <item name="android:layout_gravity">top</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">?BgHeader</item>
+    </style>
+    <style name="HeaderInner">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:tag">header_area</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="HeaderInner.Prime" parent="@style/HeaderInner">
+        <item name="android:background">?BgHeader</item>
+    </style>
+    <style name="HeaderInner.NonPrime" parent="@style/HeaderInner">
+        <item name="android:gravity">center</item>
+        <item name="android:weightSum">@integer/weight_sum</item>
+    </style>
+    <style name="HeaderInner.Candidates" parent="@style/HeaderInner">
+        <item name="android:tag">heading_candidates_area</item>
+        <item name="android:background">?BgHeaderCandidate</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+    <style name="HeaderInner.FloatingCandidates" parent="@style/HeaderInner">
+        <item name="android:tag">heading_candidates_area</item>
+        <item name="android:background">@drawable/bg_keyboard_body_material_light_theme</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+    <style name="HeaderInner.Number" parent="@style/HeaderInner">
+        <item name="android:gravity">right</item>
+        <item name="android:background">?BgHeader</item>
+        <item name="android:weightSum">@integer/weight_sum</item>
+    </style>
+    <style name="HeaderInner.NonPrime.Recent" parent="@style/HeaderInner.NonPrime">
+        <item name="android:gravity">right</item>
+    </style>
+    <style name="SubCategoryHolder">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">@integer/non_prime_header_sub_category_holder_weight</item>
+    </style>
+    <style name="PrimeHeaderInnerLinear">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:weightSum">@integer/weight_sum</item>
+    </style>
+    <style name="HeaderTab">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="HeaderTab.Prime" parent="@style/HeaderTab">
+        <item name="android:background">?BgHeaderTabPrime</item>
+        <item name="android:layout_weight">@integer/prime_header_tab_weight</item>
+    </style>
+    <style name="HeaderTab.NonPrime" parent="@style/HeaderTab">
+        <item name="android:background">?BgHeaderNonPrime</item>
+        <item name="android:layout_weight">@integer/non_prime_header_tab_weight</item>
+    </style>
+    <style name="HeaderTab.PrimeIcon" parent="@style/HeaderTab">
+        <item name="android:background">?BgHeaderTabPrime</item>
+        <item name="android:layout_weight">@integer/prime_header_icon_weight</item>
+    </style>
+    <style name="HeaderTab.SubCategory" parent="@style/HeaderTab">
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="HeaderSeparator">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">?BgSeparator</item>
+    </style>
+    <style name="HeaderSeparator.Bottom" parent="@style/HeaderSeparator">
+        <item name="android:paddingBottom">@dimen/softkey_bg_inset_bottom</item>
+        <item name="android:src">?BgMainCategoryHolderSeparator</item>
+    </style>
+    <style name="HeaderSeparator.NonPrime" parent="@style/HeaderSeparator">
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="Label" parent="@android:style/TextAppearance.Medium">
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">?ColorLabel</item>
+        <item name="android:ellipsize">none</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="Label.FunctionKey" parent="@style/Label">
+        <item name="android:textSize">@dimen/text_size_function_key</item>
+        <item name="android:textColor">?ColorLabelFunctionKey</item>
+    </style>
+    <style name="Label.FunctionKey.LightKey" parent="@style/Label.FunctionKey">
+        <item name="android:textColor">?ColorLabelFunctionLightKey</item>
+    </style>
+    <style name="Label.DarkKey" parent="@style/Label">
+        <item name="android:textColor">?ColorLabelDarkKey</item>
+    </style>
+    <style name="Label.Tiny" parent="@style/Label">
+        <item name="android:textSize">@dimen/text_size_tiny</item>
+    </style>
+    <style name="Label.DarkKey.Tiny" parent="@style/Label.DarkKey">
+        <item name="android:textSize">@dimen/text_size_tiny</item>
+    </style>
+    <style name="Label.Small" parent="@style/Label">
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+    <style name="Label.DarkKey.Small" parent="@style/Label.DarkKey">
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+    <style name="Label.Medium" parent="@style/Label">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+    <style name="Label.DarkKey.Medium" parent="@style/Label.DarkKey">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+    <style name="Label.DarkKey.Medium.PaddingBottom" parent="@style/Label.DarkKey.Medium">
+        <item name="android:paddingBottom">5.0dip</item>
+    </style>
+    <style name="Label.Big" parent="@style/Label">
+        <item name="android:textSize">@dimen/text_size_big</item>
+    </style>
+    <style name="Label.Emoji" parent="@style/Label">
+        <item name="android:textSize">@dimen/text_size_emoji</item>
+    </style>
+    <style name="Label.Digit" parent="@style/Label">
+        <item name="android:textSize">@dimen/text_size_digit</item>
+    </style>
+    <style name="Label.DarkKey.Digit" parent="@style/Label.DarkKey">
+        <item name="android:textSize">@dimen/text_size_digit</item>
+    </style>
+    <style name="Label.9Key" parent="@style/Label">
+        <item name="android:textSize">@dimen/text_size_9key</item>
+    </style>
+    <style name="Label.9Key1" parent="@style/Label">
+        <item name="android:textSize">@dimen/text_size_9key_1</item>
+    </style>
+    <style name="Label.Medium.Bottom" parent="@style/Label.Medium">
+        <item name="android:layout_gravity">bottom|center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">?LabelBottomMarginBottom</item>
+    </style>
+    <style name="Label.DarkKey.Medium.Bottom" parent="@style/Label.DarkKey.Medium">
+        <item name="android:layout_gravity">bottom|center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">?LabelBottomMarginBottom</item>
+    </style>
+    <style name="Label.DarkKey.Medium.Top" parent="@style/Label.DarkKey.Medium">
+        <item name="android:layout_gravity">center|top</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="LabelSecondary">
+        <item name="android:textSize">@dimen/text_size_tiny</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="LabelSecondary.Sub" parent="@style/LabelSecondary">
+        <item name="android:textColor">?ColorLabelSecondarySub</item>
+        <item name="android:layout_gravity">bottom|center|right</item>
+        <item name="android:paddingRight">@dimen/label_sub_right_padding</item>
+        <item name="android:paddingBottom">@dimen/label_sub_bottom_padding</item>
+    </style>
+    <style name="LabelSecondary.Sub.Grey" parent="@style/LabelSecondary.Sub">
+        <item name="android:textColor">#ff111111</item>
+    </style>
+    <style name="LabelSecondary.Sub.Candidate" parent="@style/LabelSecondary.Sub">
+        <item name="android:textColor">#ff888888</item>
+    </style>
+    <style name="LabelSecondary.Sub.Black" parent="@style/LabelSecondary.Sub">
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="LabelSecondary.Sub.Qwerty" parent="@style/LabelSecondary.Sub">
+        <item name="android:textColor">?ColorLabelSecondary</item>
+        <item name="android:paddingBottom">@dimen/label_sub_qwerty_bottom_padding</item>
+    </style>
+    <style name="LabelSecondary.Sub.Qwerty.Row3" parent="@style/LabelSecondary.Sub.Qwerty">
+        <item name="android:textColor">?ColorLabelQwertySecondaryRow3</item>
+    </style>
+    <style name="LabelSecondary.Top" parent="@style/LabelSecondary">
+        <item name="android:textColor">#ff717171</item>
+        <item name="android:layout_gravity">center|top</item>
+        <item name="android:paddingTop">@dimen/label_sub_right_padding</item>
+    </style>
+    <style name="LabelSecondary.Sup" parent="@style/LabelSecondary">
+        <item name="android:layout_gravity">center|right|top</item>
+        <item name="android:paddingRight">@dimen/label_sup_right_padding</item>
+    </style>
+    <style name="LabelSecondary.Sup.Light" parent="@style/LabelSecondary.Sup">
+        <item name="android:textColor">?ColorLabelSupLight</item>
+    </style>
+    <style name="LabelSecondary.Sup.Dark" parent="@style/LabelSecondary.Sup">
+        <item name="android:textColor">?ColorLabelSupDark</item>
+    </style>
+    <style name="LabelSecondary.9Key" parent="@style/LabelSecondary">
+        <item name="android:textColor">?ColorLabelSecondary</item>
+        <item name="android:layout_gravity">center|right|top</item>
+        <item name="android:paddingRight">@dimen/label_sub_right_padding</item>
+    </style>
+    <style name="LabelSecondary.9Key.Light" parent="@style/LabelSecondary.9Key">
+        <item name="android:textColor">?ColorLabel</item>
+    </style>
+    <style name="Label.Small.Grey" parent="@style/Label.Small">
+        <item name="android:textColor">#ff717171</item>
+    </style>
+    <style name="Label.Small.Secondary" parent="@style/Label.Small">
+        <item name="android:textColor">?ColorLabelSecondary</item>
+    </style>
+    <style name="Label.Small.SpaceKeyText" parent="@style/Label.Small">
+        <item name="android:textColor">?ColorLabelSpace</item>
+    </style>
+    <style name="Label.Small.SpaceKey" parent="@style/Label.Small">
+        <item name="android:textColor">?ColorLabelSpace</item>
+        <item name="android:background">?BgSpaceLabel</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="Label.HintText" parent="@style/Label">
+        <item name="android:textColor">?ColorLabelSpace</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:alpha">0.4</item>
+    </style>
+    <style name="LabelSecondary.Qwerty" parent="@style/LabelSecondary">
+        <item name="android:textSize">@dimen/text_size_qwerty_footer</item>
+        <item name="android:textColor">?ColorLabelSecondary</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:layout_weight">@integer/softkey_qwerty_bottom_label_weight</item>
+    </style>
+    <style name="LabelSecondary.Qwerty.Bottom" parent="@style/LabelSecondary.Qwerty">
+        <item name="android:layout_marginTop">@dimen/softkey_qwerty_bottom_label_margin_top</item>
+    </style>
+    <style name="LabelSecondary.Qwerty.Bottom.Row3" parent="@style/LabelSecondary.Qwerty.Bottom">
+        <item name="android:textColor">?ColorLabelQwertySecondaryRow3</item>
+    </style>
+    <style name="Label.Qwerty" parent="@style/Label">
+        <item name="android:textSize">@dimen/text_size_qwerty_label</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:layout_weight">@integer/softkey_qwerty_upper_label_weight</item>
+    </style>
+    <style name="Label.QwertyLand" parent="@style/Label">
+        <item name="android:textSize">@dimen/text_size_qwerty_label</item>
+    </style>
+    <style name="Label.Qwerty.Top" parent="@style/Label.Qwerty">
+        <item name="android:layout_marginBottom">@dimen/softkey_qwerty_bottom_label_margin_top</item>
+    </style>
+    <style name="Label.Qwerty.Bottom" parent="@style/Label.Qwerty">
+        <item name="android:layout_marginTop">@dimen/softkey_qwerty_bottom_label_margin_top</item>
+    </style>
+    <style name="Label.Digit.PhoneNumber" parent="@style/Label.Digit">
+        <item name="android:gravity">center|right</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">333.0</item>
+    </style>
+    <style name="Label.PhoneText" parent="@style/Label">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">667.0</item>
+    </style>
+    <style name="Label.PhoneText.Character" parent="@style/Label.PhoneText">
+        <item name="android:textSize">@dimen/text_size_tiny</item>
+        <item name="android:textColor">?ColorLabelSecondary</item>
+    </style>
+    <style name="Label.PhoneText.Plus" parent="@style/Label.PhoneText">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+    <style name="Label.9KeyLeftPanel" parent="@style/Label">
+        <item name="android:textSize">@dimen/text_size_9key_left_panel</item>
+        <item name="android:textColor">?ColorLabel9KeyLeftPanel</item>
+        <item name="android:tag">default_label</item>
+        <item name="android:background">?BgKeyRectPressedSelector</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="Label.9KeyLeftPanel.DarkKey" parent="@style/Label.DarkKey.Medium">
+        <item name="android:tag">default_label</item>
+        <item name="android:background">?BgKeyRectPressedSelector</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="Label.Small.ReadingTextCandidate" parent="@style/Label.Small">
+        <item name="android:textColor">?ColorLabelReadingTextCandidate</item>
+        <item name="android:tag">default_label</item>
+        <item name="android:background">?BgKeyRectPressedSelector</item>
+        <item name="android:paddingLeft">@dimen/reading_text_candidate_text_padding</item>
+        <item name="android:paddingRight">@dimen/reading_text_candidate_text_padding</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="Label.Candidate" parent="@style/Label">
+        <item name="android:textSize">@dimen/text_size_candidate</item>
+        <item name="android:textColor">?ColorLabelCandidate</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingLeft">@dimen/softkey_candidate_padding_left</item>
+        <item name="android:paddingRight">@dimen/softkey_candidate_padding_right</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <style name="Label.FloatingCandidate" parent="@style/Label">
+        <item name="android:textSize">@dimen/text_size_floating_candidate</item>
+        <item name="android:textColor">@color/color_candidate_text_material_light_theme</item>
+        <item name="android:layout_gravity">center|left</item>
+        <item name="android:paddingLeft">@dimen/softkey_floating_candidate_padding_left</item>
+        <item name="android:paddingRight">@dimen/softkey_floating_candidate_padding_right</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <style name="Label.Big.PasswordHeader" parent="@style/Label.Big">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="Label.Medium.PasswordHeader" parent="@style/Label.Medium">
+        <item name="android:background">?BgKeyRectPressedSelector</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="Label.Candidate.WithOrdinal" parent="@style/Label.Candidate">
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingRight">12.0dip</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    <style name="Label.Small.NonPrimeHeader" parent="@style/Label.Small">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="Label.Small.NonPrimeHeader.Active" parent="@style/Label.Small.NonPrimeHeader">
+        <item name="android:textColor">?ColorLabelNonPrimeHeaderActive</item>
+        <item name="android:background">?BgKeyNonPrimeHeaderActive</item>
+    </style>
+    <style name="Label.Small.NonPrimeHeader.Deactive" parent="@style/Label.Small.NonPrimeHeader">
+        <item name="android:textColor">?ColorLabelNonPrimeHeaderDeactive</item>
+        <item name="android:background">?BgKeyNonPrimeHeaderDeactive</item>
+    </style>
+    <style name="Label.WebKey" parent="@style/Label">
+        <item name="android:textSize">@dimen/text_size_web_key</item>
+        <item name="android:paddingLeft">2.0dip</item>
+        <item name="android:paddingRight">2.0dip</item>
+    </style>
+    <style name="LabelSecondary.FloatingCandidateOrdinal" parent="@style/LabelSecondary">
+        <item name="android:textSize">@dimen/text_size_floating_candidate_ordinal</item>
+        <item name="android:textColor">@color/color_floating_candidate_ordinal</item>
+        <item name="android:layout_gravity">center|left</item>
+        <item name="android:paddingLeft">@dimen/softkey_floating_candidate_ordinal_padding_left</item>
+    </style>
+    <style name="Linear">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:baselineAligned">false</item>
+        <item name="android:weightSum">@integer/weight_sum</item>
+    </style>
+    <style name="Linear.WidthWeighted" parent="@style/Linear">
+        <item name="android:layout_width">0.0dip</item>
+    </style>
+    <style name="Linear.HeightWeighted" parent="@style/Linear">
+        <item name="android:layout_height">0.0dip</item>
+    </style>
+    <style name="Linear.Vertical" parent="@style/Linear">
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="Linear.Horizontal" parent="@style/Linear">
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="Linear.WidthWeighted.Vertical" parent="@style/Linear.WidthWeighted">
+        <item name="android:gravity">center|top</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="Linear.HeightWeighted.Vertical" parent="@style/Linear.HeightWeighted">
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="Linear.WidthWeighted.Horizontal" parent="@style/Linear.WidthWeighted">
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="Linear.HeightWeighted.Horizontal" parent="@style/Linear.HeightWeighted">
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="KeyboardRow" parent="@style/Linear.HeightWeighted.Horizontal">
+        <item name="android:layout_weight">@integer/keyboard_row_weight</item>
+    </style>
+    <style name="DigitKeyboardRow" parent="@style/KeyboardRow">
+        <item name="android:layout_weight">@integer/digit_keyboard_row_weight</item>
+    </style>
+    <style name="Keyboard9KeyRow" parent="@style/KeyboardRow">
+        <item name="android:layout_weight">@integer/keyboard_9_key_row_weight</item>
+    </style>
+    <style name="HintBoxText">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">@drawable/bg_hint_box</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="HintBoxArrow">
+        <item name="android:background">@drawable/bg_hint_box_arrow</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="ComposingText">
+        <item name="android:textSize">@dimen/text_size_composing</item>
+        <item name="android:textColor">?ColorLabelComposingText</item>
+        <item name="android:ellipsize">none</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">?BgComposingText</item>
+        <item name="android:paddingLeft">@dimen/composing_text_padding_left</item>
+        <item name="android:paddingRight">@dimen/composing_text_padding_right</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="BasicPopupView">
+        <item name="android:gravity">center|top</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:id">@id/popup_bubble</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">@dimen/popup_bubble_width</item>
+        <item name="android:minHeight">@dimen/popup_bubble_height</item>
+    </style>
+    <style name="PopupView9Key" parent="@style/BasicPopupView">
+        <item name="android:minHeight">@dimen/popup_bubble_height_9key</item>
+    </style>
+    <style name="PopupImage">
+        <item name="android:gravity">center</item>
+        <item name="android:background">?BgPopupTopImage</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/popup_content_height</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:minWidth">@dimen/popup_bubble_width</item>
+    </style>
+    <style name="PopupBottomImage">
+        <item name="android:background">?BgPopupBottomImage</item>
+    </style>
+    <style name="PopupLabel" parent="@style/Label">
+        <item name="android:textSize">@dimen/text_size_huge</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?ColorLabelPopup</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">?BgPopupTopImage</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/popup_content_height</item>
+        <item name="android:minWidth">@dimen/popup_bubble_width</item>
+        <item name="android:lines">1</item>
+    </style>
+    <style name="SquarePopupLabel" parent="@style/PopupLabel">
+        <item name="android:background">?BgPopupSquareSelector</item>
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingRight">8.0dip</item>
+        <item name="android:paddingBottom">@dimen/square_popup_padding_bottom</item>
+        <item name="android:layout_height">@dimen/square_popup_content_height</item>
+    </style>
+    <style name="SquarePopupImage" parent="@style/PopupImage">
+        <item name="android:background">?BgPopupSquareSelector</item>
+        <item name="android:paddingBottom">@dimen/square_popup_padding_bottom</item>
+        <item name="android:layout_height">@dimen/square_popup_content_height</item>
+    </style>
+    <style name="BigPopupLabel" parent="@style/PopupLabel">
+        <item name="android:textSize">@dimen/text_size_big</item>
+        <item name="android:background">?BgPopupLabelSelector</item>
+        <item name="android:layout_height">@dimen/popup_label_height</item>
+        <item name="android:minWidth">@dimen/popup_label_width</item>
+    </style>
+    <style name="SmallPopupLabel" parent="@style/PopupLabel">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:background">?BgPopupLabelSelector</item>
+        <item name="android:layout_height">@dimen/popup_small_label_height</item>
+        <item name="android:minWidth">@dimen/popup_small_label_width</item>
+    </style>
+    <style name="SmallSquarePopupView">
+        <item name="android:gravity">center|top</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:id">@id/popup_bubble</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="SmallSquarePopupLabel" parent="@style/Label">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">?ColorLabelPopup</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">?BgPopupSquareSelector</item>
+        <item name="android:paddingLeft">@dimen/popup_small_square_label_left_right_padding</item>
+        <item name="android:paddingTop">@dimen/popup_small_square_label_top_bottom_padding</item>
+        <item name="android:paddingRight">@dimen/popup_small_square_label_left_right_padding</item>
+        <item name="android:paddingBottom">@dimen/popup_small_square_label_top_bottom_padding</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lines">1</item>
+    </style>
+    <style name="MaterialPopupView">
+        <item name="android:gravity">center|top</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">@dimen/material_popup_bubble_width</item>
+        <item name="android:minHeight">@dimen/material_popup_bubble_height</item>
+    </style>
+    <style name="MaterialPopupImage">
+        <item name="android:gravity">center</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/material_popup_content_height</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:minWidth">@dimen/material_popup_bubble_width</item>
+    </style>
+    <style name="MaterialPopupLabel" parent="@style/Label">
+        <item name="android:textSize">@dimen/text_size_giant</item>
+        <item name="android:textColor">?ColorLabelPopup</item>
+        <item name="android:gravity">center</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/material_popup_content_height</item>
+        <item name="android:minWidth">@dimen/material_popup_bubble_width</item>
+        <item name="android:lines">1</item>
+    </style>
+    <style name="MaterialPopupLayout" parent="@style/MaterialPopupView">
+        <item name="android:paddingBottom">@dimen/material_popup_layout_padding_bottom</item>
+    </style>
+    <style name="MaterialPopupContent" parent="@style/MaterialPopupView">
+        <item name="android:background">?BgPopupBackground</item>
+        <item name="android:layout_margin">@dimen/material_popup_bubble_margin</item>
+    </style>
+    <style name="MaterialRectangularPopupHandle">
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:background">?BgPopupBackground</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">@dimen/material_popup_bubble_width</item>
+    </style>
+    <style name="MaterialRectangularPopupContent">
+        <item name="android:layout_gravity">top</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">?BgPopupRectangularInset</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/material_popup_bubble_margin</item>
+    </style>
+    <style name="SettingsDialogLabel">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="SettingsDialogEdit">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="SoftKey">
+        <item name="android:gravity">center</item>
+        <item name="android:visibility">invisible</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="SoftKey.Row0" parent="@style/SoftKey">
+        <item name="android:background">?BgKeyRow4</item>
+    </style>
+    <style name="SoftKey.Row1" parent="@style/SoftKey">
+        <item name="android:background">?BgKeyRow1</item>
+    </style>
+    <style name="SoftKey.Row2" parent="@style/SoftKey">
+        <item name="android:background">?BgKeyRow2</item>
+    </style>
+    <style name="SoftKey.Row3" parent="@style/SoftKey">
+        <item name="android:background">?BgKeyRow3</item>
+    </style>
+    <style name="SoftKey.Row4" parent="@style/SoftKey">
+        <item name="android:background">?BgKeyRow4</item>
+    </style>
+    <style name="SoftKey.Row4.Space" parent="@style/SoftKey.Row4">
+        <item name="android:background">?BgKeyRow4Space</item>
+    </style>
+    <style name="SoftKey.Dark" parent="@style/SoftKey">
+        <item name="android:background">?BgKeyDark</item>
+    </style>
+    <style name="SoftKey.SmallDark" parent="@style/SoftKey">
+        <item name="android:background">?BgKeyDarkSmallInset</item>
+    </style>
+    <style name="SoftKey.Light" parent="@style/SoftKey">
+        <item name="android:background">?BgKeyLight</item>
+    </style>
+    <style name="SoftKey.Transparent" parent="@style/SoftKey">
+        <item name="android:background">?BgKeyTransparent</item>
+    </style>
+    <style name="SoftKey.Row1.Qwerty" parent="@style/SoftKey.Row1">
+        <item name="android:layout_weight">@integer/softkey_qwerty_weight</item>
+    </style>
+    <style name="SoftKey.Row2.Qwerty" parent="@style/SoftKey.Row2">
+        <item name="android:layout_weight">@integer/softkey_qwerty_weight</item>
+    </style>
+    <style name="SoftKey.Row3.Qwerty" parent="@style/SoftKey.Row3">
+        <item name="android:layout_weight">@integer/softkey_qwerty_weight</item>
+    </style>
+    <style name="SoftKey.Row4.Qwerty" parent="@style/SoftKey.Row4">
+        <item name="android:layout_weight">@integer/softkey_qwerty_weight</item>
+    </style>
+    <style name="SoftKey.QwertyRow2Side" parent="@style/SoftKey">
+        <item name="android:layout_weight">@integer/softkey_qwerty_side_weight</item>
+    </style>
+    <style name="SoftKeyQwertyRow2SideInner">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:weightSum">@integer/softkey_qwerty_side_weight</item>
+    </style>
+    <style name="SoftKeyQwertyRow2SideInner.Left" parent="@style/SoftKeyQwertyRow2SideInner">
+        <item name="android:gravity">center|right</item>
+    </style>
+    <style name="SoftKeyQwertyRow2SideInner.Right" parent="@style/SoftKeyQwertyRow2SideInner">
+        <item name="android:gravity">center|left</item>
+    </style>
+    <style name="SoftKey.QwertyRow3LeftSide" parent="@style/SoftKey">
+        <item name="android:background">?BgKeyQwertyRow3LeftSide</item>
+        <item name="android:layout_weight">@integer/softkey_qwerty_side_weight</item>
+    </style>
+    <style name="SoftKey.QwertyRow3RightSide" parent="@style/SoftKey">
+        <item name="android:background">?BgKeyQwertyRow3RightSide</item>
+        <item name="android:layout_weight">@integer/softkey_qwerty_side_weight</item>
+    </style>
+    <style name="SoftKey.Row1.9Key" parent="@style/SoftKey.Row1">
+        <item name="android:background">?BgKeyRow1SmallInset</item>
+        <item name="android:layout_weight">234.0</item>
+    </style>
+    <style name="SoftKey.Row2.9Key" parent="@style/SoftKey.Row2">
+        <item name="android:background">?BgKeyRow2SmallInset</item>
+        <item name="android:layout_weight">234.0</item>
+    </style>
+    <style name="SoftKey.Row3.9Key" parent="@style/SoftKey.Row3">
+        <item name="android:background">?BgKeyRow3SmallInset</item>
+        <item name="android:layout_weight">234.0</item>
+    </style>
+    <style name="SoftKey.Dark.9KeyRightSide" parent="@style/SoftKey.Dark">
+        <item name="android:background">?BgKey9KeyDarkSmallInset</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="SoftKey.Row1.Number" parent="@style/SoftKey.Row1">
+        <item name="android:layout_weight">250.0</item>
+    </style>
+    <style name="SoftKey.Row1.Number.SmallInset" parent="@style/SoftKey.Row1.Number">
+        <item name="android:background">?BgKeyRow1SmallInset</item>
+    </style>
+    <style name="SoftKey.Row2.Number" parent="@style/SoftKey.Row2">
+        <item name="android:layout_weight">250.0</item>
+    </style>
+    <style name="SoftKey.Row2.Number.SmallInset" parent="@style/SoftKey.Row2.Number">
+        <item name="android:background">?BgKeyRow2SmallInset</item>
+    </style>
+    <style name="SoftKey.Row3.Number" parent="@style/SoftKey.Row3">
+        <item name="android:layout_weight">250.0</item>
+    </style>
+    <style name="SoftKey.Row3.Number.SmallInset" parent="@style/SoftKey.Row3.Number">
+        <item name="android:background">?BgKeyRow3SmallInset</item>
+    </style>
+    <style name="SoftKey.Row4.Number" parent="@style/SoftKey.Row4">
+        <item name="android:layout_weight">250.0</item>
+    </style>
+    <style name="SoftKey.Row4.Number.SmallInset" parent="@style/SoftKey.Row4.Number">
+        <item name="android:background">?BgKeyRow4SmallInset</item>
+    </style>
+    <style name="SoftKey.Dark.Number" parent="@style/SoftKey.Dark">
+        <item name="android:layout_weight">250.0</item>
+    </style>
+    <style name="SoftKey.Dark.Number.SmallInset" parent="@style/SoftKey.Dark.Number">
+        <item name="android:background">?BgKey9KeyDarkSmallInset</item>
+    </style>
+    <style name="SoftKey.Dark.Number.SmallInset.ImeAction" parent="@style/SoftKey.Dark.Number.SmallInset">
+        <item name="android:background">?BgKeyDarkSmallInsetImeAction</item>
+    </style>
+    <style name="SoftKey.Row1.Digit" parent="@style/SoftKey.Row1">
+        <item name="android:background">?BgKeyRow1SmallInset</item>
+        <item name="android:layout_weight">234.0</item>
+    </style>
+    <style name="SoftKey.Row2.Digit" parent="@style/SoftKey.Row2">
+        <item name="android:background">?BgKeyRow2SmallInset</item>
+        <item name="android:layout_weight">234.0</item>
+    </style>
+    <style name="SoftKey.Row3.Digit" parent="@style/SoftKey.Row3">
+        <item name="android:background">?BgKeyRow3SmallInset</item>
+        <item name="android:layout_weight">234.0</item>
+    </style>
+    <style name="SoftKey.Row4.Digit" parent="@style/SoftKey.Row4">
+        <item name="android:background">?BgKeyRow4SmallInset</item>
+        <item name="android:layout_weight">234.0</item>
+    </style>
+    <style name="SoftKey.Dark.Digit" parent="@style/SoftKey.Dark">
+        <item name="android:layout_weight">149.0</item>
+    </style>
+    <style name="SoftKey.Dark.Digit.SmallInset" parent="@style/SoftKey.Dark.Digit">
+        <item name="android:background">?BgKey9KeyDarkSmallInset</item>
+    </style>
+    <style name="SoftKey.Dark.DigitSide" parent="@style/SoftKey.Dark">
+        <item name="android:background">?BgKey9KeyDarkSmallInset</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="SoftKey.Dark.DigitSmall" parent="@style/SoftKey.Dark">
+        <item name="android:layout_weight">117.0</item>
+    </style>
+    <style name="SoftKey.Dark.InColumn" parent="@style/SoftKey.Dark">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:layout_weight">250.0</item>
+    </style>
+    <style name="SoftKey.Dark.InColumn.ImeAction" parent="@style/SoftKey.Dark.InColumn">
+        <item name="android:background">?BgKeyDarkImeAction</item>
+    </style>
+    <style name="SoftKey.Dark.InColumn.SmallInset" parent="@style/SoftKey.Dark.InColumn">
+        <item name="android:background">?BgKeyDarkSmallInset</item>
+    </style>
+    <style name="SoftKey.Dark.ImeAction" parent="@style/SoftKey.Dark">
+        <item name="android:background">?BgKeyDarkImeAction</item>
+    </style>
+    <style name="SoftKey.Dark.ImeAction.VerticalAlign" parent="@style/SoftKey.Dark.ImeAction">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="SoftKey.Dark.SmallInsetImeAction" parent="@style/SoftKey.Dark">
+        <item name="android:background">?BgKeyDarkSmallInsetImeAction</item>
+    </style>
+    <style name="SoftKeyDashboard">
+        <item name="android:tag">default_icon</item>
+        <item name="android:padding">2.0dip</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+    <style name="SoftKeyDashboardMask">
+        <item name="android:background">?BgKeyDashboardMask</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="SoftKeyDashboard.Previous" parent="@style/SoftKeyDashboard">
+        <item name="android:background">?BgKeyDashboardPrevious</item>
+    </style>
+    <style name="SoftKeyHeaderTabActive">
+        <item name="android:background">?BgKeyHeaderTabActive</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="SoftKeyCandidateBarShowMoreCandidate">
+        <item name="android:layout_gravity">right</item>
+        <item name="android:tag">show_more_candidates_button</item>
+        <item name="android:background">?BgShowMoreCandidatesButton</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:minWidth">@dimen/softkey_show_more_candidates_min_width</item>
+    </style>
+    <style name="FloatingSoftKeyCandidateBarShowMoreCandidate">
+        <item name="android:layout_gravity">right</item>
+        <item name="android:tag">show_more_candidates_button</item>
+        <item name="android:background">@drawable/bg_key_show_more_candidates_material_light_theme_selector</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:minWidth">@dimen/floating_softkey_show_more_candidates_min_width</item>
+    </style>
+    <style name="SoftKeyOnCandidatesView">
+        <item name="android:gravity">center</item>
+        <item name="android:background">?BgKeyOnCandidatesView</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:layout_weight">250.0</item>
+    </style>
+    <style name="SoftKeyOnCandidatesView.T9" parent="@style/SoftKeyOnCandidatesView">
+        <item name="android:background">?BgKeyOnCandidatesViewT9</item>
+    </style>
+    <style name="SoftKeyOnCandidatesView.Delete" parent="@style/SoftKeyOnCandidatesView">
+        <item name="android:background">?BgKeyOnCandidatesViewImeDelete</item>
+    </style>
+    <style name="SoftKeyOnCandidatesView.ImeAction" parent="@style/SoftKeyOnCandidatesView">
+        <item name="android:background">?BgKeyOnCandidatesViewImeAction</item>
+    </style>
+    <style name="SoftKeyOnFloatingCandidatesView">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/bg_key_material_light_theme_selector</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:minWidth">@dimen/floating_more_candidates_right_panel_min_width</item>
+        <item name="android:layout_weight">345.0</item>
+    </style>
+    <style name="SoftKey.PasswordHeader" parent="@style/SoftKey">
+        <item name="android:layout_weight">100.0</item>
+    </style>
+    <style name="ImeActionKey">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="HeaderTabTapArrow">
+        <item name="android:background">?IconTapArrow</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/header_tab_arrow_margin_left</item>
+        <item name="android:layout_toRightOf">@id/icon</item>
+        <item name="android:layout_alignBottom">@id/icon</item>
+    </style>
+    <style name="SoftKey.MainCategory" parent="@style/SoftKey">
+        <item name="android:scaleType">center</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="SoftKey.FunctionKeyOnMainCategoryHolder" parent="@style/SoftKey">
+        <item name="android:background">?BgKeyFunctionKeyOnMainCategoryHolder</item>
+    </style>
+    <style name="SoftKey.ImeActionKeyOnMainCategoryHolder" parent="@style/SoftKey">
+        <item name="android:background">?BgKeyImeActionKeyOnMainCategoryHolder</item>
+    </style>
+    <style name="SoftKey.DelKeyOnSubCategoryHolder" parent="@style/SoftKey">
+        <item name="android:background">?BgKeySubCategoryDeactive</item>
+        <item name="android:layout_weight">165.0</item>
+    </style>
+    <style name="SoftKeySpaceHolder">
+        <item name="android:background">?BgSpaceLabel</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="TutorialPage">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:weightSum">1000.0</item>
+    </style>
+    <style name="TutorialHeader">
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">#ffffffff</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:layout_weight">250.0</item>
+    </style>
+    <style name="TutorialContent">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:layout_weight">750.0</item>
+    </style>
+    <style name="TutorialContent.Portrait" parent="@style/TutorialContent">
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">@dimen/tutorial_page_padding</item>
+        <item name="android:paddingRight">@dimen/tutorial_page_padding</item>
+    </style>
+    <style name="TutorialContent.Landscape" parent="@style/TutorialContent">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingLeft">@dimen/tutorial_page_half_padding</item>
+        <item name="android:paddingRight">@dimen/tutorial_page_half_padding</item>
+        <item name="android:weightSum">1000.0</item>
+    </style>
+    <style name="TutorialLandscapeSubContent">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">@dimen/tutorial_page_half_padding</item>
+        <item name="android:paddingRight">@dimen/tutorial_page_half_padding</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:weightSum">1000.0</item>
+        <item name="android:layout_weight">500.0</item>
+    </style>
+    <style name="TutorialLandscapeSubContent.LandScape" parent="@style/TutorialLandscapeSubContent">
+        <item name="android:paddingLeft">0.0dip</item>
+        <item name="android:paddingRight">0.0dip</item>
+    </style>
+    <style name="TutorialLandscapeSubContent.Left" parent="@style/TutorialLandscapeSubContent">
+        <item name="android:layout_weight">440.0</item>
+    </style>
+    <style name="TutorialLandscapeSubContent.Right" parent="@style/TutorialLandscapeSubContent">
+        <item name="android:layout_weight">560.0</item>
+    </style>
+    <style name="TutorialTitle">
+        <item name="android:textSize">@dimen/tutorial_title_font_size</item>
+        <item name="android:textColor">#ff595959</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/tutorial_header_margin</item>
+        <item name="android:layout_marginBottom">@dimen/tutorial_header_margin</item>
+    </style>
+    <style name="TutorialTitle.Gesture" parent="@style/TutorialTitle">
+        <item name="android:layout_marginBottom">@dimen/tutorial_header_gesture_margin_bottom</item>
+    </style>
+    <style name="TutorialTitle.SubTitle" parent="@style/TutorialTitle">
+        <item name="android:textSize">@dimen/tutorial_subt_title_font_size</item>
+        <item name="android:textColor">#ff5a5a5a</item>
+        <item name="android:layout_marginTop">0.0dip</item>
+        <item name="android:layout_marginBottom">@dimen/tutorial_subtitle_margin_bottom</item>
+        <item name="android:singleLine">false</item>
+    </style>
+    <style name="TutorialPageImage">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingTop">5.0dip</item>
+        <item name="android:paddingBottom">5.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:layout_weight">1000.0</item>
+    </style>
+    <style name="TutorialPageImage.Theme" parent="@style/TutorialPageImage">
+        <item name="android:background">@drawable/bg_tutorial_theme_image_selector</item>
+        <item name="android:paddingLeft">3.0dip</item>
+        <item name="android:paddingTop">3.0dip</item>
+        <item name="android:paddingRight">3.0dip</item>
+        <item name="android:paddingBottom">3.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginBottom">6.0dip</item>
+    </style>
+    <style name="TutorialPageImage.Snapshot" parent="@style/TutorialPageImage">
+        <item name="android:paddingLeft">3.0dip</item>
+        <item name="android:paddingTop">3.0dip</item>
+        <item name="android:paddingRight">3.0dip</item>
+        <item name="android:paddingBottom">3.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="TutorialItemNum">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/bg_tutorial_page_item_number_selector</item>
+        <item name="android:layout_width">26.0dip</item>
+        <item name="android:layout_height">26.0dip</item>
+    </style>
+    <style name="TutorialActivationStep">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textColor">#ff595959</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingLeft">7.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/tutorial_activation_step_margin</item>
+        <item name="android:layout_marginBottom">@dimen/tutorial_activation_step_margin</item>
+    </style>
+    <style name="TutorialStepLabel">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:layout_weight">250.0</item>
+    </style>
+    <style name="TutorialButton">
+        <item name="android:textSize">@dimen/tutorial_subt_title_font_size</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">@drawable/bg_tutorial_activation_button_selector</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/tutorial_activation_step_margin</item>
+        <item name="android:minHeight">48.0dip</item>
+    </style>
+    <style name="TutorialButton.WeightedHeight" parent="@style/TutorialButton">
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:layout_weight">250.0</item>
+    </style>
+    <style name="TutorialHint">
+        <item name="android:textSize">@dimen/tutorial_subt_title_font_size</item>
+        <item name="android:textColor">#ff595959</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/tutorial_user_metrics_content_margin</item>
+    </style>
+    <style name="TutorialSelection">
+        <item name="android:textSize">@dimen/tutorial_subt_title_font_size</item>
+        <item name="android:textColor">#ff595959</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/tutorial_user_metrics_content_margin</item>
+    </style>
+    <style name="TutorialCheckBox">
+        <item name="android:textSize">@dimen/tutorial_subt_title_font_size</item>
+        <item name="android:textColor">#ff595959</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/tutorial_check_box_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/tutorial_user_metrics_content_margin</item>
+        <item name="android:button">@drawable/ic_tutorial_page_checkbox_selector</item>
+    </style>
+    <style name="AppThemeSelector" parent="@android:style/Theme.Light" />
+    <style name="BaseTheme" parent="@android:style/Theme.InputMethod" />
+    <style name="BaseTheme.Layout" parent="@style/BaseTheme">
+        <item name="PopupBubbleLayout">@layout/popup_bubble</item>
+        <item name="PopupBubbleAutoSizedLayout">@layout/popup_bubble</item>
+        <item name="PopupBubbleUnderlineOnDecodeLayout">@layout/popup_bubble_underline_on_decode</item>
+        <item name="PopupBubble9KeyLayout">@layout/popup_bubble_9key</item>
+        <item name="PopupBubble9KeyUnderlineOnDecodeLayout">@layout/popup_bubble_9key_underline_on_decode</item>
+        <item name="PopupBubbleRectangularLayout">@layout/popup_bubble_rectangular</item>
+        <item name="PopupBubbleRectangularSmallLayout">@layout/popup_bubble_rectangular_small</item>
+        <item name="PopupBubbleRectangularLabelSmallLayout">@layout/popup_bubble_rectangular_label_small</item>
+        <item name="PopupBubbleArrayLayout">@layout/popup_bubble_array</item>
+    </style>
+    <style name="BaseTheme.Layout.Material" parent="@style/BaseTheme.Layout">
+        <item name="PopupBubbleLayout">@layout/popup_bubble_material</item>
+        <item name="PopupBubbleAutoSizedLayout">@layout/popup_bubble_auto_sized_material</item>
+        <item name="PopupBubbleUnderlineOnDecodeLayout">@layout/popup_bubble_underline_on_decode_material</item>
+        <item name="PopupBubble9KeyLayout">@layout/popup_bubble_material</item>
+        <item name="PopupBubble9KeyUnderlineOnDecodeLayout">@layout/popup_bubble_underline_on_decode_material</item>
+        <item name="PopupBubbleRectangularLayout">@layout/popup_bubble_rectangular_material</item>
+        <item name="PopupBubbleRectangularSmallLayout">@layout/popup_bubble_rectangular_small_material</item>
+        <item name="PopupBubbleRectangularLabelSmallLayout">@layout/popup_bubble_rectangular_label_small_material</item>
+        <item name="PopupBubbleArrayLayout">@layout/popup_bubble_array_material</item>
+    </style>
+    <style name="LightTheme" parent="@style/BaseTheme.Layout">
+        <item name="ColorLabel">@color/label_light_theme</item>
+        <item name="ColorLabelDarkKey">@color/label_darkkey_light_theme</item>
+        <item name="ColorLabelSecondary">@color/label_secondary_light_theme</item>
+        <item name="ColorLabelSecondarySub">@color/label_secondary_sub_light_theme</item>
+        <item name="ColorLabelQwertySecondaryRow3">@color/label_qwerty_secondary_row3_light_theme</item>
+        <item name="ColorLabelCandidate">@color/color_candidate_text_light_theme</item>
+        <item name="ColorLabelComposingText">@color/label_composing_text_light_theme</item>
+        <item name="ColorLabelNonPrimeHeaderActive">@color/label_non_prime_header_active_light_theme</item>
+        <item name="ColorLabelNonPrimeHeaderDeactive">@color/label_non_prime_header_deactive_light_theme</item>
+        <item name="ColorLabelSupDark">@color/label_sup_dark_light_theme</item>
+        <item name="ColorLabelSupLight">@color/label_sup_light_light_theme</item>
+        <item name="ColorLabelFunctionKey">@color/label_function_key_light_theme</item>
+        <item name="ColorLabelFunctionLightKey">@color/label_function_light_key_light_theme</item>
+        <item name="ColorLabelSpace">@color/label_space_light_theme</item>
+        <item name="ColorLabelReadingTextCandidate">@color/label_reading_text_candidate_light_theme</item>
+        <item name="ColorLabel9KeyLeftPanel">@color/label_9key_left_panel_light_theme</item>
+        <item name="ColorLabelPopup">@color/label_popup_holo_theme</item>
+        <item name="ColorInlineComposingTextCorrection">@color/inline_composing_text_correction_holo_theme</item>
+        <item name="BgKeyboardBody">@drawable/bg_keyboard_body_light_theme</item>
+        <item name="BgHeader">@drawable/bg_header_light_theme</item>
+        <item name="BgHeaderCandidate">@drawable/bg_header_candidate_light_theme</item>
+        <item name="BgHeaderTabPrime">@drawable/bg_key_rect_pressed_light_theme_selector</item>
+        <item name="BgKeyPressedSelector">@drawable/bg_key_pressed_light_theme_selector</item>
+        <item name="BgKeyRectPressedSelector">@drawable/bg_key_rect_pressed_light_theme_selector</item>
+        <item name="BgKeyDark">@drawable/bg_key_dark_light_theme_inset</item>
+        <item name="BgKeyDarkSmallInset">@drawable/bg_key_dark_light_theme_small_inset</item>
+        <item name="BgKeyDarkSmallInsetImeAction">@drawable/bg_key_dark_light_theme_small_inset</item>
+        <item name="BgKeyDarkImeAction">@drawable/bg_key_dark_light_theme_inset</item>
+        <item name="BgKey9KeyDarkSmallInset">@drawable/bg_key_9key_dark_light_theme_small_inset</item>
+        <item name="BgKeyLight">@drawable/bg_key_light_light_theme_inset</item>
+        <item name="BgKeyRow0SmallInset">@drawable/bg_key_row0_light_theme_small_inset</item>
+        <item name="BgKeyRow1">@drawable/bg_key_row1_light_theme_inset</item>
+        <item name="BgKeyRow1SmallInset">@drawable/bg_key_row1_light_theme_small_inset</item>
+        <item name="BgKeyRow2">@drawable/bg_key_row2_light_theme_inset</item>
+        <item name="BgKeyRow2SmallInset">@drawable/bg_key_row2_light_theme_small_inset</item>
+        <item name="BgKeyRow3">@drawable/bg_key_row3_light_theme_inset</item>
+        <item name="BgKeyRow3SmallInset">@drawable/bg_key_row3_light_theme_small_inset</item>
+        <item name="BgKeyRow4">@drawable/bg_key_row4_light_theme_inset</item>
+        <item name="BgKeyRow4SmallInset">@drawable/bg_key_row4_light_theme_small_inset</item>
+        <item name="BgKeyQwertyRow3LeftSide">@drawable/bg_key_qwerty_row3_left_side_inset_light_theme</item>
+        <item name="BgKeyQwertyRow3RightSide">@drawable/bg_key_qwerty_row3_right_side_inset_light_theme</item>
+        <item name="BgKeyHeaderTabActive">@drawable/bg_key_header_tab_active_light_theme_selector</item>
+        <item name="BgKeyTransparent">@drawable/bg_key_transparent_light_theme_inset</item>
+        <item name="BgMoreCandidatesHolder">@drawable/bg_more_candidates_holder_light_theme</item>
+        <item name="BgT9TabletMoreCandidatesHolder">@drawable/bg_more_candidates_holder_light_theme</item>
+        <item name="BgReadingTextCandidates">@drawable/bg_reading_text_candidates_light_theme</item>
+        <item name="BgMoreCandidatesRightPanel">@drawable/bg_transparent</item>
+        <item name="BgKeyOnCandidatesView">@drawable/bg_key_on_candidates_view_light_theme_selector</item>
+        <item name="BgKeyOnCandidatesViewT9">@drawable/bg_key_on_candidates_view_light_theme_selector</item>
+        <item name="BgKeyOnCandidatesViewImeAction">@drawable/bg_key_on_candidates_view_light_theme_selector</item>
+        <item name="BgKeyOnCandidatesViewImeDelete">@drawable/bg_key_on_candidates_view_light_theme_selector</item>
+        <item name="BgKeyImeActionOnCandidatesView">@drawable/bg_key_on_candidates_view_light_theme_selector</item>
+        <item name="BgKeyNonPrimeHeaderActive">@drawable/bg_key_non_prime_header_active_light_theme_selector</item>
+        <item name="BgKeyNonPrimeHeaderDeactive">@drawable/bg_key_non_prime_header_deactive_light_theme_selector</item>
+        <item name="BgKeyDashboardPrevious">@drawable/bg_key_dashboard_previous_light_theme</item>
+        <item name="BgKeyDashboardMask">@drawable/bg_key_snapshot_mask_light_theme_selector</item>
+        <item name="BgComposingText">@drawable/bg_composing_text_light_theme</item>
+        <item name="BgSeparator">@drawable/ic_header_separator_light_theme</item>
+        <item name="BgMainCategoryHolderSeparator">@drawable/ic_header_separator_light_theme</item>
+        <item name="BgCandidate">@drawable/bg_key_candidate_selector_light_theme</item>
+        <item name="BgCandidateLastColumn">@drawable/bg_key_candidate_last_column_selector_light_theme</item>
+        <item name="BgShowMoreCandidatesButton">@drawable/bg_key_show_more_candidates_light_theme_selector</item>
+        <item name="BgFloatingCandidate">@drawable/bg_key_floating_candidate_material_light_theme_selector</item>
+        <item name="BgPopupTopImage">@drawable/bg_popup_top_blue_light_theme</item>
+        <item name="BgPopupBottomImage">@drawable/bg_popup_bottom_blue_light_theme</item>
+        <item name="BgPopupBackground">@drawable/bg_transparent</item>
+        <item name="BgPopupRectangularInset">@drawable/bg_popup_rectangular_inset</item>
+        <item name="BgPopupLabelSelector">@drawable/bg_popup_label_selector</item>
+        <item name="BgPopupSquareSelector">@drawable/bg_popup_square_selector</item>
+        <item name="Bg9KeyKeyboardLeftPanel">@drawable/bg_transparent</item>
+        <item name="Bg9KeyKeyboardRightPanel">@drawable/bg_transparent</item>
+        <item name="BgDigitKeyboardLeftPanel">@drawable/bg_transparent</item>
+        <item name="BgDigitKeyboardRightPanel">@drawable/bg_transparent</item>
+        <item name="BgKeyMainCategoryActive">@drawable/bg_key_main_category_active_light_theme_inset</item>
+        <item name="BgKeyMainCategoryDeactive">@drawable/bg_key_main_category_deactive_light_theme_inset</item>
+        <item name="BgKeySubCategoryActive">@drawable/bg_key_non_prime_sub_category_active_light_theme_selector</item>
+        <item name="BgKeySubCategoryDeactive">@drawable/bg_key_non_prime_header_deactive_light_theme_selector</item>
+        <item name="BgKeyFunctionKeyOnMainCategoryHolder">@drawable/bg_key_main_category_deactive_light_theme_inset</item>
+        <item name="BgKeyImeActionKeyOnMainCategoryHolder">@drawable/bg_key_main_category_deactive_light_theme_inset</item>
+        <item name="BgNonPrimeKeyboardPageIndicator">@drawable/bg_transparent</item>
+        <item name="BgSpaceLabel">@drawable/bg_transparent</item>
+        <item name="BgKeyRow4Space">@drawable/bg_key_row4_light_theme_inset</item>
+        <item name="IconSpaceDarkKey">@drawable/ic_key_space_white</item>
+        <item name="IconSpaceLightKey">@drawable/ic_key_space_grey</item>
+        <item name="IconPasswordSpaceKey">@drawable/ic_key_space_grey</item>
+        <item name="IconHideKeyboard">@drawable/ic_key_hide_keyboard_light_theme</item>
+        <item name="IconSmiley">@drawable/ic_key_main_category_smiley_dark_theme</item>
+        <item name="IconSmileyActive">@drawable/anim_smiley_light_theme</item>
+        <item name="IconSmileyDeactive">@drawable/ic_key_smiley_deactive_light_theme</item>
+        <item name="IconSwitchToSmiley">@drawable/ic_key_main_category_smiley_light_theme</item>
+        <item name="IconBarGreen">@drawable/ic_bar_green_light_theme</item>
+        <item name="IconBarUnlock">@drawable/ic_bar_unlock_light_theme</item>
+        <item name="IconSettingDarkKey">@drawable/ic_key_setting_white</item>
+        <item name="IconSettingLightKey">@drawable/ic_key_setting_grey</item>
+        <item name="IconArrowLeft">@drawable/ic_key_arrow_left_selector_light_theme</item>
+        <item name="IconArrowRight">@drawable/ic_key_arrow_right_selector_light_theme</item>
+        <item name="IconArrowUp">@drawable/ic_key_arrow_up_selector_light_theme</item>
+        <item name="IconArrowDown">@drawable/ic_key_arrow_down_selector_light_theme</item>
+        <item name="IconTapArrow">@drawable/ic_tap_arrow_light_theme</item>
+        <item name="IconShowMoreCandidatesOpen">@drawable/ic_key_show_more_candidates_open_light_theme</item>
+        <item name="IconShowMoreCandidatesClose">@drawable/ic_key_show_more_candidates_close_light_theme</item>
+        <item name="IconMoveCursor">@drawable/ic_key_movecursor</item>
+        <item name="IconMoveCursorNone">@drawable/ic_key_movecursor_none_light_theme</item>
+        <item name="IconMoveCursorLeft">@drawable/ic_key_movecursor_left_light_theme</item>
+        <item name="IconMoveCursorRight">@drawable/ic_key_movecursor_right_light_theme</item>
+        <item name="IconMoveCursorUp">@drawable/ic_key_movecursor_up_light_theme</item>
+        <item name="IconMoveCursorDown">@drawable/ic_key_movecursor_down_light_theme</item>
+        <item name="IconMoveCursorLightKey">@drawable/ic_key_movecursor_light_key_holo_light_theme</item>
+        <item name="IconGlobeDisabledDarkKey">@drawable/ic_key_globe_disabled_dark</item>
+        <item name="IconGlobeDisabledLightKey">@drawable/ic_key_globe_disabled_light</item>
+        <item name="IconGlobeEnabledDarkKey">@drawable/ic_key_globe_enabled_light</item>
+        <item name="IconGlobeEnabledLightKey">@drawable/ic_key_globe_enabled_dark</item>
+        <item name="IconLockDarkKey">@drawable/ic_key_lock_light</item>
+        <item name="IconLockLightKey">@drawable/ic_key_lock_dark</item>
+        <item name="IconDelDarkKey">@drawable/ic_key_del</item>
+        <item name="IconDelLightKey">@drawable/ic_key_del_dark</item>
+        <item name="IconEnterLightKey">@drawable/ic_key_enter_dark</item>
+        <item name="IconEnterDarkKey">@drawable/ic_key_enter</item>
+        <item name="IconGoDarkKey">@drawable/ic_key_ime_action_go</item>
+        <item name="IconGoLightKey">@drawable/ic_key_ime_action_go_dark</item>
+        <item name="IconSendDarkKey">@drawable/ic_key_ime_action_send</item>
+        <item name="IconSendLightKey">@drawable/ic_key_ime_action_send_dark</item>
+        <item name="IconNextDarkKey">@drawable/ic_key_ime_action_next</item>
+        <item name="IconNextLightKey">@drawable/ic_key_ime_action_next_dark</item>
+        <item name="IconDoneDarkKey">@drawable/ic_key_ime_action_done</item>
+        <item name="IconDoneLightKey">@drawable/ic_key_ime_action_done_dark</item>
+        <item name="IconSearchDarkKey">@drawable/ic_key_search</item>
+        <item name="IconSearchLightKey">@drawable/ic_key_search_dark</item>
+        <item name="IconImeActionBack">@drawable/bg_transparent</item>
+        <item name="IconShiftOn">@drawable/ic_key_shift_narrow_on</item>
+        <item name="IconShiftOff">@drawable/ic_key_shift_narrow_off</item>
+        <item name="IconMainCategoryNumber">@drawable/ic_key_main_category_number_light_theme</item>
+        <item name="IconMainCategorySymbol">@drawable/ic_key_main_category_symbol_light_theme</item>
+        <item name="IconMainCategorySmiley">@drawable/ic_key_main_category_smiley_light_theme</item>
+        <item name="IconMainCategorySmileyActive">@drawable/anim_smiley_light_theme</item>
+        <item name="IconRecent">@drawable/ic_key_recent_light_theme</item>
+        <item name="IconSubCategorySymbolLove">@drawable/ic_key_sub_category_symbol_love_light_theme</item>
+        <item name="IconSubCategorySymbolKuohao">@drawable/ic_key_sub_category_symbol_kuohao_light_theme</item>
+        <item name="IconSubCategorySymbolArrow">@drawable/ic_key_sub_category_symbol_arrow_light_theme</item>
+        <item name="IconSubCategorySymbolMath">@drawable/ic_key_sub_category_symbol_math_light_theme</item>
+        <item name="IconSubCategorySymbolNumber">@drawable/ic_key_sub_category_symbol_number_light_theme</item>
+        <item name="IconSubCategorySmileyEmoji">@drawable/ic_key_sub_category_smiley_emoji_light_theme</item>
+        <item name="IconSubCategorySmileyFlower">@drawable/ic_key_sub_category_smiley_flower_light_theme</item>
+        <item name="IconSubCategorySmileyCrown">@drawable/ic_key_sub_category_smiley_crown_light_theme</item>
+        <item name="IconSubCategorySmileyCar">@drawable/ic_key_sub_category_smiley_car_light_theme</item>
+        <item name="IconSubCategorySmileySymbol">@drawable/ic_key_sub_category_smiley_symbol_light_theme</item>
+        <item name="IconSubCategorySmileyEmoticon">@drawable/ic_key_sub_category_smiley_emoticon_light_theme</item>
+        <item name="IconMic">@drawable/ic_key_mic_light_theme</item>
+        <item name="IconNonPrimeKeyboardPageIndicator">@drawable/ic_non_prime_keyboard_page_indicator_light_theme</item>
+        <item name="IconAlpha">255</item>
+        <item name="LabelAlpha">255</item>
+        <item name="IconDisabledAlpah">255</item>
+        <item name="IconCategoryActive">255</item>
+        <item name="IconCategoryInactive">153</item>
+        <item name="IconBottomMarginBottom">@dimen/icon_bottom_margin_bottom_holo_theme</item>
+        <item name="LabelBottomMarginBottom">@dimen/label_bottom_margin_bottom_holo_theme</item>
+        <item name="IconImeActionMarginBottom">@dimen/icon_ime_action_margin_bottom_holo_theme</item>
+        <item name="KeyboardCandidateBodyPaddingTop">0.0dip</item>
+    </style>
+    <style name="DarkTheme" parent="@style/BaseTheme.Layout">
+        <item name="ColorLabel">@color/label_dark_theme</item>
+        <item name="ColorLabelDarkKey">@color/label_darkkey_dark_theme</item>
+        <item name="ColorLabelSecondary">@color/label_secondary_dark_theme</item>
+        <item name="ColorLabelSecondarySub">@color/label_secondary_sub_dark_theme</item>
+        <item name="ColorLabelQwertySecondaryRow3">@color/label_qwerty_secondary_row3_dark_theme</item>
+        <item name="ColorLabelCandidate">@color/color_candidate_text_dark_theme</item>
+        <item name="ColorLabelComposingText">@color/label_composing_text_dark_theme</item>
+        <item name="ColorLabelNonPrimeHeaderActive">@color/label_non_prime_header_active_dark_theme</item>
+        <item name="ColorLabelNonPrimeHeaderDeactive">@color/label_non_prime_header_deactive_dark_theme</item>
+        <item name="ColorLabelSupDark">@color/label_sup_dark_dark_theme</item>
+        <item name="ColorLabelSupLight">@color/label_sup_light_dark_theme</item>
+        <item name="ColorLabelFunctionKey">@color/label_function_key_dark_theme</item>
+        <item name="ColorLabelFunctionLightKey">@color/label_function_light_key_dark_theme</item>
+        <item name="ColorLabelSpace">@color/label_space_dark_theme</item>
+        <item name="ColorLabelReadingTextCandidate">@color/label_reading_text_candidate_dark_theme</item>
+        <item name="ColorLabel9KeyLeftPanel">@color/label_9key_left_panel_dark_theme</item>
+        <item name="ColorLabelPopup">@color/label_popup_holo_theme</item>
+        <item name="ColorInlineComposingTextCorrection">@color/inline_composing_text_correction_holo_theme</item>
+        <item name="BgKeyboardBody">@drawable/bg_keyboard_body_dark_theme</item>
+        <item name="BgHeader">@drawable/bg_header_dark_theme</item>
+        <item name="BgHeaderCandidate">@drawable/bg_header_candidate_dark_theme</item>
+        <item name="BgHeaderTabPrime">@drawable/bg_key_rect_pressed_dark_theme_selector</item>
+        <item name="BgKeyPressedSelector">@drawable/bg_key_pressed_dark_theme_selector</item>
+        <item name="BgKeyRectPressedSelector">@drawable/bg_key_pressed_dark_theme_selector</item>
+        <item name="BgKeyDark">@drawable/bg_key_dark_dark_theme_inset</item>
+        <item name="BgKeyDarkSmallInset">@drawable/bg_key_dark_dark_theme_small_inset</item>
+        <item name="BgKeyDarkSmallInsetImeAction">@drawable/bg_key_dark_dark_theme_small_inset</item>
+        <item name="BgKeyDarkImeAction">@drawable/bg_key_dark_dark_theme_inset</item>
+        <item name="BgKey9KeyDarkSmallInset">@drawable/bg_key_9key_dark_dark_theme_small_inset</item>
+        <item name="BgKeyLight">@drawable/bg_key_light_dark_theme_inset</item>
+        <item name="BgKeyRow0SmallInset">@drawable/bg_key_row0_dark_theme_small_inset</item>
+        <item name="BgKeyRow1">@drawable/bg_key_row1_dark_theme_inset</item>
+        <item name="BgKeyRow1SmallInset">@drawable/bg_key_row1_dark_theme_small_inset</item>
+        <item name="BgKeyRow2">@drawable/bg_key_row2_dark_theme_inset</item>
+        <item name="BgKeyRow2SmallInset">@drawable/bg_key_row2_dark_theme_small_inset</item>
+        <item name="BgKeyRow3">@drawable/bg_key_row3_dark_theme_inset</item>
+        <item name="BgKeyRow3SmallInset">@drawable/bg_key_row3_dark_theme_small_inset</item>
+        <item name="BgKeyRow4">@drawable/bg_key_row4_dark_theme_inset</item>
+        <item name="BgKeyRow4SmallInset">@drawable/bg_key_row4_dark_theme_small_inset</item>
+        <item name="BgKeyQwertyRow3LeftSide">@drawable/bg_key_qwerty_row3_left_side_inset_dark_theme</item>
+        <item name="BgKeyQwertyRow3RightSide">@drawable/bg_key_qwerty_row3_right_side_inset_dark_theme</item>
+        <item name="BgKeyHeaderTabActive">@drawable/bg_key_header_tab_active_dark_theme_selector</item>
+        <item name="BgKeyTransparent">@drawable/bg_key_transparent_dark_theme_inset</item>
+        <item name="BgMoreCandidatesHolder">@drawable/bg_more_candidates_holder_dark_theme</item>
+        <item name="BgT9TabletMoreCandidatesHolder">@drawable/bg_more_candidates_holder_dark_theme</item>
+        <item name="BgReadingTextCandidates">@drawable/bg_reading_text_candidates_dark_theme</item>
+        <item name="BgMoreCandidatesRightPanel">@drawable/bg_transparent</item>
+        <item name="BgKeyOnCandidatesView">@drawable/bg_key_on_candidates_view_dark_theme_selector</item>
+        <item name="BgKeyOnCandidatesViewT9">@drawable/bg_key_on_candidates_view_dark_theme_selector</item>
+        <item name="BgKeyOnCandidatesViewImeAction">@drawable/bg_key_on_candidates_view_dark_theme_selector</item>
+        <item name="BgKeyOnCandidatesViewImeDelete">@drawable/bg_key_on_candidates_view_dark_theme_selector</item>
+        <item name="BgKeyImeActionOnCandidatesView">@drawable/bg_key_on_candidates_view_dark_theme_selector</item>
+        <item name="BgKeyNonPrimeHeaderActive">@drawable/bg_key_non_prime_header_active_dark_theme_selector</item>
+        <item name="BgKeyNonPrimeHeaderDeactive">@drawable/bg_key_non_prime_header_deactive_dark_theme_selector</item>
+        <item name="BgKeyDashboardPrevious">@drawable/bg_key_dashboard_previous_dark_theme</item>
+        <item name="BgKeyDashboardMask">@drawable/bg_key_snapshot_mask_dark_theme_selector</item>
+        <item name="BgComposingText">@drawable/bg_composing_text_dark_theme</item>
+        <item name="BgSeparator">@drawable/ic_header_separator_dark_theme</item>
+        <item name="BgMainCategoryHolderSeparator">@drawable/ic_main_category_holder_separator_dark_theme</item>
+        <item name="BgCandidate">@drawable/bg_key_candidate_selector_dark_theme</item>
+        <item name="BgCandidateLastColumn">@drawable/bg_key_candidate_last_column_selector_dark_theme</item>
+        <item name="BgShowMoreCandidatesButton">@drawable/bg_key_show_more_candidates_dark_theme_selector</item>
+        <item name="BgFloatingCandidate">@drawable/bg_key_floating_candidate_material_light_theme_selector</item>
+        <item name="BgPopupTopImage">@drawable/bg_popup_top_blue_dark_theme</item>
+        <item name="BgPopupBottomImage">@drawable/bg_popup_bottom_blue_dark_theme</item>
+        <item name="BgPopupBackground">@drawable/bg_transparent</item>
+        <item name="BgPopupRectangularInset">@drawable/bg_popup_rectangular_inset</item>
+        <item name="BgPopupLabelSelector">@drawable/bg_popup_label_selector</item>
+        <item name="BgPopupSquareSelector">@drawable/bg_popup_square_selector</item>
+        <item name="Bg9KeyKeyboardLeftPanel">@drawable/bg_transparent</item>
+        <item name="Bg9KeyKeyboardRightPanel">@drawable/bg_transparent</item>
+        <item name="BgDigitKeyboardLeftPanel">@drawable/bg_transparent</item>
+        <item name="BgDigitKeyboardRightPanel">@drawable/bg_transparent</item>
+        <item name="BgKeyMainCategoryActive">@drawable/bg_key_main_category_active_dark_theme_inset</item>
+        <item name="BgKeyMainCategoryDeactive">@drawable/bg_key_main_category_deactive_dark_theme_inset</item>
+        <item name="BgKeySubCategoryActive">@drawable/bg_key_non_prime_sub_category_active_dark_theme_selector</item>
+        <item name="BgKeySubCategoryDeactive">@drawable/bg_key_pressed_dark_theme_selector</item>
+        <item name="BgKeyFunctionKeyOnMainCategoryHolder">@drawable/bg_key_main_category_deactive_dark_theme_inset</item>
+        <item name="BgKeyImeActionKeyOnMainCategoryHolder">@drawable/bg_key_main_category_deactive_dark_theme_inset</item>
+        <item name="BgNonPrimeKeyboardPageIndicator">@drawable/bg_transparent</item>
+        <item name="BgSpaceLabel">@drawable/bg_transparent</item>
+        <item name="BgKeyRow4Space">@drawable/bg_key_row4_dark_theme_inset</item>
+        <item name="IconSpaceDarkKey">@drawable/ic_key_space_white</item>
+        <item name="IconSpaceLightKey">@drawable/ic_key_space_white</item>
+        <item name="IconPasswordSpaceKey">@drawable/ic_key_space_white</item>
+        <item name="IconHideKeyboard">@drawable/ic_key_hide_keyboard_dark_theme</item>
+        <item name="IconSmiley">@drawable/ic_key_main_category_smiley_dark_theme</item>
+        <item name="IconSmileyActive">@drawable/anim_smiley_dark_theme</item>
+        <item name="IconSmileyDeactive">@drawable/ic_key_smiley_deactive_dark_theme</item>
+        <item name="IconSwitchToSmiley">@drawable/ic_key_main_category_smiley_dark_theme</item>
+        <item name="IconBarGreen">@drawable/ic_bar_green_dark_theme</item>
+        <item name="IconBarUnlock">@drawable/ic_bar_unlock_dark_theme</item>
+        <item name="IconSettingDarkKey">@drawable/ic_key_setting_white</item>
+        <item name="IconSettingLightKey">@drawable/ic_key_setting_grey</item>
+        <item name="IconArrowLeft">@drawable/ic_key_arrow_left_selector_dark_theme</item>
+        <item name="IconArrowRight">@drawable/ic_key_arrow_right_selector_dark_theme</item>
+        <item name="IconArrowUp">@drawable/ic_key_arrow_up_selector_dark_theme</item>
+        <item name="IconArrowDown">@drawable/ic_key_arrow_down_selector_dark_theme</item>
+        <item name="IconTapArrow">@drawable/ic_tap_arrow_dark_theme</item>
+        <item name="IconShowMoreCandidatesOpen">@drawable/ic_key_show_more_candidates_open_dark_theme</item>
+        <item name="IconShowMoreCandidatesClose">@drawable/ic_key_show_more_candidates_close_dark_theme</item>
+        <item name="IconMoveCursor">@drawable/ic_key_movecursor</item>
+        <item name="IconMoveCursorNone">@drawable/ic_key_movecursor_none_dark_theme</item>
+        <item name="IconMoveCursorLeft">@drawable/ic_key_movecursor_left_dark_theme</item>
+        <item name="IconMoveCursorRight">@drawable/ic_key_movecursor_right_dark_theme</item>
+        <item name="IconMoveCursorUp">@drawable/ic_key_movecursor_up_dark_theme</item>
+        <item name="IconMoveCursorDown">@drawable/ic_key_movecursor_down_dark_theme</item>
+        <item name="IconMoveCursorLightKey">@drawable/ic_key_movecursor</item>
+        <item name="IconGlobeDisabledDarkKey">@drawable/ic_key_globe_disabled_dark</item>
+        <item name="IconGlobeDisabledLightKey">@drawable/ic_key_globe_disabled_dark</item>
+        <item name="IconGlobeEnabledDarkKey">@drawable/ic_key_globe_enabled_light</item>
+        <item name="IconGlobeEnabledLightKey">@drawable/ic_key_globe_enabled_light</item>
+        <item name="IconLockDarkKey">@drawable/ic_key_lock_light</item>
+        <item name="IconLockLightKey">@drawable/ic_key_lock_light</item>
+        <item name="IconDelDarkKey">@drawable/ic_key_del</item>
+        <item name="IconDelLightKey">@drawable/ic_key_del</item>
+        <item name="IconEnterLightKey">@drawable/ic_key_enter</item>
+        <item name="IconEnterDarkKey">@drawable/ic_key_enter</item>
+        <item name="IconGoDarkKey">@drawable/ic_key_ime_action_go</item>
+        <item name="IconGoLightKey">@drawable/ic_key_ime_action_go</item>
+        <item name="IconSendDarkKey">@drawable/ic_key_ime_action_send</item>
+        <item name="IconSendLightKey">@drawable/ic_key_ime_action_send</item>
+        <item name="IconNextDarkKey">@drawable/ic_key_ime_action_next</item>
+        <item name="IconNextLightKey">@drawable/ic_key_ime_action_next</item>
+        <item name="IconDoneDarkKey">@drawable/ic_key_ime_action_done</item>
+        <item name="IconDoneLightKey">@drawable/ic_key_ime_action_done</item>
+        <item name="IconSearchDarkKey">@drawable/ic_key_search</item>
+        <item name="IconSearchLightKey">@drawable/ic_key_search</item>
+        <item name="IconImeActionBack">@drawable/bg_transparent</item>
+        <item name="IconShiftOn">@drawable/ic_key_shift_narrow_on</item>
+        <item name="IconShiftOff">@drawable/ic_key_shift_narrow_off</item>
+        <item name="IconMainCategoryNumber">@drawable/ic_key_main_category_number_dark_theme</item>
+        <item name="IconMainCategorySymbol">@drawable/ic_key_main_category_symbol_dark_theme</item>
+        <item name="IconMainCategorySmiley">@drawable/ic_key_main_category_smiley_dark_theme</item>
+        <item name="IconMainCategorySmileyActive">@drawable/anim_smiley_dark_theme</item>
+        <item name="IconRecent">@drawable/ic_key_recent_dark_theme</item>
+        <item name="IconSubCategorySymbolLove">@drawable/ic_key_sub_category_symbol_love_dark_theme</item>
+        <item name="IconSubCategorySymbolKuohao">@drawable/ic_key_sub_category_symbol_kuohao_dark_theme</item>
+        <item name="IconSubCategorySymbolArrow">@drawable/ic_key_sub_category_symbol_arrow_dark_theme</item>
+        <item name="IconSubCategorySymbolMath">@drawable/ic_key_sub_category_symbol_math_dark_theme</item>
+        <item name="IconSubCategorySymbolNumber">@drawable/ic_key_sub_category_symbol_number_dark_theme</item>
+        <item name="IconSubCategorySmileyEmoji">@drawable/ic_key_sub_category_smiley_emoji_dark_theme</item>
+        <item name="IconSubCategorySmileyFlower">@drawable/ic_key_sub_category_smiley_flower_dark_theme</item>
+        <item name="IconSubCategorySmileyCrown">@drawable/ic_key_sub_category_smiley_crown_dark_theme</item>
+        <item name="IconSubCategorySmileyCar">@drawable/ic_key_sub_category_smiley_car_dark_theme</item>
+        <item name="IconSubCategorySmileySymbol">@drawable/ic_key_sub_category_smiley_symbol_dark_theme</item>
+        <item name="IconSubCategorySmileyEmoticon">@drawable/ic_key_sub_category_smiley_emoticon_dark_theme</item>
+        <item name="IconMic">@drawable/ic_key_mic_dark_theme</item>
+        <item name="IconNonPrimeKeyboardPageIndicator">@drawable/ic_non_prime_keyboard_page_indicator_dark_theme</item>
+        <item name="IconAlpha">255</item>
+        <item name="LabelAlpha">255</item>
+        <item name="IconDisabledAlpah">255</item>
+        <item name="IconCategoryActive">255</item>
+        <item name="IconCategoryInactive">153</item>
+        <item name="IconBottomMarginBottom">@dimen/icon_bottom_margin_bottom_holo_theme</item>
+        <item name="LabelBottomMarginBottom">@dimen/label_bottom_margin_bottom_holo_theme</item>
+        <item name="IconImeActionMarginBottom">@dimen/icon_ime_action_margin_bottom_holo_theme</item>
+        <item name="KeyboardCandidateBodyPaddingTop">0.0dip</item>
+    </style>
+    <style name="MaterialDarkTheme" parent="@style/BaseTheme.Layout.Material">
+        <item name="ColorLabel">@color/label_material_dark_theme</item>
+        <item name="ColorLabelDarkKey">@color/label_darkkey_material_dark_theme</item>
+        <item name="ColorLabelSecondary">@color/label_secondary_material_dark_theme</item>
+        <item name="ColorLabelSecondarySub">@color/label_secondary_sub_material_dark_theme</item>
+        <item name="ColorLabelQwertySecondaryRow3">@color/label_qwerty_secondary_row3_material_dark_theme</item>
+        <item name="ColorLabelCandidate">@color/color_candidate_text_material_dark_theme</item>
+        <item name="ColorLabelComposingText">@color/label_composing_text_material_dark_theme</item>
+        <item name="ColorLabelNonPrimeHeaderActive">@color/label_non_prime_header_active_dark_theme</item>
+        <item name="ColorLabelNonPrimeHeaderDeactive">@color/label_non_prime_header_deactive_dark_theme</item>
+        <item name="ColorLabelSupDark">@color/label_sup_dark_material_dark_theme</item>
+        <item name="ColorLabelSupLight">@color/label_sup_light_material_dark_theme</item>
+        <item name="ColorLabelFunctionKey">@color/label_function_key_material_dark_theme</item>
+        <item name="ColorLabelFunctionLightKey">@color/label_function_light_key_material_dark_theme</item>
+        <item name="ColorLabelSpace">@color/label_space_material_dark_theme</item>
+        <item name="ColorLabelReadingTextCandidate">@color/label_reading_text_candidate_material_dark_theme</item>
+        <item name="ColorLabel9KeyLeftPanel">@color/label_9key_left_panel_material_dark_theme</item>
+        <item name="ColorLabelPopup">@color/label_popup_material_dark_theme</item>
+        <item name="ColorLabelPopupFooter">@color/label_popup_footer_material_dark_theme</item>
+        <item name="ColorInlineComposingTextCorrection">@color/inline_composing_text_correction_material_dark_theme</item>
+        <item name="BgKeyboardBody">@drawable/bg_keyboard_body_material_dark_theme</item>
+        <item name="BgHeader">@drawable/bg_header_material_dark_theme</item>
+        <item name="BgHeaderCandidate">@drawable/bg_header_candidate_material_dark_theme</item>
+        <item name="BgHeaderTabPrime">@drawable/bg_key_header_pressed_material_dark_theme_selector</item>
+        <item name="BgKeyPressedSelector">@drawable/bg_key_pressed_material_dark_theme_selector</item>
+        <item name="BgKeyRectPressedSelector">@drawable/bg_key_pressed_material_dark_theme_selector</item>
+        <item name="BgKeyDark">@drawable/bg_key_material_dark_theme_big_inset</item>
+        <item name="BgKeyDarkSmallInset">@drawable/bg_key_material_dark_theme_small_inset</item>
+        <item name="BgKeyDarkSmallInsetImeAction">@drawable/bg_transparent</item>
+        <item name="BgKeyDarkImeAction">@drawable/bg_transparent</item>
+        <item name="BgKey9KeyDarkSmallInset">@drawable/bg_key_material_dark_theme_small_inset</item>
+        <item name="BgKeyLight">@drawable/bg_key_material_dark_theme_big_inset</item>
+        <item name="BgKeyRow0SmallInset">@drawable/bg_key_material_dark_theme_small_inset</item>
+        <item name="BgKeyRow1">@drawable/bg_key_material_dark_theme_big_inset</item>
+        <item name="BgKeyRow1SmallInset">@drawable/bg_key_material_dark_theme_small_inset</item>
+        <item name="BgKeyRow2">@drawable/bg_key_material_dark_theme_big_inset</item>
+        <item name="BgKeyRow2SmallInset">@drawable/bg_key_material_dark_theme_small_inset</item>
+        <item name="BgKeyRow3">@drawable/bg_key_material_dark_theme_big_inset</item>
+        <item name="BgKeyRow3SmallInset">@drawable/bg_key_material_dark_theme_small_inset</item>
+        <item name="BgKeyRow4">@drawable/bg_key_material_dark_theme_big_inset</item>
+        <item name="BgKeyRow4SmallInset">@drawable/bg_key_material_dark_theme_small_inset</item>
+        <item name="BgKeyQwertyRow3LeftSide">@drawable/bg_key_material_dark_theme_big_inset</item>
+        <item name="BgKeyQwertyRow3RightSide">@drawable/bg_key_material_dark_theme_big_inset</item>
+        <item name="BgKeyHeaderTabActive">@drawable/bg_key_header_tab_active_material_dark_theme_selector</item>
+        <item name="BgKeyTransparent">@drawable/bg_key_transparent_material_dark_theme_inset</item>
+        <item name="BgMoreCandidatesHolder">@drawable/bg_more_candidates_holder_material_dark_theme</item>
+        <item name="BgT9TabletMoreCandidatesHolder">@drawable/bg_transparent</item>
+        <item name="BgReadingTextCandidates">@drawable/bg_more_candidates_left_panel_material_dark_theme</item>
+        <item name="BgMoreCandidatesRightPanel">@drawable/bg_more_candidates_right_panel_material_dark_theme</item>
+        <item name="BgKeyOnCandidatesView">@drawable/bg_key_material_dark_theme_selector</item>
+        <item name="BgKeyOnCandidatesViewT9">@drawable/bg_key_material_dark_theme_small_inset</item>
+        <item name="BgKeyOnCandidatesViewImeAction">@drawable/bg_transparent</item>
+        <item name="BgKeyOnCandidatesViewImeDelete">@drawable/bg_key_on_candidates_view_delete_key_material_dark_theme</item>
+        <item name="BgKeyImeActionOnCandidatesView">@drawable/bg_key_on_candidates_view_dark_theme_selector</item>
+        <item name="BgKeyNonPrimeHeaderActive">@drawable/bg_key_non_prime_header_active_material_dark_theme_selector</item>
+        <item name="BgKeyNonPrimeHeaderDeactive">@drawable/bg_key_non_prime_header_deactive_material_dark_theme_selector</item>
+        <item name="BgKeyDashboardPrevious">@drawable/bg_key_dashboard_previous_material_dark_theme</item>
+        <item name="BgKeyDashboardMask">@drawable/bg_key_snapshot_mask_material_dark_theme_selector</item>
+        <item name="BgComposingText">@drawable/bg_composing_text_material_dark_theme</item>
+        <item name="BgSeparator">@drawable/ic_header_separator_material_dark_theme</item>
+        <item name="BgMainCategoryHolderSeparator">@drawable/ic_header_separator_material_dark_theme</item>
+        <item name="BgCandidate">@drawable/bg_key_candidate_selector_material_dark_theme</item>
+        <item name="BgCandidateLastColumn">@drawable/bg_key_candidate_last_column_selector_material_dark_theme</item>
+        <item name="BgShowMoreCandidatesButton">@drawable/bg_key_show_more_candidates_material_dark_theme_selector</item>
+        <item name="BgFloatingCandidate">@drawable/bg_key_floating_candidate_material_light_theme_selector</item>
+        <item name="BgPopupTopImage">@drawable/bg_popup_top_blue_dark_theme</item>
+        <item name="BgPopupBottomImage">@drawable/bg_popup_bottom_blue_dark_theme</item>
+        <item name="BgPopupBackground">@drawable/bg_popup_material_dark_theme</item>
+        <item name="BgPopupRectangularInset">@drawable/bg_popup_rectangular_inset_material_dark_theme</item>
+        <item name="BgPopupLabelSelector">@drawable/bg_popup_label_material_dark_theme_selector</item>
+        <item name="BgPopupSquareSelector">@drawable/bg_popup_square_material_dark_theme_selector</item>
+        <item name="Bg9KeyKeyboardLeftPanel">@drawable/bg_9key_input_area_left_panel_material_dark_theme</item>
+        <item name="Bg9KeyKeyboardRightPanel">@drawable/bg_9key_input_area_right_panel_material_dark_theme</item>
+        <item name="BgDigitKeyboardLeftPanel">@drawable/bg_digit_input_area_left_panel_material_dark_theme</item>
+        <item name="BgDigitKeyboardRightPanel">@drawable/bg_digit_input_area_right_panel_material_dark_theme</item>
+        <item name="BgKeyMainCategoryActive">@drawable/bg_key_main_category_active_material_dark_theme_inset</item>
+        <item name="BgKeyMainCategoryDeactive">@drawable/bg_key_main_category_deactive_material_dark_theme_inset</item>
+        <item name="BgKeySubCategoryActive">@drawable/bg_key_non_prime_sub_category_active_material_dark_theme_selector</item>
+        <item name="BgKeySubCategoryDeactive">@drawable/bg_key_header_pressed_material_dark_theme_selector</item>
+        <item name="BgKeyFunctionKeyOnMainCategoryHolder">@drawable/bg_key_main_category_deactive_material_dark_theme_inset</item>
+        <item name="BgKeyImeActionKeyOnMainCategoryHolder">@drawable/bg_transparent</item>
+        <item name="BgNonPrimeKeyboardPageIndicator">@drawable/bg_non_prime_keyboard_page_indicator_material_dark_theme</item>
+        <item name="BgSpaceLabel">@drawable/bg_key_space_label_material_dark_theme_inset</item>
+        <item name="BgKeyRow4Space">@drawable/bg_key_space_material_dark_theme_big_inset</item>
+        <item name="IconSpaceDarkKey">@drawable/ic_key_space_white</item>
+        <item name="IconSpaceLightKey">@drawable/ic_key_space_white</item>
+        <item name="IconPasswordSpaceKey">@drawable/bg_transparent</item>
+        <item name="IconHideKeyboard">@drawable/ic_key_hide_keyboard_material_dark_theme</item>
+        <item name="IconSmiley">@drawable/ic_key_main_category_smiley_dark_theme</item>
+        <item name="IconSmileyActive">@drawable/ic_key_smiley_active_dark_theme</item>
+        <item name="IconSmileyDeactive">@drawable/ic_key_smiley_deactive_dark_theme</item>
+        <item name="IconSwitchToSmiley">@drawable/ic_key_main_category_smiley_dark_theme</item>
+        <item name="IconBarGreen">@drawable/ic_bar_green_material_dark_theme</item>
+        <item name="IconBarUnlock">@drawable/ic_bar_unlock_material_dark_theme</item>
+        <item name="IconSettingDarkKey">@drawable/ic_key_setting_material_dark_theme</item>
+        <item name="IconSettingLightKey">@drawable/ic_key_setting_material_dark_theme</item>
+        <item name="IconArrowLeft">@drawable/ic_key_arrow_left_selector_dark_theme</item>
+        <item name="IconArrowRight">@drawable/ic_key_arrow_right_selector_dark_theme</item>
+        <item name="IconArrowUp">@drawable/ic_key_arrow_up_selector_dark_theme</item>
+        <item name="IconArrowDown">@drawable/ic_key_arrow_down_selector_dark_theme</item>
+        <item name="IconTapArrow">@drawable/ic_tap_arrow_dark_theme</item>
+        <item name="IconShowMoreCandidatesOpen">@drawable/ic_key_show_more_candidates_open_material_dark_theme</item>
+        <item name="IconShowMoreCandidatesClose">@drawable/ic_key_show_more_candidates_close_material_dark_theme</item>
+        <item name="IconMoveCursor">@drawable/ic_key_movecursor</item>
+        <item name="IconMoveCursorNone">@drawable/ic_key_movecursor_none_dark_theme</item>
+        <item name="IconMoveCursorLeft">@drawable/ic_key_movecursor_left_dark_theme</item>
+        <item name="IconMoveCursorRight">@drawable/ic_key_movecursor_right_dark_theme</item>
+        <item name="IconMoveCursorUp">@drawable/ic_key_movecursor_up_dark_theme</item>
+        <item name="IconMoveCursorDown">@drawable/ic_key_movecursor_down_dark_theme</item>
+        <item name="IconMoveCursorLightKey">@drawable/ic_key_movecursor</item>
+        <item name="IconGlobeDisabledDarkKey">@drawable/ic_key_globe_material_dark_theme</item>
+        <item name="IconGlobeDisabledLightKey">@drawable/ic_key_globe_material_dark_theme</item>
+        <item name="IconGlobeEnabledDarkKey">@drawable/ic_key_globe_material_dark_theme</item>
+        <item name="IconGlobeEnabledLightKey">@drawable/ic_key_globe_material_dark_theme</item>
+        <item name="IconLockDarkKey">@drawable/ic_key_lock_light</item>
+        <item name="IconLockLightKey">@drawable/ic_key_lock_light</item>
+        <item name="IconDelDarkKey">@drawable/ic_key_del_material_dark</item>
+        <item name="IconDelLightKey">@drawable/ic_key_del_material_dark</item>
+        <item name="IconEnterLightKey">@drawable/ic_key_enter</item>
+        <item name="IconEnterDarkKey">@drawable/ic_key_enter</item>
+        <item name="IconGoDarkKey">@drawable/ic_key_ime_action_go</item>
+        <item name="IconGoLightKey">@drawable/ic_key_ime_action_go</item>
+        <item name="IconSendDarkKey">@drawable/ic_key_ime_action_send</item>
+        <item name="IconSendLightKey">@drawable/ic_key_ime_action_send</item>
+        <item name="IconNextDarkKey">@drawable/ic_key_ime_action_next</item>
+        <item name="IconNextLightKey">@drawable/ic_key_ime_action_next</item>
+        <item name="IconDoneDarkKey">@drawable/ic_key_ime_action_done</item>
+        <item name="IconDoneLightKey">@drawable/ic_key_ime_action_done</item>
+        <item name="IconSearchDarkKey">@drawable/ic_key_search</item>
+        <item name="IconSearchLightKey">@drawable/ic_key_search</item>
+        <item name="IconImeActionBack">@drawable/ic_key_ime_action_back_material_dark_theme_selector</item>
+        <item name="IconShiftOn">@drawable/ic_key_shift_narrow_on_material_dark</item>
+        <item name="IconShiftOff">@drawable/ic_key_shift_narrow_off_material_dark</item>
+        <item name="IconMainCategoryNumber">@drawable/ic_key_main_category_number_dark_theme</item>
+        <item name="IconMainCategorySymbol">@drawable/ic_key_main_category_symbol_dark_theme</item>
+        <item name="IconMainCategorySmiley">@drawable/ic_key_main_category_smiley_dark_theme</item>
+        <item name="IconMainCategorySmileyActive">@drawable/anim_smiley_dark_theme</item>
+        <item name="IconRecent">@drawable/ic_key_recent_dark_theme</item>
+        <item name="IconSubCategorySymbolLove">@drawable/ic_key_sub_category_symbol_love_dark_theme</item>
+        <item name="IconSubCategorySymbolKuohao">@drawable/ic_key_sub_category_symbol_kuohao_dark_theme</item>
+        <item name="IconSubCategorySymbolArrow">@drawable/ic_key_sub_category_symbol_arrow_dark_theme</item>
+        <item name="IconSubCategorySymbolMath">@drawable/ic_key_sub_category_symbol_math_dark_theme</item>
+        <item name="IconSubCategorySymbolNumber">@drawable/ic_key_sub_category_symbol_number_dark_theme</item>
+        <item name="IconSubCategorySmileyEmoji">@drawable/ic_key_sub_category_smiley_emoji_dark_theme</item>
+        <item name="IconSubCategorySmileyFlower">@drawable/ic_key_sub_category_smiley_flower_dark_theme</item>
+        <item name="IconSubCategorySmileyCrown">@drawable/ic_key_sub_category_smiley_crown_dark_theme</item>
+        <item name="IconSubCategorySmileyCar">@drawable/ic_key_sub_category_smiley_car_dark_theme</item>
+        <item name="IconSubCategorySmileySymbol">@drawable/ic_key_sub_category_smiley_symbol_dark_theme</item>
+        <item name="IconSubCategorySmileyEmoticon">@drawable/ic_key_sub_category_smiley_emoticon_dark_theme</item>
+        <item name="IconMic">@drawable/ic_key_mic_material_dark_theme</item>
+        <item name="IconNonPrimeKeyboardPageIndicator">@drawable/ic_non_prime_keyboard_page_indicator_material_dark_theme</item>
+        <item name="IconAlpha">153</item>
+        <item name="LabelAlpha">204</item>
+        <item name="IconDisabledAlpah">77</item>
+        <item name="IconCategoryActive">204</item>
+        <item name="IconCategoryInactive">77</item>
+        <item name="IconBottomMarginBottom">@dimen/icon_bottom_margin_bottom_material_theme</item>
+        <item name="LabelBottomMarginBottom">@dimen/label_bottom_margin_bottom_material_theme</item>
+        <item name="IconImeActionMarginBottom">@dimen/icon_ime_action_margin_bottom_material_theme</item>
+        <item name="KeyboardCandidateBodyPaddingTop">@dimen/keyboard_body_padding_top</item>
+    </style>
+    <style name="MaterialLightTheme" parent="@style/BaseTheme.Layout.Material">
+        <item name="ColorLabel">@color/label_material_light_theme</item>
+        <item name="ColorLabelDarkKey">@color/label_darkkey_material_light_theme</item>
+        <item name="ColorLabelSecondary">@color/label_secondary_material_light_theme</item>
+        <item name="ColorLabelSecondarySub">@color/label_secondary_sub_material_light_theme</item>
+        <item name="ColorLabelQwertySecondaryRow3">@color/label_qwerty_secondary_row3_material_light_theme</item>
+        <item name="ColorLabelCandidate">@color/color_candidate_text_material_light_theme</item>
+        <item name="ColorLabelComposingText">@color/label_composing_text_material_light_theme</item>
+        <item name="ColorLabelNonPrimeHeaderActive">@color/label_non_prime_header_active_light_theme</item>
+        <item name="ColorLabelNonPrimeHeaderDeactive">@color/label_non_prime_header_deactive_light_theme</item>
+        <item name="ColorLabelSupDark">@color/label_sup_dark_material_light_theme</item>
+        <item name="ColorLabelSupLight">@color/label_sup_light_material_light_theme</item>
+        <item name="ColorLabelFunctionKey">@color/label_function_key_material_light_theme</item>
+        <item name="ColorLabelFunctionLightKey">@color/label_function_light_key_material_light_theme</item>
+        <item name="ColorLabelSpace">@color/label_space_material_light_theme</item>
+        <item name="ColorLabelReadingTextCandidate">@color/label_reading_text_candidate_material_light_theme</item>
+        <item name="ColorLabel9KeyLeftPanel">@color/label_9key_left_panel_material_light_theme</item>
+        <item name="ColorLabelPopup">@color/label_popup_material_light_theme</item>
+        <item name="ColorLabelPopupFooter">@color/label_popup_footer_material_light_theme</item>
+        <item name="ColorInlineComposingTextCorrection">@color/inline_composing_text_correction_material_light_theme</item>
+        <item name="BgKeyboardBody">@drawable/bg_keyboard_body_material_light_theme</item>
+        <item name="BgHeader">@drawable/bg_header_material_light_theme</item>
+        <item name="BgHeaderCandidate">@drawable/bg_header_candidate_material_light_theme</item>
+        <item name="BgHeaderTabPrime">@drawable/bg_key_header_pressed_material_light_theme_selector</item>
+        <item name="BgKeyPressedSelector">@drawable/bg_key_pressed_material_light_theme_selector</item>
+        <item name="BgKeyRectPressedSelector">@drawable/bg_key_pressed_material_light_theme_selector</item>
+        <item name="BgKeyDark">@drawable/bg_key_material_light_theme_big_inset</item>
+        <item name="BgKeyDarkSmallInset">@drawable/bg_key_material_light_theme_small_inset</item>
+        <item name="BgKeyDarkSmallInsetImeAction">@drawable/bg_transparent</item>
+        <item name="BgKeyDarkImeAction">@drawable/bg_transparent</item>
+        <item name="BgKey9KeyDarkSmallInset">@drawable/bg_key_material_light_theme_small_inset</item>
+        <item name="BgKeyLight">@drawable/bg_key_material_light_theme_big_inset</item>
+        <item name="BgKeyRow0SmallInset">@drawable/bg_key_material_light_theme_small_inset</item>
+        <item name="BgKeyRow1">@drawable/bg_key_material_light_theme_big_inset</item>
+        <item name="BgKeyRow1SmallInset">@drawable/bg_key_material_light_theme_small_inset</item>
+        <item name="BgKeyRow2">@drawable/bg_key_material_light_theme_big_inset</item>
+        <item name="BgKeyRow2SmallInset">@drawable/bg_key_material_light_theme_small_inset</item>
+        <item name="BgKeyRow3">@drawable/bg_key_material_light_theme_big_inset</item>
+        <item name="BgKeyRow3SmallInset">@drawable/bg_key_material_light_theme_small_inset</item>
+        <item name="BgKeyRow4">@drawable/bg_key_material_light_theme_big_inset</item>
+        <item name="BgKeyRow4SmallInset">@drawable/bg_key_material_light_theme_small_inset</item>
+        <item name="BgKeyQwertyRow3LeftSide">@drawable/bg_key_material_light_theme_big_inset</item>
+        <item name="BgKeyQwertyRow3RightSide">@drawable/bg_key_material_light_theme_big_inset</item>
+        <item name="BgKeyHeaderTabActive">@drawable/bg_key_header_tab_active_material_light_theme_selector</item>
+        <item name="BgKeyTransparent">@drawable/bg_key_transparent_material_light_theme_inset</item>
+        <item name="BgMoreCandidatesHolder">@drawable/bg_more_candidates_holder_material_light_theme</item>
+        <item name="BgT9TabletMoreCandidatesHolder">@drawable/bg_transparent</item>
+        <item name="BgReadingTextCandidates">@drawable/bg_more_candidates_left_panel_material_light_theme</item>
+        <item name="BgMoreCandidatesRightPanel">@drawable/bg_more_candidates_right_panel_material_light_theme</item>
+        <item name="BgKeyOnCandidatesView">@drawable/bg_key_material_light_theme_selector</item>
+        <item name="BgKeyOnCandidatesViewT9">@drawable/bg_key_material_light_theme_small_inset</item>
+        <item name="BgKeyOnCandidatesViewImeAction">@drawable/bg_transparent</item>
+        <item name="BgKeyOnCandidatesViewImeDelete">@drawable/bg_key_on_candidates_view_delete_key_material_light_theme</item>
+        <item name="BgKeyImeActionOnCandidatesView">@drawable/bg_key_on_candidates_view_light_theme_selector</item>
+        <item name="BgKeyNonPrimeHeaderActive">@drawable/bg_key_non_prime_header_active_light_theme_selector</item>
+        <item name="BgKeyNonPrimeHeaderDeactive">@drawable/bg_key_non_prime_header_deactive_material_light_theme_selector</item>
+        <item name="BgKeyDashboardPrevious">@drawable/bg_key_dashboard_previous_material_light_theme</item>
+        <item name="BgKeyDashboardMask">@drawable/bg_key_snapshot_mask_material_light_theme_selector</item>
+        <item name="BgComposingText">@drawable/bg_composing_text_material_light_theme</item>
+        <item name="BgSeparator">@drawable/ic_header_separator_material_light_theme</item>
+        <item name="BgMainCategoryHolderSeparator">@drawable/ic_header_separator_material_light_theme</item>
+        <item name="BgCandidate">@drawable/bg_key_candidate_selector_material_light_theme</item>
+        <item name="BgCandidateLastColumn">@drawable/bg_key_candidate_last_column_selector_material_light_theme</item>
+        <item name="BgShowMoreCandidatesButton">@drawable/bg_key_show_more_candidates_material_light_theme_selector</item>
+        <item name="BgFloatingCandidate">@drawable/bg_key_floating_candidate_material_light_theme_selector</item>
+        <item name="BgPopupTopImage">@drawable/bg_popup_top_blue_light_theme</item>
+        <item name="BgPopupBottomImage">@drawable/bg_popup_bottom_blue_light_theme</item>
+        <item name="BgPopupBackground">@drawable/bg_popup_material_light_theme</item>
+        <item name="BgPopupRectangularInset">@drawable/bg_popup_rectangular_inset_material_light_theme</item>
+        <item name="BgPopupLabelSelector">@drawable/bg_popup_label_material_light_theme_selector</item>
+        <item name="BgPopupSquareSelector">@drawable/bg_popup_square_material_light_theme_selector</item>
+        <item name="Bg9KeyKeyboardLeftPanel">@drawable/bg_9key_input_area_left_panel_material_light_theme</item>
+        <item name="Bg9KeyKeyboardRightPanel">@drawable/bg_9key_input_area_right_panel_material_light_theme</item>
+        <item name="BgDigitKeyboardLeftPanel">@drawable/bg_digit_input_area_left_panel_material_light_theme</item>
+        <item name="BgDigitKeyboardRightPanel">@drawable/bg_digit_input_area_right_panel_material_light_theme</item>
+        <item name="BgKeyMainCategoryActive">@drawable/bg_key_main_category_active_material_light_theme_inset</item>
+        <item name="BgKeyMainCategoryDeactive">@drawable/bg_key_main_category_deactive_material_light_theme_inset</item>
+        <item name="BgKeySubCategoryActive">@drawable/bg_key_non_prime_sub_category_active_material_light_theme_selector</item>
+        <item name="BgKeySubCategoryDeactive">@drawable/bg_key_header_pressed_material_light_theme_selector</item>
+        <item name="BgKeyFunctionKeyOnMainCategoryHolder">@drawable/bg_key_main_category_deactive_material_light_theme_inset</item>
+        <item name="BgKeyImeActionKeyOnMainCategoryHolder">@drawable/bg_transparent</item>
+        <item name="BgNonPrimeKeyboardPageIndicator">@drawable/bg_non_prime_keyboard_page_indicator_material_light_theme</item>
+        <item name="BgSpaceLabel">@drawable/bg_key_space_label_material_light_theme_inset</item>
+        <item name="BgKeyRow4Space">@drawable/bg_key_space_material_light_theme_big_inset</item>
+        <item name="IconSpaceDarkKey">@drawable/ic_key_space_material_light_theme</item>
+        <item name="IconSpaceLightKey">@drawable/ic_key_space_material_light_theme</item>
+        <item name="IconPasswordSpaceKey">@drawable/bg_transparent</item>
+        <item name="IconHideKeyboard">@drawable/ic_key_hide_keyboard_material_light_theme</item>
+        <item name="IconSmiley">@drawable/ic_key_main_category_smiley_material_light_theme</item>
+        <item name="IconSmileyActive">@drawable/anim_smiley_light_theme</item>
+        <item name="IconSmileyDeactive">@drawable/ic_key_smiley_deactive_light_theme</item>
+        <item name="IconSwitchToSmiley">@drawable/ic_key_main_category_smiley_material_light_theme</item>
+        <item name="IconBarGreen">@drawable/ic_bar_green_material_light_theme</item>
+        <item name="IconBarUnlock">@drawable/ic_bar_unlock_material_light_theme</item>
+        <item name="IconSettingDarkKey">@drawable/ic_key_setting_material_light_theme</item>
+        <item name="IconSettingLightKey">@drawable/ic_key_setting_material_light_theme</item>
+        <item name="IconArrowLeft">@drawable/ic_key_arrow_left_selector_light_theme</item>
+        <item name="IconArrowRight">@drawable/ic_key_arrow_right_selector_light_theme</item>
+        <item name="IconArrowUp">@drawable/ic_key_arrow_up_selector_material_light_theme</item>
+        <item name="IconArrowDown">@drawable/ic_key_arrow_down_selector_material_light_theme</item>
+        <item name="IconTapArrow">@drawable/ic_tap_arrow_material_light_theme</item>
+        <item name="IconShowMoreCandidatesOpen">@drawable/ic_key_show_more_candidates_open_material_light_theme</item>
+        <item name="IconShowMoreCandidatesClose">@drawable/ic_key_show_more_candidates_close_material_light_theme</item>
+        <item name="IconMoveCursor">@drawable/ic_key_movecursor_material_light_theme</item>
+        <item name="IconMoveCursorNone">@drawable/ic_key_movecursor_none_light_theme</item>
+        <item name="IconMoveCursorLeft">@drawable/ic_key_movecursor_left_light_theme</item>
+        <item name="IconMoveCursorRight">@drawable/ic_key_movecursor_right_light_theme</item>
+        <item name="IconMoveCursorUp">@drawable/ic_key_movecursor_up_light_theme</item>
+        <item name="IconMoveCursorDown">@drawable/ic_key_movecursor_down_light_theme</item>
+        <item name="IconMoveCursorLightKey">@drawable/ic_key_movecursor_material_light_theme</item>
+        <item name="IconGlobeDisabledDarkKey">@drawable/ic_key_globe_material_light_theme</item>
+        <item name="IconGlobeDisabledLightKey">@drawable/ic_key_globe_material_light_theme</item>
+        <item name="IconGlobeEnabledDarkKey">@drawable/ic_key_globe_material_light_theme</item>
+        <item name="IconGlobeEnabledLightKey">@drawable/ic_key_globe_material_light_theme</item>
+        <item name="IconLockDarkKey">@drawable/ic_key_lock_light</item>
+        <item name="IconLockLightKey">@drawable/ic_key_lock_dark</item>
+        <item name="IconDelDarkKey">@drawable/ic_key_del_material_light</item>
+        <item name="IconDelLightKey">@drawable/ic_key_del_material_light</item>
+        <item name="IconEnterLightKey">@drawable/ic_key_enter</item>
+        <item name="IconEnterDarkKey">@drawable/ic_key_enter</item>
+        <item name="IconGoDarkKey">@drawable/ic_key_ime_action_go</item>
+        <item name="IconGoLightKey">@drawable/ic_key_ime_action_go</item>
+        <item name="IconSendDarkKey">@drawable/ic_key_ime_action_send</item>
+        <item name="IconSendLightKey">@drawable/ic_key_ime_action_send</item>
+        <item name="IconNextDarkKey">@drawable/ic_key_ime_action_next</item>
+        <item name="IconNextLightKey">@drawable/ic_key_ime_action_next</item>
+        <item name="IconDoneDarkKey">@drawable/ic_key_ime_action_done</item>
+        <item name="IconDoneLightKey">@drawable/ic_key_ime_action_done</item>
+        <item name="IconSearchDarkKey">@drawable/ic_key_search</item>
+        <item name="IconSearchLightKey">@drawable/ic_key_search</item>
+        <item name="IconImeActionBack">@drawable/ic_key_ime_action_back_material_light_theme_selector</item>
+        <item name="IconShiftOn">@drawable/ic_key_shift_narrow_on_material_light</item>
+        <item name="IconShiftOff">@drawable/ic_key_shift_narrow_off_material_light</item>
+        <item name="IconMainCategoryNumber">@drawable/ic_key_main_category_number_material_light_theme</item>
+        <item name="IconMainCategorySymbol">@drawable/ic_key_main_category_symbol_material_light_theme</item>
+        <item name="IconMainCategorySmiley">@drawable/ic_key_main_category_smiley_material_light_theme</item>
+        <item name="IconMainCategorySmileyActive">@drawable/anim_smiley_material_light_theme</item>
+        <item name="IconRecent">@drawable/ic_key_recent_material_light_theme</item>
+        <item name="IconSubCategorySymbolLove">@drawable/ic_key_sub_category_symbol_love_material_light_theme</item>
+        <item name="IconSubCategorySymbolKuohao">@drawable/ic_key_sub_category_symbol_kuohao_material_light_theme</item>
+        <item name="IconSubCategorySymbolArrow">@drawable/ic_key_sub_category_symbol_arrow_material_light_theme</item>
+        <item name="IconSubCategorySymbolMath">@drawable/ic_key_sub_category_symbol_math_material_light_theme</item>
+        <item name="IconSubCategorySymbolNumber">@drawable/ic_key_sub_category_symbol_number_material_light_theme</item>
+        <item name="IconSubCategorySmileyEmoji">@drawable/ic_key_sub_category_smiley_emoji_material_light_theme</item>
+        <item name="IconSubCategorySmileyFlower">@drawable/ic_key_sub_category_smiley_flower_material_light_theme</item>
+        <item name="IconSubCategorySmileyCrown">@drawable/ic_key_sub_category_smiley_crown_material_light_theme</item>
+        <item name="IconSubCategorySmileyCar">@drawable/ic_key_sub_category_smiley_car_material_light_theme</item>
+        <item name="IconSubCategorySmileySymbol">@drawable/ic_key_sub_category_smiley_symbol_material_light_theme</item>
+        <item name="IconSubCategorySmileyEmoticon">@drawable/ic_key_sub_category_smiley_emoticon_material_light_theme</item>
+        <item name="IconMic">@drawable/ic_key_mic_material_light_theme</item>
+        <item name="IconNonPrimeKeyboardPageIndicator">@drawable/ic_non_prime_keyboard_page_indicator_material_light_theme</item>
+        <item name="IconAlpha">153</item>
+        <item name="LabelAlpha">255</item>
+        <item name="IconDisabledAlpah">77</item>
+        <item name="IconCategoryActive">255</item>
+        <item name="IconCategoryInactive">128</item>
+        <item name="IconBottomMarginBottom">@dimen/icon_bottom_margin_bottom_material_theme</item>
+        <item name="LabelBottomMarginBottom">@dimen/label_bottom_margin_bottom_material_theme</item>
+        <item name="IconImeActionMarginBottom">@dimen/icon_ime_action_margin_bottom_material_theme</item>
+        <item name="KeyboardCandidateBodyPaddingTop">@dimen/keyboard_body_padding_top</item>
+    </style>
+    <style name="StrokeLightTheme">
+        <item name="IconStrokeDian">@drawable/ic_key_stroke_dian_light_theme</item>
+        <item name="IconStrokeHeng">@drawable/ic_key_stroke_heng_light_theme</item>
+        <item name="IconStrokePie">@drawable/ic_key_stroke_pie_light_theme</item>
+        <item name="IconStrokeShu">@drawable/ic_key_stroke_shu_light_theme</item>
+        <item name="IconStrokeWildcard">@drawable/ic_key_stroke_wildcard_light_theme</item>
+        <item name="IconStrokeZhe">@drawable/ic_key_stroke_zhe_light_theme</item>
+        <item name="IconStrokeAlpha">255</item>
+    </style>
+    <style name="StrokeDarkTheme">
+        <item name="IconStrokeDian">@drawable/ic_key_stroke_dian_dark_theme</item>
+        <item name="IconStrokeHeng">@drawable/ic_key_stroke_heng_dark_theme</item>
+        <item name="IconStrokePie">@drawable/ic_key_stroke_pie_dark_theme</item>
+        <item name="IconStrokeShu">@drawable/ic_key_stroke_shu_dark_theme</item>
+        <item name="IconStrokeWildcard">@drawable/ic_key_stroke_wildcard_dark_theme</item>
+        <item name="IconStrokeZhe">@drawable/ic_key_stroke_zhe_dark_theme</item>
+        <item name="IconStrokeAlpha">255</item>
+    </style>
+    <style name="StrokeMaterialDarkTheme">
+        <item name="IconStrokeDian">@drawable/ic_key_stroke_dian_dark_theme</item>
+        <item name="IconStrokeHeng">@drawable/ic_key_stroke_heng_dark_theme</item>
+        <item name="IconStrokePie">@drawable/ic_key_stroke_pie_dark_theme</item>
+        <item name="IconStrokeShu">@drawable/ic_key_stroke_shu_dark_theme</item>
+        <item name="IconStrokeWildcard">@drawable/ic_key_stroke_wildcard_dark_theme</item>
+        <item name="IconStrokeZhe">@drawable/ic_key_stroke_zhe_dark_theme</item>
+        <item name="IconStrokeAlpha">204</item>
+    </style>
+    <style name="StrokeMaterialLightTheme">
+        <item name="IconStrokeDian">@drawable/ic_key_stroke_dian_material_light_theme</item>
+        <item name="IconStrokeHeng">@drawable/ic_key_stroke_heng_material_light_theme</item>
+        <item name="IconStrokePie">@drawable/ic_key_stroke_pie_material_light_theme</item>
+        <item name="IconStrokeShu">@drawable/ic_key_stroke_shu_material_light_theme</item>
+        <item name="IconStrokeWildcard">@drawable/ic_key_stroke_wildcard_material_light_theme</item>
+        <item name="IconStrokeZhe">@drawable/ic_key_stroke_zhe_material_light_theme</item>
+        <item name="IconStrokeAlpha">255</item>
+    </style>
+    <style name="InputView">
+        <item name="android:layout_gravity">top</item>
+        <item name="android:paddingTop">@dimen/fullscreen_body_padding_top</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="FunctionKeyColumns">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="FunctionKeyColumns.Left" parent="@style/FunctionKeyColumns">
+        <item name="android:layout_weight">@integer/keyboard_handwriting_left_column_weight</item>
+    </style>
+    <style name="FunctionKeyColumns.Right" parent="@style/FunctionKeyColumns">
+        <item name="android:layout_weight">@integer/keyboard_handwriting_right_column_weight</item>
+    </style>
+    <style name="Body.HandwritingHalfscreen" parent="@style/Body">
+        <item name="android:background">?BgKeyboardBody</item>
+    </style>
+    <style name="Body.HandwritingFullscreen" parent="@style/Body">
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:background">?BgKeyboardBody</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/fullscreen_body_height</item>
+    </style>
+    <style name="HandwritingFullscreenRow">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:layout_weight">250.0</item>
+    </style>
+    <style name="SoftKey.Handwriting" parent="@style/SoftKey">
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="SoftKey.Handwriting.Halfscreen" parent="@style/SoftKey.Handwriting">
+        <item name="android:background">?BgHalfScreenKey</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:layout_weight">250.0</item>
+    </style>
+    <style name="SoftKey.Handwriting.Halfscreen.ImeAction" parent="@style/SoftKey.Handwriting.Halfscreen">
+        <item name="android:background">?BgImeActionKey</item>
+    </style>
+    <style name="SoftKey.Handwriting.Fullscreen" parent="@style/SoftKey.Handwriting">
+        <item name="android:background">?BgFullScreenKey</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">250.0</item>
+    </style>
+    <style name="SoftKey.Handwriting.Fullscreen.Space" parent="@style/SoftKey.Handwriting.Fullscreen">
+        <item name="android:layout_weight">375.0</item>
+    </style>
+    <style name="SoftKey.Handwriting.Fullscreen.ImeAction" parent="@style/SoftKey.Handwriting.Fullscreen">
+        <item name="android:background">?BgImeActionKey</item>
+    </style>
+    <style name="Icon.HandwritingSpace" parent="@style/Icon">
+        <item name="android:paddingLeft">@dimen/softkey_space_bg_inset_left</item>
+        <item name="android:paddingTop">@dimen/softkey_space_bg_inset_top</item>
+        <item name="android:paddingRight">@dimen/softkey_space_bg_inset_right</item>
+        <item name="android:paddingBottom">@dimen/softkey_space_bg_inset_bottom</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="Label.Medium.Handwriting" parent="@style/Label.Medium">
+        <item name="android:textColor">?ColorHandwritigLabel</item>
+    </style>
+    <style name="Label.Small.SpaceKey.FullscreenHandwriting" parent="@style/Label.Small.SpaceKey">
+        <item name="android:textColor">?ColorFullscreenHandwritingLabelSpace</item>
+    </style>
+    <style name="HandwritingLightTheme">
+        <item name="ColorHandwritigStroke">@color/ColorHandwritingStrokeLightTheme</item>
+        <item name="ColorHandwritigFullscreenStroke">@color/ColorHandwritingFullscreenStrokeHoloTheme</item>
+        <item name="ColorHandwritigLabel">@color/label_light_theme</item>
+        <item name="ColorFullscreenHandwritingLabelSpace">#00000000</item>
+        <item name="BgFullScreenKey">@drawable/bg_key_fullscreen_handwriting_holo_light_theme</item>
+        <item name="BgHalfScreenKey">@drawable/bg_key_halfscreen_handwriting_holo_light_theme</item>
+        <item name="BgImeActionKey">@drawable/bg_key_fullscreen_handwriting_holo_light_theme</item>
+        <item name="IconSwitchToFullScreenHWR">@drawable/ic_handwriting_expand_holo_light</item>
+        <item name="IconSwitchToHalfScreenHWR">@drawable/ic_handwriting_shrink_holo_light</item>
+        <item name="IconLongSpace">@drawable/ic_key_long_space_grey</item>
+    </style>
+    <style name="HandwritingDarkTheme">
+        <item name="ColorHandwritigStroke">@color/ColorHandwritingStrokeDarkTheme</item>
+        <item name="ColorHandwritigFullscreenStroke">@color/ColorHandwritingFullscreenStrokeHoloTheme</item>
+        <item name="ColorHandwritigLabel">@color/label_dark_theme</item>
+        <item name="ColorFullscreenHandwritingLabelSpace">#00000000</item>
+        <item name="BgFullScreenKey">@drawable/bg_key_fullscreen_handwriting_holo_dark_theme</item>
+        <item name="BgHalfScreenKey">@drawable/bg_key_halfscreen_handwriting_holo_dark_theme</item>
+        <item name="BgImeActionKey">@drawable/bg_key_fullscreen_handwriting_holo_dark_theme</item>
+        <item name="IconSwitchToFullScreenHWR">@drawable/ic_handwriting_expand_dark</item>
+        <item name="IconSwitchToHalfScreenHWR">@drawable/ic_handwriting_shrink_dark</item>
+        <item name="IconLongSpace">@drawable/ic_key_long_space_white</item>
+    </style>
+    <style name="HandwritingMaterialDarkTheme">
+        <item name="ColorHandwritigStroke">@color/ColorHandwritingStrokeMaterialDarkTheme</item>
+        <item name="ColorHandwritigFullscreenStroke">@color/ColorHandwritingFullscreenStrokeMaterialTheme</item>
+        <item name="ColorHandwritigLabel">@color/label_darkkey_material_dark_theme</item>
+        <item name="ColorFullscreenHandwritingLabelSpace">@color/label_space_material_dark_theme</item>
+        <item name="BgFullScreenKey">@drawable/bg_key_fullscreen_handwriting_material_dark_theme</item>
+        <item name="BgHalfScreenKey">@drawable/bg_key_halfscreen_handwriting_material_dark_theme</item>
+        <item name="BgImeActionKey">@drawable/bg_transparent</item>
+        <item name="IconSwitchToFullScreenHWR">@drawable/ic_handwriting_expand_dark</item>
+        <item name="IconSwitchToHalfScreenHWR">@drawable/ic_handwriting_shrink_dark</item>
+        <item name="IconLongSpace">@drawable/bg_transparent</item>
+    </style>
+    <style name="HandwritingMaterialLightTheme">
+        <item name="ColorHandwritigStroke">@color/ColorHandwritingStrokeMaterialLightTheme</item>
+        <item name="ColorHandwritigFullscreenStroke">@color/ColorHandwritingFullscreenStrokeMaterialTheme</item>
+        <item name="ColorHandwritigLabel">@color/label_darkkey_material_light_theme</item>
+        <item name="ColorFullscreenHandwritingLabelSpace">@color/label_space_material_light_theme</item>
+        <item name="BgFullScreenKey">@drawable/bg_key_fullscreen_handwriting_material_light_theme</item>
+        <item name="BgHalfScreenKey">@drawable/bg_key_halfscreen_handwriting_material_light_theme</item>
+        <item name="BgImeActionKey">@drawable/bg_transparent</item>
+        <item name="IconSwitchToFullScreenHWR">@drawable/ic_handwriting_expand_material_light</item>
+        <item name="IconSwitchToHalfScreenHWR">@drawable/ic_handwriting_shrink_material_light</item>
+        <item name="IconLongSpace">@drawable/bg_transparent</item>
+    </style>
+    <style name="GestureLightTheme">
+        <item name="ColorGestureTrack">@color/ColorGestureTrackLightTheme</item>
+    </style>
+    <style name="GestureDarkTheme">
+        <item name="ColorGestureTrack">@color/ColorGestureTrackDarkTheme</item>
+    </style>
+    <style name="GestureMaterialLightTheme">
+        <item name="ColorGestureTrack">@color/ColorGestureTrackMaterialLightTheme</item>
+    </style>
+    <style name="GestureMaterialDarkTheme">
+        <item name="ColorGestureTrack">@color/ColorGestureTrackMaterialDarkTheme</item>
+    </style>
+    <style name="ChineseReadingTextCandidateView" parent="@style/ScrollViewInMoreCandidate">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:layout_weight">750.0</item>
+    </style>
+    <style name="MoreCandidatesViewLeftColume">
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">?BgReadingTextCandidates</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:baselineAligned">false</item>
+        <item name="android:weightSum">@integer/weight_sum</item>
+        <item name="android:layout_weight">@integer/more_candidates_reading_text_candidates_area_weight</item>
+    </style>
+    <style name="SoftKeyFunctionOnMoreCandidatesView">
+        <item name="android:gravity">center</item>
+        <item name="android:background">?BgKeyRectPressedSelector</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="FunctionKeySeparator">
+        <item name="android:background">?BgFunctionKeySeparator</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0px</item>
+    </style>
+    <style name="ChineseLightTheme" parent="@style/LightTheme">
+        <item name="IconHeaderTabEnActive">@drawable/ic_header_tab_en_active_light_theme</item>
+        <item name="IconHeaderTabEnDeactive">@drawable/ic_header_tab_en_deactive_light_theme</item>
+        <item name="IconHeaderTabZhActive">@drawable/ic_header_tab_zh_active_light_theme</item>
+        <item name="IconHeaderTabZhDeactive">@drawable/ic_header_tab_zh_deactive_light_theme</item>
+        <item name="BgFunctionKeySeparator">@drawable/bg_function_key_separator_light_theme</item>
+        <item name="IconCiDarkKey">@drawable/ic_key_ci_white_font</item>
+        <item name="IconCiLightKey">@drawable/ic_key_ci_black_font</item>
+        <item name="Icon9KeyShiftUnderline">@drawable/ic_9key_shift_underline_light_theme</item>
+        <item name="Icon9KeyShiftUnderlineHighlight">@drawable/ic_9key_shift_underline_highlight</item>
+        <item name="IconTabDeactive">255</item>
+    </style>
+    <style name="ChineseDarkTheme" parent="@style/DarkTheme">
+        <item name="IconHeaderTabEnActive">@drawable/ic_header_tab_en_active_dark_theme</item>
+        <item name="IconHeaderTabEnDeactive">@drawable/ic_header_tab_en_deactive_dark_theme</item>
+        <item name="IconHeaderTabZhActive">@drawable/ic_header_tab_zh_active_dark_theme</item>
+        <item name="IconHeaderTabZhDeactive">@drawable/ic_header_tab_zh_deactive_dark_theme</item>
+        <item name="BgFunctionKeySeparator">@drawable/bg_function_key_separator_dark_theme</item>
+        <item name="IconCiDarkKey">@drawable/ic_key_ci_white_font</item>
+        <item name="IconCiLightKey">@drawable/ic_key_ci_white_font</item>
+        <item name="Icon9KeyShiftUnderline">@drawable/ic_9key_shift_underline_dark_theme</item>
+        <item name="Icon9KeyShiftUnderlineHighlight">@drawable/ic_9key_shift_underline_highlight</item>
+        <item name="IconTabDeactive">255</item>
+    </style>
+    <style name="ChineseMaterialDarkTheme" parent="@style/MaterialDarkTheme">
+        <item name="IconHeaderTabEnActive">@drawable/ic_header_tab_en_active_dark_theme</item>
+        <item name="IconHeaderTabEnDeactive">@drawable/ic_header_tab_en_active_dark_theme</item>
+        <item name="IconHeaderTabZhActive">@drawable/ic_header_tab_zh_active_dark_theme</item>
+        <item name="IconHeaderTabZhDeactive">@drawable/ic_header_tab_zh_active_dark_theme</item>
+        <item name="BgFunctionKeySeparator">@drawable/bg_transparent</item>
+        <item name="IconCiDarkKey">@drawable/ic_key_ci_white_font</item>
+        <item name="IconCiLightKey">@drawable/ic_key_ci_white_font</item>
+        <item name="Icon9KeyShiftUnderline">@drawable/ic_9key_shift_underline_material_dark_theme</item>
+        <item name="Icon9KeyShiftUnderlineHighlight">@drawable/ic_9key_shift_underline_highlight_material_dark_theme</item>
+        <item name="IconTabDeactive">204</item>
+    </style>
+    <style name="ChineseMaterialLightTheme" parent="@style/MaterialLightTheme">
+        <item name="IconHeaderTabEnActive">@drawable/ic_header_tab_en_material_light_theme</item>
+        <item name="IconHeaderTabEnDeactive">@drawable/ic_header_tab_en_material_light_theme</item>
+        <item name="IconHeaderTabZhActive">@drawable/ic_header_tab_zh_material_light_theme</item>
+        <item name="IconHeaderTabZhDeactive">@drawable/ic_header_tab_zh_material_light_theme</item>
+        <item name="BgFunctionKeySeparator">@drawable/bg_transparent</item>
+        <item name="IconCiDarkKey">@drawable/ic_key_ci_material_light_theme</item>
+        <item name="IconCiLightKey">@drawable/ic_key_ci_material_light_theme</item>
+        <item name="Icon9KeyShiftUnderline">@drawable/ic_9key_shift_underline_material_light_theme</item>
+        <item name="Icon9KeyShiftUnderlineHighlight">@drawable/ic_9key_shift_underline_highlight_material_light_theme</item>
+        <item name="IconTabDeactive">204</item>
+    </style>
+    <style name="Label.9Key.Grey" parent="@style/Label.9Key">
+        <item name="android:textColor">?ColorLabelSecondary</item>
+    </style>
+    <style name="PinyinLightTheme" parent="@style/ChineseLightTheme" />
+    <style name="PinyinDarkTheme" parent="@style/ChineseDarkTheme" />
+    <style name="PinyinMaterialDarkTheme" parent="@style/ChineseMaterialDarkTheme" />
+    <style name="PinyinMaterialLightTheme" parent="@style/ChineseMaterialLightTheme" />
+</resources>

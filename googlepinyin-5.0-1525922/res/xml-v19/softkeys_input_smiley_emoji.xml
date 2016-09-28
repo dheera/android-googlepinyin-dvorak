@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/softkeys_input_smiley_templates" />
+    <softkeys>
+        <softkey id="@id/softkey_sub_category_separator" content_description="@string/smiley_emoji_content_desc">
+            <action type="PRESS" keycode="UNKNOWN" data="SUB_CATEGORY_1" />
+        </softkey>
+        <include href="@xml/softkeys_input_smiley_category_faces" />
+        <softkey id="@id/softkey_sub_category_separator" content_description="@string/smiley_crown_content_desc">
+            <action type="PRESS" keycode="UNKNOWN" data="SUB_CATEGORY_2" />
+        </softkey>
+        <include href="@xml/softkeys_input_smiley_category_objects" />
+        <softkey id="@id/softkey_sub_category_separator" content_description="@string/smiley_flower_content_desc">
+            <action type="PRESS" keycode="UNKNOWN" data="SUB_CATEGORY_3" />
+        </softkey>
+        <include href="@xml/softkeys_input_smiley_category_nature" />
+        <softkey id="@id/softkey_sub_category_separator" content_description="@string/smiley_car_content_desc">
+            <action type="PRESS" keycode="UNKNOWN" data="SUB_CATEGORY_4" />
+        </softkey>
+        <include href="@xml/softkeys_input_smiley_category_places" />
+        <softkey id="@id/softkey_sub_category_separator" content_description="@string/smiley_emoticon_content_desc">
+            <action type="PRESS" keycode="UNKNOWN" data="SUB_CATEGORY_5" />
+        </softkey>
+        <include href="@xml/softkeys_input_smiley_category_emoticons" />
+    </softkeys>
+</framework>

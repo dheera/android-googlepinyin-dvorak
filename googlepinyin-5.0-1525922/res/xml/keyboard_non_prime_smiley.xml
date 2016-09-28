@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard id="@id/keyboard_non_prime_smiley" class=".keyboard.PageableNonPrimeSubCategoryKeyboard" initial_states="LOCK_KEYBOARD+SUB_CATEGORY_1" remember_recent_key="true">
+        <view layout="@layout/keyboard_non_prime_header_sub_category" type="header">
+            <softkeys href="@xml/softkeys_function" />
+            <softkeys href="@xml/softkeys_non_prime_smiley_sub_category" />
+            <include href="@xml/keymapping_header_smiley" />
+        </view>
+        <view layout="@layout/keyboard_non_prime_smiley_body" type="body">
+            <include href="@xml/softkeys_body_smiley" />
+            <softkeys href="@xml/softkeys_function" />
+            <softkeys href="@xml/softkeys_function_ime_action_light_key" />
+            <softkeys href="@xml/softkeys_non_prime_category" />
+            <include href="@xml/keymapping_body_smiley" />
+            <include href="@xml/keymapping_bottom_smiley" />
+        </view>
+    </keyboard>
+</framework>

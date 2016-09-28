@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_key_long_press_delay">
+        <item>100மி.வி.</item>
+        <item>200மி.வி.</item>
+        <item>300மி.வி.</item>
+        <item>400மி.வி.</item>
+        <item>500மி.வி.</item>
+        <item>600மி.வி.</item>
+        <item>700மி.வி.</item>
+    </string-array>
+</resources>

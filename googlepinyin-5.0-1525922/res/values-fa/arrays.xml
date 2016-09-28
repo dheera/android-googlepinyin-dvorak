@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_key_long_press_delay">
+        <item>۱۰۰ میلی‌ثانیه</item>
+        <item>۲۰۰ میلی‌ثانیه</item>
+        <item>۳۰۰ میلی‌ثانیه</item>
+        <item>۴۰۰ میلی‌ثانیه</item>
+        <item>۵۰۰ میلی‌ثانیه</item>
+        <item>۶۰۰ میلی‌ثانیه</item>
+        <item>۷۰۰ میلی‌ثانیه</item>
+    </string-array>
+</resources>

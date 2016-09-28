@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping view_id="@id/key_pos_switch_to_symbol" key_id="@id/softkey_handwriting_switch_to_non_prime" />
+        <mapping view_id="@id/key_pos_del" key_id="@id/softkey_del_light_key" />
+        <mapping view_id="@id/key_pos_switch_to_smiley" key_id="@id/softkey_switch_to_smiley_light_key" />
+    </key_mapping>
+    <include href="@xml/keymapping_function_ime_action_light_key" />
+    <key_mapping>
+        <mapping view_id="@id/key_pos_ime_action" key_id="@id/softkey_enter_with_smiley_light_key" />
+    </key_mapping>
+</framework>

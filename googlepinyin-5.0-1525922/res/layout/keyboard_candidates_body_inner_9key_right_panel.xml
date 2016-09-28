@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/MoreCandidatesRightPanel"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_candidates_del" style="@style/SoftKeyOnCandidatesView.T9" />
+    <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_candidates_page_up" style="@style/SoftKeyOnCandidatesView.T9" />
+    <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_candidates_page_down" style="@style/SoftKeyOnCandidatesView.T9" />
+    <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_candidates_ime_action" style="@style/SoftKeyOnCandidatesView.ImeAction" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard id="@id/keyboard_non_prime_digit" class=".keyboard.Keyboard" initial_states="LOCK_KEYBOARD">
+        <view layout="@layout/keyboard_non_prime_digit_body" type="body">
+            <softkeys href="@xml/softkeys_input_digit" />
+            <softkeys href="@xml/softkeys_function" />
+            <softkeys href="@xml/softkeys_function_ime_action_light_key" />
+            <softkeys href="@xml/softkeys_punctuation_bottom" />
+            <softkeys href="@xml/softkeys_non_prime_category" />
+            <include href="@xml/keymapping_body_digit" />
+            <include href="@xml/keymapping_bottom_digit" />
+        </view>
+    </keyboard>
+</framework>

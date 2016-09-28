@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey id="@id/softkey_enter_light_key" layout="@layout/softkey_ime_action_icon" content_description="@string/enter_key_content_desc">
+            <action type="PRESS" keycode="ENTER" />
+            <icon location="@id/icon" value="@attr/IconEnterLightKey" />
+        </softkey>
+        <softkey id="@id/softkey_enter_plain_text_light_key" layout="@layout/softkey_ime_action_icon" popup_timing="ON_TOUCH" content_description="@string/enter_key_content_desc">
+            <action type="PRESS" keycode="PLAIN_TEXT" data="\n" intention="COMMIT" />
+            <action type="LONG_PRESS" keycode="SWITCH_KEYBOARD" data="smiley" popup_icon="@drawable/ic_key_smiley_active_dark_theme" popup_layout="@layout/popup_square_bubble" />
+            <icon location="@id/icon" value="@attr/IconEnterLightKey" />
+        </softkey>
+        <softkey id="@id/softkey_enter_with_smiley_light_key" layout="@layout/softkey_ime_action_icon" popup_timing="ON_TOUCH" content_description="@string/enter_key_content_desc">
+            <action type="PRESS" keycode="ENTER" />
+            <action type="LONG_PRESS" keycode="SWITCH_KEYBOARD" data="smiley" popup_icon="@drawable/ic_key_smiley_active_dark_theme" popup_layout="@layout/popup_square_bubble" />
+            <icon location="@id/icon" value="@attr/IconEnterLightKey" />
+        </softkey>
+        <softkey id="@id/softkey_switch_to_smiley_as_action_light_key" layout="@layout/softkey_ime_action_icon" popup_timing="ON_TOUCH" content_description="@string/smiley_keyboard_key_content_desc">
+            <action type="PRESS" keycode="SWITCH_KEYBOARD" data="smiley" />
+            <action type="LONG_PRESS" data="\n" keycode="PLAIN_TEXT" popup_icon="@drawable/ic_key_enter" popup_layout="@layout/popup_square_bubble" />
+            <icon location="@id/icon" value="@attr/IconSmileyActive" />
+        </softkey>
+        <softkey id="@id/softkey_action_go_light_key" layout="@layout/softkey_ime_action_icon">
+            <action type="PRESS" keycode="IME_ACTION" data="go" />
+            <icon location="@id/icon" value="@attr/IconGoLightKey" />
+        </softkey>
+        <softkey id="@id/softkey_action_search_light_key" layout="@layout/softkey_ime_action_icon" content_description="@string/search_key_content_desc">
+            <action type="PRESS" keycode="IME_ACTION" data="search" />
+            <icon location="@id/icon" value="@attr/IconSearchLightKey" />
+        </softkey>
+        <softkey id="@id/softkey_action_search_with_smiley_light_key" layout="@layout/softkey_ime_action_icon" content_description="@string/search_key_content_desc">
+            <action type="PRESS" keycode="IME_ACTION" data="search" />
+            <action type="LONG_PRESS" keycode="SWITCH_KEYBOARD" data="smiley" popup_icon="@drawable/ic_key_smiley_active_dark_theme" popup_layout="@layout/popup_square_bubble" />
+            <icon location="@id/icon" value="@attr/IconSearchLightKey" />
+        </softkey>
+        <softkey id="@id/softkey_action_send_light_key" layout="@layout/softkey_ime_action_icon">
+            <action type="PRESS" keycode="IME_ACTION" data="send" />
+            <icon location="@id/icon" value="@attr/IconSendLightKey" />
+        </softkey>
+        <softkey id="@id/softkey_action_next_light_key" layout="@layout/softkey_ime_action_icon">
+            <action type="PRESS" keycode="IME_ACTION" data="next" />
+            <icon location="@id/icon" value="@attr/IconNextLightKey" />
+        </softkey>
+        <softkey id="@id/softkey_action_done_light_key" layout="@layout/softkey_ime_action_icon">
+            <action type="PRESS" keycode="IME_ACTION" data="done" />
+            <icon location="@id/icon" value="@attr/IconDoneLightKey" />
+        </softkey>
+        <softkey id="@id/softkey_action_done_with_smiley" layout="@layout/softkey_ime_action_icon">
+            <action type="PRESS" keycode="IME_ACTION" data="done" />
+            <action type="LONG_PRESS" keycode="SWITCH_KEYBOARD" data="smiley" popup_icon="@drawable/ic_key_smiley_active_dark_theme" popup_layout="@layout/popup_square_bubble" />
+            <icon location="@id/icon" value="@attr/IconDoneLightKey" />
+        </softkey>
+    </softkeys>
+</framework>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/keymapping_bottom_non_prime_main_category_holder" />
+    <key_mapping>
+        <mapping view_id="@id/key_pos_non_prime_category_3" key_id="@id/softkey_non_prime_main_category_symbol_active" />
+    </key_mapping>
+    <include href="@xml/keymapping_function_ime_action_light_key" />
+</framework>

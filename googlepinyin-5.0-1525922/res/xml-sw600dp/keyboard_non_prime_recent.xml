@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard id="@id/keyboard_non_prime_recent" class=".keyboard.RecentKeyDataKeyboard" initial_states="LOCK_KEYBOARD">
+        <view layout="@layout/keyboard_non_prime_header_recent" type="header">
+            <softkeys href="@xml/softkeys_function" />
+            <include href="@xml/keymapping_header_recent" />
+        </view>
+        <view layout="@layout/keyboard_non_prime_recent_body" type="body">
+            <softkeys href="@xml/softkeys_function" />
+            <softkeys href="@xml/softkeys_non_prime_category" />
+            <include href="@xml/keymapping_bottom_recent" />
+            <include href="@xml/keymapping_non_prime_body_right_side" />
+        </view>
+    </keyboard>
+</framework>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/keymapping_non_prime_body_right_side" />
+    <keygroup_mapping group_view_id="@id/pageable_view">
+        <keys softkeys_id="@id/softkeys_symbols_digit_tablet" />
+    </keygroup_mapping>
+    <include href="@xml/keymapping_body_digit_digit_area" />
+</framework>

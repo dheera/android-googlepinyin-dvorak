@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey id="@id/softkey_turn_on_system_emoji" layout="@layout/softkey_icon" content_description="@string/emoji_keyboard_key_content_desc">
+            <action type="PRESS" keycode="KEYBOARD_STATE_ON" data="SHIFT_LOCK" />
+            <icon location="@id/icon" value="@drawable/ic_key_emoji" />
+        </softkey>
+        <softkey id="@id/softkey_turn_off_system_emoji" layout="@layout/softkey_label_darkkey_small" content_description="@string/smiley_keyboard_key_content_desc">
+            <action type="PRESS" keycode="KEYBOARD_STATE_OFF" data="SHIFT_LOCK" />
+            <label location="@id/label" value=":-)" />
+        </softkey>
+    </softkeys>
+</framework>

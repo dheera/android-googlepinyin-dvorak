@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_key_long_press_delay">
+        <item>100 มิลลิวินาที</item>
+        <item>200 มิลลิวินาที</item>
+        <item>300 มิลลิวินาที</item>
+        <item>400 มิลลิวินาที</item>
+        <item>500 มิลลิวินาที</item>
+        <item>600 มิลลิวินาที</item>
+        <item>700 มิลลิวินาที</item>
+    </string-array>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping view_id="@id/key_pos_show_more_candidates" key_id="@id/softkey_show_more_candidates" />
+        <mapping view_id="@id/key_pos_header_candidate_background" key_id="@id/softkey_more_candidate_background_shown" />
+    </key_mapping>
+    <key_mapping state="MORE_CANDIDATES_SHOWN">
+        <mapping view_id="@id/key_pos_show_more_candidates" key_id="@id/softkey_hide_more_candidates" />
+        <mapping view_id="@id/key_pos_header_candidate_background" key_id="@id/softkey_more_candidate_background_hidden" />
+    </key_mapping>
+</framework>

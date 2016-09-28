@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template id="@+id/softkey_template_light_symbol" layout="@layout/softkey_label_medium" multi_touch="false">
+            <action type="PRESS" keycode="$param_keycode=PLAIN_TEXT$" data="$param_data$" intention="COMMIT" />
+            <label location="@id/label" value="$param_data$" />
+        </softkey_template>
+        <softkey_list template_id="@id/softkey_template_light_symbol">
+            <softkey param_data="\?" />
+            <softkey param_data="!" />
+            <softkey param_data="~" />
+            <softkey param_data="…" />
+            <softkey param_data="\@" />
+            <softkey param_data="\#" />
+            <softkey param_data="$" />
+            <softkey param_data="%" />
+            <softkey param_data="/" />
+            <softkey param_data="'" />
+            <softkey param_data="&quot;" />
+            <softkey param_data="=" />
+            <softkey param_data="_" />
+            <softkey param_data="`" />
+            <softkey param_data=":" />
+            <softkey param_data=";" />
+            <softkey param_data="+" />
+            <softkey param_data="-" />
+            <softkey param_data="*" />
+            <softkey param_data="^" />
+            <softkey param_data="\\" />
+            <softkey param_data="(" />
+            <softkey param_data=")" />
+            <softkey param_data="[" />
+            <softkey param_data="]" />
+            <softkey param_data="|" />
+            <softkey param_data="{" />
+            <softkey param_data="}" />
+            <softkey param_data="&lt;" />
+            <softkey param_data=">" />
+            <softkey param_data="&amp;" />
+            <softkey param_data="（" />
+            <softkey param_data="）" />
+            <softkey param_data="〔" />
+            <softkey param_data="〕" />
+            <softkey param_data="→" />
+            <softkey param_data="〈" />
+            <softkey param_data="〉" />
+            <softkey param_data="【" />
+            <softkey param_data="】" />
+            <softkey param_data="←" />
+            <softkey param_data="《" />
+            <softkey param_data="》" />
+            <softkey param_data="［" />
+            <softkey param_data="］" />
+            <softkey param_data="↑" />
+            <softkey param_data="『" />
+            <softkey param_data="』" />
+            <softkey param_data="「" />
+            <softkey param_data="」" />
+            <softkey param_data="↓" />
+            <softkey param_data="★" />
+            <softkey param_data="☆" />
+            <softkey param_data="◆" />
+            <softkey param_data="◇" />
+            <softkey param_data="■" />
+            <softkey param_data="♀" />
+            <softkey param_data="♂" />
+            <softkey param_data="●" />
+            <softkey param_data="○" />
+            <softkey param_data="□" />
+            <softkey param_data="￥" />
+            <softkey param_data="€" />
+            <softkey param_data="£" />
+            <softkey param_data="¢" />
+            <softkey param_data="π" />
+            <softkey param_data="¹" />
+            <softkey param_data="²" />
+            <softkey param_data="³" />
+            <softkey param_data="°" />
+            <softkey param_data="‰" />
+            <softkey param_data="①" />
+            <softkey param_data="②" />
+            <softkey param_data="③" />
+            <softkey param_data="§" />
+            <softkey param_data="※" />
+            <softkey param_data="∑" />
+            <softkey param_data="∏" />
+            <softkey param_data="∫" />
+            <softkey param_data="√" />
+            <softkey param_data="±" />
+            <softkey param_data="∪" />
+            <softkey param_data="∩" />
+            <softkey param_data="∵" />
+            <softkey param_data="∴" />
+            <softkey param_data="∞" />
+            <softkey param_data="≈" />
+            <softkey param_data="≠" />
+            <softkey param_data="×" />
+            <softkey param_data="÷" />
+            <softkey param_data="℃" />
+            <softkey param_data="♠" />
+            <softkey param_data="♥" />
+            <softkey param_data="♣" />
+            <softkey param_data="♦" />
+        </softkey_list>
+    </softkeys>
+</framework>

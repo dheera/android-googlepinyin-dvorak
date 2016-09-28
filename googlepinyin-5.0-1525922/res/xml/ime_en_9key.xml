@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime string_id="en_9key" class="com.google.android.apps.inputmethod.libs.english.ime.AsyncEnglishT9HmmIme" language="en" auto_capital="true" label="@string/english_9key_ime_label">
+        <keyboard_group>
+            <keyboard type="prime" def="@xml/keyboard_en_9key" />
+            <keyboard type="digit" def="@xml/keyboard_non_prime_digit" />
+            <keyboard type="symbol" def="@xml/keyboard_non_prime_symbol" />
+            <keyboard type="smiley" def="@xml/keyboard_non_prime_smiley" />
+            <keyboard type="recent" def="@xml/keyboard_non_prime_recent" />
+        </keyboard_group>
+    </ime>
+</framework>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.framework.keyboard.widget.FixedSizeSoftKeyViewsPage android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" column_count="2" row_count="2" softkeyview_layout="@layout/softkeyview_pageable_dashboard"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

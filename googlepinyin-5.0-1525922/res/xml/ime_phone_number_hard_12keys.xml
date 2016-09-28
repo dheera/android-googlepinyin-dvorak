@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime string_id="phone_number_hard_12keys" class="com.google.android.apps.inputmethod.libs.framework.core.DummyIme" language="und-Latn-x-phone-number" label="@string/password_number_hard_ime_label" status_icon="@drawable/ic_number_status_icon" prime_keyboard_type="HARD_12KEYS">
+        <keyboard_group>
+            <keyboard type="prime" def="@xml/keyboard_password_number_hard" />
+        </keyboard_group>
+    </ime>
+</framework>

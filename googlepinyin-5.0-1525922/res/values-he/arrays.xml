@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_key_long_press_delay">
+        <item>100 אלפיות שניה</item>
+        <item>200 אלפיות שניה</item>
+        <item>300 אלפיות שניה</item>
+        <item>400 אלפיות שניה</item>
+        <item>500 אלפיות שניה</item>
+        <item>600 אלפיות שניה</item>
+        <item>700 אלפיות שניה</item>
+    </string-array>
+</resources>

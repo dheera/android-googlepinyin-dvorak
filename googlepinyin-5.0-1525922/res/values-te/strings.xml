@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setting_title">Google పిన్యిన్ ఇన్‌పుట్ సెట్టింగ్‌లు</string>
+    <string name="ime_name">Google పిన్యిన్ ఇన్‌పుట్</string>
+    <string name="label_subtype_pinyin">చైనీస్ పిన్యిన్</string>
+</resources>

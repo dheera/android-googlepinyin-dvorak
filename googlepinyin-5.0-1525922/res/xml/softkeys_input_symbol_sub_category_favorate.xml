@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/softkeys_input_symbol_numbers" />
+    <include href="@xml/softkeys_input_symbol_basic_symbols" />
+    <softkey_list template_id="@id/softkey_template_light_symbol" splitter=" ">
+        <softkey param_data="'" long_press_data="‚ ‘ ’ ‹ ›" />
+        <softkey param_data="&quot;" long_press_data="„ “ ” « »" />
+        <softkey param_data="=" long_press_data="≠ ≈ ∞" />
+        <softkey param_data="_" />
+        <softkey param_data="`" />
+        <softkey param_data=":" />
+        <softkey param_data=";" />
+        <softkey param_data="\?" long_press_data="¿" />
+        <softkey param_data="~" />
+        <softkey param_data="|" />
+        <softkey param_data="+" long_press_data="±" />
+        <softkey param_data="-" long_press_data="— _ – ·" desc="@string/minus_key_content_desc" />
+        <softkey param_data="\\" />
+        <softkey param_data="/" />
+        <softkey param_data="[" />
+        <softkey param_data="]" />
+        <softkey param_data="{" />
+        <softkey param_data="}" />
+        <softkey param_data="&lt;" long_press_data="≤ ‹ «" />
+        <softkey param_data=">" long_press_data="≥ › »" />
+    </softkey_list>
+    <softkey_list template_id="@id/softkey_template_light_symbol" splitter=" ">
+        <softkey param_data="©" />
+        <softkey param_data="®" />
+        <softkey param_data="■" />
+        <softkey param_data="□" />
+        <softkey param_data="●" />
+        <softkey param_data="○" />
+        <softkey param_data="★" />
+        <softkey param_data="☆" />
+        <softkey param_data="◆" />
+        <softkey param_data="◇" />
+        <softkey param_data="♀" />
+        <softkey param_data="♂" />
+        <softkey param_data="♤" />
+        <softkey param_data="♡" />
+        <softkey param_data="♧" />
+        <softkey param_data="♢" />
+        <softkey param_data="♠" />
+        <softkey param_data="♥" />
+        <softkey param_data="♣" />
+        <softkey param_data="♦" />
+    </softkey_list>
+</framework>
