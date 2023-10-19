@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fullscreen_body_height">92.5dip</dimen>
+    <dimen name="keyboard_body_height">176.0dip</dimen>
+    <dimen name="keyboard_header_height">37.0dip</dimen>
+    <dimen name="keyboard_height">213.0dip</dimen>
+    <dimen name="softkey_bg_bottom_inset_bottom">4.0dip</dimen>
+    <dimen name="softkey_bg_inset_bottom">4.0dip</dimen>
+    <dimen name="text_size_medium">21.0dip</dimen>
+    <dimen name="text_size_qwerty_label">24.0dip</dimen>
+</resources>

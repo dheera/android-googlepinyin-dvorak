@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/ime_symbol_hard" />
+    <include href="@xml/ime_password_hard" />
+</framework>

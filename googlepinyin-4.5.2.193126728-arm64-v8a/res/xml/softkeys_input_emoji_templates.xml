@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template id="@id/softkey_template_light_emoji" popup_timing="ON_GESTURE" layout="@layout/softkey_label_emoji" span="$span$">
+            <action type="PRESS" keycode="SHORT_TEXT" data="$param_data$" intention="COMMIT" popup_label="$param_data$" />
+            <action type="LONG_PRESS" keycode="SHORT_TEXT" data="$param_longpress_data$" popup_label="$param_longpress_data$" intention="COMMIT" popup_layout="@attr/PopupBubbleRectangularLabelSmallKeepOrderLayout" />
+            <label location="@id/label" value="$param_data$" />
+        </softkey_template>
+        <softkey_template id="@id/softkey_template_light_emoji_header" popup_timing="ON_GESTURE" layout="@layout/softkey_label_emoji_header" span="$span$">
+            <action type="PRESS" keycode="SHORT_TEXT" data="$param_data$" intention="COMMIT" popup_label="$param_data$" />
+            <action type="LONG_PRESS" keycode="SHORT_TEXT" data="$param_longpress_data$" popup_label="$param_longpress_data$" intention="COMMIT" popup_layout="@attr/PopupBubbleRectangularLabelSmallKeepOrderLayout" />
+            <label location="@id/label" value="$param_data$" />
+        </softkey_template>
+        <softkey_template id="@id/softkey_template_light_emoji_system_textview" popup_timing="ON_GESTURE" layout="@layout/softkey_label_emoji_system_textview" span="$span$">
+            <action type="PRESS" keycode="SHORT_TEXT" data="$param_data$" intention="COMMIT" popup_label="$param_data$" />
+            <action type="LONG_PRESS" keycode="SHORT_TEXT" data="$param_longpress_data$" popup_label="$param_longpress_data$" intention="COMMIT" popup_layout="@attr/PopupBubbleRectangularLabelSmallKeepOrderLayout" />
+            <label location="@id/label" value="$param_data$" />
+        </softkey_template>
+    </softkeys>
+</framework>

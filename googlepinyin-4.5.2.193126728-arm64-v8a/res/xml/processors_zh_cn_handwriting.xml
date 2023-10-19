@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <processors>
+        <processor id="@id/ime_decode_processor" class="com.google.android.apps.inputmethod.pinyin.ime.handwriting.PinyinHmmHandwritingDecodeProcessor" />
+        <processor id="@id/ime_double_space_processor" class="com.google.android.apps.inputmethod.libs.chinese.ime.hmm.ChineseDoubleSpaceProcessor" />
+        <processor id="@id/ime_auto_space_processor" class="com.google.android.apps.inputmethod.libs.chinese.ime.hmm.ChineseAutoSpaceProcessor" />
+        <processor id="@id/ime_scrub_move_processor" class="com.google.android.apps.inputmethod.libs.framework.ime.ScrubMoveProcessor" />
+        <processor id="@id/ime_output_processor" class="com.google.android.apps.inputmethod.libs.framework.ime.OutputProcessor" />
+    </processors>
+</framework>

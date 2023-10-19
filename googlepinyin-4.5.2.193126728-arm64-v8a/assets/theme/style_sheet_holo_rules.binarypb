@@ -1,0 +1,13 @@
+
+E
++.background-icon.for-action-key.for-preview"color_action_pressed
++
+.track.for-gesture"color_gesture_track
+
+.popup"color_popup
+9
+.popup-item.for-action-popup"color_popup_action_icon
+U
+$.popup-item.for-action-popup:pressed"+color_state_popup_action_background_pressed
+E
+.popup-item.for-action-popup"#color_state_popup_action_background

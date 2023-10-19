@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyboardView mask_layer_color="@attr/ColorKeyboardMask" style="@style/TVBody"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tv="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:background="?BgCandidatesHolder" android:layout_width="fill_parent" android:layout_height="@dimen/keyboard_body_candidates_holder_height" />
+    <com.google.android.apps.inputmethod.libs.tv.keyboard.widget.FocusPointerUnderlayView android:id="@id/tv_focus_pointer_underlay_view" style="@style/FocusPointerUnderlayView" />
+    <LinearLayout style="@style/TVKeyboard">
+        <include layout="@layout/keyboard_body_candidate_area" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/keyboard_input_area_height">
+            <include layout="@layout/keyboard_body_input_area_number_latin" />
+            <include layout="@layout/keyboard_body_input_area_separator_overlay" />
+        </FrameLayout>
+    </LinearLayout>
+</com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyboardView>

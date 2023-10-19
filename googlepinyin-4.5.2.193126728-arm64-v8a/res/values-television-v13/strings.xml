@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_url_restriction_regex">^(?:http://(?:[^/]*?\\.)?google(?:\\.[^./]*?){1,2}/.*)|(?:file:.*)$</string>
+    <string name="setting_version_key">setting_version_key</string>
+</resources>

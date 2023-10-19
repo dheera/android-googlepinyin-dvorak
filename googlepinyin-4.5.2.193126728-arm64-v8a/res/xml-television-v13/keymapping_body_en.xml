@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keygroup_mapping group_view_id="@id/softkeylist_holder_tv_single_area_number">
+        <key key_id="@id/softkey_phone_numbers_1" />
+        <key key_id="@id/softkey_phone_numbers_2" />
+        <key key_id="@id/softkey_phone_numbers_3" />
+        <key key_id="@id/softkey_row_splitter" />
+        <key key_id="@id/softkey_phone_numbers_4" />
+        <key key_id="@id/softkey_phone_numbers_5" />
+        <key key_id="@id/softkey_phone_numbers_6" />
+        <key key_id="@id/softkey_row_splitter" />
+        <key key_id="@id/softkey_phone_numbers_7" />
+        <key key_id="@id/softkey_phone_numbers_8" />
+        <key key_id="@id/softkey_phone_numbers_9" />
+        <key key_id="@id/softkey_row_splitter" />
+        <key key_id="@id/softkey_comma" />
+        <key key_id="@id/softkey_phone_numbers_0" />
+        <key key_id="@id/softkey_sentence" />
+    </keygroup_mapping>
+    <keygroup_mapping group_view_id="@id/softkeylist_holder_tv_single_area_latin">
+        <key key_id="@id/softkey_en_a" />
+        <key key_id="@id/softkey_en_b" />
+        <key key_id="@id/softkey_en_c" />
+        <key key_id="@id/softkey_en_d" />
+        <key key_id="@id/softkey_en_e" />
+        <key key_id="@id/softkey_en_f" />
+        <key key_id="@id/softkey_en_g" />
+        <key key_id="@id/softkey_row_splitter" />
+        <key key_id="@id/softkey_en_h" />
+        <key key_id="@id/softkey_en_i" />
+        <key key_id="@id/softkey_en_j" />
+        <key key_id="@id/softkey_en_k" />
+        <key key_id="@id/softkey_en_l" />
+        <key key_id="@id/softkey_en_m" />
+        <key key_id="@id/softkey_en_n" />
+        <key key_id="@id/softkey_row_splitter" />
+        <key key_id="@id/softkey_en_o" />
+        <key key_id="@id/softkey_en_p" />
+        <key key_id="@id/softkey_en_q" />
+        <key key_id="@id/softkey_en_r" />
+        <key key_id="@id/softkey_en_s" />
+        <key key_id="@id/softkey_en_t" />
+        <key key_id="@id/softkey_en_u" />
+        <key key_id="@id/softkey_row_splitter" />
+        <key key_id="@id/softkey_en_v" />
+        <key key_id="@id/softkey_en_w" />
+        <key key_id="@id/softkey_en_x" />
+        <key key_id="@id/softkey_en_y" />
+        <key key_id="@id/softkey_en_z" />
+        <key key_id="@id/softkey_focusable_empty" />
+        <key key_id="@id/softkey_shift_flip" />
+    </keygroup_mapping>
+    <keygroup_mapping group_view_id="@id/softkeylist_holder_tv_single_area_latin" state="SHIFT_LOCK">
+        <key key_id="@id/softkey_en_up_a" />
+        <key key_id="@id/softkey_en_up_b" />
+        <key key_id="@id/softkey_en_up_c" />
+        <key key_id="@id/softkey_en_up_d" />
+        <key key_id="@id/softkey_en_up_e" />
+        <key key_id="@id/softkey_en_up_f" />
+        <key key_id="@id/softkey_en_up_g" />
+        <key key_id="@id/softkey_row_splitter" />
+        <key key_id="@id/softkey_en_up_h" />
+        <key key_id="@id/softkey_en_up_i" />
+        <key key_id="@id/softkey_en_up_j" />
+        <key key_id="@id/softkey_en_up_k" />
+        <key key_id="@id/softkey_en_up_l" />
+        <key key_id="@id/softkey_en_up_m" />
+        <key key_id="@id/softkey_en_up_n" />
+        <key key_id="@id/softkey_row_splitter" />
+        <key key_id="@id/softkey_en_up_o" />
+        <key key_id="@id/softkey_en_up_p" />
+        <key key_id="@id/softkey_en_up_q" />
+        <key key_id="@id/softkey_en_up_r" />
+        <key key_id="@id/softkey_en_up_s" />
+        <key key_id="@id/softkey_en_up_t" />
+        <key key_id="@id/softkey_en_up_u" />
+        <key key_id="@id/softkey_row_splitter" />
+        <key key_id="@id/softkey_en_up_v" />
+        <key key_id="@id/softkey_en_up_w" />
+        <key key_id="@id/softkey_en_up_x" />
+        <key key_id="@id/softkey_en_up_y" />
+        <key key_id="@id/softkey_en_up_z" />
+        <key key_id="@id/softkey_focusable_empty" />
+        <key key_id="@id/softkey_shift_locked_flip" />
+    </keygroup_mapping>
+</framework>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="feature_page_theme_selector_launcher_bottom_item_pivot_x">0.0dip</dimen>
+    <item type="dimen" name="feature_page_theme_selector_launcher_top_item_pivot_x">@dimen/theme_selector_candidate_width</item>
+</resources>

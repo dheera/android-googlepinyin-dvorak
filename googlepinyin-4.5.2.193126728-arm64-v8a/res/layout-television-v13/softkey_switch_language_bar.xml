@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:tag=".background-icon.for-action-key" style="@style/Icon.Center.Padding.ImeSwitchBar" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:id="@id/icon" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:layout_marginStart="18.0dip" style="@style/Icon.Center.GlobeKey" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.widget.AutoSizeTextView android:id="@id/label" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginEnd="12.0dip" style="@style/Label.TV.LanguageName" />
+    </LinearLayout>
+</merge>

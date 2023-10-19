@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping view_id="@id/key_pos_candidates_page_up" key_id="@id/softkey_page_up" />
+        <mapping view_id="@id/key_pos_candidates_page_down" key_id="@id/softkey_page_down" />
+        <mapping view_id="@id/key_pos_candidates_del" key_id="@id/softkey_candidate_del" />
+    </key_mapping>
+    <key_mapping state="FIRST_PAGE">
+        <mapping view_id="@id/key_pos_candidates_page_up" key_id="@id/softkey_page_up_disabled" />
+    </key_mapping>
+    <key_mapping state="LAST_PAGE">
+        <mapping view_id="@id/key_pos_candidates_page_down" key_id="@id/softkey_page_down_disabled" />
+    </key_mapping>
+    <key_mapping state="COMPOSING">
+        <mapping view_id="@id/key_pos_candidates_del" key_id="@id/softkey_candidate_del_composing" />
+    </key_mapping>
+    <key_mapping>
+        <mapping view_id="@id/key_pos_candidates_ime_action" key_id="@id/softkey_enter" />
+    </key_mapping>
+    <include href="@xml/keymapping_body_candidates_ime_action" />
+</framework>

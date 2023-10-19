@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/HeaderInner.Prime"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/PrimeHeaderInnerLinear">
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_header_lang_1" style="@style/HeaderTab.Prime" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_header_lang_2" style="@style/HeaderTab.Prime" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_switch_to_symbol" style="@style/HeaderTab.PrimeIcon" />
+    </LinearLayout>
+    <LinearLayout android:gravity="right" style="@style/PrimeHeaderInnerLinear">
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_header_voice" style="@style/HeaderTab.PrimeIcon" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="HeaderInner.NonPrime.WeightSum" parent="@style/HeaderInner.NonPrime">
+        <item name="android:gravity">center</item>
+        <item name="android:weightSum">1100.0</item>
+    </style>
+    <style name="LabelSecondary.Qwerty" parent="@style/LabelSecondary">
+        <item name="android:textSize">@dimen/text_size_qwerty_footer</item>
+        <item name="android:textColor">?ColorLabelSecondary</item>
+        <item name="android:gravity">center</item>
+        <item name="android:tag">.label.secondary</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:layout_weight">@integer/softkey_qwerty_bottom_label_weight</item>
+    </style>
+    <style name="PrimeHeaderInnerLinear">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:weightSum">1100.0</item>
+    </style>
+    <style name="SubCategoryHolder">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">@integer/non_prime_header_sub_category_holder_weight</item>
+    </style>
+    <style name="BodyInner.9Key" parent="@style/BodyInner">
+        <item name="android:weightSum">@integer/weight_sum</item>
+    </style>
+    <style name="BodyInner.Candidates.Tablet9Key" parent="@style/BodyInner.Candidates">
+        <item name="android:background">#00000000</item>
+        <item name="android:layout_marginBottom">@dimen/t9_more_candidates_padding_bottom</item>
+    </style>
+    <style name="MoreCandidatesViewRightColume">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:baselineAligned">false</item>
+        <item name="android:weightSum">@integer/weight_sum</item>
+        <item name="android:layout_weight">@integer/keyboard_9key_reading_text_candidates_view_weight</item>
+    </style>
+    <style name="QwertyKeyboardRow">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:baselineAligned">false</item>
+        <item name="android:layout_weight">@integer/keyboard_row_weight</item>
+    </style>
+    <style name="ReadingTextCandidateView.T9" parent="@style/ReadingTextCandidateView">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+</resources>

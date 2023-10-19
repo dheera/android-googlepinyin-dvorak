@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:state_pressed="true">
+        <layer-list>
+            <item android:drawable="@drawable/bg_feature_page_theme_preview_pressed" />
+            <item android:state_selected="true">
+                <bitmap android:gravity="center" android:src="@drawable/ic_feature_page_theme_selected_check" />
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_selected="false" android:state_pressed="true" android:drawable="@drawable/bg_feature_page_theme_preview_pressed" />
+    <item android:state_selected="true">
+        <bitmap android:gravity="center" android:src="@drawable/ic_feature_page_theme_selected_check" />
+    </item>
+</selector>

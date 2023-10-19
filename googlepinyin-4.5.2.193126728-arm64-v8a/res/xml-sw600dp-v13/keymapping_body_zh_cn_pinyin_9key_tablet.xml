@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/keymapping_body_zh_cn_9key_function_tablet" />
+    <include href="@xml/keymapping_body_zh_cn_candidates_left_panel" />
+    <include href="@xml/keymapping_9key_zh" />
+    <include href="@xml/keymapping_zh_cn_pinyin_9key_space_tablet" />
+    <include href="@xml/keymapping_bottom_zh_cn_9key_symbol_tablet" />
+</framework>

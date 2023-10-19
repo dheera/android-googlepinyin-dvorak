@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/softkeys_input_emoticon_templates" />
+    <softkeys>
+        <softkey id="@id/softkey_sub_category_separator_sticky" content_description="">
+            <action type="PRESS" keycode="UNKNOWN" data="SUB_CATEGORY_1" />
+        </softkey>
+        <softkey id="@id/softkey_sub_category_separator" content_description="">
+            <action type="PRESS" keycode="UNKNOWN" data="SUB_CATEGORY_2" />
+        </softkey>
+        <include href="@xml/softkeys_input_emoticon_category_smile" />
+        <softkey id="@id/softkey_sub_category_separator" content_description="">
+            <action type="PRESS" keycode="UNKNOWN" data="SUB_CATEGORY_3" />
+        </softkey>
+        <include href="@xml/softkeys_input_emoticon_category_sweat" />
+        <softkey id="@id/softkey_sub_category_separator" content_description="">
+            <action type="PRESS" keycode="UNKNOWN" data="SUB_CATEGORY_4" />
+        </softkey>
+        <include href="@xml/softkeys_input_emoticon_category_surprise" />
+        <softkey id="@id/softkey_sub_category_separator" content_description="">
+            <action type="PRESS" keycode="UNKNOWN" data="SUB_CATEGORY_5" />
+        </softkey>
+        <include href="@xml/softkeys_input_emoticon_category_sadness" />
+        <softkey id="@id/softkey_sub_category_separator" content_description="">
+            <action type="PRESS" keycode="UNKNOWN" data="SUB_CATEGORY_6" />
+        </softkey>
+        <include href="@xml/softkeys_input_emoticon_category_displeasure" />
+    </softkeys>
+</framework>

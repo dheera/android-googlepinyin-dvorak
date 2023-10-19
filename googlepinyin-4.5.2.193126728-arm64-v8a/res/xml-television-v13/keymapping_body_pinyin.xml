@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keygroup_mapping group_view_id="@id/softkeylist_holder_tv_single_area_number">
+        <key key_id="@id/softkey_phone_numbers_1" />
+        <key key_id="@id/softkey_phone_numbers_2" />
+        <key key_id="@id/softkey_phone_numbers_3" />
+        <key key_id="@id/softkey_row_splitter" />
+        <key key_id="@id/softkey_phone_numbers_4" />
+        <key key_id="@id/softkey_phone_numbers_5" />
+        <key key_id="@id/softkey_phone_numbers_6" />
+        <key key_id="@id/softkey_row_splitter" />
+        <key key_id="@id/softkey_phone_numbers_7" />
+        <key key_id="@id/softkey_phone_numbers_8" />
+        <key key_id="@id/softkey_phone_numbers_9" />
+        <key key_id="@id/softkey_row_splitter" />
+        <key key_id="@id/softkey_comma" />
+        <key key_id="@id/softkey_phone_numbers_0" />
+        <key key_id="@id/softkey_sentence" />
+    </keygroup_mapping>
+    <keygroup_mapping group_view_id="@id/softkeylist_holder_tv_single_area_latin">
+        <key key_id="@id/softkey_pinyin_a" />
+        <key key_id="@id/softkey_pinyin_b" />
+        <key key_id="@id/softkey_pinyin_c" />
+        <key key_id="@id/softkey_pinyin_d" />
+        <key key_id="@id/softkey_pinyin_e" />
+        <key key_id="@id/softkey_pinyin_f" />
+        <key key_id="@id/softkey_pinyin_g" />
+        <key key_id="@id/softkey_row_splitter" />
+        <key key_id="@id/softkey_pinyin_h" />
+        <key key_id="@id/softkey_pinyin_i" />
+        <key key_id="@id/softkey_pinyin_j" />
+        <key key_id="@id/softkey_pinyin_k" />
+        <key key_id="@id/softkey_pinyin_l" />
+        <key key_id="@id/softkey_pinyin_m" />
+        <key key_id="@id/softkey_pinyin_n" />
+        <key key_id="@id/softkey_row_splitter" />
+        <key key_id="@id/softkey_pinyin_o" />
+        <key key_id="@id/softkey_pinyin_p" />
+        <key key_id="@id/softkey_pinyin_q" />
+        <key key_id="@id/softkey_pinyin_r" />
+        <key key_id="@id/softkey_pinyin_s" />
+        <key key_id="@id/softkey_pinyin_t" />
+        <key key_id="@id/softkey_focusable_empty" />
+        <key key_id="@id/softkey_row_splitter" />
+        <key key_id="@id/softkey_pinyin_u" />
+        <key key_id="@id/softkey_pinyin_v" />
+        <key key_id="@id/softkey_pinyin_w" />
+        <key key_id="@id/softkey_pinyin_x" />
+        <key key_id="@id/softkey_pinyin_y" />
+        <key key_id="@id/softkey_pinyin_z" />
+        <key key_id="@id/softkey_ci" />
+    </keygroup_mapping>
+</framework>

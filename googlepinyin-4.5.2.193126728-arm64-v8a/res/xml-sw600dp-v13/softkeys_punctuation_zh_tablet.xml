@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template id="@id/softkey_template_punctuation_qwerty_tablet" layout="@layout/softkey_label_medium_auto_centered" slide_sensitivity="NORMAL" multi_touch="false" content_description="$desc$">
+            <action type="PRESS" data="$press_data$" keycode="PLAIN_TEXT" intention="COMMIT" />
+            <label location="@id/label" value="$press_data$" />
+        </softkey_template>
+        <softkey_list template_id="@id/softkey_template_punctuation_qwerty_tablet">
+            <softkey id="@id/softkey_question_zh" press_data="？" desc="@string/full_width_question_mark_key_content_desc" />
+            <softkey id="@id/softkey_exclamation_zh" press_data="！" desc="@string/full_width_exclamation_key_content_desc" />
+            <softkey id="@id/softkey_ellipsis_zh" press_data="…" desc="@string/ellipsis_key_content_desc" />
+            <softkey id="@id/softkey_wave_zh" press_data="～" desc="@string/full_width_tilde_key_content_desc" />
+            <softkey id="@id/softkey_colon_zh" press_data="：" desc="@string/full_width_colon_key_content_desc" />
+        </softkey_list>
+    </softkeys>
+</framework>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="@dimen/keyboard_input_area_height" style="@style/TVCandidates"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/keyboard_body_side_empty_panel" />
+    <LinearLayout style="@style/TVBodyInner">
+        <include layout="@layout/keyboard_body_left_panel" />
+        <ImageView style="@style/Separator" />
+        <LinearLayout android:id="@id/tv_focus_area_input" android:weightSum="464.0" android:layout_weight="464.0" style="@style/TVInputArea">
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.widget.GridSoftKeyListHolder android:id="@id/softkeylist_holder_tv_single_area_number" android:layout_weight="@integer/keyboard_body_input_number_rows_weight" softkeyview_layout="@layout/softkey_in_grid_softkey_list_holder" style="@style/TVBodyInputRows" />
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.widget.GridSoftKeyListHolder android:id="@id/softkeylist_holder_tv_single_area_latin" android:layout_weight="@integer/keyboard_body_input_latin_rows_weight" softkeyview_layout="@layout/softkey_in_grid_softkey_list_holder" style="@style/TVBodyInputRows" />
+            <ImageView style="@style/Separator" />
+            <include layout="@layout/keyboard_input_right_panel_function" />
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/keyboard_body_right_side_panel" />
+</LinearLayout>

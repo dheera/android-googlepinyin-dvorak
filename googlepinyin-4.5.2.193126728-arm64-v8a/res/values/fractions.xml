@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="fraction" name="fullscreen_handwriting_panel_normal_alpha">0.4</item>
+    <item type="fraction" name="fullscreen_handwriting_panel_pen_down_alpha">0.6</item>
+    <fraction name="lb_search_bar_speech_orb_max_level_zoom">143.9972%</fraction>
+    <fraction name="lb_search_orb_focused_zoom">119.99817%</fraction>
+    <fraction name="lb_view_active_level">0.0%</fraction>
+    <fraction name="lb_view_dimmed_level">60.000004%</fraction>
+    <fraction name="spatial_model_pruning_delta_score">0.0%</fraction>
+</resources>

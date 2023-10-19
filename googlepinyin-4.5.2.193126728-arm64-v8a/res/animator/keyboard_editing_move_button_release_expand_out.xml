@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:interpolator="@android:anim/accelerate_interpolator" android:duration="@integer/keyboard_editing_move_button_animation_release_expand_out_duration" android:shareInterpolator="true" android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:pivotX="50.0%" android:valueFrom="1.0" android:valueTo="1.6" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:pivotY="50.0%" android:valueFrom="1.0" android:valueTo="1.6" android:valueType="floatType" android:propertyName="scaleY" />
+    <objectAnimator android:valueFrom="0.2" android:valueTo="0" android:valueType="floatType" android:propertyName="alpha" />
+</set>

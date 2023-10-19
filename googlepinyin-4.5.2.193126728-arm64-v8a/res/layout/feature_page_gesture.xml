@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/FeaturePage.Portrait"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout style="@style/FeaturePageDemo">
+        <ImageView android:src="@drawable/feature_page_gesture" style="@style/FeaturePageDemoContent.Image" />
+    </FrameLayout>
+    <LinearLayout style="@style/FeaturePageDemoDescription">
+        <TextView android:text="@string/feature_page_gesture_title" style="@style/FeaturePageTitle" />
+        <TextView android:text="@string/feature_page_gesture_description" style="@style/FeaturePageDescription" />
+    </LinearLayout>
+</LinearLayout>

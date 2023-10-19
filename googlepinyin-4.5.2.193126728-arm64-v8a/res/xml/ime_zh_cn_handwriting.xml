@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime string_id="zh_cn_handwriting" class="com.google.android.apps.inputmethod.libs.chinese.ime.AsyncChineseProcessorBasedIme" language="zh-CN" inline_composing="true" label="@string/handwriting_ime_label" announce_auto_selected_candidate="true" supports_one_handed_mode="false">
+        <keyboard_group>
+            <keyboard type="prime" def="@xml/keyboard_zh_cn_handwriting" />
+            <keyboard type="digit" def="@xml/keyboard_non_prime_digit" />
+            <keyboard type="symbol" def="@xml/keyboard_non_prime_symbol_zh" />
+            <keyboard type="smiley" def="@xml/keyboard_non_prime_smiley" />
+            <keyboard type="emoticon" def="@xml/keyboard_non_prime_emoticon" />
+        </keyboard_group>
+        <extra_values>
+            <item id="@id/extra_value_auto_space_before_commit" value="true" />
+            <item id="@id/extra_value_period" value="。" />
+        </extra_values>
+        <include href="@xml/processors_zh_cn_handwriting" />
+    </ime>
+</framework>

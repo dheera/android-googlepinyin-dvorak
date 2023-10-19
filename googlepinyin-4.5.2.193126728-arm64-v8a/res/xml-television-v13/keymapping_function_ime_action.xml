@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping view_id="@id/key_pos_ime_action" key_id="@id/softkey_enter" />
+    </key_mapping>
+    <key_mapping state="INPUT_TYPE_EMAIL_ADDRESS">
+        <mapping view_id="@id/key_pos_ime_action" key_id="@id/softkey_enter" />
+    </key_mapping>
+    <key_mapping state="IME_ACTION_GO">
+        <mapping view_id="@id/key_pos_ime_action" key_id="@id/softkey_action_go" />
+    </key_mapping>
+    <key_mapping state="IME_ACTION_SEARCH">
+        <mapping view_id="@id/key_pos_ime_action" key_id="@id/softkey_action_search" />
+    </key_mapping>
+    <key_mapping state="IME_ACTION_SEND">
+        <mapping view_id="@id/key_pos_ime_action" key_id="@id/softkey_action_send" />
+    </key_mapping>
+    <key_mapping state="IME_ACTION_NEXT">
+        <mapping view_id="@id/key_pos_ime_action" key_id="@id/softkey_action_next" />
+    </key_mapping>
+    <key_mapping state="IME_ACTION_PREVIOUS">
+        <mapping view_id="@id/key_pos_ime_action" key_id="@id/softkey_action_previous" />
+    </key_mapping>
+    <key_mapping state="IME_ACTION_DONE">
+        <mapping view_id="@id/key_pos_ime_action" key_id="@id/softkey_action_done" />
+    </key_mapping>
+</framework>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/feature_page_light_theme_frame_layout" android:contentDescription="@string/kb_theme_material_light" style="@style/FeaturePageThemeItem" />
+        <FrameLayout android:id="@id/feature_page_blue_theme_frame_layout" android:contentDescription="@string/kb_theme_color_blue" style="@style/FeaturePageThemeItem" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/feature_page_dark_theme_frame_layout" android:contentDescription="@string/kb_theme_material_dark" style="@style/FeaturePageThemeItem" />
+        <include layout="@layout/feature_page_theme_selector_launcher_view" />
+    </LinearLayout>
+</merge>

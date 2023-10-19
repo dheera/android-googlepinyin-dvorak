@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/FunctionKeyColumns.Right"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_del" android:layout_weight="250.0" style="@style/SoftKey.SmallInset.Dark.InColumn" />
+    <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_space" android:layout_weight="250.0" style="@style/SoftKey.SmallInset.Dark.InColumn" />
+    <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_switch_to_next_language" android:layout_weight="250.0" style="@style/SoftKey.SmallInset.Dark.InColumn" />
+    <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_ime_action" android:layout_weight="250.0" style="@style/SoftKey.Bottom.ImeAction.InColumn" />
+</LinearLayout>

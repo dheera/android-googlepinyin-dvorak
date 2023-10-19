@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyboardView style="@style/Body"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/keyboard_incognito_overlay_body" />
+    <LinearLayout style="@style/NonPrimeBodyInner">
+        <FrameLayout style="@style/InputArea">
+            <LinearLayout style="@style/DigitKeyboard">
+                <FrameLayout style="@style/T9KeyboardLeftPanel">
+                    <ImageView style="@style/KeyboardSeparator.OnRight" />
+                    <com.google.android.apps.inputmethod.libs.framework.keyboard.widget.ReadingTextCandidateHolderView android:id="@id/softkey_holder_9key_left_panel" default_sub_view_count="4" style="@style/DigitKeyboardLeftPanel" />
+                </FrameLayout>
+                <LinearLayout style="@style/DigitKeyboardMiddlePanel">
+                    <LinearLayout android:weightSum="@integer/keyboard_9key_middle_column_weight_sum" style="@style/DigitKeyboardRow">
+                        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_digit_1" android:layout_weight="234.0" style="@style/SoftKey.SmallInset" />
+                        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_digit_2" android:layout_weight="234.0" style="@style/SoftKey.SmallInset" />
+                        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_digit_3" android:layout_weight="234.0" style="@style/SoftKey.SmallInset" />
+                    </LinearLayout>
+                    <LinearLayout android:weightSum="@integer/keyboard_9key_middle_column_weight_sum" style="@style/DigitKeyboardRow">
+                        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_digit_4" android:layout_weight="234.0" style="@style/SoftKey.SmallInset" />
+                        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_digit_5" android:layout_weight="234.0" style="@style/SoftKey.SmallInset" />
+                        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_digit_6" android:layout_weight="234.0" style="@style/SoftKey.SmallInset" />
+                    </LinearLayout>
+                    <LinearLayout android:weightSum="@integer/keyboard_9key_middle_column_weight_sum" style="@style/DigitKeyboardRow">
+                        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_digit_7" android:layout_weight="234.0" style="@style/SoftKey.SmallInset" />
+                        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_digit_8" android:layout_weight="234.0" style="@style/SoftKey.SmallInset" />
+                        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_digit_9" android:layout_weight="234.0" style="@style/SoftKey.SmallInset" />
+                    </LinearLayout>
+                </LinearLayout>
+                <FrameLayout style="@style/T9KeyboardRightPanel">
+                    <ImageView style="@style/KeyboardSeparator.OnLeft" />
+                    <LinearLayout android:weightSum="3.0" style="@style/Linear.Vertical">
+                        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_digit_right_symbol_1" android:layout_weight="1.0" style="@style/SoftKey.SmallInset.Dark.InColumn" />
+                        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_digit_right_symbol_2" android:layout_weight="1.0" style="@style/SoftKey.SmallInset.Dark.InColumn" />
+                        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_digit_right_symbol_3" android:layout_weight="1.0" style="@style/SoftKey.SmallInset.Dark.InColumn" />
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+        </FrameLayout>
+        <include layout="@layout/keyboard_non_prime_bottom_digit" />
+    </LinearLayout>
+</com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyboardView>

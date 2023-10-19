@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/softkeys_non_prime_sub_category_templates" />
+    <softkeys>
+        <softkey_list template_id="@id/softkey_template_sub_category_active">
+            <softkey id="@id/softkey_non_prime_symbol_sub_category_1_active" param_icon="@attr/IconRecent" desc="@string/nonprime_recent_content_desc" />
+            <softkey id="@id/softkey_non_prime_symbol_sub_category_2_active" param_icon="@attr/IconSubCategorySymbolPopular" desc="@string/symbol_love_content_desc" />
+            <softkey id="@id/softkey_non_prime_symbol_sub_category_3_active" param_icon="@attr/IconSubCategorySymbolKuohao" desc="@string/symbol_kuohao_content_desc" />
+            <softkey id="@id/softkey_non_prime_symbol_sub_category_4_active" param_icon="@attr/IconSubCategorySymbolArrow" desc="@string/symbol_arrow_content_desc" />
+            <softkey id="@id/softkey_non_prime_symbol_sub_category_5_active" param_icon="@attr/IconSubCategorySymbolMath" desc="@string/symbol_math_content_desc" />
+            <softkey id="@id/softkey_non_prime_symbol_sub_category_6_active" param_icon="@attr/IconSubCategorySymbolNumber" desc="@string/symbol_number_content_desc" />
+            <softkey id="@id/softkey_non_prime_symbol_sub_category_7_active" param_icon="@attr/IconSubCategorySymbolShape" desc="@string/symbol_shape_content_desc" />
+        </softkey_list>
+        <softkey_list template_id="@id/softkey_template_sub_category_deactive">
+            <softkey id="@id/softkey_non_prime_symbol_sub_category_1_deactive" param_icon="@attr/IconRecent" param_data="SUB_CATEGORY_1" desc="@string/nonprime_recent_content_desc" />
+            <softkey id="@id/softkey_non_prime_symbol_sub_category_2_deactive" param_icon="@attr/IconSubCategorySymbolPopular" param_data="SUB_CATEGORY_2" desc="@string/symbol_love_content_desc" />
+            <softkey id="@id/softkey_non_prime_symbol_sub_category_3_deactive" param_icon="@attr/IconSubCategorySymbolKuohao" param_data="SUB_CATEGORY_3" desc="@string/symbol_kuohao_content_desc" />
+            <softkey id="@id/softkey_non_prime_symbol_sub_category_4_deactive" param_icon="@attr/IconSubCategorySymbolArrow" param_data="SUB_CATEGORY_4" desc="@string/symbol_arrow_content_desc" />
+            <softkey id="@id/softkey_non_prime_symbol_sub_category_5_deactive" param_icon="@attr/IconSubCategorySymbolMath" param_data="SUB_CATEGORY_5" desc="@string/symbol_math_content_desc" />
+            <softkey id="@id/softkey_non_prime_symbol_sub_category_6_deactive" param_icon="@attr/IconSubCategorySymbolNumber" param_data="SUB_CATEGORY_6" desc="@string/symbol_number_content_desc" />
+            <softkey id="@id/softkey_non_prime_symbol_sub_category_7_deactive" param_icon="@attr/IconSubCategorySymbolShape" param_data="SUB_CATEGORY_7" desc="@string/symbol_shape_content_desc" />
+        </softkey_list>
+    </softkeys>
+</framework>

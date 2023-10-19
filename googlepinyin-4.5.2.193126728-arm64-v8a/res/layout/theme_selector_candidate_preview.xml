@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/theme_selector_candidate_width" android:layout_height="@dimen/theme_selector_candidate_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/theme_selector_candidate_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:tag=".keyboard-background.for-preview" android:layout_width="@dimen/theme_selector_candidate_width" android:layout_height="@dimen/theme_selector_candidate_height" />
+    <View android:layout_gravity="bottom" android:layout_width="@dimen/theme_selector_candidate_width" android:layout_height="@dimen/theme_selector_candidate_body_height" style="@style/Body" />
+    <View android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="@dimen/theme_selector_candidate_header_height" style="@style/Header" />
+    <View android:layout_gravity="bottom|center" android:tag=".space_bar" android:background="?BgSpaceTiny" android:layout_width="69.0dip" android:layout_height="8.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="7.0dip" />
+    <ImageView android:layout_gravity="bottom|center|right" android:tag=".background-icon.for-action-key.for-preview" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:src="?IconImeActionBack" />
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey id="@id/softkey_candidate_del" layout="@layout/softkey_icon" multi_touch="false" content_description="@string/delete_key_content_desc">
+            <action type="PRESS" keycode="DEL" repeatable="true" />
+            <icon location="@id/icon" value="@attr/IconDel" />
+        </softkey>
+        <softkey id="@id/softkey_candidate_del_composing" layout="@layout/softkey_icon" multi_touch="false" popup_timing="ON_GESTURE" slide_sensitivity="LESS" content_description="@string/delete_key_content_desc">
+            <action type="PRESS" keycode="DEL" repeatable="true" />
+            <action type="SLIDE_LEFT" keycode="CLEAR_ALL" popup_label="@string/label_clear_key" popup_layout="@layout/popup_small_square_bubble_no_cancelable" />
+            <icon location="@id/icon" value="@attr/IconDel" />
+        </softkey>
+    </softkeys>
+</framework>

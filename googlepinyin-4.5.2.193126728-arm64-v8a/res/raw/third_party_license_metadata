@@ -1,0 +1,30 @@
+13:10695 latinime
+10731:1484 DynamicAnnotations
+12227:85392 Eigen 3
+97629:19442 ICU4C
+117111:10695 Android Annotations Support Library
+127843:10695 Android Multidex Support Library
+138576:10695 Android Compatibility Library v13
+149308:10695 Android Compatibility Library v4
+160029:10220 Android Support Tools
+170265:16013 Android SDK
+186293:11358 Guava JDK5
+197669:1732 Protobuf Nano
+199420:1096 Animal Sniffer
+200532:11358 Google Auto
+211906:11357 Error Prone
+223274:11358 J2ObjC
+234642:1104 jsoup
+235758:11358 JSR 250
+247128:1602 JSR 305
+248742:11365 JSR 330
+260122:11362 Guava JDK7
+271495:1479 marisa
+272983:3182 PCRE
+276186:1732 Protocol Buffers
+277926:1558 RE2
+279492:680 STL
+280187:11416 TensorFlow
+291619:243 tz database
+291870:731 UTF
+292610:2500 zlib

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/softkeys_input_tv_templates" />
+    <softkeys>
+        <softkey_list template_id="@id/softkey_template_for_tv_dim">
+            <softkey id="@id/softkey_sentence" press_data="." />
+            <softkey id="@id/softkey_comma" press_data="," />
+        </softkey_list>
+    </softkeys>
+</framework>

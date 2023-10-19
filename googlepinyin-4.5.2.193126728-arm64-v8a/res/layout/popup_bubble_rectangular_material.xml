@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.framework.keyboard.widget.MaterialRectangularPopupView android:id="@id/popup_bubble" app:CoversSoftKey="?PopupBubbleRectangularCoversSoftKey" app:SoftKeyInsetBottom="@dimen/softkey_bg_inset_bottom" style="@style/MaterialPopupView"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/popup_handle" style="@style/MaterialRectangularPopupHandle" />
+    <com.google.android.apps.inputmethod.libs.framework.keyboard.widget.RectangularPopupView android:id="@id/popup_content" style="@style/MaterialRectangularPopupContent" balanced_placement="true" max_item_per_row="5" text_view="@layout/popup_label_view" image_view="@layout/popup_icon_view" />
+</com.google.android.apps.inputmethod.libs.framework.keyboard.widget.MaterialRectangularPopupView>

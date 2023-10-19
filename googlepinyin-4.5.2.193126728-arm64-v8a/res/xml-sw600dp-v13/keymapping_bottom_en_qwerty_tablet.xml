@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/keymapping_bottom_qwerty_function_tablet" />
+    <include href="@xml/keymapping_en_qwerty_space" />
+    <include href="@xml/keymapping_bottom_en_qwerty_symbol_tablet" />
+    <include href="@xml/keymapping_bottom_symbol_1_popup_settings" />
+</framework>

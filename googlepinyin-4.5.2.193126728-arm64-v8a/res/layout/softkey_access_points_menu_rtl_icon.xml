@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:rotation="180.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/access_points_menu_background" />
+    <ImageView android:id="@id/icon" style="@style/Icon.Center" />
+</FrameLayout>

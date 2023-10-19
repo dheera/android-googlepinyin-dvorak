@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkey_list template_id="@id/softkey_template_light_emoticon">
+        <softkey param_data=":-O" />
+        <softkey param_data=":-|" />
+        <softkey param_data="(゜゜)" />
+        <softkey param_data="(@_@)" />
+        <softkey param_data="(*_*)" />
+        <softkey param_data="(+_+)" />
+        <softkey param_data="(・o・)" />
+        <softkey param_data="(゜o゜)" />
+        <softkey param_data="(゜-゜)" />
+        <softkey param_data="(?_?)" />
+        <softkey param_data="Σ(ﾟДﾟ)" />
+        <softkey param_data="( ﾟдﾟ)" />
+        <softkey param_data="＼(◎o◎)／" />
+        <softkey param_data="(✽ ﾟдﾟ ✽)" />
+        <softkey param_data="ε≡≡ﾍ( ´Д`)ﾉ" />
+    </softkey_list>
+</framework>

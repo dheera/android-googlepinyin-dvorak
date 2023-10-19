@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey id="@id/softkey_enable_simplified_input" layout="@layout/softkey_candidates_view_function_key_small_label_icon_bottom" multi_touch="false" content_description="@string/simplified_chinese_input_key_content_desc">
+            <action type="PRESS" keycode="KEYBOARD_STATE_ON" data="ENABLE_SC_TC_CONVERSION" />
+            <label location="@id/label" value="@string/label_smplified_input" />
+            <icon location="@id/icon_bottom" value="@attr/IconBarUnlock" />
+        </softkey>
+        <softkey id="@id/softkey_disable_simplified_input" layout="@layout/softkey_candidates_view_function_key_small_label_icon_bottom_active" multi_touch="false" content_description="@string/traditional_chinese_input_key_content_desc">
+            <action type="PRESS" keycode="KEYBOARD_STATE_OFF" data="ENABLE_SC_TC_CONVERSION" />
+            <label location="@id/label" value="@string/label_smplified_input" />
+            <icon location="@id/icon_bottom" value="@attr/IconBarGreen" />
+        </softkey>
+        <softkey id="@id/softkey_9key_space_zh_shifted" layout="@layout/softkey_space_label_small_grey_label_sup_dark" popup_timing="ON_GESTURE" multi_touch="false" content_description="0">
+            <action type="PRESS" keycode="KEYCODE_0" data="0" intention="COMMIT" />
+            <label location="@id/label" value="@string/label_space_number" />
+            <label location="@id/label_sup" value="0" />
+        </softkey>
+        <softkey id="@id/softkey_space_pinyin" layout="@layout/softkey_space_label_grey" content_description="@string/space_key_content_desc">
+            <action type="PRESS" keycode="SPACE" data=" " />
+            <action type="LONG_PRESS" keycode="SHOW_SYSTEM_IME_PICKER" action_on_down="true" />
+            <label location="@id/label" value="@string/label_space_pinyin" />
+        </softkey>
+        <softkey id="@id/softkey_ci" layout="@layout/softkey_icon" multi_touch="false" content_description="@string/separator_key_content_desc" alpha="@attr/LabelAlpha">
+            <action type="DOWN" keycode="SHIFT_DOWN" />
+            <action type="UP" keycode="SHIFT_UP" />
+            <action type="PRESS" keycode="APOSTROPHE" data="'" intention="DECODE" />
+            <icon location="@id/icon" value="@attr/IconCi" />
+        </softkey>
+    </softkeys>
+</framework>
