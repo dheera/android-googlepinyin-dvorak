@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout style="@style/PairingMorePredictionsArea"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.google.android.apps.inputmethod.libs.framework.keyboard.widget.PageableCandidatesHolderView android:orientation="vertical" android:tag="pageable_candidates_view" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" max_candidates_per_row="@integer/max_candidates_per_row" page_down_key="@id/key_pos_candidates_page_down" page_up_key="@id/key_pos_candidates_page_up" row_background="@drawable/bg_pairing_predictions_row" row_count="2" />
-    <LinearLayout style="@style/PairingPageKeyHolder">
-        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_candidates_page_up" android:layout_weight="1.0" style="@style/SoftKeyOnCandidatesView" />
-        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_candidates_page_down" android:layout_weight="1.0" style="@style/SoftKeyOnCandidatesView" />
-    </LinearLayout>
-</LinearLayout>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:tag="input_area" style="@style/BodyInner"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include layout="@layout/keyboard_9key_input_area" />
-    <include layout="@layout/keyboard_prime_bottom" />
-</LinearLayout>

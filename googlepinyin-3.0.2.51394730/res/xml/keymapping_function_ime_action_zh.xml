@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<framework>
-    <include href="@xml/keymapping_function_ime_action" />
-    <key_mapping state="CANDIDATE_HIGHLIGHTED">
-        <mapping view_id="@id/key_pos_ime_action" key_id="@id/softkey_enter" />
-    </key_mapping>
-</framework>

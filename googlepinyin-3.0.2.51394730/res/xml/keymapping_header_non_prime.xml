@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<framework>
-    <key_mapping>
-        <mapping view_id="@id/key_pos_header_non_prime_1" key_id="@id/softkey_non_prime_tab_symbol_deactive" />
-        <mapping view_id="@id/key_pos_header_non_prime_2" key_id="@id/softkey_non_prime_tab_digit_deactive" />
-        <mapping view_id="@id/key_pos_header_non_prime_3" key_id="@id/softkey_non_prime_tab_smiley_deactive" />
-        <mapping view_id="@id/key_pos_header_non_prime_4" key_id="@id/softkey_non_prime_tab_web_deactive" />
-    </key_mapping>
-</framework>

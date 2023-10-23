@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<framework>
-    <include href="@xml/keymapping_bottom_en_prime" />
-    <include href="@xml/keymapping_bottom_prime_qwerty_symbol_optional" />
-    <include href="@xml/keymapping_en_qwerty_space" />
-</framework>

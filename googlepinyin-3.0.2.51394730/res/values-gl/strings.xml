@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="ime_name">Entrada de pinyin de Google</string>
-    <string name="label_subtype_pinyin">Pinyin de chinés</string>
-    <string name="setting_title">Configuración de entrada de pinyin de Google</string>
-</resources>

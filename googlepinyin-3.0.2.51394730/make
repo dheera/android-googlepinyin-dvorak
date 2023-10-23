@@ -1,4 +1,0 @@
-#!/bin/bash
-rm -rf build/apk/res
-apktool b . ./dist/googlepinyin.dvorak.apk
-jarsigner -verbose -keystore /home/dheera/.android/debug.keystore -digestalg SHA1 -sigalg MD5withRSA dist/googlepinyin.dvorak.apk debug

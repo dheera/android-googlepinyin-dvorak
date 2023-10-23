@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="ime_name">Google innsláttur fyrir pinyin</string>
-    <string name="label_subtype_pinyin">Kínverskt pinyin</string>
-    <string name="setting_title">Innsláttarstillingar Google fyrir pinyin</string>
-</resources>
