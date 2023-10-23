@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.theme.preference.CheckableFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="@drawable/bg_theme_selector_candidate_selector"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/bg_theme_selector_builder_launcher" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:src="@drawable/ic_theme_selector_builder_launcher" />
+        <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/theme_selector_launch_theme_builder" android:fontFamily="sans-serif-regular" />
+    </LinearLayout>
+</com.google.android.apps.inputmethod.libs.theme.preference.CheckableFrameLayout>

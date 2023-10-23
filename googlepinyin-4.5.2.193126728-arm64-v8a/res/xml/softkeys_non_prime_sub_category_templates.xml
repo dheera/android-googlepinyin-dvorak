@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template id="@id/softkey_template_sub_category_active" layout="@layout/softkey_non_prime_sub_category_icon" alpha="@attr/IconCategoryActiveAlpha" content_description="$desc$">
+            <action type="PRESS" keycode="UNKNOWN" />
+            <icon location="@id/icon" value="$param_icon$" />
+        </softkey_template>
+        <softkey_template id="@id/softkey_template_sub_category_deactive" layout="@layout/softkey_non_prime_sub_category_icon" alpha="@attr/IconSubCategoryInactiveAlpha" content_description="$desc$">
+            <action type="PRESS" keycode="SWITCH_SUB_CATEGORY" data="$param_data$" />
+            <icon location="@id/icon" value="$param_icon$" />
+        </softkey_template>
+        <softkey_template id="@id/softkey_template_sub_category_text_active" layout="@layout/softkey_non_prime_header_label_active" content_description="$desc$">
+            <action type="PRESS" keycode="UNKNOWN" />
+            <label location="@id/label" value="$param_text$" />
+        </softkey_template>
+        <softkey_template id="@id/softkey_template_sub_category_text_deactive" layout="@layout/softkey_non_prime_header_label_deactive" content_description="$desc$">
+            <action type="PRESS" keycode="SWITCH_SUB_CATEGORY" data="$param_data$" />
+            <label location="@id/label" value="$param_text$" />
+        </softkey_template>
+    </softkeys>
+</framework>

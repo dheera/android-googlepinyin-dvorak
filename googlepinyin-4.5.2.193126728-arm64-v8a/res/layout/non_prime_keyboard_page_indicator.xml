@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.framework.keyboard.widget.SliderPagingIndicatorView android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/page_indicator" android:tag=".scrollbar.horizontal.for-key-paging" android:background="?BgNonPrimeKeyboardPageIndicator" android:layout_width="fill_parent" android:layout_height="@dimen/non_prime_keyboard_indicator_height" android:layout_marginBottom="@dimen/page_indicator_bottom_margin" page_indicator_image="@attr/IconNonPrimeKeyboardPageIndicator"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

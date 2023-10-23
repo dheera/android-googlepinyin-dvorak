@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard id="@id/keyboard_zh_cn_stroke" class=".keyboard.TabletT9Keyboard" popup="@attr/PopupBubble9KeyUnderlineOnDecodeLayout" session_states="SHIFT_LOCK">
+        <view layout="@layout/keyboard_9key_header" scalable="false" type="header">
+            <softkeys href="@xml/softkeys_header_prime" />
+            <include href="@xml/keymapping_header_zh_cn_stroke" />
+        </view>
+        <view layout="@layout/keyboard_9key_body" type="body">
+            <motion_event_handler class=".libs.framework.keyboard.handler.BasicMotionEventHandler" />
+            <motion_event_handler class="com.google.android.apps.inputmethod.libs.framework.keyboard.handler.ScrubMoveMotionEventHandler" reverse_preference="false" preference_key="@string/pref_key_enable_scrub_move" />
+            <softkeys id="@id/softkeys_input_symbol" href="@xml/softkeys_9key_symbol_zh_stroke_tablet" />
+            <softkeys href="@xml/softkeys_input_stroke" />
+            <softkeys href="@xml/softkeys_punctuation_bottom" />
+            <softkeys href="@xml/softkeys_punctuation_bottom_zh" />
+            <softkeys href="@xml/softkeys_function" />
+            <softkeys href="@xml/softkeys_function_9key_tablet" />
+            <softkeys href="@xml/softkeys_function_zh" />
+            <softkeys href="@xml/softkeys_function_zh_9key_tablet" />
+            <include href="@xml/keymapping_body_zh_cn_stroke_tablet" />
+            <keygroup_mapping group_view_id="@id/pageable_view">
+                <keys softkeys_id="@id/softkeys_input_symbol" />
+            </keygroup_mapping>
+        </view>
+    </keyboard>
+</framework>

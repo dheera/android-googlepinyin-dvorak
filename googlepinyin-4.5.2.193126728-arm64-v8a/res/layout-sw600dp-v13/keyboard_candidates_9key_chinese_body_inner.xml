@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:weightSum="@integer/keyboard_9key_left_part_central_panel_weight" style="@style/BodyInner.Candidates.Tablet9Key"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.inputmethod.libs.framework.keyboard.widget.PageableCandidatesHolderView android:id="@id/softkey_holder_more_candidates" android:paddingRight="@dimen/t9_more_candidates_holder_view_padding_right" android:layout_weight="@integer/keyboard_9key_symbol_panel_weight" style="@style/MoreCandidatesHolderView" max_candidates_per_row="@integer/max_candidates_per_row" row_background="@attr/BgT9TabletMoreCandidatesHolderRow" row_count="@integer/t9_candidate_page_view_row_count" candidate_background="@attr/BgCandidate" last_column_candidate_background="@attr/BgCandidateLastColumn" candidate_layout="@layout/softkey_candidate" />
+    <LinearLayout style="@style/MoreCandidatesViewRightColume">
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.widget.ReadingTextCandidateHolderView android:id="@id/softkey_holder_reading_text_candidates" style="@style/ReadingTextCandidateView.Chinese" default_sub_view_count="4" />
+        <LinearLayout android:layout_weight="250.0" style="@style/Linear.HeightWeighted.Vertical">
+            <View style="@style/FunctionKeySeparator" />
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_function_key_on_candidates_view" style="@style/SoftKeyFunctionOnMoreCandidatesView" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

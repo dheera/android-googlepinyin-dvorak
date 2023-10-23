@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping view_id="@id/key_pos_left_panel_1" key_id="@id/softkey_zh_deactive" />
+        <mapping view_id="@id/key_pos_left_panel_2" key_id="@id/softkey_en_active" />
+        <mapping view_id="@id/key_pos_left_panel_3" key_id="@id/softkey_switch_to_symbols" />
+    </key_mapping>
+</framework>

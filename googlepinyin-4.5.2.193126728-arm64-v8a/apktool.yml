@@ -1,0 +1,32 @@
+version: 2.9.0
+apkFileName: googlepinyin-4.5.2.193126728-arm64-v8a.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 17
+  targetSdkVersion: 26
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
+versionInfo:
+  versionCode: 4520313
+  versionName: 4.5.2.193126728-arm64-v8a
+resourcesAreCompressed: false
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  android-support-multidex.version.txt: 0
+  build-data.properties: 0
+doNotCompress:
+- resources.arsc
+- META-INF/services/com.google.protobuf.GeneratedExtensionRegistryLoader
+- assets/theme/style_sheet_color_deep_purple_override.binarypb
+- assets/theme/theme_package_metadata_no_background.binarypb
+- png
+- ogg
+- res/raw/main_en_d3_20160715.gzip
+- res/raw/metadata.json
+- jpg

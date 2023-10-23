@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/softkeys_input_tv_templates" />
+    <softkeys>
+        <softkey id="@id/softkey_row_splitter" />
+        <softkey id="@id/softkey_del" layout="@layout/softkey_icon_padding" content_description="@string/delete_key_content_desc">
+            <action type="PRESS" keycode="DEL" repeatable="true" action_on_down="true" />
+            <action type="UP" keycode="DELETE_FINISH" />
+            <icon location="@id/icon" value="@attr/IconDel" />
+        </softkey>
+        <softkey id="@id/softkey_page_left" layout="@layout/softkey_icon" content_description="@string/page_up_key_content_desc" alpha="@attr/IconAlpha">
+            <action type="PRESS" keycode="PAGE_UP" />
+            <icon location="@id/icon" value="@attr/IconArrowLeft" />
+        </softkey>
+        <softkey id="@id/softkey_page_right" layout="@layout/softkey_icon" content_description="@string/page_down_key_content_desc" alpha="@attr/IconAlpha">
+            <action type="PRESS" keycode="PAGE_DOWN" />
+            <icon location="@id/icon" value="@attr/IconArrowRight" />
+        </softkey>
+        <softkey id="@id/softkey_space" layout="@layout/softkey_icon" content_description="@string/space_key_content_desc" alpha="@attr/IconAlpha">
+            <action type="PRESS" keycode="SPACE" data=" " />
+            <icon location="@id/icon" value="@attr/IconSpaceKey" />
+        </softkey>
+        <softkey id="@id/softkey_shift_flip" layout="@layout/softkey_icon" content_description="@string/shift_key_content_desc">
+            <action type="PRESS" keycode="LOCK_SHIFT" />
+            <icon location="@id/icon" value="@attr/IconShiftOff" />
+        </softkey>
+        <softkey id="@id/softkey_shift_locked_flip" layout="@layout/softkey_icon" content_description="@string/shift_key_content_desc">
+            <action type="PRESS" keycode="UNLOCK_SHIFT" />
+            <icon location="@id/icon" value="@attr/IconShiftOn" />
+        </softkey>
+        <softkey id="@id/softkey_en_active" layout="@layout/softkey_function_key_label_smalltext" content_description="@string/english_keyboard_key_content_desc">
+            <label location="@id/label" value="abc123" />
+        </softkey>
+        <softkey id="@id/softkey_en_deactive" layout="@layout/softkey_function_key_label_smalltext_deactive" content_description="@string/english_keyboard_key_content_desc">
+            <action type="ON_FOCUS" keycode="SWITCH_INPUT_BUNDLE" data="en_abc123_for_tv" />
+            <label location="@id/label" value="abc123" />
+        </softkey>
+        <softkey id="@id/softkey_switch_to_symbols_disabled" layout="@layout/softkey_function_key_label" content_description="@string/symbol_keyboard_key_content_desc">
+            <label location="@id/label" value="\@?#" />
+        </softkey>
+        <softkey id="@id/softkey_switch_to_symbols" layout="@layout/softkey_function_key_label_deactive" content_description="@string/symbol_keyboard_key_content_desc">
+            <action type="ON_FOCUS" keycode="SWITCH_INPUT_BUNDLE" data="symbol" />
+            <label location="@id/label" value="\@?#" />
+        </softkey>
+        <softkey id="@id/softkey_clear_all" layout="@layout/softkey_icon_padding" content_description="@string/clear_all_key_content_desc">
+            <action type="PRESS" keycode="CLEAR_ALL" repeatable="true" />
+            <icon location="@id/icon" value="@attr/IconClearAll" />
+        </softkey>
+        <softkey id="@id/softkey_switch_language" layout="@layout/softkey_switch_language_bar" content_description="@string/next_language_key_content_desc">
+            <action type="PRESS" keycode="SWITCH_TO_NEXT_LANGUAGE" data="globe" />
+            <action type="LONG_PRESS" keycode="SHOW_SYSTEM_IME_PICKER" action_on_down="true" data="globe" />
+            <icon location="@id/icon" value="@attr/IconGlobeEnabled" />
+            <label location="@id/label" value=" " />
+        </softkey>
+        <softkey id="@id/softkey_focusable_empty" layout="@layout/softkey_label_medium" />
+    </softkeys>
+</framework>

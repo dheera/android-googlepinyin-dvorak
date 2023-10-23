@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fullscreen_body_height">127.5dip</dimen>
+    <dimen name="keyboard_body_height">242.0dip</dimen>
+    <dimen name="keyboard_header_height">40.0dip</dimen>
+    <dimen name="keyboard_height">282.0dip</dimen>
+    <dimen name="keyboard_side_frame_height">226.0dip</dimen>
+    <dimen name="material_popup_bubble_width">45.0dip</dimen>
+    <dimen name="one_handed_keyboard_area_max_height">380.0dip</dimen>
+    <dimen name="one_handed_keyboard_body_height_for_large_screen">245.0dip</dimen>
+    <dimen name="one_handed_keyboard_padding_bottom_for_large_screen">48.0dip</dimen>
+    <dimen name="popup_label_width">41.0dip</dimen>
+    <dimen name="popup_small_label_width">41.0dip</dimen>
+    <dimen name="softkey_bg_bottom_inset_bottom">8.0dip</dimen>
+    <dimen name="softkey_bg_inset_bottom">12.0dip</dimen>
+    <dimen name="text_size_9key">22.0dip</dimen>
+    <dimen name="text_size_9key_1">18.0dip</dimen>
+    <dimen name="text_size_function_key">18.0dip</dimen>
+    <dimen name="text_size_medium">22.0dip</dimen>
+    <dimen name="text_size_qwerty_label">27.0dip</dimen>
+    <dimen name="text_size_very_tiny">11.0dip</dimen>
+</resources>

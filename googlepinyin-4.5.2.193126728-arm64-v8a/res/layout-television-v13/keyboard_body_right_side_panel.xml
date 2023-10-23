@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/tv_focus_area_switch_language" android:weightSum="1.0" style="@style/TVRightSidePanelFunction"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.inputmethod.libs.tv.keyboard.widget.SoftKeyViewForTV android:id="@id/key_pos_space" android:layout_weight="1.0" style="@style/SoftKey.TV.FunctionKey">
+        <FrameLayout style="@style/SoftKeyViewHost.IMESwitchKey" />
+    </com.google.android.apps.inputmethod.libs.tv.keyboard.widget.SoftKeyViewForTV>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime string_id="en_abc123_und_for_tv" class="com.google.android.apps.inputmethod.libs.framework.core.DummyIme" language="und" auto_capital="true" label="@string/english_qwerty_ime_label" display_app_completions="true">
+        <keyboard_group>
+            <keyboard type="prime" def="@xml/keyboard_en" />
+        </keyboard_group>
+        <extra_values>
+            <item id="@id/extra_value_force_display_app_completions" value="true" />
+        </extra_values>
+    </ime>
+</framework>

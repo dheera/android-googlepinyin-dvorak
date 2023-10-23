@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey id="@id/softkey_open_access_points" layout="@layout/softkey_access_points_menu_icon" content_description="@string/open_access_points_menu_content_desc">
+            <action type="PRESS" keycode="OPEN_ACCESS_POINTS" />
+            <icon location="@id/icon" value="@attr/IconAccessPointsMenu" />
+        </softkey>
+        <softkey id="@id/softkey_open_access_points_rtl" layout="@layout/softkey_access_points_menu_rtl_icon" content_description="@string/open_access_points_menu_content_desc">
+            <action type="PRESS" keycode="OPEN_ACCESS_POINTS" />
+            <icon location="@id/icon" value="@attr/IconAccessPointsMenu" />
+        </softkey>
+        <softkey id="@id/softkey_close_access_points" layout="@layout/softkey_access_points_menu_icon" content_description="@string/close_access_points_menu_content_desc">
+            <action type="PRESS" keycode="CLOSE_ACCESS_POINTS" />
+            <icon location="@id/icon" value="@attr/IconAccessPointsCloseMenu" />
+        </softkey>
+        <softkey id="@id/softkey_close_access_points_rtl" layout="@layout/softkey_access_points_menu_rtl_icon" content_description="@string/close_access_points_menu_content_desc">
+            <action type="PRESS" keycode="CLOSE_ACCESS_POINTS" />
+            <icon location="@id/icon" value="@attr/IconAccessPointsCloseMenu" />
+        </softkey>
+        <softkey id="@id/softkey_one_tap_to_search" layout="@layout/softkey_one_tap_to_search_icon" alpha="@attr/IconOneTapToSearchAlpha" content_description="@string/open_access_points_menu_and_search_content_desc">
+            <action type="PRESS" keycode="OPEN_ACCESS_POINTS" />
+            <icon location="@id/icon" value="@drawable/ic_one_tap_to_search" />
+        </softkey>
+        <softkey id="@id/softkey_access_points_back" layout="@layout/softkey_icon" content_description="@string/close_access_points_menu_content_desc">
+            <action type="PRESS" keycode="CLOSE_ACCESS_POINTS" />
+            <icon location="@id/icon" value="@attr/IconAccessPointsBack" />
+        </softkey>
+        <softkey id="@id/softkey_access_points_back_rtl" layout="@layout/softkey_access_points_back_rtl_icon" content_description="@string/close_access_points_menu_content_desc">
+            <action type="PRESS" keycode="CLOSE_ACCESS_POINTS" />
+            <icon location="@id/icon" value="@attr/IconAccessPointsBack" />
+        </softkey>
+    </softkeys>
+</framework>

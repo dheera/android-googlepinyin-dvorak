@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/ThemeSelectorFrame"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/ThemeSelectorPreviewHolder">
+        <FrameLayout style="@style/ThemeSelectorPreviewHeader">
+            <ImageView style="@style/ThemeSelectorIcon.Back" />
+            <TextView style="@style/ThemeSelectorText.Header" />
+        </FrameLayout>
+        <ImageView style="@style/ThemeSelectorImage.Preview" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="24.0dip">
+            <LinearLayout style="@style/ThemeSelectorPreviewKeyBorderOption">
+                <ImageView style="@style/ThemeSelectorIcon.KeyBorder" />
+                <Switch style="@style/ThemeSelectorText.KeyBorderSwitch" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <com.google.android.apps.inputmethod.libs.theme.preference.FixedSizeCenteringGridView style="@style/ThemeSelectorCandidatesHolder" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/ime_zh_cn_pinyin_qwerty" />
+    <include href="@xml/ime_zh_cn_pinyin_9key" />
+    <include href="@xml/ime_zh_cn_stroke" />
+    <include href="@xml/ime_zh_cn_handwriting" />
+</framework>

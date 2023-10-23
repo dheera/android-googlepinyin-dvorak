@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keygroup_mapping group_view_id="@id/pageable_view">
+        <keys softkeys_id="@id/softkeys_input_emoji_sub_category_1" />
+        <keys softkeys_id="@id/softkeys_input_emoji_sub_category_2" />
+        <keys softkeys_id="@id/softkeys_input_emoji_sub_category_3" />
+        <keys softkeys_id="@id/softkeys_input_emoji_sub_category_4" />
+        <keys softkeys_id="@id/softkeys_input_emoji_sub_category_5" />
+        <keys softkeys_id="@id/softkeys_input_emoji_sub_category_6" />
+        <keys softkeys_id="@id/softkeys_input_emoji_sub_category_7" />
+        <keys softkeys_id="@id/softkeys_input_emoji_sub_category_8" />
+        <keys softkeys_id="@id/softkeys_input_emoji_sub_category_9" />
+    </keygroup_mapping>
+    <key_mapping>
+        <mapping view_id="@id/key_pos_del" key_id="@id/softkey_del" />
+    </key_mapping>
+</framework>

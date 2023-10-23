@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/feature_page_indicator" />
+    <TextView android:id="@id/navi_skip" android:text="@string/tutorial_skip" style="@style/FeaturePageNavigation.Left" />
+    <ImageView android:id="@id/navi_next" android:src="@drawable/ic_tutorial_next_page" android:contentDescription="@string/next_page_content_desc" style="@style/FeaturePageNavigation.Right" />
+</merge>

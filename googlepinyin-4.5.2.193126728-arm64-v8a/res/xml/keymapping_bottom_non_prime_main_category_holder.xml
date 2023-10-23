@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping view_id="@id/key_pos_back_to_prime" key_id="@id/softkey_back" />
+        <mapping view_id="@id/key_pos_back_to_prime2" key_id="@id/softkey_back" />
+    </key_mapping>
+    <key_mapping>
+        <mapping view_id="@id/key_pos_non_prime_symbol_1" key_id="@id/softkey_comma" />
+        <mapping view_id="@id/key_pos_non_prime_symbol_2" key_id="@id/softkey_period" />
+    </key_mapping>
+</framework>

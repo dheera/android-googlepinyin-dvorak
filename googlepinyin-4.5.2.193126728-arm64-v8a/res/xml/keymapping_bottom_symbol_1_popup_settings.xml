@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <merge_key_mapping exclude_state="NO_SETTINGS_KEY">
+        <merge view_id="@id/key_pos_bottom_symbol_1" key_id="@id/softkey_fragment_bottom_popup_settings" />
+    </merge_key_mapping>
+</framework>

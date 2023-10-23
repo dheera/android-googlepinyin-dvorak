@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/softkeys_function_ime_action_templates" />
+    <softkeys>
+        <softkey id="@id/softkey_enter" layout="@layout/softkey_ime_action_icon" content_description="@string/enter_key_content_desc" alpha="@attr/IconAlpha">
+            <action type="PRESS" keycode="ENTER" />
+            <icon location="@id/icon" value="@attr/IconEnter" />
+        </softkey>
+        <softkey_list template_id="@id/softkey_template_action_key">
+            <softkey id="@id/softkey_action_go" param_data="go" param_icon="@attr/IconGo" desc="@string/go_key_content_desc" icon_alpha="@attr/IconAlpha" />
+            <softkey id="@id/softkey_action_search" param_data="search" param_icon="@attr/IconSearch" desc="@string/search_key_content_desc" icon_alpha="@attr/IconAlpha" />
+            <softkey id="@id/softkey_action_send" param_data="send" param_icon="@attr/IconSend" desc="@string/send_key_content_desc" icon_alpha="@attr/IconAlpha" />
+            <softkey id="@id/softkey_action_next" param_data="next" param_icon="@attr/IconNext" desc="@string/navigate_next_key_content_desc" icon_alpha="@attr/IconAlpha" />
+            <softkey id="@id/softkey_action_previous" param_data="previous" param_icon="@attr/IconPrevious" desc="@string/navigate_previous_key_content_desc" icon_alpha="@attr/IconAlpha" />
+            <softkey id="@id/softkey_action_done" param_data="done" param_icon="@attr/IconDone" desc="@string/done_key_content_desc" icon_alpha="@attr/IconAlpha" />
+        </softkey_list>
+    </softkeys>
+</framework>

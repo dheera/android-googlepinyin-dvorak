@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/softkeys_input_emoji_templates" />
+    <softkeys>
+        <softkey id="@id/softkey_sub_category_separator" content_description="@string/smiley_category_food_drink_content_desc">
+            <action type="PRESS" keycode="UNKNOWN" data="SUB_CATEGORY_4" />
+        </softkey>
+        <include href="@xml/softkeys_input_emoji_category_food_drink" />
+    </softkeys>
+</framework>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping view_id="@id/key_pos_9key_1" key_id="@id/softkey_stroke_heng" />
+        <mapping view_id="@id/key_pos_9key_2" key_id="@id/softkey_stroke_shu" />
+        <mapping view_id="@id/key_pos_9key_3" key_id="@id/softkey_stroke_pie" />
+        <mapping view_id="@id/key_pos_9key_4" key_id="@id/softkey_stroke_dot" />
+        <mapping view_id="@id/key_pos_9key_5" key_id="@id/softkey_stroke_zhe" />
+        <mapping view_id="@id/key_pos_9key_6" key_id="@id/softkey_stroke_matched" />
+        <mapping view_id="@id/key_pos_9key_7" key_id="@id/softkey_stroke_ci" />
+        <mapping view_id="@id/key_pos_9key_8" key_id="@id/softkey_stroke_exclamation" />
+        <mapping view_id="@id/key_pos_9key_9" key_id="@id/softkey_stroke_questionmark" />
+    </key_mapping>
+    <key_mapping state="SHIFT">
+        <mapping view_id="@id/key_pos_9key_1" key_id="@id/softkey_digit_1" />
+        <mapping view_id="@id/key_pos_9key_2" key_id="@id/softkey_digit_2" />
+        <mapping view_id="@id/key_pos_9key_3" key_id="@id/softkey_digit_3" />
+        <mapping view_id="@id/key_pos_9key_4" key_id="@id/softkey_digit_4" />
+        <mapping view_id="@id/key_pos_9key_5" key_id="@id/softkey_digit_5" />
+        <mapping view_id="@id/key_pos_9key_6" key_id="@id/softkey_digit_6" />
+        <mapping view_id="@id/key_pos_9key_7" key_id="@id/softkey_digit_7" />
+        <mapping view_id="@id/key_pos_9key_8" key_id="@id/softkey_digit_8" />
+        <mapping view_id="@id/key_pos_9key_9" key_id="@id/softkey_digit_9" />
+    </key_mapping>
+</framework>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.framework.keyboard.widget.FixedSizeSoftKeyViewsPage android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:horizontalSpacing="0.0dip" android:verticalSpacing="0.0dip" column_count="@integer/keyboard_non_prime_emoji_column_count" row_count="@integer/keyboard_non_prime_emoji_row_count" horizontal_alignment="true" softkeyview_layout="@layout/softkeyview_pageable_transparent" softkeyview_id_position="-1" softkeyview_id_value="@id/key_pos_del"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

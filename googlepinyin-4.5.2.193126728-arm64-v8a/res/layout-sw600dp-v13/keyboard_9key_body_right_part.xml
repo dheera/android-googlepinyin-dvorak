@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingTop="@dimen/input_area_padding_top" android:weightSum="@integer/keyboard_9key_right_part_weight" android:layout_weight="@integer/keyboard_9key_right_part_weight" style="@style/Linear.WidthWeighted.Horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/keyboard_9key_body_right_part_input_panel" />
+    <include layout="@layout/keyboard_9key_body_right_part_right_column" />
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keygroup_mapping group_view_id="@id/softkey_holder_9key_left_panel">
+        <key key_id="@id/softkey_question" />
+        <key key_id="@id/softkey_exclamation" />
+        <key key_id="@id/softkey_ellipsis" />
+        <key key_id="@id/softkey_wave" />
+        <key key_id="@id/softkey_colon" />
+        <key key_id="@id/softkey_semicolon" />
+        <key key_id="@id/softkey_minus" />
+        <key key_id="@id/softkey_at" />
+        <key key_id="@id/softkey_slash" />
+        <key key_id="@id/softkey_quote" />
+        <key key_id="@id/softkey_percent" />
+    </keygroup_mapping>
+</framework>

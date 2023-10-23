@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey id="@id/softkey_floating_candidate_page_up" layout="@layout/floating_softkey_icon" content_description="@string/page_up_key_content_desc" alpha="@attr/IconAlpha">
+            <action type="PRESS" keycode="PAGE_UP" />
+            <icon location="@id/icon" value="@drawable/ic_key_arrow_up_enabled_material_light_theme" />
+        </softkey>
+        <softkey id="@id/softkey_floating_candidate_page_up_disabled" layout="@layout/floating_softkey_icon" content_description="" alpha="@attr/IconAlpha">
+            <action type="PRESS" keycode="PAGE_UP" />
+            <icon location="@id/icon" value="@drawable/ic_key_arrow_up_disabled_material_light_theme" />
+        </softkey>
+        <softkey id="@id/softkey_floating_candidate_page_down" layout="@layout/floating_softkey_icon" content_description="@string/page_down_key_content_desc" alpha="@attr/IconAlpha">
+            <action type="PRESS" keycode="PAGE_DOWN" />
+            <icon location="@id/icon" value="@drawable/ic_key_arrow_down_enabled_material_light_theme" />
+        </softkey>
+        <softkey id="@id/softkey_floating_candidate_page_down_disabled" layout="@layout/floating_softkey_icon" content_description="" alpha="@attr/IconAlpha">
+            <action type="PRESS" keycode="PAGE_DOWN" />
+            <icon location="@id/icon" value="@drawable/ic_key_arrow_down_disabled_material_light_theme" />
+        </softkey>
+        <softkey id="@id/softkey_floating_candidate_del" layout="@layout/floating_softkey_icon" multi_touch="false" content_description="@string/delete_key_content_desc">
+            <action type="PRESS" keycode="DEL" repeatable="true" />
+            <icon location="@id/icon" value="@drawable/ic_key_del_material_light" />
+        </softkey>
+        <softkey id="@id/softkey_floating_candidate_del_composing" layout="@layout/floating_softkey_icon" multi_touch="false" popup_timing="ON_GESTURE" slide_sensitivity="LESS" content_description="@string/delete_key_content_desc">
+            <action type="PRESS" keycode="DEL" repeatable="true" />
+            <action type="SLIDE_LEFT" keycode="CLEAR_ALL" popup_label="@string/label_clear_key" popup_layout="@layout/popup_small_square_bubble_no_cancelable" />
+            <icon location="@id/icon" value="@drawable/ic_key_del_material_light" />
+        </softkey>
+    </softkeys>
+</framework>

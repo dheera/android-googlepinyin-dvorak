@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppThemeSelector" parent="@android:style/Theme.Material" />
+    <style name="Icon.Center.ImeAction" parent="@style/Icon.Center">
+        <item name="android:gravity">center</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="Icon.Center.Padding.ImeActionBack" parent="@style/Icon.Center.Padding">
+        <item name="android:gravity">center</item>
+        <item name="android:padding">0.0dip</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:src">@drawable/bg_ime_action</item>
+    </style>
+    <style name="Label.FunctionKey" parent="@style/Label">
+        <item name="android:textSize">@dimen/text_size_function_key_tv</item>
+        <item name="android:textColor">?ColorLabelFunctionKey</item>
+    </style>
+    <style name="Separator">
+        <item name="android:layout_width">1.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:src">?ColorSeparator</item>
+    </style>
+    <style name="FocusPointerUnderlayView">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:animationDuration">@integer/focus_pointer_animation_duration</item>
+        <item name="android:color">?ColorFocusPointer</item>
+        <item name="pressAnimation">@anim/tv_focus_pointer_press</item>
+        <item name="releaseAnimation">@anim/tv_focus_pointer_release</item>
+    </style>
+    <style name="HorizontalEmptyPanel">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="Icon.Center.GlobeKey" parent="@style/Icon.Center">
+        <item name="android:layout_width">20.0dip</item>
+        <item name="android:layout_height">20.0dip</item>
+    </style>
+    <style name="Icon.Center.Padding.ImeSwitchBar" parent="@style/Icon.Center.Padding">
+        <item name="android:gravity">center</item>
+        <item name="android:padding">0.0dip</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:src">@drawable/bg_switch_language_bar</item>
+    </style>
+    <style name="Label.FunctionKey.Deactive" parent="@style/Label.FunctionKey">
+        <item name="android:textSize">@dimen/text_size_function_key_tv</item>
+        <item name="android:textColor">?ColorLabelFunctionKeyDeactive</item>
+    </style>
+    <style name="Label.FunctionKey.Small" parent="@style/Label.FunctionKey">
+        <item name="android:textSize">@dimen/text_size_function_key_small_tv</item>
+        <item name="android:textColor">?ColorLabelFunctionKey</item>
+    </style>
+    <style name="Label.FunctionKey.Small.Deactive" parent="@style/Label.FunctionKey.Small">
+        <item name="android:textSize">@dimen/text_size_function_key_small_tv</item>
+        <item name="android:textColor">?ColorLabelFunctionKeyDeactive</item>
+    </style>
+    <style name="Label.TV" parent="@style/Label">
+        <item name="android:textColor">?ColorLabel</item>
+    </style>
+    <style name="Label.TV.LanguageName" parent="@style/Label.TV">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+    </style>
+    <style name="Label.TV.phonenumber" parent="@style/Label.TV">
+        <item name="android:textColor">?ColorLabelPhonenumber</item>
+    </style>
+    <style name="PopupLabel.TV" parent="@style/Label.TV">
+        <item name="android:background">?BgPopupLabelSelector</item>
+        <item name="android:layout_width">32.0dip</item>
+        <item name="android:layout_height">32.0dip</item>
+    </style>
+    <style name="Separator.Phonenumber" parent="@style/Separator">
+        <item name="android:paddingTop">@dimen/tv_separator_phonenumber_padding_top</item>
+        <item name="android:paddingBottom">@dimen/tv_separator_phonenumber_padding_bottom</item>
+        <item name="android:src">?ColorSeparatorPhonenumber</item>
+    </style>
+    <style name="SoftKey.TV" parent="@style/SoftKey">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">32.0dip</item>
+        <item name="android:layout_height">32.0dip</item>
+        <item name="focusAnimation">@anim/tv_softkey_focus</item>
+        <item name="unfocusAnimation">@anim/tv_softkey_unfocus</item>
+        <item name="pressAnimation">@anim/tv_softkey_press</item>
+        <item name="releaseAnimation">@anim/tv_softkey_release</item>
+    </style>
+    <style name="SoftKey.TV.FunctionKey" parent="@style/SoftKey.TV">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+    </style>
+    <style name="SoftKey.TV.Password" parent="@style/SoftKey.TV">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_weight">100.0</item>
+    </style>
+    <style name="SoftKeyViewHost">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:id">@id/host</item>
+        <item name="android:layout_width">32.0dip</item>
+        <item name="android:layout_height">32.0dip</item>
+    </style>
+    <style name="SoftKeyViewHost.FunctionKey" parent="@style/SoftKeyViewHost">
+        <item name="android:layout_width">38.0dip</item>
+        <item name="android:layout_height">38.0dip</item>
+    </style>
+    <style name="SoftKeyViewHost.IMESwitchKey" parent="@style/SoftKeyViewHost">
+        <item name="android:layout_width">144.0dip</item>
+        <item name="android:layout_height">38.0dip</item>
+    </style>
+    <style name="SoftKeyViewHost.KeyboardSwitchKey" parent="@style/SoftKeyViewHost">
+        <item name="android:layout_width">58.0dip</item>
+        <item name="android:layout_height">32.0dip</item>
+    </style>
+    <style name="TVBody">
+        <item name="android:background">?BgKeyboardBody</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/keyboard_body_height_for_tv</item>
+    </style>
+    <style name="TVBodyInner">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingTop">@dimen/tv_keyboard_body_padding_top</item>
+        <item name="android:paddingBottom">@dimen/tv_keyboard_body_padding_bottom</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">@dimen/keyboard_input_area_height</item>
+        <item name="android:baselineAligned">false</item>
+        <item name="android:weightSum">@integer/keyboard_body_inner_weight_sum</item>
+        <item name="android:layout_weight">@integer/keyboard_body_inner_weight</item>
+    </style>
+    <style name="TVBodyInner.PasswordKeyboard" parent="@style/TVBodyInner">
+        <item name="android:weightSum">@integer/keyboard_password_body_inner_weight_sum</item>
+        <item name="android:layout_weight">@integer/keyboard_password_body_inner_weight</item>
+    </style>
+    <style name="TVBodyInputRows">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:weightSum">@integer/keyboard_body_input_rows_weight_sum</item>
+    </style>
+    <style name="TVBodyLeftPanel">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">@integer/keyboard_body_left_panel_weight</item>
+    </style>
+    <style name="TVBodyRightPanelFunction">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">@integer/keyboard_body_right_panel_function_weight</item>
+    </style>
+    <style name="TVCandidates">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:baselineAligned">false</item>
+        <item name="android:weightSum">@integer/keyboard_body_horizontal_weight_sum</item>
+    </style>
+    <style name="TVCandidatesHolder">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:id">@id/more_candidates_area</item>
+        <item name="android:paddingLeft">@dimen/keyboard_body_candidates_holder_padding_left</item>
+        <item name="android:paddingTop">@dimen/keyboard_body_candidates_holder_padding_top</item>
+        <item name="android:paddingRight">@dimen/keyboard_body_candidates_holder_padding_right</item>
+        <item name="android:paddingBottom">@dimen/keyboard_body_candidates_holder_padding_bottom</item>
+        <item name="android:visibility">invisible</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">@dimen/keyboard_body_candidates_holder_height</item>
+        <item name="android:baselineAligned">false</item>
+        <item name="android:layout_weight">@integer/keyboard_body_inner_weight</item>
+    </style>
+    <style name="TVCandidatesPageKey">
+        <item name="android:visibility">invisible</item>
+        <item name="android:layout_width">@dimen/keyboard_body_candidates_page_updown_key_width</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="TVCandidatesPageKey.PageDown" parent="@style/TVCandidatesPageKey">
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="TVCandidatesPageKey.PageUp" parent="@style/TVCandidatesPageKey">
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+    <style name="TVInputArea">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:baselineAligned">false</item>
+    </style>
+    <style name="TVKeyboard">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:baselineAligned">false</item>
+    </style>
+    <style name="TVKeyboardRow" parent="@style/Linear.HeightWeighted.Horizontal">
+        <item name="android:layout_weight">@integer/keyboard_for_tv_row_weight</item>
+    </style>
+    <style name="TVKeyboardRow.Password" parent="@style/TVKeyboardRow">
+        <item name="android:weightSum">@integer/keyboard_password_input_row_weight_sum</item>
+        <item name="android:layout_weight">@integer/keyboard_for_tv_row_weight</item>
+    </style>
+    <style name="TVRightSidePanelFunction">
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingTop">@dimen/tv_keyboard_body_padding_top</item>
+        <item name="android:paddingBottom">@dimen/tv_keyboard_body_padding_bottom</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">@integer/keyboard_body_side_empty_panel_weight</item>
+    </style>
+    <style name="TVSelectorPopupView">
+        <item name="android:layout_gravity">top</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:tag">.popup</item>
+        <item name="android:background">?BgPopupBackground</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="TVSettingsTheme" parent="@style/Theme.Leanback">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Leanback</item>
+    </style>
+    <style name="TVTheme">
+        <item name="BgCandidate">@android:color/transparent</item>
+        <item name="BgCandidateLastColumn">@android:color/transparent</item>
+        <item name="BgKeyRectangle">@android:color/transparent</item>
+        <item name="BgKeyboardBody">@color/bg_keyboard_body</item>
+        <item name="BgPopupBackground">@drawable/bg_transparent</item>
+        <item name="BgPopupLabelSelector">@drawable/bg_popup_label_back_material_dark_theme_selector</item>
+        <item name="BgSeparator">@drawable/ic_header_separator_material_dark_theme</item>
+        <item name="ColorCandidateSeparator">@color/candidate_separator_material_dark_theme</item>
+        <item name="ColorLabel">@color/label_material_dark_theme</item>
+        <item name="ColorLabelCandidate">@color/color_candidate_text_material_dark_theme</item>
+        <item name="ColorLabelFunctionKey">@color/label_function_key_material_dark_theme</item>
+        <item name="ColorLabelPopup">@color/label_popup_material_dark_theme</item>
+        <item name="IconAlpha">153</item>
+        <item name="IconArrowLeft">@drawable/ic_key_arrow_left</item>
+        <item name="IconArrowRight">@drawable/ic_key_arrow_right</item>
+        <item name="IconDel">@drawable/ic_key_del</item>
+        <item name="IconDisabledAlpha">77</item>
+        <item name="IconDone">@drawable/ic_key_ime_action_done</item>
+        <item name="IconEnter">@drawable/ic_key_enter</item>
+        <item name="IconGlobeEnabled">@drawable/ic_key_globe_material_dark_theme</item>
+        <item name="IconGo">@drawable/ic_key_ime_action_go</item>
+        <item name="IconNext">@drawable/ic_key_ime_action_next</item>
+        <item name="IconPrevious">@drawable/ic_key_ime_action_previous</item>
+        <item name="IconSearch">@drawable/ic_key_search</item>
+        <item name="IconSend">@drawable/ic_key_ime_action_send</item>
+        <item name="IconShiftOff">@drawable/ic_key_shift_narrow_off</item>
+        <item name="IconShiftOn">@drawable/ic_key_shift_narrow_on</item>
+        <item name="IconSpaceKey">@drawable/ic_key_space_white</item>
+        <item name="BgCandidatesHolder">@drawable/bg_candidates_holder</item>
+        <item name="ColorFocusPointer">@color/focus_pointer_color</item>
+        <item name="ColorKeyboardMask">@color/keyboard_mask_material_dark_theme</item>
+        <item name="ColorLabelFunctionKeyDeactive">@color/label_function_key_disabled_material_dark_theme</item>
+        <item name="ColorLabelPhonenumber">@color/label_phonenumber</item>
+        <item name="ColorSeparator">@color/separator_color</item>
+        <item name="ColorSeparatorPhonenumber">@color/separator_color_phonenumber</item>
+        <item name="IconClearAll">@drawable/ic_key_clear_all</item>
+    </style>
+</resources>

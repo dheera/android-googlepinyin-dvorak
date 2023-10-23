@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/keymapping_function_ime_action_zh" />
+    <include href="@xml/keymapping_function_shift" />
+    <include href="@xml/keymapping_function_shift_right" />
+    <include href="@xml/keymapping_zh_pinyin_qwerty_base" />
+    <key_mapping>
+        <mapping view_id="@id/key_pos_input_symbol_1" key_id="@id/softkey_exclamation_zh" />
+        <mapping view_id="@id/key_pos_input_symbol_2" key_id="@id/softkey_question_zh" />
+    </key_mapping>
+    <key_mapping state="SHUANGPIN_MS_ZIGUANG">
+        <mapping view_id="@id/key_pos_input_symbol_1" key_id="@id/softkey_qwerty_semicolon_in_shuangpin" />
+    </key_mapping>
+    <key_mapping state="SHIFT">
+        <mapping view_id="@id/key_pos_input_symbol_1" key_id="@id/softkey_exclamation_zh" />
+    </key_mapping>
+</framework>

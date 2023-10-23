@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.framework.keyboard.widget.BasicPopupView style="@style/SmallSquarePopupView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.inputmethod.libs.framework.keyboard.widget.AutoCenteredLabelView android:id="@id/popup_label" android:visibility="gone" style="@style/SmallSquarePopupLabel" />
+    <ImageView android:id="@id/popup_icon" android:visibility="gone" style="@style/SquarePopupImage" />
+</com.google.android.apps.inputmethod.libs.framework.keyboard.widget.BasicPopupView>

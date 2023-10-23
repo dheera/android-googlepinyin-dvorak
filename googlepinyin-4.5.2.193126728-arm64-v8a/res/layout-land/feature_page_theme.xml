@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.theme.firstrun.FeatureThemePage style="@style/FeaturePage.Landscape" support_key_border="@bool/supports_key_border"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/FeaturePageLandscapeDemoDescription">
+        <include layout="@layout/feature_page_theme_description" />
+    </LinearLayout>
+    <FrameLayout style="@style/FeaturePageLandscapeDemo">
+        <com.google.android.apps.inputmethod.libs.theme.firstrun.FeatureThemeKeyboardPreviewHolder style="@style/FeaturePageLandscapeDemoContent.Theme" keyboard_preview_layout="@layout/feature_page_theme_keyboard_preview">
+            <include layout="@layout/feature_page_theme_demo" />
+        </com.google.android.apps.inputmethod.libs.theme.firstrun.FeatureThemeKeyboardPreviewHolder>
+    </FrameLayout>
+</com.google.android.apps.inputmethod.libs.theme.firstrun.FeatureThemePage>

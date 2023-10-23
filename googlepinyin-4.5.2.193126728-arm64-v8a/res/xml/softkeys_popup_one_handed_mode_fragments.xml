@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey id="@id/softkey_fragment_popup_switch_to_left_handed_mode" popup_timing="ON_TOUCH">
+            <action type="LONG_PRESS" keycode="SWITCH_TO_ONE_HANDED_MODE" data="@string/pref_entry_left_handed_mode" popup_icon="@attr/IconSwitchToLeftHandedDarkKey" popup_layout="@attr/PopupBubbleActionLayout" />
+        </softkey>
+        <softkey id="@id/softkey_fragment_popup_switch_to_right_handed_mode" popup_timing="ON_TOUCH">
+            <action type="LONG_PRESS" keycode="SWITCH_TO_ONE_HANDED_MODE" data="@string/pref_entry_right_handed_mode" popup_icon="@attr/IconSwitchToRightHandedDarkKey" popup_layout="@attr/PopupBubbleActionLayout" />
+        </softkey>
+    </softkeys>
+</framework>

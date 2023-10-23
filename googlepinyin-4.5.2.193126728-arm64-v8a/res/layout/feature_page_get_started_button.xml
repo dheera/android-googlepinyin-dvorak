@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:layout_gravity="center" android:id="@id/feature_page_skip_button" android:text="@string/tutorial_get_started" style="@style/FeaturePageButton" />
+</merge>

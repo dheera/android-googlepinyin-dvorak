@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/keymapping_bottom_zh_cn_prime" />
+    <include href="@xml/keymapping_stroke_space" />
+    <include href="@xml/keymapping_bottom_zh_cn_9key_symbol" />
+    <include href="@xml/keymapping_bottom_symbol_1_popup_switch_to_emoji" />
+    <include href="@xml/keymapping_bottom_symbol_1_popup_settings" />
+    <include href="@xml/keymapping_bottom_symbol_1_popup_left_handed_mode" />
+</framework>
