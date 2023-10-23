@@ -118,7 +118,7 @@
     <string name="hint_text_choose_keyboard_layout">请选择您常用的键盘布局</string>
     <string name="hint_text_reset_keyboard_layout">点按此处可以重设键盘布局</string>
     <string name="hint_text_tap_to_google_search_and_more">点按即可打开 Google 搜索及更多功能</string>
-    <string name="ime_name">谷歌拼音输入法</string>
+    <string name="ime_name">谷歌拼音输入法 (Dvorak)</string>
     <string name="input_nonexistent_file">文件不存在。</string>
     <string name="input_wrong_number">输入错误，请重试。</string>
     <string name="kb_height_midshort">中等偏低</string>
@@ -160,7 +160,7 @@
     <string name="label_setting_switch_input_method">输入法</string>
     <string name="label_settings_access_point">设置</string>
     <string name="label_settings_activity">设置</string>
-    <string name="label_subtype_pinyin">中文拼音</string>
+    <string name="label_subtype_pinyin">中文拼音 (Dvorak)</string>
     <string name="label_text_editing">文本编辑</string>
     <string name="label_text_editing_access_point">文本编辑</string>
     <string name="label_theme_setting_access_point">主题背景</string>

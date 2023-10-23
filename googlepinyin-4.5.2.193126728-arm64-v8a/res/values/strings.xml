@@ -253,7 +253,7 @@
     <string name="id_access_point_theme_setting">access_point_theme_setting</string>
     <string name="id_access_point_translate">access_point_translate</string>
     <string name="id_more_access_points">more_access_points</string>
-    <string name="ime_name">Google Pinyin Input</string>
+    <string name="ime_name">Google Pinyin Input (Dvorak)</string>
     <string name="ime_name_ref">@string/ime_name</string>
     <string name="input_nonexistent_file">File does not exist.</string>
     <string name="input_wrong_number">Wrong. Please try again.</string>
@@ -306,7 +306,7 @@
     <string name="label_space_number">数字</string>
     <string name="label_space_pinyin">拼音</string>
     <string name="label_space_stroke">笔画</string>
-    <string name="label_subtype_pinyin">Chinese Pinyin</string>
+    <string name="label_subtype_pinyin">Chinese Pinyin (Dvorak)</string>
     <string name="label_text_editing">Text Editing</string>
     <string name="label_text_editing_access_point">Text Editing</string>
     <string name="label_theme_setting_access_point">Theme</string>

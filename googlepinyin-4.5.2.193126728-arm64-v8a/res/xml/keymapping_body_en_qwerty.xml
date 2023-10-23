@@ -2,6 +2,7 @@
 <framework>
     <include href="@xml/keymapping_function_shift" />
     <key_mapping>
+        <mapping view_id="@id/key_pos_qwerty_dash" key_id="@id/softkey_en_qwerty_dash" />
         <mapping view_id="@id/key_pos_qwerty_q" key_id="@id/softkey_en_qwerty_q" />
         <mapping view_id="@id/key_pos_qwerty_w" key_id="@id/softkey_en_qwerty_w" />
         <mapping view_id="@id/key_pos_qwerty_e" key_id="@id/softkey_en_qwerty_e" />

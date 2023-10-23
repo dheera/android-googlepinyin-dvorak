@@ -144,7 +144,7 @@
     <string name="hint_text_choose_keyboard_layout">請選擇鍵盤配置</string>
     <string name="hint_text_reset_keyboard_layout">輕按此處即可重設鍵盤配置</string>
     <string name="hint_text_tap_to_google_search_and_more">輕按即可使用 Google 搜尋及其他功能</string>
-    <string name="ime_name">Google 拼音輸入法</string>
+    <string name="ime_name">Google 拼音輸入法 (Dvorak)</string>
     <string name="input_nonexistent_file">檔案不存在</string>
     <string name="input_wrong_number">輸入錯誤，請再試一次。</string>
     <string name="kb_height_midshort">中至低</string>
@@ -187,7 +187,7 @@
     <string name="label_settings_access_point">設定</string>
     <string name="label_settings_activity">設定</string>
     <string name="label_space_stroke">筆劃</string>
-    <string name="label_subtype_pinyin">中文拼音</string>
+    <string name="label_subtype_pinyin">中文拼音 (Dvorak)</string>
     <string name="label_text_editing">文字編輯</string>
     <string name="label_text_editing_access_point">文字編輯</string>
     <string name="label_theme_setting_access_point">主題背景</string>

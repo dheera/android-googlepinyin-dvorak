@@ -298,6 +298,7 @@
     <item type="id" name="key_pos_punctuation_tablet_8" />
     <item type="id" name="key_pos_punctuation_tablet_9" />
     <item type="id" name="key_pos_question" />
+    <item type="id" name="key_pos_qwerty_dash" />
     <item type="id" name="key_pos_qwerty_a" />
     <item type="id" name="key_pos_qwerty_b" />
     <item type="id" name="key_pos_qwerty_c" />
@@ -574,6 +575,7 @@
     <item type="id" name="softkey_en_active_no_arrow" />
     <item type="id" name="softkey_en_deactive" />
     <item type="id" name="softkey_en_deactive_no_function" />
+    <item type="id" name="softkey_en_qwerty_dash" />
     <item type="id" name="softkey_en_qwerty_a" />
     <item type="id" name="softkey_en_qwerty_b" />
     <item type="id" name="softkey_en_qwerty_c" />
@@ -961,6 +963,7 @@
     <item type="id" name="softkey_zh_active_no_arrow" />
     <item type="id" name="softkey_zh_deactive" />
     <item type="id" name="softkey_zh_deactive_in_dashboard" />
+    <item type="id" name="softkey_zh_pinyin_qwerty_dash" />
     <item type="id" name="softkey_zh_pinyin_qwerty_a" />
     <item type="id" name="softkey_zh_pinyin_qwerty_b" />
     <item type="id" name="softkey_zh_pinyin_qwerty_c" />
