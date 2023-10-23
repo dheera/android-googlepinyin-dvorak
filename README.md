@@ -9,6 +9,4 @@ https://github.com/dheera/android-googlepinyin-dvorak/tree/master/apk-dvorakifie
 
 ![screenshot](/screenshot-phone.png?raw=true "screenshot")
 
-Web: http://dheera.net/
-Wechat: dheeranet
-Email: dheera [at] dheera [dot] net
+Web: http://dheera.net/  |  Wechat: dheeranet  |  Email: dheera [at] dheera [dot] net
