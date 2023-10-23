@@ -1,5 +1,6 @@
 # 谷歌拼音輸入法，Dvorak佈局改版
-## (Google Pinyin Dvorak mod)
+
+**(Google Pinyin Dvorak mod)**
 
 現成APK下載鏈接：
 https://github.com/dheera/android-googlepinyin-dvorak/tree/master/apk-dvorakified
