@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyboardView style="@style/Header.NonPrime"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/keyboard_incognito_overlay_header" />
+    <LinearLayout style="@style/HeaderInner.NonPrime.WeightSum">
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="100.0" />
+        <LinearLayout style="@style/SubCategoryHolder">
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_non_prime_sub_category_1" style="@style/HeaderTab.SubCategory" />
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_non_prime_sub_category_2" style="@style/HeaderTab.SubCategory" />
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_non_prime_sub_category_3" style="@style/HeaderTab.SubCategory" />
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_non_prime_sub_category_4" style="@style/HeaderTab.SubCategory" />
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_non_prime_sub_category_5" style="@style/HeaderTab.SubCategory" />
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_non_prime_sub_category_6" style="@style/HeaderTab.SubCategory" />
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_non_prime_sub_category_7" style="@style/HeaderTab.SubCategory" />
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_non_prime_sub_category_8" style="@style/HeaderTab.SubCategory" />
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_non_prime_sub_category_9" style="@style/HeaderTab.SubCategory" />
+        </LinearLayout>
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="100.0" />
+    </LinearLayout>
+</com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyboardView>

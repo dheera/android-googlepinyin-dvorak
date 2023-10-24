@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/softkeys_input_symbol_templates" />
+    <softkeys>
+        <softkey id="@id/softkey_sub_category_separator_sticky" content_description="@string/nonprime_recent_content_desc">
+            <action type="PRESS" keycode="UNKNOWN" data="SUB_CATEGORY_1" />
+        </softkey>
+        <softkey id="@id/softkey_sub_category_separator" content_description="@string/symbol_love_content_desc">
+            <action type="PRESS" keycode="UNKNOWN" data="SUB_CATEGORY_2" />
+        </softkey>
+        <include href="@xml/softkeys_input_symbol_sub_category_favorate_zh" />
+        <softkey id="@id/softkey_sub_category_separator" content_description="@string/symbol_kuohao_content_desc">
+            <action type="PRESS" keycode="UNKNOWN" data="SUB_CATEGORY_3" />
+        </softkey>
+        <include href="@xml/softkeys_input_symbol_sub_category_brace" />
+        <softkey id="@id/softkey_sub_category_separator" content_description="@string/symbol_arrow_content_desc">
+            <action type="PRESS" keycode="UNKNOWN" data="SUB_CATEGORY_4" />
+        </softkey>
+        <include href="@xml/softkeys_input_symbol_sub_category_arrow" />
+        <softkey id="@id/softkey_sub_category_separator" content_description="@string/symbol_math_content_desc">
+            <action type="PRESS" keycode="UNKNOWN" data="SUB_CATEGORY_5" />
+        </softkey>
+        <include href="@xml/softkeys_input_symbol_sub_category_math" />
+        <softkey id="@id/softkey_sub_category_separator" content_description="@string/symbol_number_content_desc">
+            <action type="PRESS" keycode="UNKNOWN" data="SUB_CATEGORY_6" />
+        </softkey>
+        <include href="@xml/softkeys_input_symbol_sub_category_number_zh" />
+        <softkey id="@id/softkey_sub_category_separator" content_description="@string/symbol_shape_content_desc">
+            <action type="PRESS" keycode="UNKNOWN" data="SUB_CATEGORY_7" />
+        </softkey>
+        <include href="@xml/softkeys_input_symbol_sub_category_shape_zh" />
+    </softkeys>
+</framework>

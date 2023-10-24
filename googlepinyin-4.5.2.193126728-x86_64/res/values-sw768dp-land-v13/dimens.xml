@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="first_run_page_footer_height">120.0dip</dimen>
+    <dimen name="fullscreen_body_height">172.5dip</dimen>
+    <dimen name="fullscreen_body_padding_top">0.0dip</dimen>
+    <dimen name="keyboard_body_height">328.0dip</dimen>
+    <dimen name="keyboard_header_height">50.0dip</dimen>
+    <dimen name="keyboard_height">378.0dip</dimen>
+    <dimen name="more_candidates_side_panel_padding_bottom">20.0dip</dimen>
+    <dimen name="softkey_bg_inset_bottom">13.0dip</dimen>
+    <dimen name="softkey_bg_inset_left">6.5dip</dimen>
+    <dimen name="softkey_bg_inset_right">6.5dip</dimen>
+    <dimen name="softkey_bg_inset_top">0.0dip</dimen>
+    <dimen name="softkey_bg_small_inset_bottom">5.0dip</dimen>
+    <dimen name="softkey_bg_small_inset_left">2.5dip</dimen>
+    <dimen name="softkey_bg_small_inset_right">2.5dip</dimen>
+    <dimen name="softkey_bg_small_inset_top">0.0dip</dimen>
+    <dimen name="softkey_show_more_candidates_min_width">106.0dip</dimen>
+    <dimen name="text_size_qwerty_footer">17.0dip</dimen>
+    <dimen name="text_size_qwerty_label">30.0dip</dimen>
+    <dimen name="t9_more_candidates_holder_view_padding_right">6.5dip</dimen>
+    <dimen name="t9_more_candidates_padding_bottom">13.0dip</dimen>
+</resources>

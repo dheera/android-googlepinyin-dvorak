@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard id="@id/keyboard_dashboard" class=".keyboard.Dashboard">
+        <view layout="@layout/keyboard_dashboard_header" scalable="false" type="header">
+            <softkeys href="@xml/softkeys_header_prime" />
+            <include href="@xml/keymapping_header_dashboard" />
+        </view>
+        <view layout="@layout/keyboard_dashboard_body" type="body" />
+    </keyboard>
+</framework>

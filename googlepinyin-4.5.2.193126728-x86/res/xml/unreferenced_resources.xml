@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml>
+    <item id="@xml/setting_about" />
+    <item id="@xml/setting_dictionary" />
+    <item id="@xml/setting_fuzzy_pinyin" />
+    <item id="@xml/setting_handwriting_input" />
+    <item id="@xml/setting_input" />
+    <item id="@xml/setting_keyboard" />
+    <item id="@xml/setting_other" />
+    <item id="@xml/settings" />
+</xml>

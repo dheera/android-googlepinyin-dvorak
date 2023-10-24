@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template id="@id/softkey_template_for_tv" layout="@layout/softkey_tv_input" popup_timing="@string/qwerty_popup_timing" content_description="$desc$">
+            <action type="PRESS" data="$press_data$" keycode="PLAIN_TEXT" intention="DECODE" popup_label="$press_data$" />
+            <action type="DOUBLE_TAP" data="$double_tap_data$" keycode="PLAIN_TEXT" intention="DECODE" popup_label="$double_tap_data$" />
+            <label location="@id/label" value="$press_data$" />
+        </softkey_template>
+        <softkey_template id="@id/softkey_template_for_tv_dim" layout="@layout/softkey_tv_label_dim" popup_timing="@string/qwerty_popup_timing" content_description="$desc$">
+            <action type="PRESS" data="$press_data$" keycode="PLAIN_TEXT" intention="COMMIT" popup_label="$press_data$" />
+            <action type="DOUBLE_TAP" data="$double_tap_data$" keycode="PLAIN_TEXT" intention="COMMIT" popup_label="$double_tap_data$" />
+            <label location="@id/label" value="$press_data$" />
+        </softkey_template>
+        <softkey_template id="@id/softkey_template_for_tv_with_long_press" layout="@layout/softkey_tv_input" popup_timing="@string/qwerty_popup_timing" content_description="$desc$">
+            <action type="PRESS" data="$press_data$" keycode="PLAIN_TEXT" intention="DECODE" popup_label="$press_data$" />
+            <action type="LONG_PRESS" data="$long_press_data$" keycode="PLAIN_TEXT" intention="DECODE" popup_label="$long_press_data$" popup_layout="$long_press_popup_layout=@layout/popup_tv_selector$" />
+            <label location="@id/label" value="$press_data$" />
+        </softkey_template>
+    </softkeys>
+</framework>

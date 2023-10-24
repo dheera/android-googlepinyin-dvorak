@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey id="@id/softkey_switch_to_non_prime_keyboard" layout="@layout/softkey_function_key_label" content_description="@string/symbol_keyboard_key_content_desc">
+            <action type="PRESS" keycode="SWITCH_TO_NON_PRIME_KEYBOARD" data="symbol" />
+            <label location="@id/label" value="\?123" />
+        </softkey>
+    </softkeys>
+</framework>

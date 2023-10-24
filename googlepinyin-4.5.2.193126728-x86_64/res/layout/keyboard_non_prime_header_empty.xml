@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyboardView style="@style/Header.NonPrime"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/keyboard_incognito_overlay_header" />
+</com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyboardView>

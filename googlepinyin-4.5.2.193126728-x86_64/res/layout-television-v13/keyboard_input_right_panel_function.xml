@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:weightSum="400.0" style="@style/TVBodyRightPanelFunction"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.inputmethod.libs.tv.keyboard.widget.SoftKeyViewForTV android:id="@id/key_pos_del" android:layout_weight="100.0" style="@style/SoftKey.TV.FunctionKey">
+        <FrameLayout style="@style/SoftKeyViewHost.FunctionKey" />
+    </com.google.android.apps.inputmethod.libs.tv.keyboard.widget.SoftKeyViewForTV>
+    <com.google.android.apps.inputmethod.libs.tv.keyboard.widget.SoftKeyViewForTV android:id="@id/key_pos_ime_action" android:layout_weight="200.0" style="@style/SoftKey.TV.FunctionKey">
+        <FrameLayout style="@style/SoftKeyViewHost.FunctionKey" />
+    </com.google.android.apps.inputmethod.libs.tv.keyboard.widget.SoftKeyViewForTV>
+    <com.google.android.apps.inputmethod.libs.tv.keyboard.widget.SoftKeyViewForTV android:id="@id/key_pos_space_key" android:layout_weight="100.0" style="@style/SoftKey.TV.FunctionKey">
+        <FrameLayout style="@style/SoftKeyViewHost.FunctionKey" />
+    </com.google.android.apps.inputmethod.libs.tv.keyboard.widget.SoftKeyViewForTV>
+</LinearLayout>

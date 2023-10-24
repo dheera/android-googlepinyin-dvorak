@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="feature_page_demo_description_weight">440</integer>
+    <integer name="feature_page_demo_weight">560</integer>
+    <integer name="keyboard_handwriting_left_column_weight">100</integer>
+    <integer name="keyboard_handwriting_middle_panel_weight">800</integer>
+    <integer name="keyboard_handwriting_right_column_weight">100</integer>
+    <integer name="keyboard_preview_size_ratio_in_percent">65</integer>
+    <integer name="max_candidates_per_row">8</integer>
+    <integer name="more_candidates_candidates_area_weight">906</integer>
+    <integer name="more_candidates_left_column_weight">94</integer>
+    <integer name="more_candidates_pageable_candidates_area_weight">812</integer>
+    <integer name="more_candidates_right_column_weight">94</integer>
+    <integer name="prime_header_icon_weight">100</integer>
+    <integer name="prime_header_tab_weight">200</integer>
+    <integer name="softkey_qwerty_bottom_label_weight">400</integer>
+    <integer name="softkey_qwerty_upper_label_weight">600</integer>
+</resources>

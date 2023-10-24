@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="@dimen/primes_item_margin" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/created_at" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_toStartOf="@id/created_at" android:layout_alignParentStart="true" style="@android:style/TextAppearance.Medium" />
+    <TextView android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/name" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" />
+    <TextView android:id="@id/created_at" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBaseline="@id/name" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

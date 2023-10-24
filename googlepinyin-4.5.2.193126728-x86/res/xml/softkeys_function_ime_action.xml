@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/softkeys_function_ime_action_templates" />
+    <include href="@xml/softkeys_function_ime_action_fragments" />
+    <softkeys>
+        <softkey id="@id/softkey_enter" layout="@layout/softkey_ime_action_icon" content_description="@string/enter_key_content_desc">
+            <action type="PRESS" keycode="ENTER" />
+            <icon location="@id/icon" value="@attr/IconEnter" />
+        </softkey>
+        <softkey id="@id/softkey_enter_plain_text" layout="@layout/softkey_ime_action_icon" popup_timing="ON_TOUCH" content_description="@string/enter_key_content_desc">
+            <action type="PRESS" keycode="PLAIN_TEXT" data="\n" intention="COMMIT" />
+            <icon location="@id/icon" value="@attr/IconEnter" />
+        </softkey>
+        <softkey id="@id/softkey_switch_to_emoji_as_action" layout="@layout/softkey_ime_action_icon" popup_timing="ON_TOUCH" content_description="@string/emoji_keyboard_key_content_desc">
+            <action type="PRESS" keycode="SWITCH_KEYBOARD" data="@string/action_key_popup_emoji_data" />
+            <icon location="@id/icon" value="@attr/IconSwitchToSmileyAsAction" />
+        </softkey>
+        <softkey id="@id/softkey_switch_to_emoticon_as_action" layout="@layout/softkey_ime_action_icon" popup_timing="ON_TOUCH" content_description="@string/emoticon_keyboard_key_content_desc">
+            <action type="PRESS" keycode="SWITCH_KEYBOARD" data="@string/action_key_popup_emoticon_data" />
+            <icon location="@id/icon" value="@attr/IconSwitchToEmoticonAsAction" />
+        </softkey>
+        <softkey_list template_id="@id/softkey_template_action_key">
+            <softkey id="@id/softkey_action_go" param_data="go" param_icon="@attr/IconGo" desc="@string/go_key_content_desc" />
+            <softkey id="@id/softkey_action_search" param_data="search" param_icon="@attr/IconSearch" desc="@string/search_key_content_desc" />
+            <softkey id="@id/softkey_action_send" param_data="send" param_icon="@attr/IconSend" desc="@string/send_key_content_desc" />
+            <softkey id="@id/softkey_action_next" param_data="next" param_icon="@attr/IconNext" desc="@string/navigate_next_key_content_desc" />
+            <softkey id="@id/softkey_action_previous" param_data="previous" param_icon="@attr/IconPrevious" desc="@string/navigate_previous_key_content_desc" />
+            <softkey id="@id/softkey_action_done" param_data="done" param_icon="@attr/IconDone" desc="@string/done_key_content_desc" />
+        </softkey_list>
+    </softkeys>
+</framework>

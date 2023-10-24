@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys id="@id/softkeys_input_emoji_sub_category_1" href="@xml/softkeys_input_emoji_sub_category_1" />
+    <softkeys id="@id/softkeys_input_emoji_sub_category_2" href="@xml/softkeys_input_emoji_sub_category_2" />
+    <softkeys id="@id/softkeys_input_emoji_sub_category_3" href="@xml/softkeys_input_emoji_sub_category_3" />
+    <softkeys id="@id/softkeys_input_emoji_sub_category_4" href="@xml/softkeys_input_emoji_sub_category_4" />
+    <softkeys id="@id/softkeys_input_emoji_sub_category_5" href="@xml/softkeys_input_emoji_sub_category_5" />
+    <softkeys id="@id/softkeys_input_emoji_sub_category_6" href="@xml/softkeys_input_emoji_sub_category_6" />
+    <softkeys id="@id/softkeys_input_emoji_sub_category_7" href="@xml/softkeys_input_emoji_sub_category_7" />
+    <softkeys id="@id/softkeys_input_emoji_sub_category_8" href="@xml/softkeys_input_emoji_sub_category_8" />
+    <softkeys id="@id/softkeys_input_emoji_sub_category_9" href="@xml/softkeys_input_emoji_sub_category_9" />
+</framework>

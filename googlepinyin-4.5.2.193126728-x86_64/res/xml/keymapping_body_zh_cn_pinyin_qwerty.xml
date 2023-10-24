@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/keymapping_function_shift" />
+    <include href="@xml/keymapping_zh_pinyin_qwerty_base" />
+    <key_mapping state="COMPOSING+SHUANGPIN_MS_ZIGUANG">
+        <mapping view_id="@id/key_pos_shift" key_id="@id/softkey_qwerty_semicolon_in_shuangpin_darkkey" />
+    </key_mapping>
+    <key_mapping state="COMPOSING+SHUANGPIN_MS_ZIGUANG+SHIFT_LOCK">
+        <mapping view_id="@id/key_pos_shift" key_id="@id/softkey_shift_locked" />
+    </key_mapping>
+</framework>

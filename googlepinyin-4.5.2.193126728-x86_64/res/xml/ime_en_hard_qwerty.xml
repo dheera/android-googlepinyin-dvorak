@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime string_id="en_hard_qwerty" class="com.google.android.apps.inputmethod.libs.framework.core.DummyIme" language="en" auto_capital="true" candidate_selection_keys="1,2,3,4,5,6,7,8,9" label="@string/english_qwerty_ime_label" status_icon="@drawable/ic_english_status_icon" prime_keyboard_type="HARD_QWERTY">
+        <keyboard_group>
+            <keyboard type="prime" def="@xml/keyboard_en_hard_qwerty" />
+            <keyboard type="digit" def="@xml/keyboard_non_prime_digit" />
+            <keyboard type="symbol" def="@xml/keyboard_non_prime_symbol" />
+            <keyboard type="smiley" def="@xml/keyboard_non_prime_smiley" />
+            <keyboard type="emoticon" def="@xml/keyboard_non_prime_emoticon" />
+        </keyboard_group>
+    </ime>
+</framework>

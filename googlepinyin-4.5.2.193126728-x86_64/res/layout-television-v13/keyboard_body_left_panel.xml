@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/tv_focus_area_switch_keyboard" android:weightSum="400.0" style="@style/TVBodyLeftPanel"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.inputmethod.libs.tv.keyboard.widget.SoftKeyViewForTV android:id="@id/key_pos_left_panel_1" android:layout_weight="100.0" style="@style/SoftKey.TV.FunctionKey">
+        <FrameLayout style="@style/SoftKeyViewHost.KeyboardSwitchKey" />
+    </com.google.android.apps.inputmethod.libs.tv.keyboard.widget.SoftKeyViewForTV>
+    <com.google.android.apps.inputmethod.libs.tv.keyboard.widget.SoftKeyViewForTV android:id="@id/key_pos_left_panel_2" android:layout_weight="100.0" style="@style/SoftKey.TV.FunctionKey">
+        <FrameLayout style="@style/SoftKeyViewHost.KeyboardSwitchKey" />
+    </com.google.android.apps.inputmethod.libs.tv.keyboard.widget.SoftKeyViewForTV>
+    <com.google.android.apps.inputmethod.libs.tv.keyboard.widget.SoftKeyViewForTV android:id="@id/key_pos_left_panel_3" android:layout_weight="100.0" style="@style/SoftKey.TV.FunctionKey">
+        <FrameLayout style="@style/SoftKeyViewHost.KeyboardSwitchKey" />
+    </com.google.android.apps.inputmethod.libs.tv.keyboard.widget.SoftKeyViewForTV>
+    <com.google.android.apps.inputmethod.libs.tv.keyboard.widget.SoftKeyViewForTV android:id="@id/key_pos_left_panel_4" android:layout_weight="100.0" style="@style/SoftKey.TV.FunctionKey">
+        <FrameLayout style="@style/SoftKeyViewHost.KeyboardSwitchKey" />
+    </com.google.android.apps.inputmethod.libs.tv.keyboard.widget.SoftKeyViewForTV>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:duration="@integer/focus_animation_duration" android:valueFrom="@fraction/softkey_focused_scale" android:valueTo="@fraction/softkey_normal_scale" android:propertyName="scaleX" />
+    <objectAnimator android:duration="@integer/focus_animation_duration" android:valueFrom="@fraction/softkey_focused_scale" android:valueTo="@fraction/softkey_normal_scale" android:propertyName="scaleY" />
+</set>

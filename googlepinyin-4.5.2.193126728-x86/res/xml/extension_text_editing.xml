@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <module id="@string/id_access_point_textediting" class="com.google.android.apps.inputmethod.libs.textediting.TextEditingExtension" icon="@attr/IconAccessPointTextEditing" label="@string/label_text_editing_access_point" content_description="@string/text_editing_access_point_content_desc">
+        <keyboard_group>
+            <keyboard type="popup" def="@xml/keyboard_textediting_panel" />
+        </keyboard_group>
+    </module>
+</framework>

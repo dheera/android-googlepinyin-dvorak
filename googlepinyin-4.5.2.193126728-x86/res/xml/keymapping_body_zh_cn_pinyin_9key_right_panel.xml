@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping view_id="@id/key_pos_shift" key_id="@id/softkey_9key_zh_shift" />
+        <mapping view_id="@id/key_pos_move_cursor" key_id="@id/softkey_move_cursor" />
+        <mapping view_id="@id/key_pos_del" key_id="@id/softkey_del" />
+    </key_mapping>
+    <key_mapping state="SHIFT">
+        <mapping view_id="@id/key_pos_move_cursor" key_id="@id/softkey_space_key" />
+    </key_mapping>
+    <key_mapping state="COMPOSING">
+        <mapping view_id="@id/key_pos_move_cursor" key_id="@id/softkey_clear_all" />
+        <mapping view_id="@id/key_pos_del" key_id="@id/softkey_del_composing" />
+    </key_mapping>
+    <key_mapping state="SHIFT_LOCK">
+        <mapping view_id="@id/key_pos_shift" key_id="@id/softkey_9key_zh_shift_locked" />
+    </key_mapping>
+</framework>

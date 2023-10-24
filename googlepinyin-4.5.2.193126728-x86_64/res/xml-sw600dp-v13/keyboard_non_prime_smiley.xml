@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard id="@id/keyboard_non_prime_smiley" class=".keyboard.PageableNonPrimeRecentSubCategoryKeyboard" initial_states="LOCK_KEYBOARD+SUB_CATEGORY_2" persistent_states="@string/smiley_keyboard_persist_states" persistent_states_pref_key="@string/smiley_keyboard_persist_states_pref_key" remember_recent_key="ALL_ACTIONS" recent_key_type="smiley" recent_key_layout="@layout/softkey_label_emoji" recent_key_popup_layout="@attr/PopupBubbleRectangularLabelSmallKeepOrderLayout">
+        <view layout="@layout/keyboard_non_prime_header_sub_category" scalable="false" type="header">
+            <softkeys href="@xml/softkeys_function" />
+            <softkeys href="@xml/softkeys_non_prime_smiley_sub_category" />
+            <include href="@xml/keymapping_header_smiley" />
+        </view>
+        <view layout="@layout/keyboard_non_prime_smiley_body" type="body">
+            <motion_event_handler class=".libs.framework.keyboard.handler.BasicMotionEventHandler" />
+            <motion_event_handler class="com.google.android.apps.inputmethod.libs.framework.keyboard.handler.ScrubMoveMotionEventHandler" reverse_preference="false" preference_key="@string/pref_key_enable_scrub_move" />
+            <include href="@xml/softkeys_body_smiley" />
+            <softkeys href="@xml/softkeys_function" />
+            <softkeys href="@xml/softkeys_function_ime_action" />
+            <softkeys href="@xml/softkeys_non_prime_category" />
+            <softkeys href="@xml/softkeys_non_prime_category_tablet" />
+            <softkeys href="@xml/softkeys_input_non_prime_bottom_symbol" />
+            <softkeys href="@xml/softkeys_language_specific" />
+            <include href="@xml/keymapping_body_smiley" />
+            <include href="@xml/keymapping_bottom_smiley" />
+            <include href="@xml/keymapping_non_prime_body_right_side" />
+            <include href="@xml/keymapping_language_specific" />
+        </view>
+    </keyboard>
+</framework>

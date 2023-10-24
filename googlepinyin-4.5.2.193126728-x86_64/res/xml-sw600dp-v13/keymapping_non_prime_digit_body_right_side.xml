@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/keymapping_non_prime_body_right_side" />
+    <key_mapping>
+        <mapping view_id="@id/key_pos_right_side_3rd_key" key_id="@id/softkey_space_key" />
+    </key_mapping>
+</framework>

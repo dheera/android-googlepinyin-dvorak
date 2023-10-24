@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_candidates_holder">#1affffff</color>
+    <color name="bg_keyboard_body">#ff263238</color>
+    <color name="candidate_holder_background">#ff21272b</color>
+    <color name="focus_pointer_color">#337fcac3</color>
+    <color name="keyboard_mask_material_dark_theme">#f0263238</color>
+    <color name="label_function_key_disabled_material_dark_theme">#4dffffff</color>
+    <color name="label_phonenumber">#80ffffff</color>
+    <color name="separator_color">#1affffff</color>
+    <color name="separator_color_phonenumber">#0fffffff</color>
+    <color name="switch_language_bar_background">#1affffff</color>
+</resources>

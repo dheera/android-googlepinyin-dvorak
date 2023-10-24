@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.framework.firstrun.SetupDonePage style="@style/FirstRunPage" feature_activity_class="com.google.android.apps.inputmethod.pinyin.firstrun.PinyinFeatureActivity"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/first_run_page_header" />
+    <LinearLayout style="@style/FirstRunPageContent">
+        <TextView android:text="@string/setup_done_page_title" style="@style/FirstRunPageTitle" />
+        <ImageView android:id="@id/first_run_page_show_features_button" android:contentDescription="@string/first_run_see_features_hint" style="@style/FirstRunDonePageNextButton" />
+    </LinearLayout>
+</com.google.android.apps.inputmethod.libs.framework.firstrun.SetupDonePage>

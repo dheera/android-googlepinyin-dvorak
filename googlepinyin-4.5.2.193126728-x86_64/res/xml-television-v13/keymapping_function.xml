@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping view_id="@id/key_pos_del" key_id="@id/softkey_del" />
+        <mapping view_id="@id/key_pos_space_key" key_id="@id/softkey_space" />
+        <mapping view_id="@id/key_pos_voice" key_id="@id/softkey_voice" />
+        <mapping view_id="@id/key_pos_candidates_page_up" key_id="@id/softkey_page_left" />
+        <mapping view_id="@id/key_pos_candidates_page_down" key_id="@id/softkey_page_right" />
+    </key_mapping>
+    <key_mapping state="FIRST_PAGE">
+        <mapping view_id="@id/key_pos_candidates_page_up" key_id="@id/softkey_empty" />
+    </key_mapping>
+    <key_mapping state="LAST_PAGE">
+        <mapping view_id="@id/key_pos_candidates_page_down" key_id="@id/softkey_empty" />
+    </key_mapping>
+</framework>

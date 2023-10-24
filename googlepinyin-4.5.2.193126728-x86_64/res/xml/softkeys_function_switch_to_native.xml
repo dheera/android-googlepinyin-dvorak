@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey id="@id/softkey_switch_to_zh" layout="@layout/softkey_icon">
+            <action type="PRESS" keycode="SWITCH_TO_NEXT_LANGUAGE" />
+            <icon location="@id/icon" value="@drawable/ic_key_switch_to_zh" />
+        </softkey>
+    </softkeys>
+</framework>

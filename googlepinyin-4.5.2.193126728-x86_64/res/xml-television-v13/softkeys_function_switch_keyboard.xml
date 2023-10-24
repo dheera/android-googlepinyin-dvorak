@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey id="@id/softkey_zh_active" layout="@layout/softkey_function_key_label" content_description="@string/pinyin_qwerty_ime_label">
+            <label location="@id/label" value="@string/label_back_to_pinyin_prime" />
+        </softkey>
+        <softkey id="@id/softkey_zh_deactive" layout="@layout/softkey_function_key_label_deactive" content_description="@string/pinyin_qwerty_ime_label">
+            <action type="ON_FOCUS" keycode="SWITCH_INPUT_BUNDLE" data="pinyin_for_tv" />
+            <label location="@id/label" value="@string/label_back_to_pinyin_prime" />
+        </softkey>
+    </softkeys>
+</framework>

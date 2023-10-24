@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/keymapping_bottom_non_prime_main_category_holder" />
+    <key_mapping>
+        <mapping view_id="@id/key_pos_space" key_id="@id/softkey_space_empty" />
+        <mapping view_id="@id/key_pos_non_prime_category_1" key_id="@id/softkey_non_prime_main_category_digit" />
+    </key_mapping>
+    <include href="@xml/keymapping_function_ime_action_non_prime" />
+    <include href="@xml/keymapping_function_ime_action_popup_navigation" />
+    <include href="@xml/keymapping_function_ime_action_popup_right_handed_mode" />
+    <include href="@xml/keymapping_bottom_non_prime_symbol_1_popup_settings" />
+    <include href="@xml/keymapping_bottom_non_prime_symbol_1_popup_left_handed_mode" />
+</framework>

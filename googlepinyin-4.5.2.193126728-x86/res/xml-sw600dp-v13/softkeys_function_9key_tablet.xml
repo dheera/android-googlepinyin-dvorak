@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey id="@id/softkey_9key_space" layout="@layout/softkey_icon_bottom_label_sup_dark" popup_timing="ON_GESTURE" multi_touch="false" content_description="@string/space_key_content_desc" alpha="@attr/LabelAlpha">
+            <action type="PRESS" keycode="SPACE" data=" " />
+            <action type="LONG_PRESS" keycode="KEYCODE_0" data="0" intention="COMMIT" popup_label="0" popup_layout="@layout/popup_square_bubble" />
+            <icon location="@id/icon_bottom" value="@attr/IconSpaceKey" />
+            <label location="@id/label_sup" value="0" />
+        </softkey>
+    </softkeys>
+</framework>

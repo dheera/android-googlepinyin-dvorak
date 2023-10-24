@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="keyboard_handwriting_left_column_weight">91</integer>
+    <integer name="keyboard_handwriting_middle_panel_weight">818</integer>
+    <integer name="keyboard_handwriting_right_column_weight">91</integer>
+    <integer name="keyboard_non_prime_emoticon_column_count">8</integer>
+    <integer name="keyboard_non_prime_symbol_column_count">10</integer>
+    <integer name="keyboard_number_password_horizontal_weight">500</integer>
+    <integer name="more_candidates_candidates_area_weight">856</integer>
+    <integer name="more_candidates_left_column_weight">144</integer>
+    <integer name="more_candidates_pageable_candidates_area_weight">712</integer>
+    <integer name="more_candidates_right_column_weight">144</integer>
+    <integer name="non_prime_header_sub_category_holder_weight">900</integer>
+    <integer name="prime_header_icon_weight">144</integer>
+    <integer name="prime_header_tab_weight">175</integer>
+    <integer name="softkey_qwerty_bottom_label_weight">370</integer>
+    <integer name="softkey_qwerty_upper_label_weight">630</integer>
+    <integer name="keyboard_9key_empty_view_weight">0</integer>
+    <integer name="keyboard_9key_left_part_central_panel_weight">431</integer>
+    <integer name="keyboard_9key_left_part_weight">531</integer>
+    <integer name="keyboard_9key_reading_text_candidates_view_weight">101</integer>
+    <integer name="keyboard_9key_right_part_input_panel_weight">369</integer>
+    <integer name="keyboard_9key_right_part_weight">469</integer>
+    <integer name="keyboard_9key_symbol_column_count">3</integer>
+    <integer name="keyboard_9key_symbol_panel_weight">330</integer>
+    <integer name="keyboard_9key_symbol_row_count">3</integer>
+    <integer name="keyboard_input_area_left_side_weight">100</integer>
+    <integer name="keyboard_input_area_right_side_weight">100</integer>
+    <integer name="keyboard_number_empty_view_weight">138</integer>
+    <integer name="keyboard_number_left_part_weight">330</integer>
+    <integer name="keyboard_number_left_side_empty_view_weight">0</integer>
+    <integer name="keyboard_number_right_part_weight">532</integer>
+    <integer name="softkey_number_weight">144</integer>
+    <integer name="softkey_right_side_weight">100</integer>
+    <integer name="t9_candidate_page_view_row_count">4</integer>
+</resources>

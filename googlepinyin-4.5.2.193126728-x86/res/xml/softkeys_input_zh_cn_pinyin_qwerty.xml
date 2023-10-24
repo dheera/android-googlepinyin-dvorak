@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/softkeys_input_zh_pinyin_qwerty" />
+    <softkeys>
+        <softkey id="@id/softkey_qwerty_semicolon_in_shuangpin_darkkey" layout="@layout/softkey_label_medium" multi_touch="false">
+            <action type="DOWN" keycode="SHIFT_DOWN" />
+            <action type="UP" keycode="SHIFT_UP" />
+            <action type="PRESS" keycode="SEMICOLON" data=";" intention="DECODE" />
+            <label location="@id/label" value=";" />
+        </softkey>
+        <softkey id="@id/softkey_qwerty_semicolon_in_shuangpin" layout="@layout/softkey_label_medium_auto_centered" multi_touch="false">
+            <action type="PRESS" keycode="SEMICOLON" data=";" intention="DECODE" />
+            <label location="@id/label" value=";" />
+        </softkey>
+    </softkeys>
+</framework>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template id="@id/softkey_template_symbol_bottom" layout="@layout/softkey_label_medium_bottom" multi_touch="false" popup_timing="@string/qwerty_popup_timing" content_description="$desc$">
+            <action type="PRESS" keycode="$param_keycode=SHORT_TEXT$" data="$param_data$" intention="COMMIT" popup_label="$param_data$" />
+            <action type="LONG_PRESS" data="$long_press_data$" keycode="PLAIN_TEXT" intention="COMMIT" popup_label="$long_press_data$" popup_layout="@attr/PopupBubbleRectangularLayout" />
+            <label location="@id/label_bottom" value="$param_data$" />
+        </softkey_template>
+        <softkey_list template_id="@id/softkey_template_symbol_bottom" splitter=" ">
+            <softkey id="@id/softkey_comma" param_keycode="COMMA" param_data="," />
+            <softkey id="@id/softkey_period" param_keycode="PERIOD" param_data="." long_press_data="…" />
+            <softkey id="@id/softkey_less_than" param_data="&lt;" long_press_data="≤ ‹ «" />
+            <softkey id="@id/softkey_more_than" param_data=">" long_press_data="≥ › »" />
+        </softkey_list>
+    </softkeys>
+</framework>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping view_id="@id/left_arrow" key_id="@id/softkey_left_arrow" />
+        <mapping view_id="@id/right_arrow" key_id="@id/softkey_right_arrow" />
+        <mapping view_id="@id/up_arrow" key_id="@id/softkey_up_arrow" />
+        <mapping view_id="@id/down_arrow" key_id="@id/softkey_down_arrow" />
+        <mapping view_id="@id/select" key_id="@id/softkey_select" />
+        <mapping view_id="@id/left_most_arrow" key_id="@id/softkey_left_most_arrow" />
+        <mapping view_id="@id/right_most_arrow" key_id="@id/softkey_right_most_arrow" />
+        <mapping view_id="@id/select_all" key_id="@id/softkey_select_all" />
+        <mapping view_id="@id/copy" key_id="@id/softkey_copy_inactive" />
+        <mapping view_id="@id/paste" key_id="@id/softkey_paste" />
+        <mapping view_id="@id/delete" key_id="@id/softkey_delete" />
+    </key_mapping>
+    <key_mapping state="SUB_CATEGORY_1">
+        <mapping view_id="@id/select" key_id="@id/softkey_selected_select" />
+    </key_mapping>
+    <key_mapping state="SUB_CATEGORY_2">
+        <mapping view_id="@id/select" key_id="@id/softkey_selected_select" />
+        <mapping view_id="@id/select_all" key_id="@id/softkey_cut" />
+        <mapping view_id="@id/copy" key_id="@id/softkey_copy" />
+    </key_mapping>
+    <key_mapping state="SUB_CATEGORY_3">
+        <mapping view_id="@id/left_arrow" key_id="@id/softkey_left_arrow_inactive" />
+        <mapping view_id="@id/right_arrow" key_id="@id/softkey_right_arrow_inactive" />
+        <mapping view_id="@id/up_arrow" key_id="@id/softkey_up_arrow_inactive" />
+        <mapping view_id="@id/down_arrow" key_id="@id/softkey_down_arrow_inactive" />
+        <mapping view_id="@id/select" key_id="@id/softkey_select_inactive" />
+        <mapping view_id="@id/left_most_arrow" key_id="@id/softkey_left_most_arrow_inactive" />
+        <mapping view_id="@id/right_most_arrow" key_id="@id/softkey_right_most_arrow_inactive" />
+        <mapping view_id="@id/select_all" key_id="@id/softkey_select_all_inactive" />
+        <mapping view_id="@id/copy" key_id="@id/softkey_copy_inactive" />
+        <mapping view_id="@id/paste" key_id="@id/softkey_paste" />
+        <mapping view_id="@id/delete" key_id="@id/softkey_delete_inactive" />
+    </key_mapping>
+</framework>

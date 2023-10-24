@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="material_popup_bubble_width">42.0dip</dimen>
+    <dimen name="popup_label_width">38.0dip</dimen>
+    <dimen name="popup_small_label_width">38.0dip</dimen>
+    <dimen name="text_size_qwerty_label">23.0dip</dimen>
+    <dimen name="text_size_very_tiny">10.0dip</dimen>
+</resources>

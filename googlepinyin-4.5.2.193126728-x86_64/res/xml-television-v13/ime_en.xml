@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime string_id="en_abc123_for_tv" class="com.google.android.apps.inputmethod.libs.english.ime.EnglishIme" language="en" auto_capital="true" inline_composing="true" label="@string/english_qwerty_ime_label" display_app_completions="true">
+        <keyboard_group>
+            <keyboard type="prime" def="@xml/keyboard_en" />
+        </keyboard_group>
+        <extra_values>
+            <item id="@id/extra_value_force_display_app_completions" value="true" />
+            <item id="@id/extra_value_latin_max_candidates_requested" value="@integer/max_english_candidates" />
+            <item id="@id/extra_value_latin_auto_select_literal_candidate" value="true" />
+        </extra_values>
+    </ime>
+</framework>

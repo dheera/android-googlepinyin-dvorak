@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey id="@id/softkey_hide_keyboard" layout="@layout/softkey_icon" content_description="@string/hide_keyboard_key_content_desc" alpha="@attr/IconAlpha">
+            <action type="PRESS" keycode="HIDE_KEYBOARD" />
+            <icon location="@id/icon" value="@attr/IconHideKeyboard" />
+        </softkey>
+        <softkey id="@id/softkey_voice" layout="@layout/softkey_icon" content_description="@string/voice_input_key_content_desc" disable_lift_to_tap="true" alpha="@attr/IconAlpha">
+            <action type="PRESS" keycode="LAUNCH_VOICE_IME" />
+            <icon location="@id/icon" value="@attr/IconMic" />
+        </softkey>
+        <softkey id="@id/softkey_settings_key" layout="@layout/softkey_icon" content_description="@string/setting_key_content_desc">
+            <action type="PRESS" keycode="LAUNCH_PREFERENCE_ACTIVITY" data="" />
+            <icon location="@id/icon" value="@attr/IconSetting" />
+        </softkey>
+    </softkeys>
+</framework>

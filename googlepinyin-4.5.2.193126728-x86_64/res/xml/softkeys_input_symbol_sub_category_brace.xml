@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkey_list template_id="@id/softkey_template_light_symbol" splitter=" ">
+        <softkey param_data="(" long_press_data="&lt; { [" />
+        <softkey param_data=")" long_press_data="> } ]" />
+        <softkey param_data="[" />
+        <softkey param_data="]" />
+        <softkey param_data="{" />
+        <softkey param_data="}" />
+        <softkey param_data="（" desc="@string/full_width_left_parenthesis_key_content_desc" />
+        <softkey param_data="）" desc="@string/full_width_right_parenthesis_key_content_desc" />
+        <softkey param_data="［" />
+        <softkey param_data="］" />
+        <softkey param_data="｛" />
+        <softkey param_data="｝" />
+        <softkey param_data="❨" />
+        <softkey param_data="❩" />
+        <softkey param_data="❲" />
+        <softkey param_data="❳" />
+        <softkey param_data="❴" />
+        <softkey param_data="❵" />
+        <softkey param_data="‘" desc="@string/left_single_quotation_key_content_desc" />
+        <softkey param_data="’" desc="@string/right_single_quotation_key_content_desc" />
+        <softkey param_data="“" desc="@string/left_double_quotation_key_content_desc" />
+        <softkey param_data="”" desc="@string/right_double_quotation_key_content_desc" />
+        <softkey param_data="❛" />
+        <softkey param_data="❜" />
+        <softkey param_data="❝" />
+        <softkey param_data="❞" />
+        <softkey param_data="&lt;" />
+        <softkey param_data=">" />
+        <softkey param_data="〈" desc="@string/single_left_book_title_key_content_desc" />
+        <softkey param_data="〉" desc="@string/single_right_book_title_key_content_desc" />
+        <softkey param_data="《" desc="@string/double_left_book_title_key_content_desc" />
+        <softkey param_data="》" desc="@string/double_right_book_title_key_content_desc" />
+        <softkey param_data="〔" desc="@string/left_hexagon_bracket_key_content_desc" />
+        <softkey param_data="〕" desc="@string/right_hexagon_bracket_key_content_desc" />
+        <softkey param_data="【" desc="@string/left_black_square_bracket_key_content_desc" />
+        <softkey param_data="】" desc="@string/right_black_square_bracket_key_content_desc" />
+        <softkey param_data="〘" />
+        <softkey param_data="〙" />
+        <softkey param_data="「" desc="@string/left_vertical_single_quotation_key_content_desc" />
+        <softkey param_data="」" desc="@string/right_vertical_single_quotation_key_content_desc" />
+        <softkey param_data="『" desc="@string/left_vertical_double_quotation_key_content_desc" />
+        <softkey param_data="』" desc="@string/right_vertical_double_quotation_key_content_desc" />
+        <unicode_range from="U+FE35" to="U+FE42" param="param_data">
+            <softkey />
+        </unicode_range>
+    </softkey_list>
+</framework>

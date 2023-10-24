@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="fraction" name="focus_pointer_normal_scale">1.0</item>
+    <item type="fraction" name="focus_pointer_pressed_scale">0.5417</item>
+    <item type="fraction" name="softkey_focused_scale">1.2</item>
+    <item type="fraction" name="softkey_normal_scale">1.0</item>
+    <item type="fraction" name="softkey_pressed_scale">0.65</item>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/hideable_keys" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="@integer/weight_sum"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/keyboard_handwriting_body_left_column" />
+    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="@integer/keyboard_handwriting_middle_panel_weight" />
+    <include layout="@layout/keyboard_handwriting_body_right_column" />
+</LinearLayout>

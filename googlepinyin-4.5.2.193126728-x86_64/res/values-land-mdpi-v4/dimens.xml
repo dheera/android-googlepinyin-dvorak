@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fullscreen_body_height">92.5dip</dimen>
+    <dimen name="keyboard_body_height">176.0dip</dimen>
+    <dimen name="keyboard_header_height">37.0dip</dimen>
+    <dimen name="keyboard_height">213.0dip</dimen>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template id="@id/softkey_template_9key" layout="@layout/softkey_9key" slide_sensitivity="LESS" popup_timing="ON_GESTURE" multi_touch="false" content_description="$desc$">
+            <action type="PRESS" data="$press_data$" keycode="$keycode_press$" intention="DECODE" />
+            <action type="LONG_PRESS" data="$long_press_data$" keycode="$keycode_long_press$" intention="COMMIT" popup_label="$long_press_data$" popup_layout="@attr/PopupBubbleRectangularSmallLayout" />
+            <action type="SLIDE_UP" data="$slideup_data$" keycode="$keycode_slideup$" intention="DECODE" popup_label="$slideup_data$" />
+            <action type="SLIDE_DOWN" data="$slidedown_data$" keycode="$keycode_slidedown$" intention="DECODE" popup_label="$slidedown_data$" />
+            <action type="SLIDE_LEFT" data="$slideleft_data$" keycode="$keycode_slideleft$" intention="DECODE" popup_label="$slideleft_data$" />
+            <action type="SLIDE_RIGHT" data="$slideright_data$" keycode="$keycode_slideright$" intention="DECODE" popup_label="$slideright_data$" />
+            <label location="@id/label" value="$key_text$" />
+            <label location="@id/label_sup" value="$long_press_label$" />
+        </softkey_template>
+        <softkey_list template_id="@id/softkey_template_9key" splitter=" ">
+            <softkey id="@id/softkey_9key_abc" press_data="2" keycode_press="KEYCODE_2" long_press_data="2 c a b" long_press_label="2" keycode_long_press="KEYCODE_2" slideup_data="b" keycode_slideup="B" slideleft_data="a" keycode_slideleft="A" slideright_data="c" keycode_slideright="C" key_text="abc" desc="@string/abc_key_content_desc" />
+            <softkey id="@id/softkey_9key_def" press_data="3" keycode_press="KEYCODE_3" long_press_data="3 f d e" long_press_label="3" keycode_long_press="KEYCODE_3" slideup_data="e" keycode_slideup="E" slideleft_data="d" keycode_slideleft="D" slideright_data="f" keycode_slideright="F" key_text="def" desc="@string/def_key_content_desc" />
+            <softkey id="@id/softkey_9key_ghi" press_data="4" keycode_press="KEYCODE_4" long_press_data="4 i g h" long_press_label="4" keycode_long_press="KEYCODE_4" slideup_data="h" keycode_slideup="H" slideleft_data="g" keycode_slideleft="G" slideright_data="i" keycode_slideright="I" key_text="ghi" desc="@string/ghi_key_content_desc" />
+            <softkey id="@id/softkey_9key_jkl" press_data="5" keycode_press="KEYCODE_5" long_press_data="5 l j k" long_press_label="5" keycode_long_press="KEYCODE_5" slideup_data="k" keycode_slideup="K" slideleft_data="j" keycode_slideleft="J" slideright_data="l" keycode_slideright="L" key_text="jkl" desc="@string/jkl_key_content_desc" />
+            <softkey id="@id/softkey_9key_mno" press_data="6" keycode_press="KEYCODE_6" long_press_data="6 o m n" long_press_label="6" keycode_long_press="KEYCODE_6" slideup_data="n" keycode_slideup="N" slideleft_data="m" keycode_slideleft="M" slideright_data="o" keycode_slideright="O" key_text="mno" desc="@string/mno_key_content_desc" />
+            <softkey id="@id/softkey_9key_pqrs" press_data="7" keycode_press="KEYCODE_7" long_press_data="7 s p q r" long_press_label="7" keycode_long_press="KEYCODE_7" slideup_data="q" keycode_slideup="Q" slidedown_data="r" keycode_slidedown="R" slideleft_data="p" keycode_slideleft="P" slideright_data="s" keycode_slideright="S" key_text="pqrs" desc="@string/pqrs_key_content_desc" />
+            <softkey id="@id/softkey_9key_tuv" press_data="8" keycode_press="KEYCODE_8" long_press_data="8 v t u" long_press_label="8" keycode_long_press="KEYCODE_8" slideup_data="u" keycode_slideup="U" slideleft_data="t" keycode_slideleft="T" slideright_data="v" keycode_slideright="V" key_text="tuv" desc="@string/tuv_key_content_desc" />
+            <softkey id="@id/softkey_9key_wxyz" press_data="9" keycode_press="KEYCODE_9" long_press_data="9 z w x y" long_press_label="9" keycode_long_press="KEYCODE_9" slideup_data="x" keycode_slideup="X" slidedown_data="y" keycode_slidedown="Y" slideleft_data="w" keycode_slideleft="W" slideright_data="z" keycode_slideright="Z" key_text="wxyz" desc="@string/wxyz_key_content_desc" />
+        </softkey_list>
+        <softkey id="@id/softkey_9key_semicolon_in_shuangpin" layout="@layout/softkey_9key" popup_timing="ON_GESTURE">
+            <action type="PRESS" keycode="SEMICOLON" data=";" intention="DECODE" />
+            <action type="LONG_PRESS" data="1" keycode="KEYCODE_1" intention="COMMIT" popup_label="1" popup_layout="@attr/PopupBubbleRectangularSmallLayout" />
+            <label location="@id/label" value=";" />
+            <label location="@id/label_sup" value="1" />
+        </softkey>
+    </softkeys>
+    <include href="@xml/softkeys_9key_zh_upcase" />
+    <include href="@xml/softkeys_punctuation_zh_left_panel" />
+</framework>

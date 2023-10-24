@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/input_area" android:weightSum="@integer/keyboard_9key_left_part_central_panel_weight" style="@style/Linear.Horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_weight="@integer/keyboard_9key_symbol_panel_weight" style="@style/Linear.WidthWeighted.Vertical">
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.widget.PageableSoftKeyListHolderView android:orientation="vertical" android:id="@id/pageable_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="750.0" page_layout="@layout/keyboard_9key_symbol_page" />
+        <include layout="@layout/keyboard_9key_body_left_part_symbol_panel_bottom" />
+    </LinearLayout>
+    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="@integer/keyboard_9key_reading_text_candidates_view_weight" />
+</LinearLayout>

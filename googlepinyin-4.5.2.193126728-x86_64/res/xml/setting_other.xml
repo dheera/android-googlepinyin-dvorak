@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/setting_other" android:key="@string/settings_other_category_key"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.inputmethod.libs.framework.preference.widget.CheckBoxPreferenceWithConfirmDialog android:persistent="true" android:title="@string/setting_user_metrics_title" android:key="@string/pref_key_enable_user_metrics" android:dialogTitle="@string/setting_user_metrics_feedback_title" android:dialogMessage="@string/setting_user_metrics_feedback_message" />
+    <CheckBoxPreference android:persistent="true" android:title="@string/setting_show_launcher_icon_title" android:key="@string/pref_key_show_launcher_icon" android:summary="@string/setting_show_launcher_icon_summary" />
+</PreferenceScreen>

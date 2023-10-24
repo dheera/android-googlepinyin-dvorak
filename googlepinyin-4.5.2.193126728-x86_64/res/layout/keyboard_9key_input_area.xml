@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/InputArea.9Key"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout style="@style/T9KeyboardLeftPanel">
+        <ImageView style="@style/KeyboardSeparator.OnRight" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.widget.ReadingTextCandidateHolderView android:id="@id/softkey_holder_9key_left_panel" default_sub_view_count="4" style="@style/T9KeyboardReadingTextCandidateView" />
+    </FrameLayout>
+    <LinearLayout android:id="@id/t9_input_area" android:weightSum="3.0" android:layout_weight="@integer/keyboard_9key_middle_column_weight_sum" style="@style/Linear.WidthWeighted.Vertical">
+        <LinearLayout android:weightSum="@integer/keyboard_9key_middle_column_weight_sum" android:layout_weight="1.0" style="@style/Linear.HeightWeighted.Horizontal">
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_9key_1" android:layout_weight="234.0" style="@style/SoftKey.SmallInset" />
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_9key_2" android:layout_weight="234.0" style="@style/SoftKey.SmallInset" />
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_9key_3" android:layout_weight="234.0" style="@style/SoftKey.SmallInset" />
+        </LinearLayout>
+        <LinearLayout android:weightSum="@integer/keyboard_9key_middle_column_weight_sum" android:layout_weight="1.0" style="@style/Linear.HeightWeighted.Horizontal">
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_9key_4" android:layout_weight="234.0" style="@style/SoftKey.SmallInset" />
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_9key_5" android:layout_weight="234.0" style="@style/SoftKey.SmallInset" />
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_9key_6" android:layout_weight="234.0" style="@style/SoftKey.SmallInset" />
+        </LinearLayout>
+        <LinearLayout android:weightSum="@integer/keyboard_9key_middle_column_weight_sum" android:layout_weight="1.0" style="@style/Linear.HeightWeighted.Horizontal">
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_9key_7" android:layout_weight="234.0" style="@style/SoftKey.SmallInset" />
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_9key_8" android:layout_weight="234.0" style="@style/SoftKey.SmallInset" />
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_9key_9" android:layout_weight="234.0" style="@style/SoftKey.SmallInset" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout style="@style/T9KeyboardRightPanel">
+        <ImageView style="@style/KeyboardSeparator.OnLeft" />
+        <LinearLayout android:weightSum="3.0" style="@style/Linear.Vertical">
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_del" android:layout_weight="1.0" style="@style/SoftKey.SmallInset.Dark.InColumn" />
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_move_cursor" android:layout_weight="1.0" style="@style/SoftKey.SmallInset.Dark.InColumn" />
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_shift" android:layout_weight="1.0" style="@style/SoftKey.SmallInset.Dark.InColumn" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

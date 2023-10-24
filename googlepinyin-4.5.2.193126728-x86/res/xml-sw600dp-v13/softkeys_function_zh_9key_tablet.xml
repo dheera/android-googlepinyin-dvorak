@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey id="@id/softkey_9key_space_zh_shifted" layout="@layout/softkey_label_sup_light" popup_timing="ON_GESTURE" multi_touch="false">
+            <action type="PRESS" keycode="KEYCODE_0" data="0" intention="COMMIT" />
+            <label location="@id/label_sup" value="0" />
+        </softkey>
+    </softkeys>
+</framework>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey id="@id/softkey_en_active" layout="@layout/softkey_header_tab_active" content_description="@string/english_dashboard_key_content_desc">
+            <action type="PRESS" keycode="SWITCH_TO_DASHBOARD" />
+            <icon location="@id/icon" value="@attr/IconHeaderTabEnActive" />
+        </softkey>
+        <softkey id="@id/softkey_en_active_in_dashboard" layout="@layout/softkey_header_tab_active" content_description="@string/english_keyboard_key_content_desc">
+            <action type="PRESS" keycode="SWITCH_TO_PREVIOUS_INPUT_BUNDLE" />
+            <icon location="@id/icon" value="@attr/IconHeaderTabEnActive" />
+        </softkey>
+        <softkey id="@id/softkey_en_deactive" layout="@layout/softkey_header_tab_with_separator" content_description="@string/english_keyboard_key_content_desc">
+            <action type="PRESS" keycode="SWITCH_LANGUAGE" data="en" />
+            <icon location="@id/icon" value="@attr/IconHeaderTabEnDeactive" />
+        </softkey>
+        <softkey id="@id/softkey_en_deactive_no_function" layout="@layout/softkey_header_tab_with_separator" content_description="@string/english_dashboard_key_content_desc">
+            <action type="PRESS" keycode="UNKNOWN" data="en" />
+            <icon location="@id/icon" value="@attr/IconHeaderTabEnDeactive" />
+        </softkey>
+        <softkey id="@id/softkey_zh_active" layout="@layout/softkey_header_tab_active" content_description="@string/chinese_dashboard_key_content_desc">
+            <action type="PRESS" keycode="SWITCH_TO_DASHBOARD" />
+            <icon location="@id/icon" value="@attr/IconHeaderTabZhActive" />
+        </softkey>
+        <softkey id="@id/softkey_zh_active_in_dashboard" layout="@layout/softkey_header_tab_active" content_description="@string/chinese_keyboard_key_content_desc">
+            <action type="PRESS" keycode="SWITCH_TO_PREVIOUS_INPUT_BUNDLE" />
+            <icon location="@id/icon" value="@attr/IconHeaderTabZhActive" />
+        </softkey>
+        <softkey id="@id/softkey_zh_deactive" layout="@layout/softkey_icon_header_deactive" content_description="@string/chinese_keyboard_key_content_desc">
+            <action type="PRESS" keycode="SWITCH_LANGUAGE" data="@string/main_language_code" />
+            <icon location="@id/icon" value="@attr/IconHeaderTabZhDeactive" />
+        </softkey>
+        <softkey id="@id/softkey_zh_deactive_in_dashboard" layout="@layout/softkey_icon_header_deactive" content_description="@string/chinese_dashboard_key_content_desc">
+            <action type="PRESS" keycode="SWITCH_LANGUAGE" data="@string/main_language_code" />
+            <icon location="@id/icon" value="@attr/IconHeaderTabZhDeactive" />
+        </softkey>
+        <softkey id="@id/softkey_en_active_no_arrow" layout="@layout/softkey_header_tab_active_no_arrow" content_description="@string/english_keyboard_key_content_desc">
+            <action type="PRESS" keycode="UNKNOWN" />
+            <icon location="@id/icon" value="@attr/IconHeaderTabEnActive" />
+        </softkey>
+        <softkey id="@id/softkey_zh_active_no_arrow" layout="@layout/softkey_header_tab_active_no_arrow" content_description="@string/chinese_dashboard_key_content_desc">
+            <action type="PRESS" keycode="UNKNOWN" />
+            <icon location="@id/icon" value="@attr/IconHeaderTabZhActive" />
+        </softkey>
+    </softkeys>
+</framework>

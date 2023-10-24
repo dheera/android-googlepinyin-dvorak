@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="@dimen/keyboard_body_candidates_holder_height" style="@style/TVCandidates"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/keyboard_body_side_empty_panel" />
+    <RelativeLayout style="@style/TVCandidatesHolder">
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_candidates_page_up" style="@style/TVCandidatesPageKey.PageUp" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.widget.PageableCandidatesHolderView android:id="@id/softkey_holder_more_candidates" android:layout_toLeftOf="@id/key_pos_candidates_page_down" android:layout_toRightOf="@id/key_pos_candidates_page_up" android:layout_toStartOf="@id/key_pos_candidates_page_down" android:layout_toEndOf="@id/key_pos_candidates_page_up" style="@style/MoreCandidatesHolderView" candidate_background="@attr/BgCandidate" candidate_layout="@layout/softkey_candidate_tv" last_column_candidate_background="@attr/BgCandidateLastColumn" max_candidates_per_row="@integer/max_candidates_per_row" row_count="1" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_candidates_page_down" style="@style/TVCandidatesPageKey.PageDown" />
+    </RelativeLayout>
+    <include layout="@layout/keyboard_body_side_empty_panel" />
+</LinearLayout>

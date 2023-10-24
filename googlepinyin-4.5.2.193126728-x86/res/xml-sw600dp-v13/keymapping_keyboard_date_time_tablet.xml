@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/keymapping_keyboard_number_tablet" />
+    <key_mapping>
+        <mapping view_id="@id/key_pos_number_line2_3" key_id="@id/softkey_sentence_am_pm" />
+        <mapping view_id="@id/key_pos_number_line3_3" key_id="@id/softkey_colon" />
+    </key_mapping>
+    <key_mapping state="INPUT_TYPE_DATE">
+        <mapping view_id="@id/key_pos_number_line2_3" key_id="@id/softkey_sentence" />
+        <mapping view_id="@id/key_pos_number_line3_3" key_id="@id/softkey_equal" />
+    </key_mapping>
+</framework>

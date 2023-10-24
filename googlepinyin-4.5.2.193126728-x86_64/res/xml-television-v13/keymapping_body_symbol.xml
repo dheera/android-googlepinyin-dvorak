@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keygroup_mapping group_view_id="@id/softkeylist_holder_tv_single_area">
+        <key key_id="@id/softkey_exclamation" />
+        <key key_id="@id/softkey_at" />
+        <key key_id="@id/softkey_pound" />
+        <key key_id="@id/softkey_dollar" />
+        <key key_id="@id/softkey_percent" />
+        <key key_id="@id/softkey_circumflex" />
+        <key key_id="@id/softkey_ampersand" />
+        <key key_id="@id/softkey_asterisk" />
+        <key key_id="@id/softkey_left_parenthesis" />
+        <key key_id="@id/softkey_right_parenthesis" />
+        <key key_id="@id/softkey_row_splitter" />
+        <key key_id="@id/softkey_comma" />
+        <key key_id="@id/softkey_sentence" />
+        <key key_id="@id/softkey_question" />
+        <key key_id="@id/softkey_ellipsis" />
+        <key key_id="@id/softkey_grave" />
+        <key key_id="@id/softkey_colon" />
+        <key key_id="@id/softkey_semicolon" />
+        <key key_id="@id/softkey_quote" />
+        <key key_id="@id/softkey_apostrophe" />
+        <key key_id="@id/softkey_degree_sign" />
+        <key key_id="@id/softkey_row_splitter" />
+        <key key_id="@id/softkey_left_square_bracket" />
+        <key key_id="@id/softkey_right_square_bracket" />
+        <key key_id="@id/softkey_left_curley_bracket" />
+        <key key_id="@id/softkey_right_curley_bracket" />
+        <key key_id="@id/softkey_less_than" />
+        <key key_id="@id/softkey_more_than" />
+        <key key_id="@id/softkey_low_line" />
+        <key key_id="@id/softkey_minus" />
+        <key key_id="@id/softkey_plus" />
+        <key key_id="@id/softkey_equal" />
+        <key key_id="@id/softkey_row_splitter" />
+        <key key_id="@id/softkey_multiplication" />
+        <key key_id="@id/softkey_division" />
+        <key key_id="@id/softkey_yen_sign" />
+        <key key_id="@id/softkey_pound_sign" />
+        <key key_id="@id/softkey_euro_sign" />
+        <key key_id="@id/softkey_cent_sign" />
+        <key key_id="@id/softkey_slash" />
+        <key key_id="@id/softkey_backslash" />
+        <key key_id="@id/softkey_tilde" />
+        <key key_id="@id/softkey_vertical_line" />
+    </keygroup_mapping>
+</framework>

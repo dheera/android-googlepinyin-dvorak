@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey id="@id/softkey_switch_to_fullscreen" layout="@layout/softkey_icon" alpha="@attr/IconAlpha" content_description="@string/desc_switch_to_fullscreen_handwriting">
+            <action type="PRESS" keycode="TOGGLE_FULLSCREEN_HANDWRITING" />
+            <icon location="@id/icon" value="@attr/IconSwitchToFullScreenHWR" />
+        </softkey>
+        <softkey id="@id/softkey_switch_to_halfscreen" layout="@layout/softkey_icon" alpha="@attr/IconAlpha" content_description="@string/desc_switch_to_halfscreen_handwriting">
+            <action type="PRESS" keycode="TOGGLE_FULLSCREEN_HANDWRITING" />
+            <icon location="@id/icon" value="@attr/IconSwitchToHalfScreenHWR" />
+        </softkey>
+        <softkey id="@id/softkey_fullscreen_handwriting_space" layout="@layout/softkey_space_label_grey" multi_touch="false" content_description="@string/space_key_content_desc">
+            <action type="PRESS" keycode="SPACE" data=" " />
+            <action type="LONG_PRESS" keycode="SHOW_SYSTEM_IME_PICKER" action_on_down="true" />
+            <label location="@id/label" value="@string/label_space_handwriting" />
+        </softkey>
+        <softkey id="@id/softkey_handwriting_switch_to_non_prime" layout="@layout/softkey_function_key_label" content_description="@string/symbol_keyboard_key_content_desc" alpha="@attr/IconSwitchToNonPrimeAlpha">
+            <action type="PRESS" keycode="SWITCH_TO_NON_PRIME_KEYBOARD" data="symbol" />
+            <label location="@id/label" value="\?123" />
+        </softkey>
+    </softkeys>
+</framework>

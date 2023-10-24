@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="first_run_page_button_padding_top">40.0dip</dimen>
+    <dimen name="first_run_page_footer_height">120.0dip</dimen>
+    <dimen name="first_run_page_header_padding_top">80.0dip</dimen>
+    <dimen name="first_run_page_settings_done_padding_top">46.0dip</dimen>
+    <dimen name="fullscreen_body_height">127.0dip</dimen>
+    <dimen name="fullscreen_body_padding_top">0.0dip</dimen>
+    <dimen name="icon_ime_action_margin_bottom_material_theme">0.0dip</dimen>
+    <dimen name="input_area_padding_top">4.0dip</dimen>
+    <dimen name="keyboard_body_height">241.0dip</dimen>
+    <dimen name="keyboard_header_height">50.0dip</dimen>
+    <dimen name="keyboard_height">291.0dip</dimen>
+    <dimen name="label_bottom_margin_bottom_material_theme">16.0dip</dimen>
+    <dimen name="page_indicator_bottom_margin">2.0dip</dimen>
+    <dimen name="softkey_bg_inset_bottom">9.0dip</dimen>
+    <dimen name="softkey_bg_inset_left">5.0dip</dimen>
+    <dimen name="softkey_bg_inset_right">5.0dip</dimen>
+    <dimen name="softkey_bg_inset_top">0.0dip</dimen>
+    <dimen name="softkey_bg_small_inset_bottom">5.0dip</dimen>
+    <dimen name="softkey_bg_small_inset_left">2.5dip</dimen>
+    <dimen name="softkey_bg_small_inset_right">2.5dip</dimen>
+    <dimen name="softkey_bg_small_inset_top">0.0dip</dimen>
+    <dimen name="softkey_qwerty_bottom_label_margin_top">-3.0dip</dimen>
+    <dimen name="softkey_space_bg_inset_bottom">13.0dip</dimen>
+    <dimen name="softkey_space_bg_inset_top">13.0dip</dimen>
+    <dimen name="text_size_qwerty_footer">14.0dip</dimen>
+    <dimen name="t9_more_candidates_holder_view_padding_right">5.0dip</dimen>
+    <dimen name="t9_more_candidates_padding_bottom">9.0dip</dimen>
+</resources>

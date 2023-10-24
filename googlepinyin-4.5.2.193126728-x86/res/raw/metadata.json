@@ -1,0 +1,98 @@
+[
+ {
+  "id": "main:bn",
+  "locale": "bn",
+  "description": "bn",
+  "update": "1449628059",
+  "filesize": "760648",
+  "rawChecksum": "1fbde1baae17592d343b2671041b18bd",
+  "checksum": "1fbde1baae17592d343b2671041b18bd",
+  "version": 20160111,
+  "formatversion": "86736212",
+  "url": "http://"
+ },
+ {
+  "id": "main:en",
+  "locale": "en",
+  "description": "en",
+  "update": "1449628059",
+  "filesize": "2053816",
+  "rawChecksum": "ea949ccaf4f12da901d6b2176566bd82",
+  "checksum": "ea949ccaf4f12da901d6b2176566bd82",
+  "version": 20160111,
+  "formatversion": "86736212",
+  "url": "http://"
+ },
+ {
+  "id": "main:gu",
+  "locale": "gu",
+  "description": "gu",
+  "update": "1449628059",
+  "filesize": "233952",
+  "rawChecksum": "43b5c271259cb6ac5181123325398fcb",
+  "checksum": "43b5c271259cb6ac5181123325398fcb",
+  "version": 20160111,
+  "formatversion": "86736212",
+  "url": "http://"
+ },
+ {
+  "id": "main:hi",
+  "locale": "hi",
+  "description": "hi",
+  "update": "1449628059",
+  "filesize": "1637224",
+  "rawChecksum": "fa53ffd11fbcaa7973a45184d2de831b",
+  "checksum": "fa53ffd11fbcaa7973a45184d2de831b",
+  "version": 20160111,
+  "formatversion": "86736212",
+  "url": "http://"
+ },
+ {
+  "id": "main:ml",
+  "locale": "ml",
+  "description": "ml",
+  "update": "1449628059",
+  "filesize": "406744",
+  "rawChecksum": "ebb0f8816ba751e587961c81caa2f6cc",
+  "checksum": "ebb0f8816ba751e587961c81caa2f6cc",
+  "version": 20160111,
+  "formatversion": "86736212",
+  "url": "http://"
+ },
+ {
+  "id": "main:mr",
+  "locale": "mr",
+  "description": "mr",
+  "update": "1449628059",
+  "filesize": "611456",
+  "rawChecksum": "425b11b926f7a7a4ff94c0cefddd683a",
+  "checksum": "425b11b926f7a7a4ff94c0cefddd683a",
+  "version": 20160111,
+  "formatversion": "86736212",
+  "url": "http://"
+ },
+ {
+  "id": "main:ta",
+  "locale": "ta",
+  "description": "ta",
+  "update": "1449628059",
+  "filesize": "696640",
+  "rawChecksum": "ecd70d15f7bf24a92600291b86cac1aa",
+  "checksum": "ecd70d15f7bf24a92600291b86cac1aa",
+  "version": 20160111,
+  "formatversion": "86736212",
+  "url": "http://"
+ },
+ {
+  "id": "main:te",
+  "locale": "te",
+  "description": "te",
+  "update": "1449628059",
+  "filesize": "797784",
+  "rawChecksum": "003279e47333b664ab8b3198ddfb60c9",
+  "checksum": "003279e47333b664ab8b3198ddfb60c9",
+  "version": 20160111,
+  "formatversion": "86736212",
+  "url": "http://"
+ }
+]

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard id="@id/keyboard_en_hard_12keys" candidate_text_size_ratio="0.8" class=".keyboard.Hard12KeysKeyboard" initial_states="NO_MICROPHONE">
+        <view layout="@layout/keyboard_hard_header_no_deletable_label" scalable="false" type="header">
+            <softkeys href="@xml/softkeys_header_prime" />
+            <softkeys href="@xml/softkeys_header_candidates" />
+            <softkeys href="@xml/softkeys_function" />
+            <include href="@xml/keymapping_header_candidates" />
+            <include href="@xml/keymapping_header_hard_en" />
+        </view>
+        <view layout="@layout/keyboard_hard_12keys_body" type="body" always_show="false">
+            <motion_event_handler class=".libs.framework.keyboard.handler.BasicMotionEventHandler" />
+            <motion_event_handler class=".libs.english.handler.EnglishHard12KeyKeyboardLayoutHandler" />
+            <softkeys href="@xml/softkeys_body_candidates" />
+            <include href="@xml/keymapping_body_candidates" />
+        </view>
+    </keyboard>
+</framework>

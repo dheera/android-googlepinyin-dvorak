@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard id="@id/keyboard_zh_cn_handwriting" class=".libs.handwriting.keyboard.HandwritingPrimeKeyboard">
+        <view layout="@layout/keyboard_handwriting_header" scalable="false" type="header">
+            <softkeys href="@xml/softkeys_header_prime" />
+            <softkeys href="@xml/softkeys_header_candidates" />
+            <include href="@xml/keymapping_header_candidates" />
+            <include href="@xml/keymapping_header_zh_cn_prime" />
+        </view>
+        <view layout="@layout/keyboard_handwriting_body" type="body">
+            <motion_event_handler class=".libs.framework.keyboard.handler.BasicMotionEventHandler" />
+            <motion_event_handler class=".libs.handwriting.keyboard.HandwritingMotionEventHandler" />
+            <softkeys href="@xml/softkeys_function" />
+            <softkeys href="@xml/softkeys_body_candidates" />
+            <softkeys href="@xml/softkeys_function_ime_action" />
+            <softkeys href="@xml/softkeys_function_handwriting" />
+            <softkeys href="@xml/softkeys_punctuation_handwriting" />
+            <include href="@xml/keymapping_handwriting" />
+            <include href="@xml/keymapping_body_zh_cn_candidates" />
+        </view>
+        <view id="@id/fullscreen_handwriting_body" type="body" layout="@layout/keyboard_fullscreen_handwriting_body">
+            <motion_event_handler class=".libs.framework.keyboard.handler.BasicMotionEventHandler" />
+            <motion_event_handler class=".libs.framework.keyboard.handler.ScrubMoveMotionEventHandler" reverse_preference="false" preference_key="@string/pref_key_enable_scrub_move" />
+            <softkeys href="@xml/softkeys_body_candidates" />
+            <softkeys href="@xml/softkeys_function" />
+            <softkeys href="@xml/softkeys_punctuation_bottom" />
+            <softkeys href="@xml/softkeys_punctuation_bottom_zh" />
+            <softkeys href="@xml/softkeys_function_ime_action" />
+            <softkeys href="@xml/softkeys_punctuation_handwriting" />
+            <softkeys href="@xml/softkeys_function_handwriting" />
+            <include href="@xml/keymapping_fullscreen_handwriting" />
+            <include href="@xml/keymapping_body_zh_cn_candidates" />
+        </view>
+        <view id="@id/fullscreen_handwriting_panel" layout="@layout/keyboard_fullscreen_handwriting_panel">
+            <motion_event_handler class=".libs.handwriting.keyboard.FullscreenHandwritingMotionEventHandler" />
+        </view>
+    </keyboard>
+</framework>

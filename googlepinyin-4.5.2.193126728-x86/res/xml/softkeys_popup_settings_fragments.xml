@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey id="@id/softkey_fragment_bottom_popup_settings">
+            <action type="LONG_PRESS" keycode="SHOW_SETTINGS_DIALOG" popup_icon="@attr/IconPopupSetting" popup_layout="@attr/PopupBubbleActionLayout" />
+        </softkey>
+        <softkey id="@id/softkey_fragment_bottom_popup_settings_with_symbols">
+            <action type="LONG_PRESS" keycode="SHOW_SETTINGS_DIALOG" popup_icon="@attr/IconSetting" />
+        </softkey>
+    </softkeys>
+</framework>

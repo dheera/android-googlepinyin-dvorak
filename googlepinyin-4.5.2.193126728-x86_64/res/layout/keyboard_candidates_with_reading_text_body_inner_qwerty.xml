@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/BodyInner.Candidates"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/keyboard_candidates_body_inner_reading_text_candidates_panel" />
+    <include layout="@layout/keyboard_candidates_body_inner_pageable_candidates_panel" />
+    <include layout="@layout/keyboard_candidates_body_inner_qwerty_right_panel" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/KeyTop.Rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.inputmethod.libs.framework.keyboard.widget.AutoSizeTextView android:id="@id/label" style="@style/Label.Small.ReadingTextCandidate" minimum_text_size="@dimen/minimum_text_size" />
+</FrameLayout>

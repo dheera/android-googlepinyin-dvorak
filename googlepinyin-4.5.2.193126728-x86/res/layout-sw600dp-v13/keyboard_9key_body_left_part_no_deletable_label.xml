@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingTop="@dimen/input_area_padding_top" android:weightSum="@integer/keyboard_9key_left_part_weight" android:layout_weight="@integer/keyboard_9key_left_part_weight" style="@style/Linear.WidthWeighted.Horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/keyboard_9key_body_left_part_left_column" />
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:weightSum="@integer/keyboard_9key_left_part_central_panel_weight" android:layout_weight="@integer/keyboard_9key_left_part_central_panel_weight">
+        <include layout="@layout/keyboard_9key_body_left_part_symbol_panel" />
+        <include layout="@layout/keyboard_candidates_9key_body_inner_no_deletable_label" />
+    </FrameLayout>
+</LinearLayout>

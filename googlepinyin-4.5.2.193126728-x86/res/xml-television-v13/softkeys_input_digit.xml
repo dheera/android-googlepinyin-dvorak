@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/softkeys_input_tv_templates" />
+    <softkeys>
+        <softkey_list template_id="@id/softkey_template_for_tv_dim">
+            <softkey id="@id/softkey_phone_numbers_1" press_data="1" />
+            <softkey id="@id/softkey_phone_numbers_2" press_data="2" />
+            <softkey id="@id/softkey_phone_numbers_3" press_data="3" />
+            <softkey id="@id/softkey_phone_numbers_4" press_data="4" />
+            <softkey id="@id/softkey_phone_numbers_5" press_data="5" />
+            <softkey id="@id/softkey_phone_numbers_6" press_data="6" />
+            <softkey id="@id/softkey_phone_numbers_7" press_data="7" />
+            <softkey id="@id/softkey_phone_numbers_8" press_data="8" />
+            <softkey id="@id/softkey_phone_numbers_9" press_data="9" />
+            <softkey id="@id/softkey_phone_numbers_0" press_data="0" />
+            <softkey id="@id/softkey_sentence" press_data="." />
+            <softkey id="@id/softkey_comma" press_data="," />
+        </softkey_list>
+    </softkeys>
+</framework>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkey_list template_id="@id/softkey_template_light_emoji" splitter=" " rendering_filter="true">
+        <softkey param_data="U+1F383" />
+        <softkey param_data="U+1F384" />
+        <softkey param_data="U+1F386" />
+        <softkey param_data="U+1F387" />
+        <softkey param_data="U+2728" />
+        <softkey param_data="U+1F388" />
+        <softkey param_data="U+1F389" />
+        <softkey param_data="U+1F38A" />
+        <softkey param_data="U+1F38B" />
+        <softkey param_data="U+1F38D" />
+        <softkey param_data="U+1F38E" />
+        <softkey param_data="U+1F38F" />
+        <softkey param_data="U+1F390" />
+        <softkey param_data="U+1F391" />
+        <softkey param_data="U+1F380" />
+        <softkey param_data="U+1F381" />
+        <softkey param_data="U+1F397U+FE0F" />
+        <softkey param_data="U+1F39FU+FE0F" />
+        <softkey param_data="U+1F3AB" />
+        <softkey param_data="U+1F396U+FE0F" />
+        <softkey param_data="U+1F3C6" />
+        <softkey param_data="U+1F3C5" />
+        <softkey param_data="U+1F947" />
+        <softkey param_data="U+1F948" />
+        <softkey param_data="U+1F949" />
+        <softkey param_data="U+26BDU+FE0F" />
+        <softkey param_data="U+26BEU+FE0F" />
+        <softkey param_data="U+1F3C0" />
+        <softkey param_data="U+1F3D0" />
+        <softkey param_data="U+1F3C8" />
+        <softkey param_data="U+1F3C9" />
+        <softkey param_data="U+1F3BE" />
+        <softkey param_data="U+1F3B1" />
+        <softkey param_data="U+1F3B3" />
+        <softkey param_data="U+1F3CF" />
+        <softkey param_data="U+1F3D1" />
+        <softkey param_data="U+1F3D2" />
+        <softkey param_data="U+1F3D3" />
+        <softkey param_data="U+1F3F8" />
+        <softkey param_data="U+1F94A" />
+        <softkey param_data="U+1F94B" />
+        <softkey param_data="U+26F3U+FE0F" />
+        <softkey param_data="U+1F3CCU+FE0F" />
+        <softkey param_data="U+26F8U+FE0F" />
+        <softkey param_data="U+1F3A3" />
+        <softkey param_data="U+1F3BD" />
+        <softkey param_data="U+1F3BF" />
+        <softkey param_data="U+26F7U+FE0F" />
+        <softkey param_data="U+1F3C2" />
+        <softkey param_data="U+1F3C4" param_longpress_data="U+1F3C4 U+1F3C4U+1F3FB U+1F3C4U+1F3FC U+1F3C4U+1F3FD U+1F3C4U+1F3FE U+1F3C4U+1F3FF" />
+        <softkey param_data="U+1F3C7" />
+        <softkey param_data="U+1F3CA" param_longpress_data="U+1F3CA U+1F3CAU+1F3FB U+1F3CAU+1F3FC U+1F3CAU+1F3FD U+1F3CAU+1F3FE U+1F3CAU+1F3FF" />
+        <softkey param_data="U+26F9U+FE0F" param_longpress_data="U+26F9U+FE0F U+26F9U+FE0FU+1F3FB U+26F9U+FE0FU+1F3FC U+26F9U+FE0FU+1F3FD U+26F9U+FE0FU+1F3FE U+26F9U+FE0FU+1F3FF" />
+        <softkey param_data="U+1F3CBU+FE0F" param_longpress_data="U+1F3CBU+FE0F U+1F3CBU+FE0FU+1F3FB U+1F3CBU+FE0FU+1F3FC U+1F3CBU+FE0FU+1F3FD U+1F3CBU+FE0FU+1F3FE U+1F3CBU+FE0FU+1F3FF" />
+        <softkey param_data="U+1F6B4" param_longpress_data="U+1F6B4 U+1F6B4U+1F3FB U+1F6B4U+1F3FC U+1F6B4U+1F3FD U+1F6B4U+1F3FE U+1F6B4U+1F3FF" />
+        <softkey param_data="U+1F6B5" param_longpress_data="U+1F6B5 U+1F6B5U+1F3FB U+1F6B5U+1F3FC U+1F6B5U+1F3FD U+1F6B5U+1F3FE U+1F6B5U+1F3FF" />
+        <softkey param_data="U+1F3CEU+FE0F" />
+        <softkey param_data="U+1F3CDU+FE0F" />
+        <softkey param_data="U+1F938" param_longpress_data="U+1F938 U+1F938U+1F3FB U+1F938U+1F3FC U+1F938U+1F3FD U+1F938U+1F3FE U+1F938U+1F3FF" />
+        <softkey param_data="U+1F93B" param_longpress_data="U+1F93B U+1F93BU+1F3FB U+1F93BU+1F3FC U+1F93BU+1F3FD U+1F93BU+1F3FE U+1F93BU+1F3FF" />
+        <softkey param_data="U+1F93C" param_longpress_data="U+1F93C U+1F93CU+1F3FB U+1F93CU+1F3FC U+1F93CU+1F3FD U+1F93CU+1F3FE U+1F93CU+1F3FF" />
+        <softkey param_data="U+1F93D" param_longpress_data="U+1F93D U+1F93DU+1F3FB U+1F93DU+1F3FC U+1F93DU+1F3FD U+1F93DU+1F3FE U+1F93DU+1F3FF" />
+        <softkey param_data="U+1F93E" param_longpress_data="U+1F93E U+1F93EU+1F3FB U+1F93EU+1F3FC U+1F93EU+1F3FD U+1F93EU+1F3FE U+1F93EU+1F3FF" />
+        <softkey param_data="U+1F93A" />
+        <softkey param_data="U+1F945" />
+        <softkey param_data="U+1F939" param_longpress_data="U+1F939 U+1F939U+1F3FB U+1F939U+1F3FC U+1F939U+1F3FD U+1F939U+1F3FE U+1F939U+1F3FF" />
+        <softkey param_data="U+1F3AF" />
+        <softkey param_data="U+1F3AE" />
+        <softkey param_data="U+1F579U+FE0F" />
+        <softkey param_data="U+1F3B2" />
+        <softkey param_data="U+2660U+FE0F" />
+        <softkey param_data="U+2665U+FE0F" />
+        <softkey param_data="U+2666U+FE0F" />
+        <softkey param_data="U+2663U+FE0F" />
+        <softkey param_data="U+1F0CF" />
+        <softkey param_data="U+1F004U+FE0F" />
+        <softkey param_data="U+1F3B4" />
+    </softkey_list>
+</framework>

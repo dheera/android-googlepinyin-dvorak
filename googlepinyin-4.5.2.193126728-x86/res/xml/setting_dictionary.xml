@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/setting_advanced" android:key="@string/setting_dictionary_key"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.inputmethod.libs.framework.preference.widget.AutoSyncedCheckBoxPreference android:persistent="true" android:title="@string/setting_import_user_contacts_title" android:key="@string/pref_key_import_user_contacts" android:summary="@string/setting_import_user_contacts_summary" />
+    <PreferenceCategory android:title="@string/setting_update_category_title">
+        <com.google.android.apps.inputmethod.libs.framework.preference.widget.AutoSyncedCheckBoxPreference android:persistent="true" android:title="@string/setting_update_enabled_title" android:key="@string/pref_key_enable_dictionary_update" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/setting_update_notify_enabled_title" android:key="@string/pref_key_enable_notify_dictionary_update" android:dependency="@string/pref_key_enable_dictionary_update" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/setting_user_dictionary_category_title" android:key="@string/setting_user_dictionary_category_key">
+        <com.google.android.apps.inputmethod.libs.framework.preference.widget.AutoSyncedCheckBoxPreference android:persistent="true" android:title="@string/setting_sync_enabled_title" android:key="@string/pref_key_enable_sync_user_dictionary" />
+        <Preference android:persistent="false" android:title="@string/setting_sync_now_title" android:key="@string/setting_sync_now_key" android:dependency="@string/pref_key_enable_sync_user_dictionary" />
+        <Preference android:persistent="false" android:title="@string/setting_sync_clear_title" android:key="@string/setting_sync_clear_key" />
+        <Preference android:persistent="false" android:title="@string/setting_import_user_dictionary_title" android:key="@string/setting_import_user_dictionary_key" />
+        <Preference android:persistent="false" android:title="@string/setting_export_user_dictionary_title" android:key="@string/setting_export_user_dictionary_key" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/setting_shortcuts_dictionary_category_title" android:key="@string/setting_shortcuts_dictionary_category_key">
+        <CheckBoxPreference android:persistent="true" android:title="@string/setting_enable_shortcuts_dictionary_title" android:key="@string/pref_key_enable_shortcuts_dictionary" />
+        <Preference android:title="@string/setting_edit_shortcuts_dictionary_title" android:dependency="@string/pref_key_enable_shortcuts_dictionary">
+            <intent android:action="android.settings.USER_DICTIONARY_SETTINGS" />
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="keyboard_body_candidates_holder_height">40.0dip</dimen>
+    <dimen name="keyboard_body_candidates_holder_padding_bottom">4.0dip</dimen>
+    <dimen name="keyboard_body_candidates_holder_padding_left">5.0dip</dimen>
+    <dimen name="keyboard_body_candidates_holder_padding_right">15.0dip</dimen>
+    <dimen name="keyboard_body_candidates_holder_padding_top">4.0dip</dimen>
+    <dimen name="keyboard_body_candidates_page_updown_key_width">32.0dip</dimen>
+    <dimen name="keyboard_body_height_for_tv">230.0dip</dimen>
+    <dimen name="keyboard_input_area_height">190.0dip</dimen>
+    <dimen name="text_size_function_key_small_tv">11.0dip</dimen>
+    <dimen name="text_size_function_key_tv">14.0dip</dimen>
+    <dimen name="tv_keyboard_body_padding_bottom">20.0dip</dimen>
+    <dimen name="tv_keyboard_body_padding_top">10.0dip</dimen>
+    <dimen name="tv_separator_phonenumber_padding_bottom">30.0dip</dimen>
+    <dimen name="tv_separator_phonenumber_padding_top">20.0dip</dimen>
+</resources>

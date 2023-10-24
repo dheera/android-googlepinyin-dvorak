@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping view_id="@id/key_pos_non_prime_sub_category_1" key_id="@id/softkey_non_prime_smiley_sub_category_1_deactive" />
+        <mapping view_id="@id/key_pos_non_prime_sub_category_2" key_id="@id/softkey_non_prime_smiley_sub_category_2_deactive" />
+        <mapping view_id="@id/key_pos_non_prime_sub_category_3" key_id="@id/softkey_non_prime_smiley_sub_category_3_deactive" />
+        <mapping view_id="@id/key_pos_non_prime_sub_category_4" key_id="@id/softkey_non_prime_smiley_sub_category_4_deactive" />
+        <mapping view_id="@id/key_pos_non_prime_sub_category_5" key_id="@id/softkey_non_prime_smiley_sub_category_5_deactive" />
+        <mapping view_id="@id/key_pos_non_prime_sub_category_6" key_id="@id/softkey_non_prime_smiley_sub_category_6_deactive" />
+        <mapping view_id="@id/key_pos_non_prime_sub_category_7" key_id="@id/softkey_non_prime_smiley_sub_category_7_deactive" />
+        <mapping view_id="@id/key_pos_non_prime_sub_category_8" key_id="@id/softkey_non_prime_smiley_sub_category_8_deactive" />
+        <mapping view_id="@id/key_pos_non_prime_sub_category_9" key_id="@id/softkey_non_prime_smiley_sub_category_9_deactive" />
+    </key_mapping>
+    <key_mapping state="SUB_CATEGORY_1">
+        <mapping view_id="@id/key_pos_non_prime_sub_category_1" key_id="@id/softkey_non_prime_smiley_sub_category_1_active" />
+    </key_mapping>
+    <key_mapping state="SUB_CATEGORY_2">
+        <mapping view_id="@id/key_pos_non_prime_sub_category_2" key_id="@id/softkey_non_prime_smiley_sub_category_2_active" />
+    </key_mapping>
+    <key_mapping state="SUB_CATEGORY_3">
+        <mapping view_id="@id/key_pos_non_prime_sub_category_3" key_id="@id/softkey_non_prime_smiley_sub_category_3_active" />
+    </key_mapping>
+    <key_mapping state="SUB_CATEGORY_4">
+        <mapping view_id="@id/key_pos_non_prime_sub_category_4" key_id="@id/softkey_non_prime_smiley_sub_category_4_active" />
+    </key_mapping>
+    <key_mapping state="SUB_CATEGORY_5">
+        <mapping view_id="@id/key_pos_non_prime_sub_category_5" key_id="@id/softkey_non_prime_smiley_sub_category_5_active" />
+    </key_mapping>
+    <key_mapping state="SUB_CATEGORY_6">
+        <mapping view_id="@id/key_pos_non_prime_sub_category_6" key_id="@id/softkey_non_prime_smiley_sub_category_6_active" />
+    </key_mapping>
+    <key_mapping state="SUB_CATEGORY_7">
+        <mapping view_id="@id/key_pos_non_prime_sub_category_7" key_id="@id/softkey_non_prime_smiley_sub_category_7_active" />
+    </key_mapping>
+    <key_mapping state="SUB_CATEGORY_8">
+        <mapping view_id="@id/key_pos_non_prime_sub_category_8" key_id="@id/softkey_non_prime_smiley_sub_category_8_active" />
+    </key_mapping>
+    <key_mapping state="SUB_CATEGORY_9">
+        <mapping view_id="@id/key_pos_non_prime_sub_category_9" key_id="@id/softkey_non_prime_smiley_sub_category_9_active" />
+    </key_mapping>
+</framework>

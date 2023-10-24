@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey id="@id/softkey_9key_space_pinyin_zh" layout="@layout/softkey_space_label_small_grey_label_sup_dark" popup_timing="ON_GESTURE" multi_touch="false" content_description="@string/space_key_content_desc">
+            <action type="PRESS" keycode="SPACE" data=" " />
+            <action type="LONG_PRESS" keycode="KEYCODE_0" data="0" intention="COMMIT" popup_label="0" popup_layout="@layout/popup_square_bubble" />
+            <label location="@id/label" value="@string/label_space_pinyin" />
+            <label location="@id/label_sup" value="0" />
+        </softkey>
+    </softkeys>
+</framework>

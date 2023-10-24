@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="first_run_page_content_padding">25.0dip</dimen>
+    <dimen name="first_run_page_navigation_text_padding">12.0dip</dimen>
+    <dimen name="first_run_page_navigation_text_size">18.0dip</dimen>
+</resources>

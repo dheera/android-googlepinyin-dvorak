@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template id="@id/softkey_template_action_key" layout="@layout/softkey_ime_action_icon" content_description="$desc$" alpha="$icon_alpha$">
+            <action type="PRESS" keycode="IME_ACTION" data="$param_data$" />
+            <icon location="@id/icon" value="$param_icon$" />
+        </softkey_template>
+    </softkeys>
+</framework>

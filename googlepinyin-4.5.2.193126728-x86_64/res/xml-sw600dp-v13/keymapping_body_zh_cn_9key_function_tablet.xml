@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/keymapping_function_ime_action_zh" />
+    <include href="@xml/keymapping_function_switch_language" />
+    <include href="@xml/keymapping_function_switch_to_smiley" />
+    <key_mapping>
+        <mapping view_id="@id/key_pos_page_down" key_id="@id/softkey_page_down" />
+        <mapping view_id="@id/key_pos_page_up" key_id="@id/softkey_page_up" />
+        <mapping view_id="@id/key_pos_switch_to_symbol" key_id="@id/softkey_switch_to_non_prime_keyboard" />
+        <mapping view_id="@id/key_pos_settings" key_id="@id/softkey_settings_key" />
+        <mapping view_id="@id/key_pos_move_cursor" key_id="@id/softkey_move_cursor" />
+        <mapping view_id="@id/key_pos_del" key_id="@id/softkey_del" />
+        <mapping view_id="@id/key_pos_shift" key_id="@id/softkey_9key_zh_shift" />
+        <mapping view_id="@id/key_pos_shift_right" key_id="@id/softkey_9key_zh_shift" />
+    </key_mapping>
+    <key_mapping state="FIRST_PAGE">
+        <mapping view_id="@id/key_pos_page_up" key_id="@id/softkey_page_up_disabled" />
+    </key_mapping>
+    <key_mapping state="LAST_PAGE">
+        <mapping view_id="@id/key_pos_page_down" key_id="@id/softkey_page_down_disabled" />
+    </key_mapping>
+    <key_mapping state="COMPOSING">
+        <mapping view_id="@id/key_pos_switch_to_smiley" key_id="@id/softkey_clear_all" />
+        <mapping view_id="@id/key_pos_del" key_id="@id/softkey_del_composing" />
+        <mapping view_id="@id/key_pos_shift" key_id="@id/softkey_ci" />
+    </key_mapping>
+    <key_mapping state="SHIFT">
+        <mapping view_id="@id/key_pos_move_cursor" key_id="@id/softkey_space_key" />
+    </key_mapping>
+    <key_mapping state="SHIFT_LOCK">
+        <mapping view_id="@id/key_pos_shift" key_id="@id/softkey_9key_zh_shift_locked" />
+        <mapping view_id="@id/key_pos_shift_right" key_id="@id/softkey_9key_zh_shift_locked" />
+    </key_mapping>
+</framework>

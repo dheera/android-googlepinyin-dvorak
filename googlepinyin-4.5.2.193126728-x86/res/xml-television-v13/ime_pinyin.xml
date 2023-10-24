@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime string_id="pinyin_for_tv" class="com.google.android.apps.inputmethod.libs.chinese.ime.AsyncChineseProcessorBasedIme" language="zh-CN" inline_composing="true" announce_auto_selected_candidate="true" label="@string/pinyin_qwerty_ime_label">
+        <keyboard_group>
+            <keyboard type="prime" def="@xml/keyboard_pinyin" />
+        </keyboard_group>
+        <extra_values>
+            <item id="@id/extra_value_period" value="。" />
+        </extra_values>
+        <include href="@xml/processors_zh_cn_pinyin_qwerty" />
+    </ime>
+</framework>

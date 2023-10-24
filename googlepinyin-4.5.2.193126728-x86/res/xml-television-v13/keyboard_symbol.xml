@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard id="@id/keyboard_non_prime_symbol" class=".libs.tv.keyboard.TVKeyboard">
+        <view layout="@layout/keyboard_body" type="body">
+            <motion_event_handler class=".libs.tv.keyboard.handler.TVMotionEventHandler" />
+            <softkeys href="@xml/softkeys_input_symbol" />
+            <softkeys href="@xml/softkeys_header_plain" />
+            <softkeys href="@xml/softkeys_function_tv" />
+            <softkeys href="@xml/softkeys_function_switch_keyboard" />
+            <softkeys href="@xml/softkeys_function_ime_action" />
+            <include href="@xml/keymapping_body_symbol_zh" />
+            <include href="@xml/keymapping_left_panel_symbol" />
+            <include href="@xml/keymapping_right_side_panel" />
+            <include href="@xml/keymapping_body_candidates" />
+            <include href="@xml/keymapping_function" />
+            <include href="@xml/keymapping_function_ime_action" />
+        </view>
+    </keyboard>
+</framework>
