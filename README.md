@@ -1,6 +1,6 @@
 # 谷歌拼音 - Dvorak改版
 
-**(Google Pinyin Dvorak mod)**
+**(Google Pinyin Dvorak mod for Android)**
 
 ## APK下載鏈接
 
