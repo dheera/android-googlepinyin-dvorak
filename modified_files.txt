@@ -1,0 +1,11 @@
+res/layout/keyboard_qwerty_input_area.xml
+res/layout-sw600dp-v13/keyboard_qwerty_input_area.xml
+res/values/ids.xml
+res/values/strings.xml
+res/values-zh/strings.xml
+res/values-zh-rHK/strings.xml
+res/values-zh-rTW/strings.xml
+res/xml/keymapping_body_en_qwerty.xml
+res/xml/keymapping_zh_pinyin_qwerty_base.xml
+res/xml/softkeys_input_en_qwerty.xml
+res/xml/softkeys_input_zh_pinyin_qwerty.xml
