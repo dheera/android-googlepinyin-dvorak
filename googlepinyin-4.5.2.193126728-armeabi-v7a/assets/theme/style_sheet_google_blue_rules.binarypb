@@ -1,0 +1,9 @@
+
+&
+.icon.active"color_action_default
+7
+.popup-item:pressed"color_state_popup_item_pressed
+B
+.label.for-popup-item:pressed"color_state_popup_label_pressed
+2
+.label.for-popup-item"color_state_popup_label

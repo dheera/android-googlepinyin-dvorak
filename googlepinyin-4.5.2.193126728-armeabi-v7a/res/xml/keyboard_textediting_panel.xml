@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard id="@id/keyboard_text_editing_panel" class=".keyboard.Keyboard">
+        <view id="@id/keyboard_textediting_popup_panel" layout="@layout/keyboard_textediting">
+            <motion_event_handler class=".libs.framework.keyboard.handler.BasicMotionEventHandler" />
+            <softkeys href="@xml/softkeys_textediting" />
+            <include href="@xml/keymapping_textediting" />
+        </view>
+    </keyboard>
+</framework>

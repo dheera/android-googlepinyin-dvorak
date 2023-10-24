@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/keymapping_body_candidates_ime_action_short_message_without_emoji" />
+</framework>

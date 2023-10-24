@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_marginTop="@dimen/first_run_page_header_padding_top" android:src="@drawable/ic_first_run_page_app_logo_alia" android:scaleType="centerInside" style="@style/FirstRunPageHeader" />
+</merge>

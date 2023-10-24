@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/setting_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:persistent="false" android:title="@string/setting_about_version_title" android:selectable="false" android:key="@string/setting_version_key" />
+    <Preference android:persistent="false" android:title="@string/setting_tos_title" android:summary="@string/setting_tos_description">
+        <extra android:name="START_ACTIVITY" android:value="com.google.android.apps.inputmethod.libs.tv.MiniBrowserActivity" />
+        <extra android:name="START_ACTIVITY_DATA" android:value="@string/tos_url" />
+    </Preference>
+    <Preference android:persistent="false" android:title="@string/setting_privacy_title" android:summary="@string/setting_privacy_description">
+        <extra android:name="START_ACTIVITY" android:value="com.google.android.apps.inputmethod.libs.tv.MiniBrowserActivity" />
+        <extra android:name="START_ACTIVITY_DATA" android:value="@string/privacy_url" />
+    </Preference>
+    <Preference android:persistent="false" android:title="@string/setting_license_title" android:summary="@string/setting_license_summary">
+        <extra android:name="START_ACTIVITY" android:value="com.google.android.apps.inputmethod.libs.tv.MiniBrowserActivity" />
+        <extra android:name="START_ACTIVITY_DATA" android:value="@string/open_source_url" />
+    </Preference>
+</PreferenceScreen>

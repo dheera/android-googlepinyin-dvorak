@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_weight="@integer/keyboard_input_area_left_side_weight" style="@style/Linear.WidthWeighted.Vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="@integer/keyboard_input_area_weight">
+        <ImageView style="@style/KeyboardSeparator.OnRight" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_page_up" android:layout_weight="1.0" style="@style/SoftKey.BigInset.Dark.InColumn" />
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_page_down" android:layout_weight="1.0" style="@style/SoftKey.BigInset.Dark.InColumn" />
+            <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_shift" android:layout_weight="1.0" style="@style/SoftKey.BigInset.Dark.InColumn" />
+        </LinearLayout>
+    </FrameLayout>
+    <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_switch_to_symbol" android:layout_weight="@integer/keyboard_bottom_weight" style="@style/SoftKey.BigInset.Dark.InColumn" />
+</LinearLayout>

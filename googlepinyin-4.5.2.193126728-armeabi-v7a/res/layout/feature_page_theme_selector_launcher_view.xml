@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/feature_page_theme_selector_launcher_view" android:contentDescription="@string/feature_page_theme_selector_launcher_content_desc" style="@style/FeaturePageThemeItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/feature_page_red_theme_frame_layout" android:transformPivotX="@dimen/feature_page_theme_selector_launcher_bottom_item_pivot_x" android:transformPivotY="@dimen/feature_page_theme_selector_launcher_bottom_item_pivot_y" android:importantForAccessibility="no" style="@style/FeaturePageThemeSelectorLauncherHolder" />
+    <FrameLayout android:id="@id/feature_page_deep_purple_theme_frame_layout" android:importantForAccessibility="no" style="@style/FeaturePageThemeSelectorLauncherHolder" />
+    <FrameLayout android:id="@id/feature_page_pink_theme_frame_layout" android:transformPivotX="@dimen/feature_page_theme_selector_launcher_top_item_pivot_x" android:transformPivotY="@dimen/feature_page_theme_selector_launcher_top_item_pivot_y" android:importantForAccessibility="no" style="@style/FeaturePageThemeSelectorLauncherHolder" />
+</FrameLayout>

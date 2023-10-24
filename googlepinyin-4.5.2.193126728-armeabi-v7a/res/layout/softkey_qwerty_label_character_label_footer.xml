@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/Linear.Vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.inputmethod.libs.framework.keyboard.widget.AutoCenteredLabelView android:id="@id/label" enable_relayout="false" style="@style/Label.Qwerty" />
+    <com.google.android.apps.inputmethod.libs.framework.keyboard.widget.AutoCenteredLabelView android:id="@id/label_footer" style="@style/LabelSecondary.Qwerty.Bottom" />
+</LinearLayout>

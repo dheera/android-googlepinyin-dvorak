@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/softkeys_input_tv_templates" />
+    <softkeys>
+        <softkey_list template_id="@id/softkey_template_for_tv">
+            <softkey id="@id/softkey_pinyin_a" press_data="a" />
+            <softkey id="@id/softkey_pinyin_b" press_data="b" />
+            <softkey id="@id/softkey_pinyin_c" press_data="c" />
+            <softkey id="@id/softkey_pinyin_d" press_data="d" />
+            <softkey id="@id/softkey_pinyin_e" press_data="e" />
+            <softkey id="@id/softkey_pinyin_f" press_data="f" />
+            <softkey id="@id/softkey_pinyin_g" press_data="g" />
+            <softkey id="@id/softkey_pinyin_h" press_data="h" />
+            <softkey id="@id/softkey_pinyin_i" press_data="i" />
+            <softkey id="@id/softkey_pinyin_j" press_data="j" />
+            <softkey id="@id/softkey_pinyin_k" press_data="k" />
+            <softkey id="@id/softkey_pinyin_l" press_data="l" />
+            <softkey id="@id/softkey_pinyin_m" press_data="m" />
+            <softkey id="@id/softkey_pinyin_n" press_data="n" />
+            <softkey id="@id/softkey_pinyin_o" press_data="o" />
+            <softkey id="@id/softkey_pinyin_p" press_data="p" />
+            <softkey id="@id/softkey_pinyin_q" press_data="q" />
+            <softkey id="@id/softkey_pinyin_r" press_data="r" />
+            <softkey id="@id/softkey_pinyin_s" press_data="s" />
+            <softkey id="@id/softkey_pinyin_t" press_data="t" />
+            <softkey id="@id/softkey_pinyin_u" press_data="u" />
+            <softkey id="@id/softkey_pinyin_v" press_data="v" />
+            <softkey id="@id/softkey_pinyin_w" press_data="w" />
+            <softkey id="@id/softkey_pinyin_x" press_data="x" />
+            <softkey id="@id/softkey_pinyin_y" press_data="y" />
+            <softkey id="@id/softkey_pinyin_z" press_data="z" />
+        </softkey_list>
+        <softkey_list template_id="@id/softkey_template_for_tv_dim">
+            <softkey id="@id/softkey_sentence" press_data="。" desc="@string/full_width_period_key_content_desc" />
+            <softkey id="@id/softkey_comma" press_data="，" desc="@string/full_width_comma_key_content_desc" />
+        </softkey_list>
+        <softkey id="@id/softkey_ci" layout="@layout/softkey_icon" multi_touch="false" content_description="@string/separator_key_content_desc" alpha="204">
+            <action type="PRESS" keycode="APOSTROPHE" data="'" intention="DECODE" />
+            <icon location="@id/icon" value="@drawable/ic_key_ci_white" />
+        </softkey>
+    </softkeys>
+</framework>

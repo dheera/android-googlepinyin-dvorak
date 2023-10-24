@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/softkeys_input_symbol_numbers" />
+    <include href="@xml/softkeys_input_symbol_basic_symbols" />
+    <softkey_list template_id="@id/softkey_template_light_symbol" splitter=" ">
+        <softkey param_data="“" desc="@string/left_double_quotation_key_content_desc" />
+        <softkey param_data="”" desc="@string/right_double_quotation_key_content_desc" />
+        <softkey param_data="=" long_press_data="≠ ≈ ∞" />
+        <softkey param_data="、" desc="@string/slight_pause_mark_key_content_desc" />
+        <softkey param_data="：" desc="@string/full_width_colon_key_content_desc" />
+        <softkey param_data="；" desc="@string/full_width_semicolon_key_content_desc" />
+        <softkey param_data="？" desc="@string/full_width_question_mark_key_content_desc" />
+        <softkey param_data="！" desc="@string/full_width_exclamation_key_content_desc" />
+        <softkey param_data="～" desc="@string/full_width_tilde_key_content_desc" />
+        <softkey param_data="+" long_press_data="±" />
+        <softkey param_data="-" long_press_data="— _ – ·" desc="@string/minus_key_content_desc" />
+        <softkey param_data="/" />
+        <softkey param_data="\\" />
+        <softkey param_data="|" />
+        <softkey param_data="[" />
+        <softkey param_data="]" />
+        <softkey param_data="{" />
+        <softkey param_data="}" />
+        <softkey param_data="…" />
+        <softkey param_data="·" desc="@string/middle_dot_key_content_desc" />
+        <softkey param_data="&lt;" long_press_data="≤ ‹ «" />
+        <softkey param_data=">" long_press_data="≥ › »" />
+        <softkey param_data="—" />
+        <softkey param_data="_" />
+        <softkey param_data="‘" desc="@string/left_single_quotation_key_content_desc" />
+        <softkey param_data="’" desc="@string/right_single_quotation_key_content_desc" />
+        <softkey param_data="'" />
+        <softkey param_data="&quot;" />
+        <softkey param_data="`" />
+        <softkey param_data=":" />
+        <softkey param_data=";" />
+        <softkey param_data="\?" />
+        <softkey param_data="~" />
+        <softkey param_data="／" />
+        <softkey param_data="¡" />
+        <softkey param_data="¿" />
+        <softkey param_data="￥" />
+        <softkey param_data="€" />
+        <softkey param_data="£" />
+        <softkey param_data="¢" />
+        <softkey param_data="©" />
+        <softkey param_data="®" />
+        <softkey param_data="™" />
+        <softkey param_data="‖" />
+        <softkey param_data="‗" />
+        <softkey param_data="‚" />
+        <softkey param_data="„" />
+        <softkey param_data="†" />
+        <softkey param_data="‡" />
+        <softkey param_data="‥" />>
+<softkey param_data="※" />
+        <softkey param_data="‼" />
+        <softkey param_data="⁇" />
+        <softkey param_data="⁈" />
+        <softkey param_data="⁉" />
+        <softkey param_data="℃" />
+        <softkey param_data="℉" />
+        <softkey param_data="°" />
+        <softkey param_data="§" />
+        <softkey param_data="№" />
+        <softkey param_data="¤" />
+        <softkey param_data="µ" />
+        <softkey param_data="々" />
+        <softkey param_data="〒" />
+    </softkey_list>
+</framework>

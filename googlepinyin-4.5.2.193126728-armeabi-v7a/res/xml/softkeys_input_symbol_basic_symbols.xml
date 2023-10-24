@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkey_list template_id="@id/softkey_template_light_symbol" splitter=" ">
+        <softkey param_data="!" long_press_data="¡" />
+        <softkey param_data="\@" />
+        <softkey param_data="\#" />
+        <softkey param_data="$" long_press_data="¢ € £ ₱ ¥" />
+        <softkey param_data="%" long_press_data="‰" />
+        <softkey param_data="^" long_press_data="↑ ↓ ← →" />
+        <softkey param_data="&amp;" />
+        <softkey param_data="*" long_press_data="★ † ‡" />
+        <softkey param_data="(" long_press_data="&lt; { [" />
+        <softkey param_data=")" long_press_data="> } ]" />
+    </softkey_list>
+</framework>

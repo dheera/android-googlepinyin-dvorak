@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping view_id="@id/key_pos_space" key_id="@id/softkey_fullscreen_handwriting_space" />
+        <mapping view_id="@id/key_pos_toggle_fullscreen" key_id="@id/softkey_switch_to_halfscreen" />
+    </key_mapping>
+    <include href="@xml/keymapping_function_handwriting" />
+    <include href="@xml/keymapping_punctuation_fullscreen_handwriting" />
+    <include href="@xml/keymapping_fullscreen_handwriting_switch_to_next_language" />
+    <include href="@xml/keymapping_fullscreen_handwriting_override" />
+</framework>

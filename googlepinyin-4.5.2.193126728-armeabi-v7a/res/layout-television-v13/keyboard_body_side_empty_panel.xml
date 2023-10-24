@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View android:layout_weight="@integer/keyboard_body_side_empty_panel_weight" style="@style/HorizontalEmptyPanel"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

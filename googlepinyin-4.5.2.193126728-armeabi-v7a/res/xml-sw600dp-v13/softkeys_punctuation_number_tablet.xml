@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template id="@id/softkey_template_punctuation_number_tablet" layout="@layout/softkey_label_medium" slide_sensitivity="NORMAL" multi_touch="false" content_description="$desc$">
+            <action type="PRESS" data="$press_data$" keycode="$keycode$" intention="COMMIT" />
+            <label location="@id/label" value="$press_data$" />
+        </softkey_template>
+        <softkey_list template_id="@id/softkey_template_punctuation_number_tablet">
+            <softkey id="@id/softkey_minus" press_data="-" keycode="MINUS" desc="@string/minus_key_content_desc" />
+            <softkey id="@id/softkey_add" press_data="+" keycode="PLUS" desc="@string/plus_key_content_desc" />
+            <softkey id="@id/softkey_left_bracket" press_data="(" keycode="PLAIN_TEXT" />
+            <softkey id="@id/softkey_right_bracket" press_data=")" keycode="PLAIN_TEXT" />
+            <softkey id="@id/softkey_equal" press_data="=" keycode="PLAIN_TEXT" desc="@string/equals_key_content_desc" />
+            <softkey id="@id/softkey_asterisk" press_data="*" keycode="STAR" />
+            <softkey id="@id/softkey_pound" press_data="\#" keycode="POUND" />
+        </softkey_list>
+    </softkeys>
+</framework>

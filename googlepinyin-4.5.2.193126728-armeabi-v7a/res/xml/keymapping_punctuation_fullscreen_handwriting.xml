@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping view_id="@id/key_pos_punctuation_1" key_id="@id/softkey_comma" />
+        <mapping view_id="@id/key_pos_punctuation_2" key_id="@id/softkey_sentence" />
+        <mapping view_id="@id/key_pos_punctuation_3" key_id="@id/softkey_colon" />
+        <mapping view_id="@id/key_pos_punctuation_4" key_id="@id/softkey_semicolon" />
+    </key_mapping>
+</framework>

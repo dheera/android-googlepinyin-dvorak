@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="suggested_punctuations" />
+    <string name="symbols_sentence_terminators">".?!
+。？！"</string>
+    <string name="symbols_word_separators">" \u0009
+ ()[]{}*&amp; &lt; > += |., ;:!?/\"、：；（）〜…。？！"</string>
+    <string name="words_suppress_autocap_after_period">aka inc vs</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.framework.keyboard.widget.LinearSoftKeyViewsPage style="@style/InputArea.Qwerty"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/KeyboardRow">
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:layout_weight="100.0" style="@style/SoftKey.BigInset.DelayPressEffect" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:layout_weight="100.0" style="@style/SoftKey.BigInset.DelayPressEffect" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:layout_weight="100.0" style="@style/SoftKey.BigInset.DelayPressEffect" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:layout_weight="100.0" style="@style/SoftKey.BigInset.DelayPressEffect" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:layout_weight="100.0" style="@style/SoftKey.BigInset.DelayPressEffect" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:layout_weight="100.0" style="@style/SoftKey.BigInset.DelayPressEffect" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:layout_weight="100.0" style="@style/SoftKey.BigInset.DelayPressEffect" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:layout_weight="100.0" style="@style/SoftKey.BigInset.DelayPressEffect" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:layout_weight="100.0" style="@style/SoftKey.BigInset.DelayPressEffect" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:layout_weight="100.0" style="@style/SoftKey.BigInset.DelayPressEffect" />
+    </LinearLayout>
+    <LinearLayout style="@style/KeyboardRow">
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:layout_weight="100.0" style="@style/SoftKey.BigInset.DelayPressEffect" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:layout_weight="100.0" style="@style/SoftKey.BigInset.DelayPressEffect" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:layout_weight="100.0" style="@style/SoftKey.BigInset.DelayPressEffect" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:layout_weight="100.0" style="@style/SoftKey.BigInset.DelayPressEffect" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:layout_weight="100.0" style="@style/SoftKey.BigInset.DelayPressEffect" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:layout_weight="100.0" style="@style/SoftKey.BigInset.DelayPressEffect" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:layout_weight="100.0" style="@style/SoftKey.BigInset.DelayPressEffect" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:layout_weight="100.0" style="@style/SoftKey.BigInset.DelayPressEffect" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:layout_weight="100.0" style="@style/SoftKey.BigInset.DelayPressEffect" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:layout_weight="100.0" style="@style/SoftKey.BigInset.DelayPressEffect" />
+    </LinearLayout>
+    <LinearLayout android:gravity="right" style="@style/KeyboardRow">
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:layout_weight="100.0" style="@style/SoftKey.BigInset.DelayPressEffect" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:layout_weight="100.0" style="@style/SoftKey.BigInset.DelayPressEffect" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:layout_weight="100.0" style="@style/SoftKey.BigInset.DelayPressEffect" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:layout_weight="100.0" style="@style/SoftKey.BigInset.DelayPressEffect" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:layout_weight="100.0" style="@style/SoftKey.BigInset.DelayPressEffect" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:layout_weight="100.0" style="@style/SoftKey.BigInset.DelayPressEffect" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:layout_weight="100.0" style="@style/SoftKey.BigInset.DelayPressEffect" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:layout_weight="100.0" style="@style/SoftKey.BigInset.DelayPressEffect" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_del" android:layout_weight="150.0" style="@style/SoftKey.BigInset.Dark.DelayPressEffect" />
+    </LinearLayout>
+</com.google.android.apps.inputmethod.libs.framework.keyboard.widget.LinearSoftKeyViewsPage>

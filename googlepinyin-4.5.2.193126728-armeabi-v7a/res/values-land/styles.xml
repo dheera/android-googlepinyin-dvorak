@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="FeaturePageTextArea">
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:layout_weight">@integer/feature_page_demo_text_area_weight</item>
+    </style>
+    <style name="SoftKeyCandidateBarShowMoreCandidate">
+        <item name="android:layout_gravity">right</item>
+        <item name="android:background">?BgKeyRectPressedSelector</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:minWidth">@dimen/softkey_show_more_candidates_min_width</item>
+    </style>
+</resources>

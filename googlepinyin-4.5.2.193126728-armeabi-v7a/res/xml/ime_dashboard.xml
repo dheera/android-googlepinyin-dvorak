@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime string_id="dashboard" class="com.google.android.apps.inputmethod.libs.framework.core.DummyIme" language="und-x-dashboard" label="@string/dashboard_ime_label">
+        <keyboard_group>
+            <keyboard type="prime" def="@xml/keyboard_dashboard" />
+        </keyboard_group>
+    </ime>
+</framework>

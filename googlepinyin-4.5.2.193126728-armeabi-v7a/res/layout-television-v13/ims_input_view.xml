@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.framework.core.InputView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/keyboard_area" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.apps.inputmethod.libs.framework.core.ShrinkableFrameView style="@style/KeyboardBackgroundFrame" />
+        <com.google.android.apps.inputmethod.libs.framework.core.KeyboardHolder android:orientation="vertical" android:id="@id/keyboard_holder" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.google.android.apps.inputmethod.libs.framework.core.KeyboardViewHolderGroup android:id="@id/header_group_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.apps.inputmethod.libs.framework.core.KeyboardViewHolder style="@style/KeyboardHeaderViewHolder" />
+                <com.google.android.apps.inputmethod.libs.framework.core.KeyboardViewHolder style="@style/ExtensionHeaderViewHolder" />
+            </com.google.android.apps.inputmethod.libs.framework.core.KeyboardViewHolderGroup>
+            <com.google.android.apps.inputmethod.libs.framework.core.KeyboardViewHolderGroup android:id="@id/body_group_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.apps.inputmethod.libs.framework.core.KeyboardViewHolder style="@style/KeyboardBodyViewHolder" />
+                <com.google.android.apps.inputmethod.libs.framework.core.KeyboardViewHolder style="@style/ExtensionBodyViewHolder" />
+            </com.google.android.apps.inputmethod.libs.framework.core.KeyboardViewHolderGroup>
+        </com.google.android.apps.inputmethod.libs.framework.core.KeyboardHolder>
+    </FrameLayout>
+</com.google.android.apps.inputmethod.libs.framework.core.InputView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/keymapping_body_zh_cn_9key_function_tablet" />
+    <include href="@xml/keymapping_stroke" />
+    <include href="@xml/keymapping_zh_cn_stroke_space_tablet" />
+    <include href="@xml/keymapping_bottom_zh_cn_9key_symbol_tablet" />
+</framework>

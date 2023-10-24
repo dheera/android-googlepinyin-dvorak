@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.framework.keyboard.widget.AutoSizeTextView android:textSize="13.0sp" android:layout_gravity="center" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-medium"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

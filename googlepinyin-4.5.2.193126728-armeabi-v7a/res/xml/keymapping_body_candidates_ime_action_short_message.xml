@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping state="INPUT_TYPE_SHORT_MESSAGE+EMOTICON_AVAILABLE">
+        <mapping view_id="@id/key_pos_candidates_ime_action" key_id="@id/softkey_switch_to_emoticon_as_action" />
+    </key_mapping>
+    <key_mapping state="INPUT_TYPE_SHORT_MESSAGE+EMOJI_AVAILABLE">
+        <mapping view_id="@id/key_pos_candidates_ime_action" key_id="@id/softkey_switch_to_emoji_as_action" />
+    </key_mapping>
+    <merge_key_mapping state="INPUT_TYPE_SHORT_MESSAGE+MULTI_LINE">
+        <merge view_id="@id/key_pos_candidates_ime_action" key_id="@id/softkey_fragment_action_key_popup_insert_new_line" />
+    </merge_key_mapping>
+</framework>

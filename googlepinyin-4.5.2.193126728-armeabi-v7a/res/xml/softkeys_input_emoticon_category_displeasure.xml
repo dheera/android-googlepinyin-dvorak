@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkey_list template_id="@id/softkey_template_light_emoticon">
+        <softkey param_data=":(" />
+        <softkey param_data=":|" />
+        <softkey param_data=":-(" />
+        <softkey param_data=":-P" />
+        <softkey param_data="=_=" />
+        <softkey param_data="(--)" />
+        <softkey param_data="(｀´）" />
+        <softkey param_data="(-_-)" />
+        <softkey param_data="(-.-)" />
+        <softkey param_data="(=_=)" />
+        <softkey param_data="(︶^︶)" />
+        <softkey param_data="→_→" />
+        <softkey param_data="←_←" />
+        <softkey param_data="(~o~)" />
+        <softkey param_data="(~_~)" />
+        <softkey param_data="(~O~)" />
+        <softkey param_data="(ー_ー)" />
+        <softkey param_data="( 一一)" />
+        <softkey param_data="(・へ・)" />
+        <softkey param_data="(ーー゛)" />
+        <softkey param_data="(－－〆)" />
+        <softkey param_data="(#･∀･)" />
+        <softkey param_data="(-_-;)" />
+        <softkey param_data="(~_~;)" />
+        <softkey param_data="(-.-;)" />
+        <softkey param_data="(=_=;)" />
+        <softkey param_data="(~O~;)" />
+        <softkey param_data="(=o=;)" />
+        <softkey param_data="(-_-メ)" />
+        <softkey param_data="(~_~メ)" />
+        <softkey param_data="(^_^メ)" />
+        <softkey param_data="(ー_ー;)" />
+        <softkey param_data="(；一_一)" />
+        <softkey param_data="((+_+))" />
+        <softkey param_data="(# ﾟДﾟ)" />
+        <softkey param_data="( ´Д｀)=3" />
+        <softkey param_data="٩(๑`^´๑)۶" />
+        <softkey param_data="٩(๑òωó๑)۶" />
+    </softkey_list>
+</framework>

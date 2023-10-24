@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/ime_pinyin" />
+    <include href="@xml/ime_en" />
+    <include href="@xml/ime_en_und" />
+</framework>

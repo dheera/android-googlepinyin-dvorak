@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyboardView android:id="@id/access_point_panel_softkeyboardview" android:tag=".keyboard-body-area" android:background="?BgKeyboardBody" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/keyboard_incognito_overlay_body" />
+    <com.google.android.apps.inputmethod.libs.framework.keyboard.widget.AccessPointsPanel android:id="@id/access_points_panel" style="@style/AccessPointsPanel">
+        <LinearLayout android:id="@id/access_points_holder_view" style="@style/MorePanelAccessPointsHolderView" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_show_more_apps" style="@style/MorePanelShowMoreAppsButton" />
+    </com.google.android.apps.inputmethod.libs.framework.keyboard.widget.AccessPointsPanel>
+</com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyboardView>

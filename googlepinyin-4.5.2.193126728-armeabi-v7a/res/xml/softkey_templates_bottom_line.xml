@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template id="@id/softkey_template_bottom_line_punctuation_bottom" layout="$param_layout$" multi_touch="false" popup_timing="@string/qwerty_popup_timing" content_description="$desc$">
+            <action type="PRESS" keycode="$param_keycode$" data="$param_data$" intention="COMMIT" popup_label="$param_data$" />
+            <label location="@id/label_bottom" value="$param_data$" />
+        </softkey_template>
+        <softkey_template id="@id/softkey_template_bottom_line_punctuation_bottom_popup_label_small" layout="$param_layout$" multi_touch="false" popup_timing="@string/qwerty_popup_timing" content_description="$desc$">
+            <action type="PRESS" keycode="$param_keycode$" data="$param_data$" intention="COMMIT" popup_label="$param_data$" />
+            <action type="LONG_PRESS" data="$long_press_data$" keycode="PLAIN_TEXT" intention="COMMIT" popup_label="$long_press_data$" popup_layout="@attr/PopupBubbleRectangularLabelSmallLayout" />
+            <label location="@id/label_bottom" value="$param_data$" />
+        </softkey_template>
+        <softkey_template id="@id/softkey_template_bottom_line_punctuation" layout="$param_layout$" multi_touch="false" popup_timing="@string/qwerty_popup_timing" content_description="$desc$">
+            <action type="PRESS" keycode="$param_keycode$" data="$param_data$" intention="COMMIT" popup_label="$param_data$" />
+            <action type="LONG_PRESS" data="$long_press_data$" keycode="$param_keycode$" intention="COMMIT" popup_label="$long_press_data$" popup_layout="@attr/PopupBubbleRectangularLabelSmallLayout" />
+            <label location="@id/label" value="$param_data$" />
+        </softkey_template>
+    </softkeys>
+</framework>

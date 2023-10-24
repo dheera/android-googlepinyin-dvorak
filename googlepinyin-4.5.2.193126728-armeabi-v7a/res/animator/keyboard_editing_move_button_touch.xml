@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:duration="@integer/keyboard_editing_move_button_animation_duration" android:pivotX="50.0%" android:valueFrom="1.0" android:valueTo="1.2" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:duration="@integer/keyboard_editing_move_button_animation_duration" android:pivotY="50.0%" android:valueFrom="1.0" android:valueTo="1.2" android:valueType="floatType" android:propertyName="scaleY" />
+</set>

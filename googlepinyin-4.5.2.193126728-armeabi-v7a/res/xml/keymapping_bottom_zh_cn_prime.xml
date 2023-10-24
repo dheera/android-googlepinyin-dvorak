@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include href="@xml/keymapping_function_ime_action_zh" />
+    <include href="@xml/keymapping_function_switch_language" />
+    <key_mapping>
+        <mapping view_id="@id/key_pos_switch_to_symbol" key_id="@id/softkey_switch_to_non_prime_keyboard" />
+    </key_mapping>
+    <include href="@xml/keymapping_bottom_zh_cn_symbol" />
+</framework>

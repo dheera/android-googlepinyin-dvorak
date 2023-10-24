@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.inputmethod.libs.framework.keyboard.widget.AutoCenteredLabelView android:id="@id/label" android:duplicateParentState="true" style="@style/Label.TV.phonenumber" />
+</merge>

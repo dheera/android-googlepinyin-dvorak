@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey id="@id/softkey_sub_category_separator_sticky" content_description="@string/nonprime_recent_content_desc">
+            <action type="PRESS" keycode="UNKNOWN" data="SUB_CATEGORY_1" />
+        </softkey>
+    </softkeys>
+</framework>
