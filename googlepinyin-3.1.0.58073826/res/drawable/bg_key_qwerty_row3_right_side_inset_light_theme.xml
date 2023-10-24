@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<inset android:drawable="@drawable/bg_key_dark_light_theme_selector" android:insetLeft="@dimen/softkey_qwerty_bg_inset_row3_side" android:insetRight="@dimen/softkey_bg_inset_right" android:insetTop="@dimen/softkey_bg_inset_top" android:insetBottom="@dimen/softkey_bg_inset_bottom"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

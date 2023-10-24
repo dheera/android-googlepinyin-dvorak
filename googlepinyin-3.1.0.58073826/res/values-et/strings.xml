@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="ime_name">"Google'i pinyini sisend"</string>
-    <string name="label_subtype_pinyin">Hiina pinyin</string>
-    <string name="setting_title">"Google'i pinyini sisendi seaded"</string>
-</resources>

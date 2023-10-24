@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.google.android.apps.inputmethod.libs.framework.keyboard.widget.ReadingTextCandidateHolderView android:id="@id/softkey_holder_reading_text_candidates" android:layout_weight="@integer/more_candidates_reading_text_candidates_area_weight" style="@style/ReadingTextCandidateView" default_sub_view_count="5"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

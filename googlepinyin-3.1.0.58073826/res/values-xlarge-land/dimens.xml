@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="keyboard_height">420.0dip</dimen>
-    <dimen name="keyboard_header_height">50.0dip</dimen>
-    <dimen name="keyboard_body_height">256.0dip</dimen>
-</resources>

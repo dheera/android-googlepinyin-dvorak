@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.google.android.apps.inputmethod.libs.gesture.GestureOverlayView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" gesture_track_color="@attr/ColorGestureTrack"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<framework>
-    <key_mapping>
-        <mapping view_id="@id/key_pos_function_key_on_candidates_view" key_id="@id/softkey_turn_on_single_character_candidate" />
-    </key_mapping>
-    <key_mapping state="SINGLE_CHARACTER_CANDIDATE">
-        <mapping view_id="@id/key_pos_function_key_on_candidates_view" key_id="@id/softkey_turn_off_single_character_candidate" />
-    </key_mapping>
-</framework>

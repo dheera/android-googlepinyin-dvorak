@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.google.android.apps.inputmethod.libs.framework.keyboard.widget.AutoSizeTextView android:id="@id/label" style="@style/Label.Candidate.WithOrdinal" minimum_text_size="@dimen/minimum_candidate_text_size" />
-    <TextView android:id="@id/label_sup" style="@style/LabelSecondary.Sup.Dark" />
-    <TextView android:id="@id/label_sub" style="@style/LabelSecondary.Sub.Candidate" />
-</merge>

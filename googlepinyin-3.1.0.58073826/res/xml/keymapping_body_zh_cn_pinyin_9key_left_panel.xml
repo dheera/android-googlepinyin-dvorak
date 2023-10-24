@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<framework>
-    <keygroup_mapping group_view_id="@id/softkey_holder_9key_left_panel">
-        <key key_id="@id/softkey_question_zh" />
-        <key key_id="@id/softkey_exclamation_zh" />
-        <key key_id="@id/softkey_ellipsis_zh" />
-        <key key_id="@id/softkey_wave_zh" />
-    </keygroup_mapping>
-</framework>

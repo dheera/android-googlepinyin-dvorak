@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<framework>
-    <softkeys>
-        <softkey id="@id/softkey_hide_keyboard" layout="@layout/softkey_icon" content_description="@string/hide_keyboard_key_content_desc">
-            <action type="PRESS" keycode="HIDE_KEYBOARD" />
-            <icon location="@id/icon" value="@attr/IconHideKeyboard" />
-        </softkey>
-    </softkeys>
-</framework>
