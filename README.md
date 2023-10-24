@@ -1,4 +1,4 @@
-# 谷歌拼音輸入法，Dvorak佈局改版
+# 谷歌拼音 - Dvorak改版
 
 **(Google Pinyin Dvorak mod)**
 
