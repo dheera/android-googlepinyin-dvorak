@@ -29,26 +29,26 @@
             <softkey id="@id/softkey_en_qwerty_l" press_data="l" slideup_data="L" slidedown_data="*" keycode_normal="L" long_press_data="* L" keycode_slidedown="STAR" />
             <softkey id="@id/softkey_en_qwerty_up_l" press_data="L" slideup_data="l" slidedown_data="*" keycode_normal="L" long_press_data="* l" keycode_slidedown="STAR" />
             
-            <softkey id="@id/softkey_en_qwerty_a" press_data="a" slideup_data="A" slidedown_data="0" keycode_normal="A" long_press_data="0 A â ä ā á ǎ à ã å æ" keycode_slidedown="KEYCODE_0" />
-            <softkey id="@id/softkey_en_qwerty_up_a" press_data="A" slideup_data="a" slidedown_data="0" keycode_normal="A" long_press_data="0 a Â Ä Ā Á À Ã Å Æ" keycode_slidedown="KEYCODE_0" />
-            <softkey id="@id/softkey_en_qwerty_o" press_data="o" slideup_data="O" slidedown_data="1" keycode_normal="O" long_press_data="1 O ô ö ō ó ǒ ò õ ø œ" keycode_slidedown="KEYCODE_1" />
-            <softkey id="@id/softkey_en_qwerty_up_o" press_data="O" slideup_data="o" slidedown_data="1" keycode_normal="O" long_press_data="1 o Ô Ö Ō Ó Ò Õ Ø Œ" keycode_slidedown="KEYCODE_1" />
-            <softkey id="@id/softkey_en_qwerty_e" press_data="e" slideup_data="E" slidedown_data="2" keycode_normal="E" long_press_data="2 E ê ë ē é ě è" keycode_slidedown="KEYCODE_2" />
-            <softkey id="@id/softkey_en_qwerty_up_e" press_data="E" slideup_data="e" slidedown_data="2" keycode_normal="E" long_press_data="2 e Ê Ë Ē É È" keycode_slidedown="KEYCODE_2" />
-            <softkey id="@id/softkey_en_qwerty_u" press_data="u" slideup_data="U" slidedown_data="3" keycode_normal="U" long_press_data="3 U û ü ū ú ǔ ù" keycode_slidedown="KEYCODE_3" />
-            <softkey id="@id/softkey_en_qwerty_up_u" press_data="U" slideup_data="u" slidedown_data="3" keycode_normal="U" long_press_data="3 u Û Ü Ū Ú Ù" keycode_slidedown="KEYCODE_3" />
-            <softkey id="@id/softkey_en_qwerty_i" press_data="i" slideup_data="I" slidedown_data="4" keycode_normal="I" long_press_data="4 I î ï ī í ǐ ì" keycode_slidedown="KEYCODE_4" />
-            <softkey id="@id/softkey_en_qwerty_up_i" press_data="I" slideup_data="i" slidedown_data="4" keycode_normal="I" long_press_data="4 i Î Ï Ī Í Ì" keycode_slidedown="KEYCODE_4" />
-            <softkey id="@id/softkey_en_qwerty_d" press_data="d" slideup_data="D" slidedown_data="5" keycode_normal="D" long_press_data="5 D" keycode_slidedown="KEYCODE_5" />
-            <softkey id="@id/softkey_en_qwerty_up_d" press_data="D" slideup_data="d" slidedown_data="5" keycode_normal="D" long_press_data="5 d" keycode_slidedown="KEYCODE_5" />
-            <softkey id="@id/softkey_en_qwerty_h" press_data="h" slideup_data="H" slidedown_data="6" keycode_normal="H" long_press_data="6 H" keycode_slidedown="KEYCODE_6" />
-            <softkey id="@id/softkey_en_qwerty_up_h" press_data="H" slideup_data="h" slidedown_data="6" keycode_normal="H" long_press_data="6 h" keycode_slidedown="KEYCODE_6" />
-            <softkey id="@id/softkey_en_qwerty_t" press_data="t" slideup_data="T" slidedown_data="7" keycode_normal="T" long_press_data="7 T" keycode_slidedown="KEYCODE_7" />
-            <softkey id="@id/softkey_en_qwerty_up_t" press_data="T" slideup_data="t" slidedown_data="7" keycode_normal="T" long_press_data="7 t" keycode_slidedown="KEYCODE_7" />
-            <softkey id="@id/softkey_en_qwerty_n" press_data="n" slideup_data="N" slidedown_data="8" keycode_normal="N" long_press_data="8 N ñ" keycode_slidedown="KEYCODE_8" />
-            <softkey id="@id/softkey_en_qwerty_up_n" press_data="N" slideup_data="n" slidedown_data="8" keycode_normal="N" long_press_data="8 n Ñ" keycode_slidedown="KEYCODE_8" />
-            <softkey id="@id/softkey_en_qwerty_s" press_data="s" slideup_data="S" slidedown_data="9" keycode_normal="S" long_press_data="9 S ß" keycode_slidedown="KEYCODE_9" />
-            <softkey id="@id/softkey_en_qwerty_up_s" press_data="S" slideup_data="s" slidedown_data="9" keycode_normal="S" long_press_data="9 s SS" keycode_slidedown="KEYCODE_9" />
+            <softkey id="@id/softkey_en_qwerty_a" press_data="a" slideup_data="A" slidedown_data="1" keycode_normal="A" long_press_data="1 A â ä ā á ǎ à ã å æ" keycode_slidedown="KEYCODE_1" />
+            <softkey id="@id/softkey_en_qwerty_up_a" press_data="A" slideup_data="a" slidedown_data="1" keycode_normal="A" long_press_data="1 a Â Ä Ā Á À Ã Å Æ" keycode_slidedown="KEYCODE_1" />
+            <softkey id="@id/softkey_en_qwerty_o" press_data="o" slideup_data="O" slidedown_data="2" keycode_normal="O" long_press_data="2 O ô ö ō ó ǒ ò õ ø œ" keycode_slidedown="KEYCODE_2" />
+            <softkey id="@id/softkey_en_qwerty_up_o" press_data="O" slideup_data="o" slidedown_data="2" keycode_normal="O" long_press_data="2 o Ô Ö Ō Ó Ò Õ Ø Œ" keycode_slidedown="KEYCODE_2" />
+            <softkey id="@id/softkey_en_qwerty_e" press_data="e" slideup_data="E" slidedown_data="3" keycode_normal="E" long_press_data="3 E ê ë ē é ě è" keycode_slidedown="KEYCODE_3" />
+            <softkey id="@id/softkey_en_qwerty_up_e" press_data="E" slideup_data="e" slidedown_data="3" keycode_normal="E" long_press_data="3 e Ê Ë Ē É È" keycode_slidedown="KEYCODE_3" />
+            <softkey id="@id/softkey_en_qwerty_u" press_data="u" slideup_data="U" slidedown_data="4" keycode_normal="U" long_press_data="4 U û ü ū ú ǔ ù" keycode_slidedown="KEYCODE_4" />
+            <softkey id="@id/softkey_en_qwerty_up_u" press_data="U" slideup_data="u" slidedown_data="4" keycode_normal="U" long_press_data="4 u Û Ü Ū Ú Ù" keycode_slidedown="KEYCODE_4" />
+            <softkey id="@id/softkey_en_qwerty_i" press_data="i" slideup_data="I" slidedown_data="5" keycode_normal="I" long_press_data="5 I î ï ī í ǐ ì" keycode_slidedown="KEYCODE_5" />
+            <softkey id="@id/softkey_en_qwerty_up_i" press_data="I" slideup_data="i" slidedown_data="5" keycode_normal="I" long_press_data="5 i Î Ï Ī Í Ì" keycode_slidedown="KEYCODE_5" />
+            <softkey id="@id/softkey_en_qwerty_d" press_data="d" slideup_data="D" slidedown_data="6" keycode_normal="D" long_press_data="6 D" keycode_slidedown="KEYCODE_6" />
+            <softkey id="@id/softkey_en_qwerty_up_d" press_data="D" slideup_data="d" slidedown_data="6" keycode_normal="D" long_press_data="6 d" keycode_slidedown="KEYCODE_6" />
+            <softkey id="@id/softkey_en_qwerty_h" press_data="h" slideup_data="H" slidedown_data="7" keycode_normal="H" long_press_data="7 H" keycode_slidedown="KEYCODE_7" />
+            <softkey id="@id/softkey_en_qwerty_up_h" press_data="H" slideup_data="h" slidedown_data="7" keycode_normal="H" long_press_data="7 h" keycode_slidedown="KEYCODE_7" />
+            <softkey id="@id/softkey_en_qwerty_t" press_data="t" slideup_data="T" slidedown_data="8" keycode_normal="T" long_press_data="8 T" keycode_slidedown="KEYCODE_8" />
+            <softkey id="@id/softkey_en_qwerty_up_t" press_data="T" slideup_data="t" slidedown_data="8" keycode_normal="T" long_press_data="8 t" keycode_slidedown="KEYCODE_8" />
+            <softkey id="@id/softkey_en_qwerty_n" press_data="n" slideup_data="N" slidedown_data="9" keycode_normal="N" long_press_data="9 N ñ" keycode_slidedown="KEYCODE_9" />
+            <softkey id="@id/softkey_en_qwerty_up_n" press_data="N" slideup_data="n" slidedown_data="9" keycode_normal="N" long_press_data="9 n Ñ" keycode_slidedown="KEYCODE_9" />
+            <softkey id="@id/softkey_en_qwerty_s" press_data="s" slideup_data="S" slidedown_data="0" keycode_normal="S" long_press_data="0 S ß" keycode_slidedown="KEYCODE_0" />
+            <softkey id="@id/softkey_en_qwerty_up_s" press_data="S" slideup_data="s" slidedown_data="0" keycode_normal="S" long_press_data="0 s SS" keycode_slidedown="KEYCODE_0" />
             
             <softkey id="@id/softkey_en_qwerty_q" press_data="q" slideup_data="Q" slidedown_data=":" keycode_normal="Q" long_press_data=": Q" keycode_slidedown="PLAIN_TEXT" />
             <softkey id="@id/softkey_en_qwerty_up_q" press_data="Q" slideup_data="q" slidedown_data=":" keycode_normal="Q" long_press_data=": q" keycode_slidedown="PLAIN_TEXT" />
